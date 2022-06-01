@@ -1,3 +1,35 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'http://localhost:8080/'
+languageCode = 'en-uk'
+title = "Hello. – I'm Tommy."
+theme = 'hallo'
+
+# empty taxonomies will *NOT* generate "categories" or "tags" taxonomy pages
+[taxonomies]
+
+[Author]
+    name = "Tommy"
+
+[params]
+    [params.colors]
+        # "sea"
+        background = "#1C2541"
+        foreground = "#FFFFFF"
+        hover = "#F3B700"
+        # dark background, light foreground
+        # background = "#26242F"
+        # foreground = "#ffffff"
+        # hover = "#8DAFDC"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/dreadwarrior"
+    [[params.links]]
+        icon = "github"
+        title = "GitHub"
+        url = "https://github.com/dreadwarrior"
+    [[params.links]]
+        iconset = "fas"
+        icon = "id-card-alt"
+        title = "Portfolio / Resume"
+        url = "https://dreadlabs.de/"
