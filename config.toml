@@ -21,9 +21,9 @@ theme = 'hallo'
         # hover = "#8DAFDC"
 
     [[params.links]]
-        icon = "twitter"
-        title = "Twitter"
-        url = "https://twitter.com/dreadwarrior"
+        icon = "mastodon"
+        title = "Mastodon"
+        url = "https://chaos.social/@dreadwarrior"
     [[params.links]]
         icon = "github"
         title = "GitHub"
