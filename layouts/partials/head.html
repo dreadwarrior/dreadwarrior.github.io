@@ -22,7 +22,7 @@
     {{- $style			:= resources.Get "scss/hallo.scss" | resources.ExecuteAsTemplate "style.hallo.scss" . | toCSS $cssOptions }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Favicon -->
