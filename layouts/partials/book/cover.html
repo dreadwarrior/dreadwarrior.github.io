@@ -1,0 +1,5 @@
+{{- $url := print "https://portal.dnb.de/opac/mvb/cover?isbn=" . -}}
+{{- $image := resources.GetRemote $url -}}
+<!-- 317x509 = 0.62 : 1 -->
+<!-- https://www.redcrab-software.com/de/Rechner/Seitenverh%C3%A4ltnis -->
+{{- return $image.Fill "148x240 Center" -}}

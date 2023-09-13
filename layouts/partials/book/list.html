@@ -1,0 +1,46 @@
+{{- $books := slice -}}
+
+{{- $fieldDelimiter := ";" -}}
+{{- range $rowIndex, $row := getCSV $fieldDelimiter .Params.file -}}
+    {{- if gt $rowIndex 0 -}}<!-- skip header row -->
+
+        {{- $isbn := index $row 10 -}}
+
+        {{- $identifier := index $row 1 -}}
+        {{- $identifier := findRESubmatch `IDN:([0-9]+)` $identifier -}}
+        {{- range $identifier -}}
+            {{- $identifier = index . 1 -}}
+        {{- end -}}
+
+        {{- $author := index $row 3 -}}
+        {{- $author := split $author " ; " -}}
+        {{- $author := index $author 0 -}}
+        {{- $author := replaceRE `\s+\[(Verfasser|Mitwirkender)\]` "" $author -}}
+        {{- $author := split $author "," -}}
+        {{- if isset $author 1 -}}
+            {{- $author = printf "%s %s" (index $author 1) (index $author 0) -}}
+        {{- else -}}{{/* Sometimes, the authors first- and lastnames are not separated by comma and given in reverse order. */}}
+            {{- $author = printf "%s" (index $author 0) -}}
+        {{- end -}}
+
+        {{- $title := index $row 4 -}}
+        {{- $title := split $title " ; " -}}
+        {{- if isset $title 2 -}}{{/* Drop "Werk(e)" value, e.g. original title of translated books.  */}}
+            {{- $title = index $title 1 -}}
+        {{- else if hasPrefix (trim (index $title 0) " ") "[" }}{{/* Still, there are titles with "Werk(e)" values, but only two other components in the title. */}}
+            {{- $title = index $title 1 -}}
+        {{- else -}}
+            {{- $title = index $title 0 -}}
+        {{- end -}}
+        {{- $title := split $title " : " -}}
+        {{- $title = index $title 0 -}}
+        {{- $title := split $title "/" -}}
+        {{- $title = index $title 0 -}}
+
+        {{ $book := dict "isbn" $isbn "idn" $identifier "author" $author "title" $title }}
+        {{ $books = $books | append $book }}
+
+    {{- end -}}
+{{- end -}}
+
+{{- return $books -}}

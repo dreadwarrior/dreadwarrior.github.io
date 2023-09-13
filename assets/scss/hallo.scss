@@ -34,3 +34,41 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
+
+.book-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  .book-list--item {
+    flex: 97%;
+    align-items: flex-start;
+    gap: 3%;
+
+    .book-list--item-links {
+      display: flex;
+      gap: 1%;
+
+      a {
+        flex: 1;
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .book-list {
+    .book-list--item {
+      flex: 47%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .book-list {
+    .book-list--item {
+      flex: 30%;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+{{- partial "head.html" . -}}
+<body>
+{{- partial "header.html" . -}}
+{{ .Content }}
+
+<table style="width: 100%">
+    <thead>
+        <tr>
+            <th style="width: 80%">Autor, Titel</th>
+            <th style="width: 15%">ISBN</th>
+            <th style="width: 5%">Links</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{- with partial "book/list" . -}}
+            {{- range sort . "title" -}}
+                <tr>
+                    <td><a href="https://d-nb.info/{{ .idn }}" title="nachschlagen in der Deutschen Nationalbibliothek">{{ .title }}</a> von <em>{{ .author }}</em></td>
+                    <td>{{ .isbn }}</td>
+                    <td>
+                        <a href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ .isbn }}" title="bei medimops.de suchen"><i class="fas fas fa-leaf" aria-label="bei medimops.de suchen"></i></a>
+                        <a href="https://www.thalia.de/suche?sq={{ .isbn }}" title="bei thalia.de suchen"><i class="fas fa-globe" aria-label="bei thalia.de suchen"></i></a>
+                    </td>
+                </tr>
+            {{- end -}}
+        {{- end -}}
+    </tbody>
+</table>
+
+{{- partial "footer.html" . -}}
+</body>
+</html>
