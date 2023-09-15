@@ -36,22 +36,20 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
 }
 
 .book-list {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: auto;
 
   .book-list--item {
-    flex: 97%;
-    align-items: flex-start;
-    gap: 3%;
+    justify-self: stretch;
+    align-self: stretch;
+    padding: 1.5%;
 
     .book-list--item-links {
-      display: flex;
-      gap: 1%;
+      display: grid;
+      grid-template-columns: 50% 50%;
 
       a {
-        flex: 1;
+        margin: 1.5%;
       }
     }
   }
@@ -59,16 +57,11 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
 
 @media (min-width: 640px) {
   .book-list {
-    .book-list--item {
-      flex: 47%;
-    }
+    grid-template-columns: 50% 50%;
   }
 }
 
 @media (min-width: 1024px) {
   .book-list {
-    .book-list--item {
-      flex: 30%;
-    }
-  }
+    grid-template-columns: 33.3% 33.3% 33.3%;  }
 }
