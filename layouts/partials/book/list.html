@@ -15,7 +15,7 @@
         {{- $author := index $row 3 -}}
         {{- $author := split $author " ; " -}}
         {{- $author := index $author 0 -}}
-        {{- $author := replaceRE `\s+\[(Verfasser|Mitwirkender)\]` "" $author -}}
+        {{- $author := replaceRE `\s+\[(Verfasser|Mitwirkender|Illustrator)\]` "" $author -}}
         {{- $author := split $author "," -}}
         {{- if isset $author 1 -}}
             {{- $author = printf "%s %s" (index $author 1) (index $author 0) -}}
