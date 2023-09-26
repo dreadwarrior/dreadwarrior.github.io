@@ -11,7 +11,7 @@
         {{- range sort . "title" -}}
 
         <div class="book-list--item">
-            <p><a href="https://d-nb.info/{{ .idn }}" title="In der Deutschen Nationalbibliothek nachschlagen">{{ trim .title " " }}</a><br>von <em>{{ .author }}</em></p>
+            <p><a href="https://d-nb.info/{{ .idn }}" title="In der Deutschen Nationalbibliothek nachschlagen">{{ trim .title " " }}</a> <small>({{ .publishedAt }})</small><br>von <em>{{ .author }}</em></p>
 
             {{- with partial "book/cover" .isbn -}}
                 <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">

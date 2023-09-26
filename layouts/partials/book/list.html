@@ -37,7 +37,9 @@
         {{- $title := split $title "/" -}}
         {{- $title = index $title 0 -}}
 
-        {{ $book := dict "isbn" $isbn "idn" $identifier "author" $author "title" $title }}
+        {{- $year := index $row 8 }}
+
+        {{ $book := dict "isbn" $isbn "idn" $identifier "author" $author "title" $title "publishedAt" $year }}
         {{ $books = $books | append $book }}
 
     {{- end -}}

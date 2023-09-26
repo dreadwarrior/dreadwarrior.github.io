@@ -17,7 +17,7 @@
         {{- with partial "book/list" . -}}
             {{- range sort . "title" -}}
                 <tr>
-                    <td><a href="https://d-nb.info/{{ .idn }}" title="nachschlagen in der Deutschen Nationalbibliothek">{{ .title }}</a> von <em>{{ .author }}</em></td>
+                    <td><a href="https://d-nb.info/{{ .idn }}" title="nachschlagen in der Deutschen Nationalbibliothek">{{ .title }}</a> von <em>{{ .author }} ({{ .publishedAt }})</em></td>
                     <td>{{ .isbn }}</td>
                     <td>
                         <a href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ .isbn }}" title="bei medimops.de suchen"><i class="fas fas fa-leaf" aria-label="bei medimops.de suchen"></i></a>
