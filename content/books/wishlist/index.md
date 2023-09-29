@@ -1,7 +1,7 @@
 ---
 title: "Books: Wishlist"
 layout: "book-list"
-titleData: "/content/books/wishlist/dnb-datashop_2023-9-26T20_18_0.csv"
+titleData: "/content/books/wishlist/dnb-datashop_2023-9-29T22_23_9.csv"
 showExcerpt: true
 ---
 ## Bücher: Wunschliste
