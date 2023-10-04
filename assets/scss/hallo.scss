@@ -46,11 +46,25 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
 
     .book-list--item-links {
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 33% 33% 33%;
 
       a {
         margin: 1.5%;
       }
+    }
+  }
+}
+
+.modal {
+  p {
+    color: #000000;
+  }
+
+  a {
+    color: $color-background;
+
+    &:hover {
+      color: $color-hover;
     }
   }
 }

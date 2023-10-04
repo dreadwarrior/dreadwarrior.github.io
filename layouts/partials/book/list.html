@@ -1,7 +1,9 @@
 {{- $books := slice -}}
 
+{{- $metaData := .Site.Data.books }}
+
 {{- $fieldDelimiter := ";" -}}
-{{- range $rowIndex, $row := getCSV $fieldDelimiter .Params.file -}}
+{{- range $rowIndex, $row := getCSV $fieldDelimiter .Params.titleData -}}
     {{- if gt $rowIndex 0 -}}<!-- skip header row -->
 
         {{- $isbn := index $row 10 -}}
@@ -39,7 +41,11 @@
 
         {{- $year := index $row 8 }}
 
-        {{ $book := dict "isbn" $isbn "idn" $identifier "author" $author "title" $title "publishedAt" $year }}
+        {{- $genres := index $metaData $isbn "genres" -}}
+        {{- $excerpt := index $metaData $isbn "excerpt" -}}
+        {{- $source := index $metaData $isbn "source" -}}
+
+        {{ $book := dict "isbn" $isbn "idn" $identifier "author" $author "title" $title "publishedAt" $year "genres" $genres "excerpt" $excerpt "source" $source }}
         {{ $books = $books | append $book }}
 
     {{- end -}}

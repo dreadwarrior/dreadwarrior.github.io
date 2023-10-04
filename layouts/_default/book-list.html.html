@@ -18,10 +18,25 @@
             {{- end -}}
 
             <p><strong>ISBN:</strong> {{ .isbn }}</p>
+            {{- if .genres -}}
+            <p><strong>Genre:</strong> {{ range $i, $genre := .genres }}{{- if $i -}}, {{ end -}}{{ . }}{{end}}</p>
+            {{- end -}}
+
+            {{- if (and $.Params.showExcerpt .excerpt) -}}
+            <div id="excerpt-{{ .isbn }}" class="modal">
+                <p><small>{{ .excerpt | markdownify }}</small></p>
+                {{- if .source -}}
+                <p><small><em>Quelle: <a href="{{ .source }}">{{ .source }}</a></em></small></p>
+                {{- end -}}
+            </div>
+            {{- end -}}
 
             <p class="book-list--item-links">
                 <a class="button button-rounded button-small button-primary-flat" href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ .isbn }}" title="bei medimops.de suchen"><i class="fas fas fa-leaf" aria-label="bei medimops.de suchen"></i></a>
                 <a class="button button-rounded button-small button-flat" href="https://www.thalia.de/suche?sq={{ .isbn }}" title="bei thalia.de suchen"><i class="fas fa-globe" aria-label="bei thalia.de suchen"></i></a>
+                {{- if (and $.Params.showExcerpt .excerpt) -}}
+                <a class="button button-rounded button-small button-flat" href="#excerpt-{{ .isbn }}" rel="modal:open" title="Inhaltsangabe anschauen"><i class="fas fa-book-open" aria-label="Inhaltsangabe anschauen"></i></a>
+                {{- end -}}
             </p>
         </div>
 
@@ -30,5 +45,7 @@
 {{- end -}}
 
 {{- partial "footer.html" . -}}
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kylefox/jquery-modal@0.9.1/jquery.modal.min.js"></script>
 </body>
 </html>
