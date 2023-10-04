@@ -27,12 +27,11 @@
                 <p>{{ range $i, $genre := .genres }}{{- if $i -}}, {{ end -}}{{ . }}{{end}}</p>
                 {{- end -}}
 
-                {{- if (and $.Params.showExcerpt .excerpt) -}}
                 <hr>
+
                 <p><small>{{ .excerpt | markdownify }}</small></p>
                 {{- if .source -}}
                 <p><small><em>Quelle: <a href="{{ .source }}">{{ .source }}</a></em></small></p>
-                {{- end -}}
                 {{- end -}}
 
                 <p class="book-list__item__details__links">
