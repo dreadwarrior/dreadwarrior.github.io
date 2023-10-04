@@ -35,47 +35,173 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
+$book-list-accent-color: aqua;
+
 .book-list {
   display: grid;
   grid-template-rows: auto;
+  grid-template-columns: 50% 50%;
 
-  .book-list--item {
+  .book-list__item {
     justify-self: stretch;
     align-self: stretch;
-    padding: 1.5%;
 
-    .book-list--item-links {
-      display: grid;
-      grid-template-columns: 33% 33% 33%;
+    .book-list__item__details {
+      // Hide details for mobile-first approach.
+      // See https://www.a11yproject.com/posts/how-to-hide-content/
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
 
-      a {
-        margin: 1.5%;
+      margin: 0 0 5% 0;
+      padding: 0 5%;
+      border: 1px solid $book-list-accent-color;
+
+      &--left {
+        margin-right: -100%;
+        border-radius: 0 10px 10px 10px;
+      }
+
+      &--right {
+        margin-left: -100%;
+        border-radius: 10px 0 10px 10px;
+      }
+
+      hr {
+        border: none;
+        height: 1px;
+        color: $book-list-accent-color;
+        background-color: $book-list-accent-color;
+      }
+
+      .book-list__item__details__links {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+
+        a {
+          margin: 0 1.5%;
+        }
       }
     }
-  }
-}
 
-.modal {
-  p {
-    color: #000000;
-  }
+    &:target {
+      img {
+        border-bottom: 3px solid $book-list-accent-color;
+        padding-bottom: 5px;
+      }
 
-  a {
-    color: $color-background;
-
-    &:hover {
-      color: $color-hover;
+      // Make details visible, if the item was the click target.
+      .book-list__item__details {
+        clip: auto;
+        clip-path: none;
+        height: auto;
+        overflow: auto;
+        position: relative;
+        white-space: normal;
+        width: auto;
+      }
     }
   }
 }
 
 @media (min-width: 640px) {
   .book-list {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    .book-list__item {
+      &:nth-of-type(4n + 1) {
+        .book-list__item__details {
+          &--left {
+            margin-right: -300%;
+          }
+        }
+      }
+      &:nth-of-type(4n + 2) {
+        .book-list__item__details {
+          &--right {
+            border-radius: 0 0 10px 10px;
+            margin-right: -200%;
+            margin-left: -100%;
+          }
+        }
+      }
+      &:nth-of-type(4n + 3) {
+        .book-list__item__details {
+          &--left {
+            border-radius: 0 0 10px 10px;
+            margin-right: -100%;
+            margin-left: -200%;
+          }
+        }
+      }
+      &:nth-of-type(4n + 4) {
+        .book-list__item__details {
+          &--right {
+            margin-left: -300%;
+          }
+        }
+      }
+    }
   }
 }
 
 @media (min-width: 1024px) {
   .book-list {
-    grid-template-columns: 33.3% 33.3% 33.3%;  }
+    grid-template-columns: 100%;
+
+    .book-list__item {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 15% 85%;
+
+      .book-list__item__cover, .book-list__item__details {
+        justify-self: stretch;
+        align-self: stretch;
+      }
+
+      .book-list__item__details {
+        clip: auto;
+        clip-path: none;
+        height: auto;
+        overflow: auto;
+        position: relative;
+        white-space: normal;
+        width: auto;
+
+        .book-list__item__details__links {
+          display: grid;
+          grid-template-columns: 50% 50%;
+
+          a:nth-child(3) {
+            // Hide close button for desktop view.
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+            white-space: nowrap;
+            width: 1px;
+          }
+        }
+      }
+
+      &:nth-of-type(1n + 1) {
+        .book-list__item__details {
+          &--left {
+            border: none;
+            margin: unset;
+          }
+
+          &--right {
+            border: none;
+            margin: unset;
+          }
+        }
+      }
+    }
+  }
 }
