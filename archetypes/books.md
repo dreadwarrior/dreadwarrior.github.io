@@ -11,29 +11,13 @@ idn: "{{ .idn }}"
 author: "{{ trim .author " " }}"
 publishedAt: "{{ .publishedAt }}"
 genres:
-  {{/* 'with' block used for migration phase. */}}
-  {{- with index $.Site.Data.books $isbn "genres" -}}
-    {{ range . }}
-  - "{{ . }}"
-    {{ end }}
-  {{- else -}}
   - "Add genres here. Repeat as much as you like."
-  {{- end }}
-{{/* 'with' block used for migration phase. */}}
-{{- with index $.Site.Data.books $isbn "source" -}}
-  source: "{{ . }}"
-{{- else -}}
-  source: "https://url/to/source/of/excerpt/"
-{{- end }}
+source: "https://url/to/source/of/excerpt/"
 books: 
   - "wishlist"
 ---
-{{/* 'with' block used for migration phase. */}}
-{{- with index $.Site.Data.books $isbn "excerpt" -}}
-  {{ . }}
-{{- else -}}
-  Add the excerpt here...
-{{- end -}}
+
+Add the excerpt here...
 
     {{- end -}}
 {{- end -}}
