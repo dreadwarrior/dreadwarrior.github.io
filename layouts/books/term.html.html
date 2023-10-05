@@ -7,14 +7,40 @@
             {{ .Content }}
         </div>
         <div class="column right">
+            {{- $genres := slice -}}
+            {{ range .Data.Pages }}
+            {{ $genres = $genres | append .Params.genres }}
+            {{ end }}
+            Genre filtern:
+            <select id="filter-genre">
+                <option value="clear-genre-filter" selected="selected">alle anzeigen</option>
+                {{ range ($genres | uniq | sort) }}
+                    <option value="{{ . | anchorize }}">{{ . }}</option>
+                {{ end }}
+            </select>
+
+            <hr>
+
             {{ range sort .Data.Pages "Title" }}
-            <a href="{{ .Permalink }}">
+            <a href="{{ .Permalink }}" data-genres="{{ range .Params.genres }}{{ . | anchorize }} {{end }}">
                 {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
                 <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                 {{- end -}}
             </a>
             {{ end }}
-            </ul>
+
+            <script type="application/javascript">
+                const $genreLinks = $("a[data-genres]");
+                $('#filter-genre').on("change", (event) => {
+                    const genre = $('#filter-genre :selected').val();
+
+                    $genreLinks.show();
+
+                    if (genre !== "clear-genre-filter") {
+                        $genreLinks.not("[data-genres~=" + genre + "]").hide();
+                    }
+                });
+            </script>
         </div>
     </div>
 </main>
