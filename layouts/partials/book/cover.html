@@ -1,4 +1,4 @@
-{{- $url := printf "https://portal.dnb.de/opac/mvb/cover?isbn=%" .isbn -}}
+{{- $url := printf "https://portal.dnb.de/opac/mvb/cover?isbn=%s" .isbn -}}
 {{- $path := printf "%s%s.jpg" .coversPath .isbn }}
 {{- $image := resources.GetRemote $url | resources.Copy $path -}}
 <!-- 317x509 = 0.62 : 1 -->
