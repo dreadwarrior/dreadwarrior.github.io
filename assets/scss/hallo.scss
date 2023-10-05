@@ -40,7 +40,7 @@ $book-list-accent-color: aqua;
 .book-list {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(2, 1fr);
 
   .book-list__item {
     justify-self: stretch;
@@ -80,7 +80,7 @@ $book-list-accent-color: aqua;
 
       .book-list__item__details__links {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: repeat(3, 1fr);
 
         a {
           margin: 0 1.5%;
@@ -110,7 +110,7 @@ $book-list-accent-color: aqua;
 
 @media (min-width: 640px) {
   .book-list {
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4, 1fr);
 
     .book-list__item {
       &:nth-of-type(4n + 1) {
@@ -156,7 +156,7 @@ $book-list-accent-color: aqua;
     .book-list__item {
       display: grid;
       grid-template-rows: auto;
-      grid-template-columns: 15% 85%;
+      grid-template-columns: 1fr 9fr;
 
       .book-list__item__cover, .book-list__item__details {
         justify-self: stretch;
@@ -174,7 +174,7 @@ $book-list-accent-color: aqua;
 
         .book-list__item__details__links {
           display: grid;
-          grid-template-columns: 50% 50%;
+          grid-template-columns: repeat(2, 1fr);
 
           a:nth-child(3) {
             // Hide close button for desktop view.
