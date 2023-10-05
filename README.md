@@ -10,6 +10,20 @@ Personal, minimal landing page.
 
      git submodule update --remote --rebase
 
+## Howto
+
+### Add a new book to the wishlist
+
+1. Generate a DNB Datenshop export with CSV format for title data.
+2. Override `assets/data/books/wishlist.csv`.
+3. Generate a book page for each ISBN by executing
+
+       hugo new content books/<isbn>.md
+
+4. Open the newly generated file and adjust the front matter variable `genres`.
+5. Add an excerpt to the file's content area and adjust the front matter 
+   variable `source` to point to the source of the excerpt.
+
 ## Decisions
 
 ### Decision: Use self-hosted Google Fonts

@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+    <main class="book">
+        <div class="block">
+            <div class="column left">
+                {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
+                <img class="cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                {{- end -}}
+            </div>
+            <div class="column right">
+
+                <h1><a href="https://d-nb.info/{{ .Params.idn }}" title="In der Deutschen Nationalbibliothek nachschlagen">{{ .Title }}</a> <small>({{ .Params.publishedAt }})</small></h1>
+                <h2>von <em>{{ .Params.author }}</em></h2>
+
+                <p><small>ISBN</small> {{ .Params.isbn }} – <small>Genres</small> {{ range $i, $genre := .Params.genres }}{{- if $i -}}, {{ end -}}{{ . }}{{end}}</p>
+
+                <hr>
+
+                {{ .Content }}
+
+                Quelle: <a href="{{ .Params.source }}">{{ .Params.source }}</a>
+
+                <hr>
+
+                <section class="book__buttons">
+                    <a class="button button-rounded button-primary-flat" href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ .Params.isbn }}" title="bei medimops.de suchen"><i class="fas fa-leaf" aria-label="bei medimops.de suchen"></i> bei medimops.de suchen</a>
+                    <a class="button button-rounded button-flat" href="https://www.thalia.de/suche?sq={{ .Params.isbn }}" title="bei thalia.de suchen"><i class="fas fa-globe" aria-label="bei thalia.de suchen"></i> bei thalia.de suchen</a>
+                </section>
+            </div>
+        </div>
+    </main>
+
+{{ end }}

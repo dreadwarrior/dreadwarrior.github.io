@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main>
+    <div class="block">
+        <div class="column ">
+            <h3>{{ with .Params.Title }}{{ . }}{{ else }}{{ .Section | title }} - {{ .Data.Term | title }}{{ end }}</h3>
+
+            {{ .Content }}
+        </div>
+        <div class="column right">
+            {{ range sort .Data.Pages "Title" }}
+            <a href="{{ .Permalink }}">
+                {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
+                <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                {{- end -}}
+            </a>
+            {{ end }}
+            </ul>
+        </div>
+    </div>
+</main>
+{{ end }}
