@@ -151,7 +151,7 @@ $book-list-accent-color: aqua;
 
 @media (min-width: 1024px) {
   .book-list {
-    grid-template-columns: 100%;
+    display: block;
 
     .book-list__item {
       display: grid;
