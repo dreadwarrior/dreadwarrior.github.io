@@ -43,7 +43,7 @@ $book-list-accent-color: aqua;
   grid-template-columns: repeat(2, 1fr);
 
   .book-list__item {
-    justify-self: stretch;
+    justify-self: center;
     align-self: stretch;
 
     .book-list__item__details {
