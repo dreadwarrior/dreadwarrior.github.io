@@ -33,3 +33,6 @@ theme = 'hallo'
         icon = "id-card-alt"
         title = "Portfolio / Resume"
         url = "https://dreadlabs.de/"
+
+    [params.books]
+        coversPath = "images/books/covers/"

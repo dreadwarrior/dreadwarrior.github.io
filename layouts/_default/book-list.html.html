@@ -14,7 +14,7 @@
 
             <div id="cover-{{ .idn }}" class="book-list__item__cover">
                 <a href="#item-{{ .idn }}">
-                    {{- with partial "book/cover" .isbn -}}
+                    {{- with partial "book/cover" (dict "isbn" .isbn "coversPath" $.Site.Params.books.coversPath) -}}
                         <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                     {{- end -}}
                 </a>
