@@ -40,10 +40,10 @@ $book-list-accent-color: aqua;
 .book-list {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 50% 50%;
 
   .book-list__item {
-    justify-self: center;
+    justify-self: stretch;
     align-self: stretch;
 
     .book-list__item__details {
@@ -110,7 +110,7 @@ $book-list-accent-color: aqua;
 
 @media (min-width: 640px) {
   .book-list {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 25% 25% 25% 25%;
 
     .book-list__item {
       &:nth-of-type(4n + 1) {
