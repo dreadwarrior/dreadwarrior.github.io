@@ -35,21 +35,21 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-$book-list-accent-color: aqua;
+$accent-color: aqua;
 
 main .column.right {
   h1, h2 {
     margin-left: unset;
   }
 }
+hr {
+  border: none;
+  height: 1px;
+  color: $accent-color;
+  background-color: $accent-color;
+}
 
 .book {
-  hr {
-    border: none;
-    height: 1px;
-    color: $book-list-accent-color;
-    background-color: $book-list-accent-color;
-  }
 
   h1 {
     font-size: 2rem;
@@ -59,7 +59,7 @@ main .column.right {
   }
 
   .cover {
-    border: 1px solid $book-list-accent-color;
+    border: 1px solid $accent-color;
     border-radius: 1em;
     margin: 0 3em;
     padding: 0.5em;
