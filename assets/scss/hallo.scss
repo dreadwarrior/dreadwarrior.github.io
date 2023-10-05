@@ -37,11 +37,12 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
 
 $accent-color: aqua;
 
-main .column.right {
+main.book .column.right {
   h1, h2 {
     margin-left: unset;
   }
 }
+
 hr {
   border: none;
   height: 1px;
