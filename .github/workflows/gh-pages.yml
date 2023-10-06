@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build (Hugo)
-        run: HUGO_BASEURL=https://dreadwarrior.github.io/ hugo --minify
+        run: HUGO_BASEURL=https://van-tomas.de/ hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
