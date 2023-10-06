@@ -6,7 +6,7 @@ ein Ende.
 
 Dies ist meine aktuelle Bücher-Wunschliste, in der du sicher fündig wirst.
 
-**{{< rawhtml >}}<i class="fas fa-leaf"></i>{{< /rawhtml >}} Umwelt schonend**
+**{{< rawhtml >}}<i class="fas fa-leaf"></i>{{< /rawhtml >}} Umweltschonend**
 
 > Ich würde ich mich sehr darüber freuen, wenn du das Buch gebraucht kaufst.
 > Klicke dazu auf das Blatt-Symbol ({{< rawhtml >}}<i class="fas fa-leaf"></i>{{< /rawhtml >}}),
