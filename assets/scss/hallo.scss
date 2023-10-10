@@ -66,6 +66,10 @@ hr {
     padding: 0.5em;
   }
 
+  .excerpt-source {
+    word-wrap: break-word;
+  }
+
   .book__buttons {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
