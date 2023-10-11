@@ -35,7 +35,7 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-main.book .column.right {
+main .book .column.right {
   h1, h2 {
     margin-left: unset;
   }

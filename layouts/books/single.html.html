@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-    <main class="book">
-        <div class="block">
+    <main>
+        <div class="book block">
             <div class="column left">
                 {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
                 <img class="cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
