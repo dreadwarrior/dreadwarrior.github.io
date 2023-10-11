@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="page">
+            <label for="theme-switch">
+                <i class="fa fa-sun" aria-label="switch to Light mode" title="switch to Light mode"></i>
+                <i class="fa fa-moon" aria-label="switch to Dark mode" title="switch to Dark mode"></i>
+            </label>
+            {{- block "main" . }}{{- end }}
+            {{- partial "footer.html" . -}}
+        </div>
+    </body>
+</html>

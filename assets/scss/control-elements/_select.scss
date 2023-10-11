@@ -1,0 +1,31 @@
+// Based on https://codepen.io/raubaca/pen/bGWmZje
+select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  background:
+          var(--select-arrow-icon) no-repeat right 0.8em center / 1.4em,
+          linear-gradient(to left, var(--select-arrow-bg) 3em, var(--select-bg) 3em);
+  background-size: 1rem;
+  color: var(--text-color);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* <option> colors */
+  option {
+    color: inherit;
+    background-color: var(--select-option-bg);
+  }
+}

@@ -1,16 +1,18 @@
-[colors]
-    # "sea"
-#    background = "#1C2541"
-#    foreground = "#FFFFFF"
-#    hover = "#F3B700"
-    # dark background, light foreground
-#   background = "#26242F"
-#   foreground = "#ffffff"
-#   hover = "#8DAFDC"
+[colors.light]
     # https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
     background = "#FFFCF7"
     foreground = "#738290"
     hover = "#A1B5D8"
+
+[colors.dark]
+# "sea"
+    background = "#1C2541"
+    foreground = "#FFFFFF"
+    hover = "#F3B700"
+# dark background, light foreground
+#   background = "#26242F"
+#   foreground = "#ffffff"
+#   hover = "#8DAFDC"
 
 [[links]]
     icon = "mastodon"

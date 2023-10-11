@@ -1,11 +1,39 @@
-// Colours
-$color-background: {{ .Site.Params.colors.background | default "#6fcdbd" }};
-$color-foreground: {{ .Site.Params.colors.foreground | default "#fff" }};
-$color-hover: {{ .Site.Params.colors.hover | default "#333" }};
+:root {
+  /* Light mode */
+  --light-text: {{ .Site.Params.colors.light.foreground | default "#fff" }};
+  --light-bg: {{ .Site.Params.colors.light.background | default "#6fcdbd" }};
+  --light-hover: {{ .Site.Params.colors.light.hover | default "#333" }};
+
+  --light-select-arrow-bg: rgba(255, 255, 255, 0.3);
+  --light-select-arrow-icon: url(/assets/img/caret-down-light.svg);
+  --light-select-option-bg: white;
+  --light-select-bg: rgba(255, 255, 255, 0.2);
+
+  /* Dark mode */
+  --dark-text: {{ .Site.Params.colors.dark.foreground | default "#fff" }};
+  --dark-bg: {{ .Site.Params.colors.dark.background | default "#6fcdbd" }};
+  --dark-hover: {{ .Site.Params.colors.dark.hover | default "#333" }};
+
+  --dark-select-arrow-bg: rgba(255, 255, 255, 0.3);
+  --dark-select-arrow-icon: url(/assets/img/caret-down-dark.svg);
+  --dark-select-option-bg: white;
+  --dark-select-bg: rgba(255, 255, 255, 0.2);
+
+  /* Default mode */
+  --text-color: var(--light-text);
+  --bg-color: var(--light-bg);
+  --hover-color: var(--light-hover);
+
+  --select-arrow-bg: var(--light-select-arrow-bg);
+  --select-arrow-icon: var(--light-select-arrow-icon);
+  --select-option-bg: var(--light-select-option-bg);
+  --select-bg: var(--light-select-bg);
+}
 
 @import 'hallo/variables';
 @import 'hallo/base';
 @import 'hallo/layout';
+@import "control-elements/select";
 
 /* montserrat-regular - latin */
 @font-face {
@@ -35,17 +63,11 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-main .book .column.right {
-  h1, h2 {
-    margin-left: unset;
-  }
-}
-
 hr {
   border: none;
   height: 1px;
-  color: $color-foreground;
-  background-color: $color-foreground;
+  color: var(--text-color);
+  background-color: var(--text-color);
 }
 
 .book {
@@ -58,7 +80,7 @@ hr {
   }
 
   .cover {
-    border: 1px solid $color-foreground;
+    border: 1px solid var(--text-color);
     border-radius: 1em;
     margin: 0 3em;
     padding: 0.5em;
