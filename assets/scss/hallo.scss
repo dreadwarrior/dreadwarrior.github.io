@@ -35,8 +35,6 @@ $color-hover: {{ .Site.Params.colors.hover | default "#333" }};
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-$accent-color: aqua;
-
 main.book .column.right {
   h1, h2 {
     margin-left: unset;
@@ -46,8 +44,8 @@ main.book .column.right {
 hr {
   border: none;
   height: 1px;
-  color: $accent-color;
-  background-color: $accent-color;
+  color: $color-foreground;
+  background-color: $color-foreground;
 }
 
 .book {
@@ -60,7 +58,7 @@ hr {
   }
 
   .cover {
-    border: 1px solid $accent-color;
+    border: 1px solid $color-foreground;
     border-radius: 1em;
     margin: 0 3em;
     padding: 0.5em;
