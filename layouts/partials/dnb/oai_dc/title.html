@@ -1,0 +1,15 @@
+{{ $title := split . " ; " -}}
+{{ if isset $title 2 }}
+  {{/* Drop "Werk(e)" value, e.g. original title of translated books.  */}}
+  {{ $title = index $title 1 }}
+{{ else if hasPrefix (trim (index $title 0) " ") "[" }}
+  {{/* Still, there are titles with "Werk(e)" values, but only two other components in the title. */}}
+  {{ $title = index $title 1 }}
+{{ else }}
+  {{ $title = index $title 0 }}
+{{ end }}
+{{ $title = split $title " : " }}
+{{ $title = index $title 0 }}
+{{ $title = split $title "/" }}
+{{ $title = index $title 0 }}
+{{ return (trim $title " ") }}

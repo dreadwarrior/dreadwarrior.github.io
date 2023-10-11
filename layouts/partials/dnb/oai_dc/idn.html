@@ -1,0 +1,7 @@
+{{ $idn := "" }}
+{{ range . }}
+  {{ if eq (index . "-type") "dnb:IDN" }}
+    {{ $idn = index . "#text" }}
+  {{ end }}
+{{ end }}
+{{ return $idn }}
