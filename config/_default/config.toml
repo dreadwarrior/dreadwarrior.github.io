@@ -1,4 +1,5 @@
 baseURL = "http://localhost:8080/"
-languageCode = "en-uk"
-title = "Hello. – I'm Tommy."
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "Ahoi. – Ich bin Tommy."
 theme = "hallo"
