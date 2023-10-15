@@ -12,4 +12,6 @@
             {{- partial "footer.html" . -}}
         </div>
     </body>
+    {{ $mainJs := resources.Get "js/theme-switcher.js" | js.Build "main.js" | minify | fingerprint }}
+    <script src="{{ $mainJs.RelPermalink }}"></script>
 </html>
