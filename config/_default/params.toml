@@ -1,18 +1,12 @@
 [colors.light]
-    # https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
-    background = "#FFFCF7"
-    foreground = "#738290"
-    hover = "#A1B5D8"
+    background = "#FFFCF7" # "Baby Powder" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
+    foreground = "#1C2541" # "Sea"
+    hover = "#A1B5D8" # "Powder blue" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
 
 [colors.dark]
-# "sea"
-    background = "#1C2541"
-    foreground = "#FFFFFF"
-    hover = "#F3B700"
-# dark background, light foreground
-#   background = "#26242F"
-#   foreground = "#ffffff"
-#   hover = "#8DAFDC"
+    background = "#1C2541" # "Sea"
+    foreground = "#FFFCF7" # "Baby Powder" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
+    hover = "#A1B5D8" # "Powder blue" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
 
 [[links]]
     icon = "mastodon"
