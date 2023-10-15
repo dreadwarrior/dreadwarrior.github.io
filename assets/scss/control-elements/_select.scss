@@ -8,12 +8,11 @@ select {
   /* Personalize */
   padding: 0.5rem 2rem 0.5rem 0.5rem;
   background:
-          var(--select-arrow-icon) no-repeat right 0.8em center / 1.4em,
-          linear-gradient(to left, var(--select-arrow-bg) 3em, var(--select-bg) 3em);
-  background-size: 1rem;
+          var(--select-arrow-icon) no-repeat right 0.75rem center / 0.75rem,
+          linear-gradient(to left, var(--select-arrow-bg) 2.25rem, var(--select-bg) 2.25rem);
   color: var(--text-color);
   border-radius: 0.25em;
-  box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0.5em 0 var(--select-shadow);
   cursor: pointer;
   /* Remove IE arrow */
   &::-ms-expand {

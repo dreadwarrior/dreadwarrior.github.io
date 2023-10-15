@@ -4,20 +4,22 @@
   --light-bg: {{ .Site.Params.colors.light.background | default "#6fcdbd" }};
   --light-hover: {{ .Site.Params.colors.light.hover | default "#333" }};
 
-  --light-select-arrow-bg: rgba(255, 255, 255, 0.3);
+  --light-select-arrow-bg: rgba(28, 37, 65, 0.3);
   --light-select-arrow-icon: url(/assets/img/caret-down-light.svg);
-  --light-select-option-bg: white;
-  --light-select-bg: rgba(255, 255, 255, 0.2);
+  --light-select-option-bg: rgb(28, 37, 65);
+  --light-select-bg: rgba(28, 37, 65, 0.2);
+  --light-select-shadow: rgba(28, 37, 65, 0.2);
 
   /* Dark mode */
   --dark-text: {{ .Site.Params.colors.dark.foreground | default "#fff" }};
   --dark-bg: {{ .Site.Params.colors.dark.background | default "#6fcdbd" }};
   --dark-hover: {{ .Site.Params.colors.dark.hover | default "#333" }};
 
-  --dark-select-arrow-bg: rgba(255, 255, 255, 0.3);
+  --dark-select-arrow-bg: rgba(255, 252, 247, 0.3);
   --dark-select-arrow-icon: url(/assets/img/caret-down-dark.svg);
-  --dark-select-option-bg: white;
-  --dark-select-bg: rgba(255, 255, 255, 0.2);
+  --dark-select-option-bg: rgb(255, 252, 247);
+  --dark-select-bg: rgba(255, 252, 247, 0.2);
+  --dark-select-shadow: rgba(255, 252, 247, 0.2);
 
   /* Default mode */
   --text-color: var(--light-text);
@@ -28,6 +30,7 @@
   --select-arrow-icon: var(--light-select-arrow-icon);
   --select-option-bg: var(--light-select-option-bg);
   --select-bg: var(--light-select-bg);
+  --select-shadow: var(--light-select-shadow);
 }
 
 @import 'hallo/variables';
