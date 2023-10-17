@@ -2,7 +2,7 @@ const themeSwitch = document.querySelector('#theme-switch');
 themeSwitch.checked = localStorage.getItem('switchedTheme') === 'true';
 
 themeSwitch.addEventListener('change', function (e) {
-    if(e.currentTarget.checked === true) {
+    if (e.currentTarget.checked === true) {
         // Add item to localstorage
         localStorage.setItem('switchedTheme', 'true');
     } else {
