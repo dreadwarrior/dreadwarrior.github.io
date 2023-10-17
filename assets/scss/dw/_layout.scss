@@ -12,13 +12,36 @@ main {
     }
 
     .introduction {
+        h1 {
+            font-size: 4rem;
+            line-height: 1.1;
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 1.1;
+        }
+
         @media screen and (min-width: 64em) {
             margin-top: 20vh;
             min-height: calc(100vh - 20vh);
         }
     }
 
+    .content {
+        font-family: $font-family-content;
+        font-size: 1.075rem;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1.6;
+
+        h1, h2, h3, h4, h5, h6 {
+            line-height: 1.2;
+            margin-top: 0;
+        }
+    }
+
     .links {
+        font-size: 1.075rem;
         margin-top: 2.5rem;
 
         a {
@@ -66,6 +89,7 @@ main {
 }
 
 footer {
+    font-family: $font-family-content;
     font-size: 0.75rem;
     margin-top: 1rem;
 }

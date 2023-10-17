@@ -30,7 +30,7 @@ Personal, minimal landing page.
 Currently, a wave of cease-and-desist letters is rolling over Germany. This may
 affect website providers when loading Google Fonts from Google servers. To be
 spared from this, the fonts and stylesheets were compiled and generated using
-[google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts) and
+[google-webfonts-helper](https://gwfh.mranftl.com/fonts) and
 are included in the VCS of this project.
 
 The font packages are compiled by using the _latin_ charset only. The used
