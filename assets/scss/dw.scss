@@ -1,27 +1,39 @@
 :root {
-  /* Light mode */
-  --light-text: {{ .Site.Params.colors.light.foreground | default "#fff" }};
-  --light-bg: {{ .Site.Params.colors.light.background | default "#6fcdbd" }};
-  --light-hover: {{ .Site.Params.colors.light.hover | default "#333" }};
+  // Colors from Semantic UI: https://semantic-ui.com/usage/theming.html#sitewide-defaults
+  --green: #21ba45;
+  --teal: #00b5ad;
+  --white: #ffffff;
 
-  --light-select-arrow-bg: rgba(28, 37, 65, 0.3);
+  // Colors from: https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
+  --baby-powder: #fffcf7;
+  --powder-blue: #a1b5d8;
+
+  // Other colors
+  --sea: #1c2541;
+
+  // Light mode
+  --light-text: var(--sea);
+  --light-bg: var(--baby-powder);
+  --light-hover: var(--powder-blue);
+
+  --light-select-arrow-bg: rgba(28, 37, 65, 0.3); // --sea
   --light-select-arrow-icon: url(/assets/img/caret-down-light.svg);
-  --light-select-option-bg: rgb(28, 37, 65);
-  --light-select-bg: rgba(28, 37, 65, 0.2);
-  --light-select-shadow: rgba(28, 37, 65, 0.2);
+  --light-select-option-bg: rgb(28, 37, 65); // --sea
+  --light-select-bg: rgba(28, 37, 65, 0.2); // --sea
+  --light-select-shadow: rgba(28, 37, 65, 0.2); // --sea
 
-  /* Dark mode */
-  --dark-text: {{ .Site.Params.colors.dark.foreground | default "#fff" }};
-  --dark-bg: {{ .Site.Params.colors.dark.background | default "#6fcdbd" }};
-  --dark-hover: {{ .Site.Params.colors.dark.hover | default "#333" }};
+  // Dark mode
+  --dark-text: var(--baby-powder);
+  --dark-bg: var(--sea);
+  --dark-hover: var(--powder-blue);
 
-  --dark-select-arrow-bg: rgba(255, 252, 247, 0.3);
+  --dark-select-arrow-bg: rgba(255, 252, 247, 0.3); // --baby-powder
   --dark-select-arrow-icon: url(/assets/img/caret-down-dark.svg);
-  --dark-select-option-bg: rgb(255, 252, 247);
-  --dark-select-bg: rgba(255, 252, 247, 0.2);
-  --dark-select-shadow: rgba(255, 252, 247, 0.2);
+  --dark-select-option-bg: rgb(255, 252, 247); // --baby-powder
+  --dark-select-bg: rgba(255, 252, 247, 0.2); // --baby-powder
+  --dark-select-shadow: rgba(255, 252, 247, 0.2); // --baby-powder
 
-  /* Default mode */
+  // Default mode
   --text-color: var(--light-text);
   --bg-color: var(--light-bg);
   --hover-color: var(--light-hover);
@@ -34,6 +46,7 @@
 }
 
 @import 'dw/variables';
+@import 'dw/theme-switch';
 @import 'dw/base';
 @import 'dw/layout';
 @import "control-elements/select";
@@ -64,54 +77,4 @@
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff') format('woff'), /* Modern Browsers */
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
   url('/fonts/montserrat-v25-latin/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
-}
-
-hr {
-  border: none;
-  height: 1px;
-  color: var(--text-color);
-  background-color: var(--text-color);
-}
-
-.book {
-
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .cover {
-    border: 1px solid var(--text-color);
-    border-radius: 1em;
-    margin: 0 3em;
-    padding: 0.5em;
-  }
-
-  .excerpt-source {
-    word-wrap: break-word;
-  }
-
-  .book__buttons {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-  }
-}
-
-@media (min-width: 640px) {
-  .book {
-    .book__buttons {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-}
-
-@media (min-width: 1024px) {
-  .book {
-    .book__buttons {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
 }

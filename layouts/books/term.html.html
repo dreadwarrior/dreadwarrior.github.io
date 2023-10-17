@@ -1,33 +1,36 @@
 {{ define "main" }}
+
 <main>
-    <div class="block">
-        <div class="column ">
-            <h3>{{ with .Params.Title }}{{ . }}{{ else }}{{ .Section | title }} - {{ .Data.Term | title }}{{ end }}</h3>
+    <div class="pure-g">
+        <div class="pure-u-1 pure-u-lg-1-2">
+            <h1>{{ with .Params.Title }}{{ . }}{{ else }}{{ .Section | title }} - {{ .Data.Term | title }}{{ end }}</h1>
 
             {{ .Content }}
         </div>
-        <div class="column right">
+        <div class="pure-u-1 pure-u-lg-1-2">
             {{- $genres := slice -}}
             {{ range .Data.Pages }}
             {{ $genres = $genres | append .Params.genres }}
             {{ end }}
-            Genre filtern:
+            <label for="filter-genre">Thema filtern:</label>
             <select id="filter-genre">
-                <option value="clear-genre-filter" selected="selected">alle anzeigen</option>
+                <option value="clear-genre-filter" selected="selected">alle</option>
                 {{ range ($genres | uniq | sort) }}
                     <option value="{{ . | anchorize }}">{{ . }}</option>
                 {{ end }}
             </select>
 
-            <hr>
+            <hr class="ruler-decorated">
 
-            {{ range sort .Data.Pages "Title" }}
-            <a href="{{ .Permalink }}" data-genres="{{ range .Params.genres }}{{ . | anchorize }} {{end }}">
-                {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
-                <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-                {{- end -}}
-            </a>
-            {{ end }}
+            <div class="pure-g">
+                {{ range sort .Data.Pages "Title" }}
+                <a class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-3" href="{{ .Permalink }}" data-genres="{{ range .Params.genres }}{{ . | anchorize }} {{end }}">
+                    {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
+                    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{- end -}}
+                </a>
+                {{ end }}
+            </div>
 
             <script type="application/javascript">
                 const $genreLinks = $("a[data-genres]");

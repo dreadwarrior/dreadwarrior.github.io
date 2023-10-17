@@ -1,23 +1,14 @@
-[colors.light]
-    background = "#FFFCF7" # "Baby Powder" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
-    foreground = "#1C2541" # "Sea"
-    hover = "#A1B5D8" # "Powder blue" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
-
-[colors.dark]
-    background = "#1C2541" # "Sea"
-    foreground = "#FFFCF7" # "Baby Powder" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
-    hover = "#A1B5D8" # "Powder blue" https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
-
 [[links]]
+    iconset = "fab"
     icon = "mastodon"
     title = "Mastodon"
     url = "https://chaos.social/@dreadwarrior"
 [[links]]
+    iconset = "fab"
     icon = "github"
     title = "GitHub"
     url = "https://github.com/dreadwarrior"
 [[links]]
-    iconset = "fas"
     icon = "id-card-alt"
     title = "Portfolio / Resume"
     url = "https://dreadlabs.de/"

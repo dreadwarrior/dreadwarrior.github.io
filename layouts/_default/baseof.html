@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}">
     {{- partial "head.html" . -}}
+
     <body>
         {{- partial "header.html" . -}}
-        <div id="page">
+
+        <div class="page">
             <label for="theme-switch">
                 <i class="fa fa-sun" aria-label="switch to Light mode" title="switch to Light mode"></i>
                 <i class="fa fa-moon" aria-label="switch to Dark mode" title="switch to Dark mode"></i>
             </label>
+
             {{- block "main" . }}{{- end }}
+
             {{- partial "footer.html" . -}}
         </div>
     </body>
+
     {{ $mainJs := resources.Get "js/theme-switcher.js" | js.Build "main.js" | minify | fingerprint }}
     <script src="{{ $mainJs.RelPermalink }}"></script>
 </html>

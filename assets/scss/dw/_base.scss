@@ -1,21 +1,27 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
 html {
-    font-family: $sans-serif;
-    font-size: 16px;
-    overflow-y: auto;
+    font-family: $font-family;
 }
 
-#page {
-    padding: 2rem;
-    min-height: calc(100vh - 4rem);
-
+hr {
+    border: none;
+    height: 1px;
     color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: var(--text-color);
+
+    &.ruler-decorated {
+        text-align: center;
+        margin: 0.85rem 0;
+
+        &:after {
+            content: "✻";
+            display: inline-block;
+            position: relative;
+            top: -0.6rem;
+            font-size: 0.85rem;
+            padding: 0 0.25rem;
+            background: var(--bg-color);
+        }
+    }
 }
 
 a {
@@ -27,37 +33,40 @@ a {
     }
 }
 
-h1 {
-    font-size: 9rem;
+.page {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    min-height: calc(100vh - 4rem);
+
+    padding: 2rem;
 }
 
-h2 {
-    font-size: 3rem;
-    font-weight: normal;
+.l-box {
+    padding: 0.5rem;
 }
 
-h3 {
-    font-size: 2rem;
-    font-weight: normal;
-}
+.button-primary,
+.button-secondary, {
+    background-color: var(--green);
+    color: white;
 
-@media screen and (max-width: $break-large) {
-    h1 {
-        font-size: 15vw;
+    border-radius: 0.25rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        color: var(--white);
     }
-
-    h2 {
-        font-size: 2.5rem;
-    }
 }
 
-img.portrait {
-    box-sizing: border-box;
-    border-radius: 50%;
-    border: 10px solid var(--text-color);
-    margin: 2em 3em;
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    max-height: 300px;
+.button-secondary {
+    background-color: var(--teal);
+}
+
+.button-small {
+    font-size: 0.85rem;
+}
+
+.button-block {
+    display: block;
 }
