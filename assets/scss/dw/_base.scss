@@ -8,6 +8,7 @@ hr {
     color: var(--text-color);
     background-color: var(--text-color);
 
+    // Credits: https://css-tricks.com/simple-styles-for-horizontal-rules/
     &.ruler-decorated {
         text-align: center;
         margin: 0.85rem 0;

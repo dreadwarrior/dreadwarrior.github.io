@@ -10,7 +10,9 @@
             <h1>{{- with .Param "greeting" -}}{{ . }}{{- else -}}Hallo.{{- end -}}</h1>
             <h2>Ich bin {{ .Site.Author.name | default "Hallo" }}.</h2>
 
-            {{ .Content }}
+            <div class="content">
+                {{ .Content }}
+            </div>
 
             <div class="links"><!-- TODO: switch to pure-button-group -->
                 {{- range .Site.Params.links -}}
