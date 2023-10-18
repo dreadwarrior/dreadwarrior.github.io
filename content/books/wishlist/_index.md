@@ -1,24 +1,20 @@
 ---
 title: "Bücher: Wunschliste"
 ---
-Falls du auf der Suche nach einem Geschenk für mich bist, hat deine Suche hier
-ein Ende.
+Hier findet sich eine Liste von Büchern, die ich gerne irgendwann einmal lesen
+möchte.
 
-Dies ist meine aktuelle Bücher-Wunschliste, in der du sicher fündig wirst.
+Um ein Buch zu kaufen, gibt es folgende Möglichkeiten:
 
-**{{< rawhtml >}}<i class="fas fa-leaf"></i>{{< /rawhtml >}} Umweltschonend**
+1. **Umweltschonend** - {{< fa-icon icon="leaf" >}}
 
-> Ich würde ich mich sehr darüber freuen, wenn du das Buch gebraucht kaufst.
-> Klicke dazu auf das Blatt-Symbol ({{< rawhtml >}}<i class="fas fa-leaf"></i>{{< /rawhtml >}}),
-> um das Buch bei medimops.de zu suchen.
+   Die Schaltfläche mit dem Blatt-Symbol führt zu einer Suche auf medimops.de, um 
+   das Buch in gebrauchtem Zustand zu suchen.
 
-**{{< rawhtml >}}<i class="fas fa-globe"></i>{{< /rawhtml >}} Online einkaufen**
+2. **Lokalen Buchhandel unterstützen** - {{< fa-icon icon="map-marker-alt" >}}
 
-> Du kannst auch ein neues Buch online kaufen. Klicke dazu auf das Globus-Symbol,
-> ({{< rawhtml >}}<i class="fas fa-globe"></i>{{< /rawhtml >}}), um das Buch bei
-> thalia.de zu suchen.
+   Um das Buch beim lokalen Buchhändler zu erstehen, hilft die ISBN.
 
-**{{< rawhtml >}}<i class="fas fa-map-marker-alt"></i>{{< /rawhtml >}} Lokalen Buchhandel unterstützen**
+3. **Online einkaufen** - {{< fa-icon icon="globe" >}}
 
-> Um das Buch beim Buchhändler deines Vertrauens zu erstehen, notiere dir gern
-> die ISBN.
+   Die Schaltfläche mit dem Globus-Symbol führt zu einer Suche auf thalia.de.
