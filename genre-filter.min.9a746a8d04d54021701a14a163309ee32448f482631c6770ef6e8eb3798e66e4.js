@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelectorAll("a[data-genres]");document.querySelector("#filter-genre").addEventListener("change",function(){const t=document.querySelector("#filter-genre").value;e.forEach(e=>e.style.display="block"),t!=="clear-genre-filter"&&[...e].filter(e=>!e.dataset.genres.includes(t)).forEach(e=>e.style.display="none")})})()
