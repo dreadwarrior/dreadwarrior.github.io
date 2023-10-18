@@ -14,8 +14,8 @@
             {{ range .Data.Pages }}
             {{ $genres = $genres | append .Params.genres }}
             {{ end }}
-            <label for="filter-genre">Thema filtern:</label>
-            <select id="filter-genre">
+            <label for="filter-genre">Thema:</label>
+            <select id="filter-genre" class="select-decorated">
                 <option value="clear-genre-filter" selected="selected">alle</option>
                 {{ range ($genres | uniq | sort) }}
                     <option value="{{ . | anchorize }}">{{ . }}</option>
