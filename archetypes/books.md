@@ -24,6 +24,4 @@ its bibliographic publisher:
 **Don't forget to paste the excerpt's source into the "source" front matter 
 variable.**
 
-""
-
 {{- end -}}
