@@ -33,20 +33,10 @@
                 </a>
                 {{ end }}
             </div>
-
-            <script type="application/javascript">
-                const $genreLinks = $("a[data-genres]");
-                $('#filter-genre').on("change", (event) => {
-                    const genre = $('#filter-genre :selected').val();
-
-                    $genreLinks.show();
-
-                    if (genre !== "clear-genre-filter") {
-                        $genreLinks.not("[data-genres~=" + genre + "]").hide();
-                    }
-                });
-            </script>
         </div>
     </div>
 </main>
+
+{{ $mainJs := resources.Get "js/genre-filter.js" | js.Build "genre-filter.js" | minify | fingerprint }}
+<script src="{{ $mainJs.RelPermalink }}"></script>
 {{ end }}
