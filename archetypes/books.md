@@ -9,8 +9,8 @@ isbn: "{{ $isbn }}"
 idn: "{{ partial "dnb/oai_dc/idn.html" .records.record.recordData.dc.identifier }}"
 author: "{{ partial "dnb/oai_dc/author.html" .records.record.recordData.dc.creator }}"
 publishedAt: "{{ .records.record.recordData.dc.date }}"
-genres:
-  - "Add genres here. Repeat as much as you like."
+topics:
+  - "Add topics here. Repeat as much as you like."
 source: "https://url/to/source/of/excerpt/"
 books:
   - "wishlist"

@@ -10,14 +10,14 @@
             </div>
         </div>
         <div class="pure-u-1 pure-u-lg-1-2">
-            {{- $genres := slice -}}
+            {{- $topics := slice -}}
             {{ range .Data.Pages }}
-            {{ $genres = $genres | append .Params.genres }}
+            {{ $topics = $topics | append .Params.topics }}
             {{ end }}
-            <label for="filter-genre">Thema:</label>
-            <select id="filter-genre" class="select-decorated">
-                <option value="clear-genre-filter" selected="selected">alle</option>
-                {{ range ($genres | uniq | sort) }}
+            <label for="filter-topic">Thema:</label>
+            <select id="filter-topic" class="select-decorated">
+                <option value="clear-topic-filter" selected="selected">alle</option>
+                {{ range ($topics | uniq | sort) }}
                     <option value="{{ . | anchorize }}">{{ . }}</option>
                 {{ end }}
             </select>
@@ -26,7 +26,7 @@
 
             <div class="pure-g">
                 {{ range sort .Data.Pages "Title" }}
-                <a class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-3" href="{{ .Permalink }}" data-genres="{{ range .Params.genres }}{{ . | anchorize }} {{end }}">
+                <a class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-3" href="{{ .Permalink }}" data-topics="{{ range .Params.topics }}{{ . | anchorize }} {{end }}">
                     {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
                     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                     {{- end -}}
@@ -37,6 +37,6 @@
     </div>
 </main>
 
-{{ $mainJs := resources.Get "js/genre-filter.js" | js.Build "genre-filter.js" | minify | fingerprint }}
+{{ $mainJs := resources.Get "js/book-topic-filter.js" | js.Build "book-topic-filter.js" | minify | fingerprint }}
 <script src="{{ $mainJs.RelPermalink }}"></script>
 {{ end }}

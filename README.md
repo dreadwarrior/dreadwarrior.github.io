@@ -20,7 +20,7 @@ Personal, minimal landing page.
 
        hugo new content books/<isbn>.md
 
-4. Open the newly generated file and adjust the front matter variable `genres`.
+4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
 
 ## Decisions
