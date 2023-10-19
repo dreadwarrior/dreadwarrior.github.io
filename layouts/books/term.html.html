@@ -26,10 +26,17 @@
 
             <div class="pure-g">
                 {{ range sort .Data.Pages "Title" }}
-                <a class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-3" href="{{ .Permalink }}" data-topics="{{ range .Params.topics }}{{ . | anchorize }} {{end }}">
-                    {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
-                    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-                    {{- end -}}
+                <a
+                        class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-3"
+                        aria-labelledby="cover-label-{{ .Params.idn }}"
+                        href="{{ .Permalink }}"
+                        data-topics="{{ range .Params.topics }}{{ . | anchorize }} {{end }}">
+                    <figure class="cover-figure">
+                        {{- with partial "book/cover" (dict "isbn" .Params.isbn "coversPath" $.Site.Params.books.coversPath) -}}
+                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                        {{- end -}}
+                        <figcaption id="cover-label-{{ .Params.idn }}">{{ .Title }} - <em>{{ .Params.author }}</em></figcaption>
+                    </figure>
                 </a>
                 {{ end }}
             </div>

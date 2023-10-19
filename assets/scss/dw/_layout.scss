@@ -69,6 +69,38 @@ main {
         text-align: center;
     }
 
+    // Slide In Image Captions: https://css-tricks.com/slide-in-image-captions/
+    .cover-figure {
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+
+        figcaption {
+            font-family: $font-family-content;
+
+            position: absolute;
+            // bottom aligned
+            left: 0;
+            bottom: -30%;
+
+            background: var(--bg-color);
+            filter: alpha(0.75);
+            color: var(--text-color);
+            opacity: 0;
+            @include transition(all 0.6s ease);
+
+            border-top: 1px solid var(--text-color);
+            padding: 0.5rem 1.5rem;
+        }
+
+        &:hover figcaption {
+            opacity: 1;
+
+            // bottom aligned
+            bottom: 0;
+        }
+    }
+
     .single-cover-u {
 
         @media screen and (min-width: 64em) {
