@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
     const trigger = group.querySelector('.button-trigger');
     const clear = group.querySelector('.button-clear');
 
-    const topicLinks = document.querySelectorAll("a[data-topics]");
+    const topicLinks = document.querySelectorAll('a[data-topics]');
 
     const comboplete = new Awesomplete(
         input,
@@ -16,7 +16,7 @@ window.addEventListener('load', function () {
             }
         }
     );
-    Awesomplete.$(trigger).addEventListener("click", function() {
+    Awesomplete.$(trigger).addEventListener('click', function() {
         if (comboplete.ul.childNodes.length === 0) {
             comboplete.evaluate();
         } else if (comboplete.ul.hasAttribute('hidden')) {
@@ -25,20 +25,28 @@ window.addEventListener('load', function () {
             comboplete.close();
         }
     });
-    Awesomplete.$(clear).addEventListener("click", function () {
+    Awesomplete.$(clear).addEventListener('click', () => {
         input.value = '';
+
+        comboplete.evaluate();
+        comboplete.close();
 
         topicLinks.forEach((it) => it.style.display = 'block');
     });
-    input.addEventListener("awesomplete-selectcomplete", function(event) {
+    input.addEventListener('awesomplete-selectcomplete', (event) => {
         const topic = event.text.value;
 
         topicLinks.forEach((it) => it.style.display = 'block');
 
-        if (topic !== "clear-topic-filter") {
-            [...topicLinks]
-                .filter((it) => !it.dataset.topics.includes(topic))
-                .forEach((it) => it.style.display = 'none');
+        [...topicLinks]
+            .filter((it) => !it.dataset.topics.includes(topic))
+            .forEach((it) => it.style.display = 'none');
+    });
+    input.addEventListener('awesomplete-close', (event) => {
+        if (event.reason === 'blur' || event.reason === 'esc') {
+            if (input.value === '') {
+                topicLinks.forEach((it) => it.style.display = 'block');
+            }
         }
     })
 });
