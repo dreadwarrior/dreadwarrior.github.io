@@ -1,13 +1,44 @@
-const topicLinks = document.querySelectorAll("a[data-topics]");
+window.addEventListener('load', function () {
+    const group = document.querySelector('.awesomplete-combo-group');
+    const input = group.querySelector('input');
+    const trigger = group.querySelector('.button-trigger');
+    const clear = group.querySelector('.button-clear');
 
-document.querySelector('#filter-topic').addEventListener('change', function () {
-    const topic = document.querySelector('#filter-topic').value;
+    const topicLinks = document.querySelectorAll("a[data-topics]");
 
-    topicLinks.forEach((it) => it.style.display = 'block');
+    const comboplete = new Awesomplete(
+        input,
+        {
+            minChars: 0,
+            sort: false,
+            replace: function(suggestion) {
+                this.input.value = suggestion.label;
+            }
+        }
+    );
+    Awesomplete.$(trigger).addEventListener("click", function() {
+        if (comboplete.ul.childNodes.length === 0) {
+            comboplete.evaluate();
+        } else if (comboplete.ul.hasAttribute('hidden')) {
+            comboplete.open();
+        } else {
+            comboplete.close();
+        }
+    });
+    Awesomplete.$(clear).addEventListener("click", function () {
+        input.value = '';
 
-    if (topic !== "clear-topic-filter") {
-        [...topicLinks]
-            .filter((it) => !it.dataset.topics.includes(topic))
-            .forEach((it) => it.style.display = 'none');
-    }
+        topicLinks.forEach((it) => it.style.display = 'block');
+    });
+    input.addEventListener("awesomplete-selectcomplete", function(event) {
+        const topic = event.text.value;
+
+        topicLinks.forEach((it) => it.style.display = 'block');
+
+        if (topic !== "clear-topic-filter") {
+            [...topicLinks]
+                .filter((it) => !it.dataset.topics.includes(topic))
+                .forEach((it) => it.style.display = 'none');
+        }
+    })
 });

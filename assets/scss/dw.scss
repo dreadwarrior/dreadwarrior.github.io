@@ -10,46 +10,30 @@
 
   // Other colors
   --sea: #1c2541;
+  --sea-o30: rgba(28, 37, 65, 0.3);
+  --sea-o20: rgba(28, 37, 65, 0.2);
 
   // Light mode
   --light-text: var(--sea);
   --light-bg: var(--baby-powder);
   --light-hover: var(--powder-blue);
 
-  --light-select-arrow-bg: rgba(28, 37, 65, 0.3); // --sea
-  --light-select-arrow-icon: url(/assets/img/caret-down-light.svg);
-  --light-select-option-bg: rgb(28, 37, 65); // --sea
-  --light-select-bg: rgba(28, 37, 65, 0.2); // --sea
-  --light-select-shadow: rgba(28, 37, 65, 0.2); // --sea
-
   // Dark mode
   --dark-text: var(--baby-powder);
   --dark-bg: var(--sea);
   --dark-hover: var(--powder-blue);
 
-  --dark-select-arrow-bg: rgba(255, 252, 247, 0.3); // --baby-powder
-  --dark-select-arrow-icon: url(/assets/img/caret-down-dark.svg);
-  --dark-select-option-bg: rgb(255, 252, 247); // --baby-powder
-  --dark-select-bg: rgba(255, 252, 247, 0.2); // --baby-powder
-  --dark-select-shadow: rgba(255, 252, 247, 0.2); // --baby-powder
-
   // Default mode
   --text-color: var(--light-text);
   --bg-color: var(--light-bg);
   --hover-color: var(--light-hover);
-
-  --select-arrow-bg: var(--light-select-arrow-bg);
-  --select-arrow-icon: var(--light-select-arrow-icon);
-  --select-option-bg: var(--light-select-option-bg);
-  --select-bg: var(--light-select-bg);
-  --select-shadow: var(--light-select-shadow);
 }
 
 @import 'dw/variables';
 @import 'dw/theme-switch';
 @import 'dw/base';
 @import 'dw/layout';
-@import "control-elements/select";
+@import "control-elements/awesomplete";
 
 /* montserrat-regular - latin */
 @font-face {

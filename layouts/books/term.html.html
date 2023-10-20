@@ -14,13 +14,21 @@
             {{ range .Data.Pages }}
             {{ $topics = $topics | append .Params.topics }}
             {{ end }}
-            <label for="filter-topic">Thema:</label>
-            <select id="filter-topic" class="select-decorated">
-                <option value="clear-topic-filter" selected="selected">alle</option>
-                {{ range ($topics | uniq | sort) }}
+
+            <div class="awesomplete-combo-group">
+                <input
+                    placeholder="Thema filtern"
+                    aria-label="Thema filtern"
+                    list="topics"
+                    data-maxitems="{{ $topics | len }}">
+                <button class="button-trigger"><i class="fas fa-filter fa-xs"></i></button>
+                <button class="button-clear"><i class="fas fa-times fa-xs"></i></button>
+                <datalist id="topics">
+                    {{- range ($topics | uniq | sort) }}
                     <option value="{{ . | anchorize }}">{{ . }}</option>
-                {{ end }}
-            </select>
+                    {{- end }}
+                </datalist>
+            </div>
 
             <hr class="ruler-decorated">
 
@@ -46,4 +54,5 @@
 
 {{ $mainJs := resources.Get "js/book-topic-filter.js" | js.Build "book-topic-filter.js" | minify | fingerprint }}
 <script src="{{ $mainJs.RelPermalink }}"></script>
+
 {{ end }}

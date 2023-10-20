@@ -1,0 +1,86 @@
+.awesomplete-combo-group {
+  background-color: var(--white);
+
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.5em 0 var(--sea-o20);
+
+  // Collapse whitespace input and button controls.
+  letter-spacing: -0.27rem;
+
+  input, button {
+    // Remove default border and (focus) outlines.
+    border: 0;
+    outline: 0;
+
+    padding: 0.5rem;
+  }
+
+  input {
+    // Remove padding from width.
+    width: calc(100% - 1rem);
+
+    background-color: var(--white);
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  button {
+    cursor: pointer;
+
+    @include transition(color .2s ease-out);
+    @include transition(background-color .2s ease-out);
+
+    background-color: var(--sea-o30);
+
+    width: 2.25rem;
+    height: 2.25rem;
+
+    &:active {
+      color: var(--white);
+      background-color: var(--sea);
+    }
+
+    &.button-clear {
+      @include transition(color .2s ease-out);
+      @include transition(background-color .2s ease-out);
+
+      background-color: var(--sea-o20);
+
+      border-top-right-radius: 0.25em;
+      border-bottom-right-radius: 0.25em;
+
+      &:active {
+        color: var(--white);
+        background-color: var(--sea);
+      }
+    }
+  }
+
+  .awesomplete {
+    // Reset letter spacing from button whitespace clearance.
+    letter-spacing: normal;
+
+    // Remove button widths from width.
+    width: calc(100% - 4.5rem);
+
+    ul {
+      box-shadow: 0 0.5em 0.5em 0 var(--sea-o20);
+
+      max-height: 320px;
+      overflow-y: scroll;
+
+      li {
+        cursor: pointer;
+        padding: 0.25rem 0.5rem;
+
+        color: ButtonText;
+
+        // Use default OS colors like a default select box.
+        &:hover {
+          background-color: AccentColor;
+          color: AccentColorText;
+        }
+      }
+    }
+  }
+}
