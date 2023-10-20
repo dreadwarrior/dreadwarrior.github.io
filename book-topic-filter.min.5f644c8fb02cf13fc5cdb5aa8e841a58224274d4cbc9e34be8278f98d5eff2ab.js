@@ -1,1 +1,0 @@
-(()=>{var e=document.querySelectorAll("a[data-topics]");document.querySelector("#filter-topic").addEventListener("change",function(){const t=document.querySelector("#filter-topic").value;e.forEach(e=>e.style.display="block"),t!=="clear-topic-filter"&&[...e].filter(e=>!e.dataset.topics.includes(t)).forEach(e=>e.style.display="none")})})()
