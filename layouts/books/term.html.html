@@ -50,7 +50,6 @@
             </div>
         </div>
     </div>
-    {{ partial "scroll-to-top.html" }}
 </main>
 
 {{ $mainJs := resources.Get "js/book-topic-filter.js" | js.Build "book-topic-filter.js" | minify | fingerprint }}
