@@ -12,12 +12,19 @@
     border: 0;
     outline: 0;
 
-    padding: 0.5rem;
+    padding: 1.0625rem 0.875rem;
+    line-height: 1.25rem;
+    @media screen and (min-width: 80em) {
+      padding: 0.5rem;
+    }
   }
 
   input {
     // Remove padding from width.
-    width: calc(100% - 1rem);
+    width: calc(100% - 1.75rem);
+    @media screen and (min-width: 80em) {
+      width: calc(100% - 1rem);
+    }
 
     background-color: var(--white);
     border-top-left-radius: 0.25rem;
@@ -33,8 +40,12 @@
     background-color: var(--sea-o30);
     color: var(--black);
 
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 3.375rem;
+    height: 3.375rem;
+    @media screen and (min-width: 80em) {
+      width: 2.25rem;
+      height: 2.25rem;
+    }
 
     &:active {
       color: var(--white);
@@ -62,7 +73,10 @@
     letter-spacing: normal;
 
     // Remove button widths from width.
-    width: calc(100% - 4.5rem);
+    width: calc(100% - 6.75rem);
+    @media screen and (min-width: 80em) {
+      width: calc(100% - 4.5rem);
+    }
 
     ul {
       box-shadow: 0 0.5em 0.5em 0 var(--sea-o20);
@@ -72,7 +86,11 @@
 
       li {
         cursor: pointer;
-        padding: 0.25rem 0.5rem;
+
+        padding: 0.875rem;
+        @media screen and (min-width: 80em) {
+          padding: 0.25rem 0.5rem;
+        }
 
         color: ButtonText;
 
