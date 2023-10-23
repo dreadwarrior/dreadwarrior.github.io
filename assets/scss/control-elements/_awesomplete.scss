@@ -12,16 +12,17 @@
     border: 0;
     outline: 0;
 
-    padding: 1.0625rem 0.875rem;
-    line-height: 1.25rem;
+    padding: 0.625rem;
+    line-height: 1.5rem;
     @media screen and (min-width: 80em) {
+      line-height: 1.25rem;
       padding: 0.5rem;
     }
   }
 
   input {
     // Remove padding from width.
-    width: calc(100% - 1.75rem);
+    width: calc(100% - 1.25rem);
     @media screen and (min-width: 80em) {
       width: calc(100% - 1rem);
     }
@@ -29,6 +30,10 @@
     background-color: var(--white);
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
+
+    &[aria-expanded="true"] {
+      border-bottom-left-radius: 0;
+    }
   }
 
   button {
@@ -40,8 +45,8 @@
     background-color: var(--sea-o30);
     color: var(--black);
 
-    width: 3.375rem;
-    height: 3.375rem;
+    width: 2.75rem;
+    height: 2.75rem;
     @media screen and (min-width: 80em) {
       width: 2.25rem;
       height: 2.25rem;
@@ -73,7 +78,7 @@
     letter-spacing: normal;
 
     // Remove button widths from width.
-    width: calc(100% - 6.75rem);
+    width: calc(100% - 5.5rem);
     @media screen and (min-width: 80em) {
       width: calc(100% - 4.5rem);
     }
@@ -87,7 +92,7 @@
       li {
         cursor: pointer;
 
-        padding: 0.875rem;
+        padding: 0.625rem;
         @media screen and (min-width: 80em) {
           padding: 0.25rem 0.5rem;
         }
