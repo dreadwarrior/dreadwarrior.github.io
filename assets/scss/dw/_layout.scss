@@ -65,6 +65,10 @@ main {
         max-height: 300px;
     }
 
+    .cover-g {
+        row-gap: 1rem;
+    }
+
     .cover-u {
         text-align: center;
     }
@@ -99,6 +103,11 @@ main {
             // bottom aligned
             bottom: 0;
         }
+
+        img {
+            border: 1px solid var(--text-color);
+            border-radius: .5rem;
+        }
     }
 
     .single-cover-u {
@@ -108,10 +117,12 @@ main {
         }
 
         img {
-            border: 1px solid var(--text-color);
-            border-radius: 1rem;
             margin: 0 3rem;
-            padding: 0.5rem;
+
+            border: 1px solid var(--text-color);
+            border-radius: .5rem;
+
+            box-shadow: var(--text-color) 0 0 .5rem 0;
         }
     }
 
