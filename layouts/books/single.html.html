@@ -12,7 +12,10 @@
                     <h1><a href="https://d-nb.info/{{ .Params.idn }}" title="In der Deutschen Nationalbibliothek nachschlagen">{{ .Title }}</a> <small>({{ .Params.publishedAt }})</small></h1>
                     <h2>von <em>{{ .Params.author }}</em></h2>
 
-                    <p><small>ISBN</small> {{ .Params.isbn }} – <small>Themen</small> {{ range $i, $genre := .Params.topics }}{{- if $i -}}, {{ end -}}{{ . }}{{end}}</p>
+                    <p>
+                        <small>ISBN:</small> {{ .Params.isbn }} <br>
+                        <small>Themen:</small> {{ range $i, $genre := .Params.topics }}{{- if $i -}}, {{ end -}}{{ . }}{{end}} <br>
+                    </p>
                 </div>
 
                 <hr class="ruler-decorated">
