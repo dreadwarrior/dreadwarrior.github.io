@@ -6,7 +6,7 @@ date: "{{ .Date }}"
 title: "{{ partial "dnb/oai_dc/title.html" .records.record.recordData.dc.title }}"
 slug: "{{ partial "dnb/oai_dc/title.html" .records.record.recordData.dc.title | anchorize }}"
 isbn: "{{ $isbn }}"
-idn: "{{ partial "dnb/oai_dc/idn.html" .records.record.recordData.dc.identifier }}"
+cataloguePermalink: "https://d-nb.info/{{ partial "dnb/oai_dc/idn.html" .records.record.recordData.dc.identifier }}"
 author: "{{ partial "dnb/oai_dc/author.html" .records.record.recordData.dc.creator }}"
 publishedAt: "{{ .records.record.recordData.dc.date }}"
 topics:
