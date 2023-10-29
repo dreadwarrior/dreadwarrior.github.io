@@ -1,40 +1,45 @@
+// Colors from: https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
+$baby-powder: rgb(255, 252, 247);
+$powder-blue: rgb(161, 181, 216);
+
+// Other colors
+$sea: rgb(28, 37, 65);
+
+// Colors from Semantic UI: https://semantic-ui.com/usage/theming.html#sitewide-defaults
+$green: rgb(33, 186, 69);
+$teal: rgb(0, 181, 173);
+
+// Common colors
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+
 :root {
-  // Colors from Semantic UI: https://semantic-ui.com/usage/theming.html#sitewide-defaults
-  --green: #21ba45;
-  --teal: #00b5ad;
-  --white: #ffffff;
-  --black: #000000;
-
-  // Colors from: https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
-  --baby-powder: #fffcf7;
-  --baby-powder-o20: rgba(255, 252, 247, 0.2);
-  --powder-blue: #a1b5d8;
-
-  // Other colors
-  --sea: #1c2541;
-  --sea-o30: rgba(28, 37, 65, 0.3);
-  --sea-o20: rgba(28, 37, 65, 0.2);
-
   // Light mode
-  --light-text: var(--sea);
-  --light-text-o20: var(--sea-o20);
-  --light-bg: var(--baby-powder);
-  --light-bg-o20: var(--baby-powder-o20);
-  --light-hover: var(--powder-blue);
+  --light-text-color: #{$sea};
+  --light-text-color-o20: #{rgba($sea, 0.2)};
+  --light-bg-color: #{$baby-powder};
+  --light-bg-color-o20: #{rgba($baby-powder, 0.2)};
+  --light-bg-color-dark-contrast: #{darken($baby-powder, 10%)};
+  --light-bg-color-light-contrast: #{lighten($baby-powder, 10%)};
+  --light-hover-color: #{$powder-blue};
 
   // Dark mode
-  --dark-text: var(--baby-powder);
-  --dark-text-o20: var(--baby-powder-o20);
-  --dark-bg: var(--sea);
-  --dark-bg-o20: var(--sea-o20);
-  --dark-hover: var(--powder-blue);
+  --dark-text-color: #{$baby-powder};
+  --dark-text-color-o20: #{rgba($baby-powder, 0.2)};
+  --dark-bg-color: #{$sea};
+  --dark-bg-color-o20: #{rgba($sea, 0.2)};
+  --dark-bg-color-dark-contrast: #{darken($sea, 10%)};
+  --dark-bg-color-light-contrast: #{lighten($sea, 10%)};
+  --dark-hover-color: #{$powder-blue};
 
   // Default mode
-  --text-color: var(--light-text);
-  --text-color-o20: var(--light-text-o20);
-  --bg-color: var(--light-bg);
-  --bg-color-o20: var(--light-bg-o20);
-  --hover-color: var(--light-hover);
+  --text-color: var(--light-text-color);
+  --text-color-o20: var(--light-text-color-o20);
+  --bg-color: var(--light-bg-color);
+  --bg-color-o20: var(--light-bg-color-o20);
+  --bg-color-dark-contrast: var(--light-bg-color-dark-contrast);
+  --bg-color-light-contrast: var(--light-bg-color-light-contrast);
+  --hover-color: var(--light-hover-color);
 }
 
 @import 'dw/variables';

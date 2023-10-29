@@ -1,8 +1,8 @@
 .awesomplete-combo-group {
-  background-color: var(--white);
+  background-color: $white;
 
   border-radius: 0.25em;
-  box-shadow: 0 0 0.5em 0 var(--sea-o20);
+  box-shadow: 0 0 0.5em 0 #{rgba($sea, 0.2)};
 
   // Collapse whitespace input and button controls.
   letter-spacing: -0.27rem;
@@ -29,7 +29,7 @@
       width: calc(100% - 1rem);
     }
 
-    background-color: var(--white);
+    background-color: $white;
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
 
@@ -44,8 +44,8 @@
     @include transition(color .2s ease-out);
     @include transition(background-color .2s ease-out);
 
-    background-color: var(--sea-o30);
-    color: var(--black);
+    background-color: #{rgba($sea, 0.3)};
+    color: $black;
 
     width: 2.75rem;
     height: 2.75rem;
@@ -55,22 +55,22 @@
     }
 
     &:active {
-      color: var(--white);
-      background-color: var(--sea);
+      color: $white;
+      background-color: #{$sea};
     }
 
     &.button-clear {
       @include transition(color .2s ease-out);
       @include transition(background-color .2s ease-out);
 
-      background-color: var(--sea-o20);
+      background-color: #{rgba($sea, 0.2)};
 
       border-top-right-radius: 0.25em;
       border-bottom-right-radius: 0.25em;
 
       &:active {
-        color: var(--white);
-        background-color: var(--sea);
+        color: $white;
+        background-color: #{$sea};
       }
     }
   }
@@ -86,7 +86,7 @@
     }
 
     ul {
-      box-shadow: 0 0.5em 0.5em 0 var(--sea-o20);
+      box-shadow: 0 0.5em 0.5em 0 #{rgba($sea, 0.2)};
 
       max-height: 320px;
       overflow-y: scroll;

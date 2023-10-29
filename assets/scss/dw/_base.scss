@@ -49,19 +49,19 @@ a {
 
 .button-primary,
 .button-secondary, {
-    background-color: var(--green);
+    background-color: $green;
     color: white;
 
     border-radius: 0.25rem;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 
     &:hover {
-        color: var(--white);
+        color: $white;
     }
 }
 
 .button-secondary {
-    background-color: var(--teal);
+    background-color: $teal;
 }
 
 .button-block {
@@ -70,18 +70,16 @@ a {
 
 .card {
     border: 1px solid var(--text-color-o20);
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     box-shadow: 0 0 0.5em 0 var(--text-color-o20);
 
     margin: 0.5rem 0 1.5rem 0;
 
-    .card--header,
-    .card--body {
-        padding: 0.625rem;
-    }
-
     .card--header {
+        background-color: var(--bg-color-dark-contrast);
         border-bottom: 1px solid var(--text-color-o20);
+        border-radius: 0.5rem 0.5rem 0 0;
+        padding: 0.625rem;
 
         .card--header--icon {
             line-height: 1.25rem;
@@ -89,5 +87,11 @@ a {
 
             text-align: center;
         }
+    }
+
+    .card--body {
+        background-color: var(--bg-color-light-contrast);
+        border-radius: 0 0 0.5rem 0.5rem;
+        padding: 0.625rem 1.25rem;
     }
 }

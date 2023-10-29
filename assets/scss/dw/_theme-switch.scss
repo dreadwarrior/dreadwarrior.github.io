@@ -34,11 +34,13 @@
   }
 
   &:checked ~ .page {
-    --text-color: var(--dark-text);
-    --text-color-o20: var(--dark-text-o20);
-    --bg-color: var(--dark-bg);
-    --bg-color-o20: var(--dark-bg-o20);
-    --hover-color: var(--dark-hover);
+    --text-color: var(--dark-text-color);
+    --text-color-o20: var(--dark-text-color-o20);
+    --bg-color: var(--dark-bg-color);
+    --bg-color-o20: var(--dark-bg-color-o20);
+    --bg-color-dark-contrast: var(--dark-bg-color-dark-contrast);
+    --bg-color-light-contrast: var(--dark-bg-color-light-contrast);
+    --hover-color: var(--dark-hover-color);
 
     label[for="theme-switch"] {
       .fa-moon {
