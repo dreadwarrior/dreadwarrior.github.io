@@ -35,14 +35,10 @@
 
   &:checked ~ .page {
     --text-color: var(--dark-text);
+    --text-color-o20: var(--dark-text-o20);
     --bg-color: var(--dark-bg);
+    --bg-color-o20: var(--dark-bg-o20);
     --hover-color: var(--dark-hover);
-
-    --select-arrow-bg: var(--dark-select-arrow-bg);
-    --select-arrow-icon: var(--dark-select-arrow-icon);
-    --select-option-bg: var(--dark-select-option-bg);
-    --select-bg: var(--dark-select-bg);
-    --select-shadow: var(--dark-select-shadow);
 
     label[for="theme-switch"] {
       .fa-moon {

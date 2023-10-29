@@ -7,6 +7,7 @@
 
   // Colors from: https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
   --baby-powder: #fffcf7;
+  --baby-powder-o20: rgba(255, 252, 247, 0.2);
   --powder-blue: #a1b5d8;
 
   // Other colors
@@ -16,17 +17,23 @@
 
   // Light mode
   --light-text: var(--sea);
+  --light-text-o20: var(--sea-o20);
   --light-bg: var(--baby-powder);
+  --light-bg-o20: var(--baby-powder-o20);
   --light-hover: var(--powder-blue);
 
   // Dark mode
   --dark-text: var(--baby-powder);
+  --dark-text-o20: var(--baby-powder-o20);
   --dark-bg: var(--sea);
+  --dark-bg-o20: var(--sea-o20);
   --dark-hover: var(--powder-blue);
 
   // Default mode
   --text-color: var(--light-text);
+  --text-color-o20: var(--light-text-o20);
   --bg-color: var(--light-bg);
+  --bg-color-o20: var(--light-bg-o20);
   --hover-color: var(--light-hover);
 }
 

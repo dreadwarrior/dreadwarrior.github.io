@@ -1,0 +1,10 @@
+<div class="card fs-80">
+    <div class="card--header">
+        {{ if .Get "icon" }}
+        <i class="card--header--icon {{ .Get " icon-set" | default "fas" }} {{ .Get "icon-origin" | default "fa" }}-{{ .Get "icon" }}"></i> {{ .Get "header" }}
+        {{ end }}
+    </div>
+    <div class="card--body">
+        {{ .Inner | markdownify }}
+    </div>
+</div>
