@@ -6,14 +6,15 @@ Dies ist eine Liste von Büchern, die ich gerne irgendwann lesen möchte.
 Um ein Buch zu kaufen, gibt es folgende Möglichkeiten:
 
 {{< card icon="leaf" header="Umweltschonend" >}}
-Die Schaltfläche mit dem Blatt-Symbol führt zu einer Suche auf medimops.de,
-um das Buch in gebrauchtem Zustand zu suchen.
+Das **gebrauchte Buch** kann mittels Schaltfläche mit dem Blatt-Symbol bei
+medimops.de gesucht werden.
 {{< /card >}}
 
 {{< card icon="map-marker-alt" header="Lokalen Buchhandel unterstützen" >}}
-Um das Buch beim lokalen Buchhändler zu erstehen, hilft die ISBN.
+Die **ISBN** kann beim lokalen Buchhändler genutzt werden.
 {{< /card >}}
 
-{{< card icon="globe" header="Online einkaufen" >}}
-Die Schaltfläche mit dem Globus-Symbol führt zu einer Suche auf thalia.de.
+{{< card icon="globe" header="Online kaufen" >}}
+Das **neue Buch** kann mittels Schaltfläche mit dem Globus-Symbol bei thalia.de
+gesucht werden.
 {{< /card >}}
