@@ -65,6 +65,14 @@ main {
         max-height: 300px;
     }
 
+    .term-list-u {
+        order: -1;
+
+        @media screen and (min-width: 64em) {
+            order: 1;
+        }
+    }
+
     .cover-g {
         row-gap: 1rem;
     }

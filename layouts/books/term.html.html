@@ -11,7 +11,7 @@
                 {{ .Content }}
             </div>
         </div>
-        <div class="pure-u-1 pure-u-lg-1-2">
+        <div class="term-list-u pure-u-1 pure-u-lg-1-2">
             {{- $topics := slice -}}
             {{ range .Data.Pages }}
             {{ $topics = $topics | append .Params.topics }}
@@ -50,6 +50,8 @@
                 </a>
                 {{ end }}
             </div>
+
+            <hr>
         </div>
     </div>
 </main>
