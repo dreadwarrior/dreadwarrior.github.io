@@ -79,7 +79,13 @@ a {
     border-radius: 0.5rem;
     box-shadow: 0 0 0.5em 0 var(--text-color-o20);
 
-    margin: 0.5rem 0 1.5rem 0;
+    margin: 0.625rem 0 1.5rem 0;
+
+    &.related-card {
+        margin: 1.25rem 0 0 0;
+    }
+
+    font-family: $font-family-content;
 
     .card--header {
         background-color: var(--bg-color-dark-contrast);

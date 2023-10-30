@@ -150,6 +150,21 @@ main {
             width: calc(64rem / 3 - 2.5rem);
         }
     }
+
+    .related-g {
+        line-height: 1.6;
+        img {
+            max-width: 4rem;
+            height: auto;
+
+            @media screen and (min-width: 48em) {
+                max-width: 5rem;
+            }
+            @media screen and (min-width: 64em) {
+                max-width: 4rem;
+            }
+        }
+    }
 }
 
 footer {

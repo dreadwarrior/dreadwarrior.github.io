@@ -1,0 +1,8 @@
+[[indices]]
+    name = "topics"
+    applyFilter = false
+    cardinalityThreshold = 0
+    pattern = ''
+    toLower = true
+    type = "basic"
+    weight = 100
