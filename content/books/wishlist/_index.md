@@ -1,10 +1,6 @@
 ---
-title: "Bücher: Wunschliste"
+title: "Bücher-Wunschliste"
 ---
-Dies ist eine Liste von Büchern, die ich gerne irgendwann lesen möchte.
-
-Um ein Buch zu kaufen, gibt es folgende Möglichkeiten:
-
 {{< card icon="leaf" header="Umweltschonend" >}}
 Das **gebrauchte Buch** kann mittels Schaltfläche mit dem Blatt-Symbol bei
 medimops.de gesucht werden.
