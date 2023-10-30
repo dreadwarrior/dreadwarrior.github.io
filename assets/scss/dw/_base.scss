@@ -79,7 +79,11 @@ a {
         background-color: var(--bg-color-dark-contrast);
         border-bottom: 1px solid var(--text-color-o20);
         border-radius: 0.5rem 0.5rem 0 0;
-        padding: 0.625rem;
+        padding: 0.5rem;
+
+        display: flex;
+        column-gap: 0.5rem;
+        align-items: baseline;
 
         .card--header--icon {
             line-height: 1.25rem;
@@ -92,6 +96,6 @@ a {
     .card--body {
         background-color: var(--bg-color-light-contrast);
         border-radius: 0 0 0.5rem 0.5rem;
-        padding: 0.625rem 1.25rem;
+        padding: 0.5rem 1rem;
     }
 }

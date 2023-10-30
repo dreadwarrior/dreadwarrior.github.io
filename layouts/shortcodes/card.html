@@ -1,7 +1,8 @@
 <div class="card">
     <div class="card--header">
         {{ if .Get "icon" }}
-        <i class="card--header--icon {{ .Get " icon-set" | default "fas" }} {{ .Get "icon-origin" | default "fa" }}-{{ .Get "icon" }}"></i> {{ .Get "header" }}
+        <i class="card--header--icon {{ .Get " icon-set" | default "fas" }} {{ .Get "icon-origin" | default "fa" }}-{{ .Get "icon" }}"></i>
+        <span>{{ .Get "header" }}</span>
         {{ end }}
     </div>
     <div class="card--body">
