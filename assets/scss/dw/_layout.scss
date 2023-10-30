@@ -161,5 +161,10 @@ footer {
     font-family: $font-family-content;
     font-size: 0.75rem;
     line-height: 1.2;
-    margin-top: 1rem;
+
+    margin: 1em auto 0 auto;
+    max-width: 64rem;
+    padding: 0.5rem;
+
+    text-align: right;
 }
