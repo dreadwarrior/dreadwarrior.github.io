@@ -13,7 +13,7 @@ publishedAt: "{{ .records.record.recordData.dc.date }}"
 topics:
   - "Add topics here. Repeat as much as you like."
 source: "https://url/to/source/of/excerpt/"
-books:
+bookshelves:
   - "wishlist"
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Bücher-Wunschliste"
+aliases:
+  - "/books/wishlist"
 ---
 {{< card icon="leaf" header="Umweltschonend" >}}
 Das **gebrauchte Buch** kann mittels Schaltfläche mit dem Blatt-Symbol bei

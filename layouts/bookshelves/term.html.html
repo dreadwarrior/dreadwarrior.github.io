@@ -15,7 +15,7 @@
         </div>
         <div class="term-list-u pure-u-1 pure-u-lg-16-24">
             {{- $topics := slice -}}
-            {{ range .Data.Pages }}
+            {{ range .Pages }}
             {{ $topics = $topics | append .Params.topics }}
             {{ end }}
 
@@ -37,7 +37,7 @@
             <hr class="ruler-decorated">
 
             <div class="pure-g cover-g">
-                {{ range sort .Data.Pages "Title" }}
+                {{ range sort .Pages "Title" }}
                 <a
                         class="cover-u pure-u-1-2 pure-u-md-1-4"
                         aria-labelledby="cover-label-{{ .Params.idn }}"
