@@ -19,10 +19,8 @@ window.addEventListener('load', function () {
     Awesomplete.$(trigger).addEventListener('click', function() {
         if (comboplete.ul.childNodes.length === 0) {
             comboplete.evaluate();
-            input.focus();
         } else if (comboplete.ul.hasAttribute('hidden')) {
             comboplete.open();
-            input.focus();
         } else {
             comboplete.close();
         }
