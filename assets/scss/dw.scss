@@ -15,31 +15,28 @@ $black: rgb(0, 0, 0);
 
 :root {
   // Light mode
-  --light-text-color: #{$sea};
-  --light-text-color-o20: #{rgba($sea, 0.2)};
-  --light-bg-color: #{$baby-powder};
-  --light-bg-color-o20: #{rgba($baby-powder, 0.2)};
-  --light-bg-color-dark-contrast: #{darken($baby-powder, 10%)};
-  --light-bg-color-light-contrast: #{lighten($baby-powder, 10%)};
-  --light-hover-color: #{$powder-blue};
+  --light-primary-color: #{$baby-powder};
+  --light-secondary-color: #{$sea};
+  --light-accent-color: #{$powder-blue};
+
+  --light-primary-color-o20: #{rgba($baby-powder, 0.2)};
+  --light-secondary-color-o20: #{rgba($sea, 0.2)};
 
   // Dark mode
-  --dark-text-color: #{$baby-powder};
-  --dark-text-color-o20: #{rgba($baby-powder, 0.2)};
-  --dark-bg-color: #{$sea};
-  --dark-bg-color-o20: #{rgba($sea, 0.2)};
-  --dark-bg-color-dark-contrast: #{darken($sea, 10%)};
-  --dark-bg-color-light-contrast: #{lighten($sea, 10%)};
-  --dark-hover-color: #{$powder-blue};
+  --dark-primary-color: #{$sea};
+  --dark-secondary-color: #{$baby-powder};
+  --dark-accent-color: #{$powder-blue};
+
+  --dark-primary-color-o20: #{rgba($sea, 0.2)};
+  --dark-secondary-color-o20: #{rgba($baby-powder, 0.2)};
 
   // Default mode
-  --text-color: var(--light-text-color);
-  --text-color-o20: var(--light-text-color-o20);
-  --bg-color: var(--light-bg-color);
-  --bg-color-o20: var(--light-bg-color-o20);
-  --bg-color-dark-contrast: var(--light-bg-color-dark-contrast);
-  --bg-color-light-contrast: var(--light-bg-color-light-contrast);
-  --hover-color: var(--light-hover-color);
+  --primary-color: var(--light-primary-color);
+  --secondary-color: var(--light-secondary-color);
+  --accent-color: var(--light-accent-color);
+
+  --primary-color-o20: var(--light-primary-color-o20);
+  --secondary-color-o20: var(--light-secondary-color-o20);
 }
 
 @import 'dw/variables';

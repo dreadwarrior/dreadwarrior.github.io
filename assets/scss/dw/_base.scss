@@ -5,8 +5,8 @@ html {
 hr {
     border: none;
     height: 1px;
-    color: var(--text-color);
-    background-color: var(--text-color);
+    color: var(--secondary-color-o20);
+    background-color: var(--secondary-color-o20);
 
     // Credits: https://css-tricks.com/simple-styles-for-horizontal-rules/
     &.ruler-decorated {
@@ -20,23 +20,23 @@ hr {
             top: -0.6rem;
             font-size: 0.85rem;
             padding: 0 0.25rem;
-            background: var(--bg-color);
+            background: var(--primary-color);
         }
     }
 }
 
 a {
     @include transition(color .2s ease-out);
-    color: var(--text-color);
+    color: var(--secondary-color);
 
     &:hover {
-        color: var(--hover-color);
+        color: var(--accent-color);
     }
 }
 
 .page {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 
     min-height: calc(100vh - 4rem);
 
@@ -75,11 +75,11 @@ a {
 }
 
 .card {
-    border: 1px solid var(--text-color-o20);
-    border-radius: 0.5rem;
-    box-shadow: 0 0 0.5em 0 var(--text-color-o20);
-
     margin: 0.625rem 0 1.5rem 0;
+    padding: .5rem 1rem 0 1rem;
+
+    border: 1px solid var(--secondary-color-o20);
+    border-radius: .25rem;
 
     &.related-card {
         margin: 1.25rem 0 0 0;
@@ -88,14 +88,12 @@ a {
     font-family: $font-family-content;
 
     .card--header {
-        background-color: var(--bg-color-dark-contrast);
-        border-bottom: 1px solid var(--text-color-o20);
-        border-radius: 0.5rem 0.5rem 0 0;
-        padding: 0.5rem;
-
         display: flex;
         column-gap: 0.5rem;
         align-items: baseline;
+
+        border-bottom: 1px solid var(--secondary-color-o20);
+        padding: .5rem 0;
 
         .card--header--icon {
             line-height: 1.25rem;
@@ -106,8 +104,6 @@ a {
     }
 
     .card--body {
-        background-color: var(--bg-color-light-contrast);
-        border-radius: 0 0 0.5rem 0.5rem;
-        padding: 0.5rem 1rem;
+        padding: 1rem 0;
     }
 }

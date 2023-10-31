@@ -13,50 +13,21 @@
       top: 1rem;
 
       &:hover {
-        color: var(--hover-color);
-      }
-
-      .fa-moon {
-        position: unset !important;
-        height: unset;
-        width: unset;
-        overflow: unset;
-        clip: unset;
-      }
-      .fa-sun {
-        position: absolute !important;
-        height: 1px;
-        width: 1px;
-        overflow: hidden;
-        clip: rect(1px, 1px, 1px, 1px);
+        color: var(--accent-color);
       }
     }
   }
 
   &:checked ~ .page {
-    --text-color: var(--dark-text-color);
-    --text-color-o20: var(--dark-text-color-o20);
-    --bg-color: var(--dark-bg-color);
-    --bg-color-o20: var(--dark-bg-color-o20);
-    --bg-color-dark-contrast: var(--dark-bg-color-dark-contrast);
-    --bg-color-light-contrast: var(--dark-bg-color-light-contrast);
-    --hover-color: var(--dark-hover-color);
+    --primary-color: var(--dark-primary-color);
+    --secondary-color: var(--dark-secondary-color);
+    --accent-color: var(--dark-accent-color);
 
-    label[for="theme-switch"] {
-      .fa-moon {
-        position: absolute !important;
-        height: 1px;
-        width: 1px;
-        overflow: hidden;
-        clip: rect(1px, 1px, 1px, 1px);
-      }
-      .fa-sun {
-        position: unset !important;
-        height: unset;
-        width: unset;
-        overflow: unset;
-        clip: unset;
-      }
+    --primary-color-o20: var(--dark-primary-color-o20);
+    --secondary-color-o20: var(--dark-secondary-color-o20);
+
+    img {
+      filter: brightness(.8) contrast(1.2);
     }
   }
 }
