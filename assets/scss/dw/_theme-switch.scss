@@ -30,4 +30,31 @@
       filter: brightness(.8) contrast(1.2);
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    & ~ .page {
+      --primary-color: var(--dark-primary-color);
+      --secondary-color: var(--dark-secondary-color);
+      --accent-color: var(--dark-accent-color);
+
+      --primary-color-o20: var(--dark-primary-color-o20);
+      --secondary-color-o20: var(--dark-secondary-color-o20);
+
+      img {
+        filter: brightness(.8) contrast(1.2);
+      }
+    }
+    &:checked ~ .page {
+      --primary-color: var(--light-primary-color);
+      --secondary-color: var(--light-secondary-color);
+      --accent-color: var(--light-accent-color);
+
+      --primary-color-o20: var(--light-primary-color-o20);
+      --secondary-color-o20: var(--light-secondary-color-o20);
+
+      img {
+        filter: unset;
+      }
+    }
+  }
 }
