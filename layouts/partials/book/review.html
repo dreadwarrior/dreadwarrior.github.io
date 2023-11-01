@@ -1,0 +1,20 @@
+{{ with .Resources.GetMatch "review.md" }}
+    <hr class="ruler-decorated">
+    <div class="content">
+        <section class="review pure-g">
+            <div class="review--meta pure-u-1 pure-u-md-1-4">
+                {{ $rating := .Params.rating }}
+                {{ range (seq 5) }}<i class="review--meta--rating {{ if le . $rating }}fas{{ else }}far{{ end }} fa-star"></i>{{ end}}<br>
+                {{ $.Params.Date | time.Format "2. Jan 2006" }}
+            </div>
+            <div class="review--title pure-u-1 pure-u-md-3-4">
+                <h3>„{{ .Params.Title }}“</h3>
+            </div>
+            {{ with .Content }}
+            <div class="review--comment pure-u-1">
+                {{ . }}
+            </div>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

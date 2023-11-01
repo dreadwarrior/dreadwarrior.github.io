@@ -166,6 +166,31 @@ main {
     }
 }
 
+.review {
+    padding: .5rem;
+    border-left: .25rem solid var(--secondary-color-o20);
+    margin-left: .5rem;
+
+    .review--meta {
+        text-align: right;
+        padding: 1rem 0;
+
+        .review--meta--rating {
+            color: $yellow;
+        }
+    }
+
+    .review--title {
+        @include mq-sm() {
+            order: -1;
+        }
+    }
+
+    .review--comment {
+        font-style: italic;
+    }
+}
+
 footer {
     font-family: $font-family-content;
     font-size: 0.75rem;

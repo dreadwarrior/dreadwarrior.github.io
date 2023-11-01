@@ -1,3 +1,6 @@
+$font-family: Montserrat, 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$font-family-content: 'Merriweather', Cambria, Georgia, Times, 'Times New Roman', serif;
+
 // Colors from: https://coolors.co/738290-a1b5d8-fffcf7-e4f0d0-c2d8b9
 $baby-powder: rgb(255, 252, 247);
 $powder-blue: rgb(161, 181, 216);
@@ -8,6 +11,7 @@ $sea: rgb(28, 37, 65);
 // Colors from Semantic UI: https://semantic-ui.com/usage/theming.html#sitewide-defaults
 $green: rgb(33, 186, 69);
 $teal: rgb(0, 181, 173);
+$yellow: rgb(255, 215, 0);
 
 // Common colors
 $white: rgb(255, 255, 255);
@@ -39,7 +43,7 @@ $black: rgb(0, 0, 0);
   --secondary-color-o20: var(--light-secondary-color-o20);
 }
 
-@import 'dw/variables';
+@import 'dw/mixins';
 @import 'dw/theme-switch';
 @import 'dw/base';
 @import 'dw/layout';

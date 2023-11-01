@@ -1,0 +1,43 @@
+@mixin transition($args...) {
+    -webkit-transition: $args;
+       -moz-transition: $args;
+         -o-transition: $args;
+            transition: $args;
+}
+
+// Pure.css grid media query mixins. See https://purecss.io/grids/.
+@mixin mq-sm() { // ≥ 568px
+  @media screen and (min-width: 35.5em) {
+    @content;
+  }
+}
+@mixin mq-md() { // ≥ 768px
+  @media screen and (min-width: 48em) {
+    @content;
+  }
+}
+@mixin mq-lg() { // ≥ 1024px
+  @media screen and (min-width: 64em) {
+    @content;
+  }
+}
+@mixin mq-xl() { // ≥ 1280px
+  @media screen and (min-width: 80em) {
+    @content;
+  }
+}
+@mixin mq-xxl() { // ≥ 1920px
+  @media screen and (min-width: 120em) {
+    @content;
+  }
+}
+@mixin mq-xxxl() { // ≥ 2560px
+  @media screen and (min-width: 160em) {
+    @content;
+  }
+}
+@mixin mq-x4k() { // ≥ 3840px
+  @media screen and (min-width: 240em) {
+    @content;
+  }
+}
