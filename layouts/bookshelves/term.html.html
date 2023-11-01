@@ -37,7 +37,13 @@
             <hr class="ruler-decorated">
 
             <div class="pure-g cover-g">
-                {{ range sort .Pages "Title" }}
+                {{ $pages := slice }}
+                {{ if eq .Data.Term "completed" }}
+                {{ $pages = .Pages.ByDate.Reverse }}
+                {{ else }}
+                {{ $pages = .Pages.ByTitle }}
+                {{ end }}
+                {{ range $pages }}
                 <a
                         class="cover-u pure-u-1-2 pure-u-md-1-4"
                         aria-labelledby="cover-label-{{ .Params.idn }}"
