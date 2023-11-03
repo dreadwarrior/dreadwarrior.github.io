@@ -1,9 +1,7 @@
 ---
 title: "Bücher"
 ---
-> Aus einer großen Gesellschaft heraus  
-> Ging einst ein stiller Gelehrter zu Haus.  
-> Man fragte: „Wie seid Ihr zufrieden gewesen?“  
-> „Wären's Bücher“, sagt er, „ich würd' sie nicht lesen.“  
+> Bücher lesen heißt wandern gehen in ferne Welten, aus den Stuben, über die 
+> Sterne.
 > 
-> -- **Johann Wolfgang von Goethe (1749 - 1832)**
+> -- **Jean Paul (1763 - 1825)**
