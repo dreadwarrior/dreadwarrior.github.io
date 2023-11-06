@@ -1,0 +1,12 @@
+{{ $regex := `(?m:^(?P<title>(\[(?P<preferredTitle>.+)\]\s(;\s)?)?(?P<mainTitle>.+?)(\s(\:|=)\s(?P<titleAddition>.+))?)(\s/\s(?P<responsibilityDetails>.+)))` }}
+
+{{ $matches := findRESubmatch $regex . }}
+{{ $match := index $matches 0 }}
+
+{{/* Use index-based access, as findRESubmatch does not support accessing capture groups by name. */}}
+{{ return dict
+    "preferredTitle" (index $match 3)
+    "mainTitle" (index $match 5)
+    "titleAddition" (index $match 8)
+    "responsibilityDetails" (index $match 10)
+}}
