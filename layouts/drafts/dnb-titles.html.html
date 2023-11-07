@@ -3,27 +3,36 @@
         <div class="content">
             <h1>{{ .Title }}</h1>
             {{ .Content }}
-
-            <h2>Ergebnisse</h2>
-            {{ range .Params.titleSamples }}
-                <h3>{{ .title }}</h3>
-
-                <dl>
-                {{ with partial "dnb/oai_dc/title-parser-re.html" .title }}
-                    <dt>Bevorzugter Titel</dt>
-                    <dd>{{ with .preferredTitle }}{{ . }}{{ else }}keine Angabe{{ end }}</dd>
-                    <dt>Haupttitel</dt>
-                    <dd>{{ with .mainTitle }}{{ . }}{{ else }}keine Angabe{{ end }}</dd>
-                    <dt>Titelzusatz</dt>
-                    <dd>{{ with .titleAddition }}{{ . }}{{ else }}keine Angabe{{ end }}</dd>
-                    <dt>Verantwortlichkeitsangabe(n)</dt>
-                    <dd>{{ with .responsibilityDetails }}{{ . }}{{ else }}keine Angabe{{ end }}</dd>
-                {{ end }}
-                </dl>
-
-                <p>Quelle: <em>{{ .source }}</em></p>
-            {{ end }}
-            </ul>
         </div>
+
+        <hr class="ruler-decorated">
+
+        {{ range $num, $input := .Params.titleSamples }}
+        <section class="content">
+            {{ if gt $num 0 }}<hr>{{ end }}
+
+            <h2>Ergebnis #{{ add $num 1 }}</h2>
+
+            <dl>
+                <dt><strong>Eingabewert</strong></dt>
+                <dd>{{ $input.title }}</dd>
+            {{ with partial "dnb/oai_dc/title-parser-re.html" $input.title }}
+                <dt><strong>Bevorzugter Titel</strong></dt>
+                <dd>{{ with .preferredTitle }}{{ . }}{{ else }}<em>keine Angabe</em>{{ end }}</dd>
+
+                <dt><strong>Haupttitel</strong></dt>
+                <dd>{{ with .mainTitle }}{{ . }}{{ else }}<em>keine Angabe</em>{{ end }}</dd>
+
+                <dt><strong>Titelzusatz</strong></dt>
+                <dd>{{ with .titleAddition }}{{ . | strings.FirstUpper }}{{ else }}<em>keine Angabe</em>{{ end }}</dd>
+
+                <dt><strong>Verantwortlichkeitsangabe(n)</strong></dt>
+                <dd>{{ with .responsibilityDetails }}{{ . }}{{ else }}<em>keine Angabe</em>{{ end }}</dd>
+            {{ end }}
+            </dl>
+
+            <p>Quelle: <em>{{ $input.source }}</em></p>
+        {{ end }}
+        </section>
     </main>
 {{ end }}
