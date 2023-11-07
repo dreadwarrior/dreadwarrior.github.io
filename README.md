@@ -12,13 +12,24 @@ Personal, minimal landing page.
 
 ## Howto
 
-### Add a new book to the wishlist
+### Add a book to the wishlist
 
 1. Search for the book title at dnb.de or a similar book catalogue.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
 3. Generate a book page for that ISBN:
 
-       hugo new content books/<isbn>.md
+       make add_book isbn=<isbn>
+
+4. Open the newly generated file and adjust the front matter variable `topics`.
+5. If you like, add an excerpt to the file's content area.
+
+### Add a completed book
+
+1. Search for the book title at dnb.de or a similar book catalogue.
+2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
+3. Generate a book page for that ISBN:
+
+       make add_review isbn=<isbn>
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
