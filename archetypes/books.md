@@ -2,9 +2,12 @@
 {{- $dnbUrl := printf "https://services.dnb.de/sru/dnb?version=1.1&operation=searchRetrieve&query=num%%3D%s&recordSchema=oai_dc&maximumRecords=1" $isbn -}}
 ---
 date: "{{ .Date }}"
-{{- with resources.GetRemote $dnbUrl | transform.Unmarshal }}
-title: "{{ partial "dnb/oai_dc/title.html" .records.record.recordData.dc.title }}"
-slug: "{{ partial "dnb/oai_dc/title.html" .records.record.recordData.dc.title | anchorize }}"
+{{- with resources.GetRemote $dnbUrl | transform.Unmarshal -}}
+{{- with partial "dnb/oai_dc/title-parser-re.html" .records.record.recordData.dc.title }}
+title: "{{ with .preferredTitle }}{{ . }} - {{ end }}{{ .mainTitle }}"
+{{ with .titleAddition }}subtitle: "{{ . | strings.FirstUpper }}"{{ end }}
+slug: "{{ .mainTitle | anchorize }}"
+{{- end }}
 isbn: "{{ $isbn }}"
 coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn={{ $isbn }}"
 cataloguePermalink: "https://d-nb.info/{{ partial "dnb/oai_dc/idn.html" .records.record.recordData.dc.identifier }}"
