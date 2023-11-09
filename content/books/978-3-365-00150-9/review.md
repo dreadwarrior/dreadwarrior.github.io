@@ -9,9 +9,9 @@ Am Anfang des Buches ist mir der Wechsel zwischen den zwei Zeitsträngen
 schwergefallen. Aber nach ein paar Kapiteln hat mich der Roman vollständig 
 abgeholt.
 
-Nach „Finnisches Feuer“ war das mein zweiter Roman, den ich gern als 
-feministisch bezeichnen möchte. Ich habe sehr genossen, dass hier Frauen und 
-ihre Schicksale im Vordergrund stehen.
+Nach [„Finnisches Feuer“]({{< ref "978-3-608-50144-5" >}}) war das mein zweiter 
+Roman, den ich gern als feministisch bezeichnen möchte. Ich habe sehr genossen, 
+dass hier Frauen und ihre Schicksale im Vordergrund stehen.
 
 Gut gefallen hat mir die Balance aus (hoffentlich) gut recherchierten Umständen, 
 von denen Frauen im 18. Jahrhundert betroffen waren und Herausforderungen, denen
