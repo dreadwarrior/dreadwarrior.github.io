@@ -11,7 +11,7 @@ publishedAt: "2017"
 topics:
   - "Kurzgeschichten"
   - "Übersinnliches"
-source: "https://url/to/source/of/excerpt/"
+source: "https://voebb.onleihe.de/berlin/frontend/mediaInfo,0-0-547079946-200-0-0-0-0-400001-0-0.html"
 bookshelves:
   - "completed"
 ---
