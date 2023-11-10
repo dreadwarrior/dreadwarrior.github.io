@@ -5,7 +5,7 @@
             <div class="review--meta pure-u-1 pure-u-md-1-4">
                 {{ $rating := .Params.rating }}
                 {{ range (seq 5) }}<i class="review--meta--rating {{ if le . $rating }}fas fa-star{{ else if lt (sub . $rating) 1 }}fas fa-star-half-alt{{ else }}far fa-star{{ end }}"></i>{{ end }}<br>
-                {{ $.Params.Date | time.Format "2. Jan 2006" }}
+                {{ .Params.Date | time.Format "2. Jan 2006" }}
             </div>
             <div class="review--title pure-u-1 pure-u-md-3-4">
                 <h3>„{{ .Params.Title }}“</h3>
