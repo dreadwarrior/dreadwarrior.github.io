@@ -139,6 +139,27 @@ main {
         }
     }
 
+    .book-metadata-g {
+        border-top: 1px solid var(--secondary-color-o20);
+        padding-top: 1rem;
+
+        p {
+            margin-block-start: 0;
+            margin-block-end: .5rem;
+
+            @include mq-md() {
+                padding: .25rem;
+            }
+        }
+        small {
+            display: inline-block;
+
+            @include mq-md() {
+                width: 100%;
+            }
+        }
+    }
+
     .excerpt-source {
         word-wrap: break-word;
     }
@@ -173,12 +194,18 @@ main {
 
 .review {
     padding: .5rem;
-    border-left: .25rem solid var(--secondary-color-o20);
-    margin-left: .5rem;
+
+    @include mq-md() {
+        border-left: .25rem solid var(--secondary-color-o20);
+        margin-left: .5rem;
+    }
 
     .review--meta {
         text-align: right;
-        padding: 1rem 0;
+
+        @include mq-md() {
+            padding: 1rem 0;
+        }
 
         .review--meta--rating {
             color: $yellow;
