@@ -59,10 +59,12 @@
                                 </a>
                             </div>
                             <div class="pure-u-3-4 pure-u-md-3-8 pure-u-lg-4-24">
-                                <a href="{{ .RelPermalink }}">
-                                    {{ .Title }}
-                                </a>
-                                <br>von <em>{{ .Params.author }}</em>
+                                <div class="p-box">
+                                    <a href="{{ .RelPermalink }}">
+                                        {{ .Title }}
+                                    </a>
+                                    <br>von <em>{{ .Params.author }}</em>
+                                </div>
                             </div>
                             {{ end }}
                         </div>

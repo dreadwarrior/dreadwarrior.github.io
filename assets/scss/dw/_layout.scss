@@ -157,16 +157,16 @@ main {
 
     .related-g {
         line-height: 1.6;
-        img {
-            max-width: 4rem;
-            height: auto;
 
-            @media screen and (min-width: 48em) {
-                max-width: 5rem;
-            }
-            @media screen and (min-width: 64em) {
-                max-width: 4rem;
-            }
+        img {
+            border-radius: .5rem;
+
+            max-width: 100%;
+            height: auto;
+        }
+
+        .p-box {
+            font-size: 0.8rem;
         }
     }
 }
