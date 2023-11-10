@@ -1,0 +1,21 @@
+{{ $siteParams := .siteParams }}
+{{ range first 5 (where .pages.ByDate.Reverse "Params.bookshelves" "intersect" (slice .bookshelf)) }}
+<a
+        class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
+        aria-labelledby="cover-label-{{ .Params.idn }}"
+        href="{{ .Permalink }}">
+    <figure class="cover-figure">
+        {{- with partial "book/cover" (dict "isbn" .Params.isbn "coverUri" .Params.coverUri "coversPath" $siteParams.books.coversPath) -}}
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+        {{- end -}}
+        <figcaption id="cover-label-{{ .Params.idn }}">{{ .Title }} - <em>{{ .Params.author }}</em></figcaption>
+    </figure>
+</a>
+{{ end }}
+{{ with .site.GetPage (path.Join "bookshelves" .bookshelf) }}
+<a class="bookshelf-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
+   href="{{ .RelPermalink }}">
+    <i class="fas fa-angle-double-right"></i><br>
+    alle anzeigen
+</a>
+{{ end }}

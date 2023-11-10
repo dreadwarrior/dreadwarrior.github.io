@@ -11,27 +11,12 @@
         <div class="content">
             <h2>Vor kurzem abgeschlossen</h2>
             <section class="cover-g pure-g">
-                {{ range first 5 (where .Pages.ByDate.Reverse "Params.bookshelves" "intersect" (slice "completed")) }}
-                <a
-                        class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
-                        aria-labelledby="cover-label-{{ .Params.idn }}"
-                        href="{{ .Permalink }}">
-                    <figure class="cover-figure">
-                        {{- with partial "book/cover" (dict "isbn" .Params.isbn "coverUri" .Params.coverUri "coversPath" $.Site.Params.books.coversPath) -}}
-                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-                        {{- end -}}
-                        <figcaption id="cover-label-{{ .Params.idn }}">{{ .Title }} - <em>{{ .Params.author }}</em></figcaption>
-                    </figure>
-                </a>
-                {{ end }}
-                {{ with site.GetPage (path.Join "bookshelves" "completed") }}
-                <div class="bookshelf-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6">
-                    <a href="{{ .RelPermalink }}">
-                        <i class="fas fa-angle-double-right"></i><br>
-                        alle anzeigen
-                    </a>
-                </div>
-                {{ end }}
+                {{ partial "books/recently-added.html" (dict
+                    "siteParams" $.Site.Params
+                    "site" site
+                    "pages" .Pages
+                    "bookshelf" "completed"
+                ) }}
             </section>
         </div>
 
@@ -40,27 +25,12 @@
         <div class="content">
             <h2>Vor kurzem zur Wunschliste hinzugefügt</h2>
             <section class="cover-g pure-g">
-                {{ range first 5 (where .Pages.ByDate.Reverse "Params.bookshelves" "intersect" (slice "wishlist")) }}
-                <a
-                        class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
-                        aria-labelledby="cover-label-{{ .Params.idn }}"
-                        href="{{ .Permalink }}">
-                    <figure class="cover-figure">
-                        {{- with partial "book/cover" (dict "isbn" .Params.isbn "coverUri" .Params.coverUri "coversPath" $.Site.Params.books.coversPath) -}}
-                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-                        {{- end -}}
-                        <figcaption id="cover-label-{{ .Params.idn }}">{{ .Title }} - <em>{{ .Params.author }}</em></figcaption>
-                    </figure>
-                </a>
-                {{ end }}
-                {{ with site.GetPage (path.Join "bookshelves" "wishlist") }}
-                <a
-                        class="bookshelf-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
-                        href="{{ .RelPermalink }}">
-                    <i class="fas fa-angle-double-right"></i><br>
-                    alle anzeigen
-                </a>
-                {{ end }}
+                {{ partial "books/recently-added.html" (dict
+                    "siteParams" $.Site.Params
+                    "site" site
+                    "pages" .Pages
+                    "bookshelf" "wishlist"
+                ) }}
             </section>
 
         </div>
