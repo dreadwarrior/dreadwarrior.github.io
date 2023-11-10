@@ -40,33 +40,13 @@
                 </div>
             </div>
             <div class="pure-u-1">
-                {{ $relatedBooks := .Site.RegularPages.Related (dict "document" . "indices" (slice "topics")) | first 4 }}
-                {{ with $relatedBooks }}
-                <div class="related-card card">
-                    <div class="card--header"><i class="card--header--icon fas fa-link"></i> Ähnliche Bücher</div>
-                    <div class="card--body">
-                        <div class="related-g pure-g">
-                            {{ range . }}
-                            <div class="pure-u-1-4 pure-u-md-1-8 pure-u-lg-2-24">
-                                <a href="{{ .RelPermalink }}">
-                                    {{- with partial "book/cover" (dict "isbn" .Params.isbn "coverUri" .Params.coverUri "coversPath" $.Site.Params.books.coversPath) -}}
-                                    <img class="cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-                                    {{- end -}}
-                                </a>
-                            </div>
-                            <div class="pure-u-3-4 pure-u-md-3-8 pure-u-lg-4-24">
-                                <div class="p-box">
-                                    <a href="{{ .RelPermalink }}">
-                                        {{ .Title }}
-                                    </a>
-                                    <br>von <em>{{ .Params.author }}</em>
-                                </div>
-                            </div>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
+                {{ partial "book/related.html" (dict
+                    "site" .Site
+                    "siteParams" $.Site.Params
+                    "document" .
+                    "indices" (slice "topics")
+                    "amount" 4
+                ) }}
             </div>
         </div>
     </main>
