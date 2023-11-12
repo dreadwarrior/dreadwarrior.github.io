@@ -125,64 +125,69 @@ main {
     }
 
     .single-cover-u {
-        position: relative;
+        // Adapted from source: https://dev.to/this-is-learning/fully-responsive-css-folded-ribbon-11h5
+        figure {
+            width: 222px;
+            height: 360px;
+            margin: 0 auto;
 
-        @media screen and (min-width: 64em) {
-            text-align: end;
-        }
+            position: relative;
 
-        // Adapted from source: https://codepen.io/nxworld/pen/oLdoWb
-        .ribbon {
-            width: 10rem;
-            height: 10rem;
-            overflow: hidden;
-            position: absolute;
+            --d: .25rem; // folded part
+            --c: #{rgba($blue, .75)}; // color
+            --f: .85rem; // ribbon font-size
 
-            top: -1rem;
-            left: -1rem;
+            &.ribbon::before {
+                content: attr(data-ribbon) !important;
 
-            &:before, &:after {
                 position: absolute;
-                content: '';
-                display: block;
-                border: .25rem solid $blue;
-                border-top-color: transparent;
-                border-left-color: transparent;
-            }
-            &:before {
                 top: 0;
-                right: 0;
-            }
-            &:after {
-                bottom: 0;
                 left: 0;
-            }
+                right: auto;
 
-            span {
-                position: absolute;
-                display: block;
-
-                width: 14rem;
-                padding: .5rem 0;
-
-                background-color: rgba($blue, .75);
-
-                box-shadow: 0 .5rem .75rem rgba(0, 0, 0, .1);
-                color: #fff;
+                transform: translate(-29.29%, -100%) rotate(-45deg);
+                transform-origin: bottom right;
 
                 font-family: $font-family-content;
-                text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+                font-size: var(--f);
+
                 text-align: center;
 
-                right: -1.25rem;
-                top: 3.25rem;
-                transform: rotate(-45deg);
+                color: $white;
+
+                border: 1px solid transparent;
+                border-bottom: 0;
+
+                padding: .5rem 2rem calc(var(--d) + .5rem);
+
+                background: linear-gradient(rgba(0, 0, 0, 0.5) 0 0) bottom/100% var(--d) no-repeat var(--c);
+                background-clip: padding-box;
+                clip-path: polygon(
+                                0 0,
+                                100% 0,
+                                100% 100%,
+                                calc(100% - var(--d)) calc(100% - var(--d)),
+                                var(--d) calc(100% - var(--d)),
+                                0 100%
+                );
+                -webkit-mask: linear-gradient(
+                                135deg, transparent calc(50% - var(--d) * 0.707),
+                                #fff 0
+                ) bottom left,
+                linear-gradient(
+                                -135deg, transparent calc(50% - var(--d) * 0.707),
+                                #fff 0
+                ) bottom right;
+                -webkit-mask-size: 300vmax 300vmax;
+                -webkit-mask-composite: destination-in;
+                mask-composite: intersect;
+
+                // Added, because switching to dark mode otherwise "hides" the ribbon 🤷.
+                z-index: 1;
             }
         }
 
         img {
-            margin: 1rem 3rem 3rem 3rem;
-
             border-radius: .5rem;
 
             box-shadow: 0 0 .5rem var(--secondary-color-o20);
@@ -220,9 +225,9 @@ main {
 
             position: absolute;
 
-            left: 0;
-            top: calc(200px + 5rem);
-            width: calc(64rem / 3 - 2.5rem);
+            left: 1.5rem;
+            top: calc(360px + 1rem);
+            width: calc((64rem / 3) - 3rem);
         }
     }
 
