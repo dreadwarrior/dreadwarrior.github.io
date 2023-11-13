@@ -1,3 +1,7 @@
+[author]
+    name = "Tommy"
+    portrait = "images/portrait-tommy.jpg"
+
 [[links]]
     iconset = "fab"
     icon = "mastodon"

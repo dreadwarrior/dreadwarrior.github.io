@@ -3,12 +3,12 @@
 <main>
     <div class="pure-g introduction">
         <div class="introduction-u pure-u-1 pure-u-lg-1-2">
-            <img src="{{ default "images/portrait.jpg" .Site.Author.portrait | relURL }}" class="portrait-img" alt="Portrait" />
+            <img src="{{ default "images/portrait.jpg" .Site.Params.author.portrait | relURL }}" class="portrait-img" alt="Portrait" />
         </div>
 
         <div class="pure-u-1 pure-u-lg-1-2">
             <h1>{{- with .Param "greeting" -}}{{ . }}{{- else -}}Hallo.{{- end -}}</h1>
-            <h2>Ich bin {{ .Site.Author.name | default "Hallo" }}.</h2>
+            <h2>Ich bin {{ .Site.Params.author.name | default "Hallo" }}.</h2>
 
             <div class="content">
                 {{ .Content }}
