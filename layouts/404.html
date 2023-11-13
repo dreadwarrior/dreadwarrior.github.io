@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <main id="main">
+        <div class="content">
+            <h1>Entschuldigung</h1>
+            <p>Der angefragte Inhalte konnte nicht gefunden werden.</p>
+            <p>Hier gelangen Sie <a href="{{ "" | relURL }}">zurück zur Startseite</a>.</p>
+            <div class="pure-g">
+                <div class="pure-u-1">
+                    <figure class="not-found">
+                        <img src="{{ "images/404.webp" | relURL }}">
+                        <figcaption>
+                            <small>Made with Midjourney</small>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </main>
+{{ end }}
