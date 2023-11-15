@@ -1,8 +1,12 @@
+{{ $page := default . .page }}
+{{ $showCurrent := default "1" .showCurrent }}
 <nav aria-label="breadcrumb" class="breadcrumb">
     <ol>
-        {{ range .Ancestors.Reverse }}
+        {{ range $page.Ancestors.Reverse }}
         <li><a href="{{ .Permalink }}">{{ default "Startseite" .Title }}</a></li>
         {{ end }}
-        <li class="active"><a aria-current="page" href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ if eq $showCurrent "1" }}
+        <li class="active"><a aria-current="page" href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
+        {{ end }}
     </ol>
 </nav>
