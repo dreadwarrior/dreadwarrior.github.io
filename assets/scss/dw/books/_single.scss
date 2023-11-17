@@ -120,6 +120,7 @@
 }
 
 .book-links-u {
+  margin-top: .85rem;
   @include mq-lg() {
     order: -1;
 
@@ -130,17 +131,20 @@
     width: calc((64rem / 3) - 3rem);
   }
 
-  details {
-    border: 1px solid var(--secondary-color-o20);
-
-    summary {
-      cursor: pointer;
-      padding: .5rem;
-    }
-  }
-
-  .book-link {
+  ul {
+    list-style: none;
     padding: .5rem;
+    margin: unset;
+
+    li {
+      padding: .5rem;
+
+      border-bottom: 1px solid var(--secondary-color-o20);
+
+      &:last-child {
+        border: unset;
+      }
+    }
   }
 }
 
