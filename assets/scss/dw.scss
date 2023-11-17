@@ -46,7 +46,8 @@ $black: rgb(0, 0, 0);
 
 @import 'dw/fonts';
 @import 'dw/mixins';
-@import 'dw/theme-switch';
 @import 'dw/base';
-@import 'dw/layout';
+@import 'dw/theme-switch';
+@import "dw/homepage";
+@import "dw/books";
 @import "control-elements/awesomplete";

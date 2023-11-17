@@ -1,0 +1,50 @@
+.introduction-u {
+  text-align: center;
+
+  @media screen and (min-width: 64em) {
+    text-align: end;
+  }
+}
+
+.introduction {
+  @media screen and (min-width: 64em) {
+    margin-top: 20vh;
+    min-height: calc(100vh - 20vh);
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+}
+
+// TODO: rename to .img-portrait
+.portrait-img {
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 10px solid var(--secondary-color);
+
+  @media screen and (min-width: 64em) {
+    margin: 2rem 3rem;
+  }
+
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+// TODO: rename to .social-links
+.links {
+  font-size: 1.075rem;
+  margin-top: 2.5rem;
+
+  a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+  }
+}

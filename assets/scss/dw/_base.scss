@@ -65,7 +65,6 @@ blockquote {
     }
 }
 
-
 .page {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -75,11 +74,36 @@ blockquote {
     padding: 2rem 2rem 0 2rem;
 }
 
+main {
+    margin: 0 auto;
+    max-width: 64rem;
+    position: relative;
+}
+
+// TODO: remove and move to main - serif all the things! =)
+// TODO: revisit all occurences of font-family: $font-family-content;
+.content {
+    font-family: $font-family-content;
+    font-size: 1.075rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.6;
+
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.2;
+        margin-top: 1rem;
+    }
+}
+
+// TODO: rename to box-padded
 .p-box {
     padding: 0.5rem;
 }
 
-@media screen and (min-width: 64em) {
+// TODO: get rid of media query
+@include mq-lg() {
+    // TODO: rename, e.g. to box-padded-right
+    // TODO: *OR* introduce content-padded, should work everywhere
     .pr-box {
         padding-right: 1.5rem;
     }
@@ -113,10 +137,6 @@ blockquote {
     border: 1px solid var(--secondary-color-o20);
     border-radius: .25rem;
 
-    &.related-card {
-        margin: 1.25rem 0 0 0;
-    }
-
     font-family: $font-family-content;
 
     .card--header {
@@ -140,7 +160,7 @@ blockquote {
     }
 }
 
-figure.not-found {
+.polaroid-ish {
     border: .5rem solid $white;
     box-shadow: 1px 1px 5px #333;
     -webkit-box-shadow: 1px 1px 5px #333;
@@ -207,4 +227,16 @@ figure.not-found {
             font-style: italic;
         }
     }
+}
+
+footer {
+    font-family: $font-family-content;
+    font-size: 0.75rem;
+    line-height: 1.2;
+
+    margin: 1em auto 0 auto;
+    max-width: 64rem;
+    padding: 0.5rem;
+
+    text-align: right;
 }
