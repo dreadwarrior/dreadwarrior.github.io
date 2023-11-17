@@ -3,7 +3,9 @@
 <main>
     <div class="pure-g introduction">
         <div class="introduction-u pure-u-1 pure-u-lg-1-2">
-            <img src="{{ default "images/portrait.jpg" .Site.Params.author.portrait | relURL }}" class="portrait-img" alt="Portrait" />
+            {{ with default "images/portrait.jpg" .Site.Params.author.portrait }}
+            <img src="{{ . | relURL }}" class="img-portrait" alt="Portrait" />
+            {{ end }}
         </div>
 
         <div class="pure-u-1 pure-u-lg-1-2">
@@ -14,12 +16,14 @@
                 {{ .Content }}
             </div>
 
-            <div class="links"><!-- TODO: switch to pure-button-group -->
-                {{- range .Site.Params.links -}}
-                    <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
-                        <span class="{{ .iconset | default "fa" }} {{ .iconorigin | default "fa" }}-{{ .icon }}"></span>
-                    </a>
-                {{- end -}}
+            <div class="social-links">
+            {{- range .Site.Params.links -}}
+                <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
+                    {{ $iconset := default "fa" .iconset }}
+                    {{ $iconorigin := default "fa" .iconorigin }}
+                    <span class="{{ $iconset }} {{ $iconorigin }}-{{ .icon }}"></span>
+                </a>
+            {{- end -}}
             </div>
         </div>
     </div>

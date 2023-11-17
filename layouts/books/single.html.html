@@ -27,7 +27,7 @@
                 <div class="content">
                     {{ .Content }}
 
-                    <p><small>Quelle: <a class="excerpt-source" href="{{ .Params.source }}">{{ .Params.source }}</a></small></p>
+                    <p><small>Quelle: <a class="force-word-break" href="{{ .Params.source }}">{{ .Params.source }}</a></small></p>
 
                     {{ partial "book/metadata.html" (dict "Params" .Params) }}
                 </div>
@@ -38,14 +38,14 @@
             <div class="book-links-u pure-u-1">
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1">
-                        <div class="p-box">
+                        <div class="book-link">
                             <a class="button-primary button-block pure-button"
                                href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ .Params.isbn }}"
                                title="bei medimops.de suchen"><i class="fas fa-leaf" aria-label="bei medimops.de suchen"></i> bei medimops.de suchen</a>
                         </div>
                     </div>
                     <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1">
-                        <div class="p-box">
+                        <div class="book-link">
                             <a class="button-secondary button-block pure-button"
                                href="https://www.thalia.de/suche?sq={{ .Params.isbn }}"
                                title="bei thalia.de suchen"><i class="fas fa-globe" aria-label="bei thalia.de suchen"></i> bei thalia.de suchen</a>

@@ -1,5 +1,18 @@
-html {
-    font-family: $font-family;
+main {
+    margin: 0 auto;
+    max-width: 64rem;
+    position: relative;
+}
+
+footer {
+    font-size: 0.75rem;
+    line-height: 1.2;
+
+    margin: 1em auto 0 auto;
+    max-width: 64rem;
+    padding: 0.5rem;
+
+    text-align: right;
 }
 
 hr {
@@ -17,7 +30,7 @@ hr {
             content: "✻";
             display: inline-block;
             position: relative;
-            top: -0.6rem;
+            top: -0.85rem;
             font-size: 0.85rem;
             padding: 0 0.25rem;
             background: var(--primary-color);
@@ -72,18 +85,8 @@ blockquote {
     min-height: calc(100vh - 4rem);
 
     padding: 2rem 2rem 0 2rem;
-}
 
-main {
-    margin: 0 auto;
-    max-width: 64rem;
-    position: relative;
-}
-
-// TODO: remove and move to main - serif all the things! =)
-// TODO: revisit all occurences of font-family: $font-family-content;
-.content {
-    font-family: $font-family-content;
+    font-family: $font-family;
     font-size: 1.075rem;
     font-style: normal;
     font-weight: normal;
@@ -95,17 +98,9 @@ main {
     }
 }
 
-// TODO: rename to box-padded
-.p-box {
-    padding: 0.5rem;
-}
-
-// TODO: get rid of media query
-@include mq-lg() {
-    // TODO: rename, e.g. to box-padded-right
-    // TODO: *OR* introduce content-padded, should work everywhere
-    .pr-box {
-        padding-right: 1.5rem;
+.content-padded {
+    @include mq-lg() {
+        padding: 0.5rem;
     }
 }
 
@@ -136,8 +131,6 @@ main {
 
     border: 1px solid var(--secondary-color-o20);
     border-radius: .25rem;
-
-    font-family: $font-family-content;
 
     .card--header {
         display: flex;
@@ -185,7 +178,6 @@ main {
 .breadcrumb {
     margin: 0 0 2rem 0;
 
-    font-family: $font-family-content;
     font-size: .85rem;
 
     &:after {
@@ -229,14 +221,6 @@ main {
     }
 }
 
-footer {
-    font-family: $font-family-content;
-    font-size: 0.75rem;
-    line-height: 1.2;
-
-    margin: 1em auto 0 auto;
-    max-width: 64rem;
-    padding: 0.5rem;
-
-    text-align: right;
+.force-word-break {
+    overflow-wrap: break-word;
 }

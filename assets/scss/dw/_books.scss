@@ -12,8 +12,6 @@
   overflow: hidden;
 
   figcaption {
-    font-family: $font-family-content;
-
     position: absolute;
     // bottom aligned
     left: 0;
@@ -40,10 +38,4 @@
     border-radius: .5rem;
     box-shadow: 0 0 .5em 0 var(--secondary-color-o20);
   }
-}
-
-// TODO: rename to "book-related-u"
-.bookshelf-u {
-  align-self: center;
-  text-align: center;
 }
