@@ -97,38 +97,17 @@
 }
 
 .review {
-  padding: .5rem;
+  position: relative; // To allow absolute positioning of tooltip.
 
-  @include mq-md() {
-    border-left: .25rem solid var(--secondary-color-o20);
-    margin-left: .5rem;
-  }
-
-  .review--meta {
-    text-align: right;
-    position: relative; // To allow absolute positioning of tooltip.
-
-    @include mq-md() {
-      padding: 1rem 0;
-    }
-
-    .review--meta--rating {
+  .review--rating {
+    .review--rating--icon {
       color: $yellow;
     }
 
-    .tooltip--review--meta--rating {
-      text-align: left; // Override .review--meta alignment.
-
-      @include mq-md() {
-        // Looks odd on large screens, increase tooltip body width.
-        width: 30rem;
-        right: 0;
-      }
-
-      // Right-align the tooltip triangle.
+    .review--rating--tooltip {
+      // Left-align the tooltip triangle.
       &:before {
-        left: unset;
-        right: .5rem;
+        left: .5rem;
       }
 
       list-style: none;
@@ -144,14 +123,11 @@
           border: unset;
         }
       }
-
     }
   }
 
-  .review--title {
-    @include mq-sm() {
-      order: -1;
-    }
+  .review--date {
+    text-align: right;
   }
 
   .review--comment {

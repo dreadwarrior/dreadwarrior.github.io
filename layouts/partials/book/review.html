@@ -2,30 +2,45 @@
     <hr class="ruler-decorated">
 
     <section class="review pure-g">
-        <div class="review--meta pure-u-1 pure-u-md-1-4">
+        <div class="review--rating pure-u-1-2">
             <details class="tooltip">
                 <summary>
                     {{ partial "book/rating.html" (dict "rating" .Params.rating) }}
                     <i class="tooltip--icon fas fa-info-circle"></i>
                 </summary>
-                <ul class="tooltip--review--meta--rating tooltip--body">
-                    <li>★★★★★<br><small>Ohne Einschränkung empfehlenswert.</small></li>
-                    <li>★★★★☆<br><small>Für Interessierte des Themas empfehlenswert.</small></li>
-                    <li>★★★☆☆<br><small>Für Fans des Themas empfehlenswert.</small></li>
-                    <li>★★☆☆☆<br><small>Nicht empfehlenswert, obwohl das Thema interessant war.</small></li>
-                    <li>★☆☆☆☆<br><small>Überhaupt nicht empfehlenswert.</small></li>
+                <ul class="review--rating--tooltip tooltip--body">
+                    <li>
+                        {{ partial "book/rating.html" (dict "rating" 5 ) }}<br>
+                        <small>Ohne Einschränkung empfehlenswert.</small>
+                    </li>
+                    <li>
+                        {{ partial "book/rating.html" (dict "rating" 4 ) }}<br>
+                        <small>Für Interessierte des Themas empfehlenswert.</small>
+                    </li>
+                    <li>
+                        {{ partial "book/rating.html" (dict "rating" 3 ) }}<br>
+                        <small>Für Fans des Themas empfehlenswert.</small>
+                    </li>
+                    <li>{{ partial "book/rating.html" (dict "rating" 2 ) }}<br>
+                        <small>Nicht empfehlenswert, obwohl das Thema interessant war.</small>
+                    </li>
+                    <li>
+                        {{ partial "book/rating.html" (dict "rating" 1 ) }}<br>
+                        <small>Überhaupt nicht empfehlenswert.</small>
+                    </li>
                 </ul>
             </details>
-            <br>
+        </div>
+
+        <div class="review--date pure-u-1-2">
             {{ $.Params.Date | time.Format "2. Jan 2006" }}
         </div>
-        <div class="review--title pure-u-1 pure-u-md-3-4">
-            <h3>„{{ .Params.Title }}“</h3>
-        </div>
-        {{ with .Content }}
+
         <div class="review--comment pure-u-1">
+            <h3>„{{ .Params.Title }}“</h3>
+            {{ with .Content }}
             {{ . }}
+            {{ end }}
         </div>
-        {{ end }}
     </section>
 {{ end }}
