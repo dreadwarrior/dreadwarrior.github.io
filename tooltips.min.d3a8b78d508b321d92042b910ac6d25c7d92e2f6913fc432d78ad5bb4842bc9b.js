@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelectorAll(".tooltip");document.addEventListener("click",function(t){e.forEach(e=>{var n=e.contains(t.target);n||e.removeAttribute("open")})})})()
