@@ -1,6 +1,6 @@
 <div class="book-metadata-g pure-g">
     <div class="book-metadata-isbn-u pure-u-1 pure-u-md-1-2">
-        <div class="metadata">
+        <div class="book--metadata">
             <details class="tooltip tooltip__left-aligned">
                 <summary><small>ISBN:</small> {{ .Params.isbn }} <i class="tooltip--icon fas fa-info-circle"></i></summary>
                 <p class="tooltip--body">Nutze die ISBN, um das Buch beim lokalen Buchhändler deines Vertrauens zu kaufen.</p>
@@ -8,9 +8,9 @@
         </div>
     </div>
     <div class="pure-u-1 pure-u-md-1-2">
-        <div class="metadata"><small>Veröffentlicht im Jahr:</small> {{ .Params.publishedAt }}</div>
+        <div class="book--metadata"><small>Veröffentlicht im Jahr:</small> {{ .Params.publishedAt }}</div>
     </div>
     <div class="pure-u-1">
-        <div class="metadata"><small>Themen:</small> {{ range $i, $genre := .Params.topics }}{{- if $i -}}, {{ end -}}{{ . }}{{end}}</div>
+        <div class="book--metadata"><small>Themen:</small> {{ range $i, $genre := .Params.topics }}{{- if $i -}}, {{ end -}}{{ . }}{{end}}</div>
     </div>
 </div>
