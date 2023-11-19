@@ -12,9 +12,7 @@
             <h1>{{- with .Param "greeting" -}}{{ . }}{{- else -}}Hallo.{{- end -}}</h1>
             <h2>Ich bin {{ .Site.Params.author.name | default "Hallo" }}.</h2>
 
-            <div class="content">
-                {{ .Content }}
-            </div>
+            {{ .Content }}
 
             <div class="social-links">
             {{- range .Site.Params.links -}}

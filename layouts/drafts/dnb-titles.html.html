@@ -1,14 +1,12 @@
 {{ define "main" }}
     <main>
-        <div class="content">
-            <h1>{{ .Title }}</h1>
-            {{ .Content }}
-        </div>
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
 
         <hr class="ruler-decorated">
 
         {{ range $num, $input := .Params.titleSamples }}
-        <section class="content">
+        <section>
             {{ if gt $num 0 }}<hr>{{ end }}
 
             <h2>Ergebnis #{{ add $num 1 }}</h2>

@@ -1,38 +1,31 @@
 {{ define "main" }}
     <main>
-        <div class="content">
-            <h1>{{ .Params.Title }}</h1>
+        <h1>{{ .Params.Title }}</h1>
 
-            {{ .Content }}
-        </div>
+        {{ .Content }}
 
         <hr class="ruler-decorated">
 
-        <div class="content">
-            <h2>Kürzlich abgeschlossen</h2>
-            <section class="cover-g pure-g">
-                {{ partial "books/recently-added.html" (dict
-                    "siteParams" $.Site.Params
-                    "site" site
-                    "pages" .Pages
-                    "bookshelf" "completed"
-                ) }}
-            </section>
-        </div>
+        <h2>Kürzlich abgeschlossen</h2>
+        <section class="cover-g pure-g">
+            {{ partial "books/recently-added.html" (dict
+                "siteParams" $.Site.Params
+                "site" site
+                "pages" .Pages
+                "bookshelf" "completed"
+            ) }}
+        </section>
 
         <hr class="ruler-decorated">
 
-        <div class="content">
-            <h2>Kürzlich zur Wunsch&shy;liste hinzugefügt</h2>
-            <section class="cover-g pure-g">
-                {{ partial "books/recently-added.html" (dict
-                    "siteParams" $.Site.Params
-                    "site" site
-                    "pages" .Pages
-                    "bookshelf" "wishlist"
-                ) }}
-            </section>
-
-        </div>
+        <h2>Kürzlich zur Wunsch&shy;liste hinzugefügt</h2>
+        <section class="cover-g pure-g">
+            {{ partial "books/recently-added.html" (dict
+                "siteParams" $.Site.Params
+                "site" site
+                "pages" .Pages
+                "bookshelf" "wishlist"
+            ) }}
+        </section>
     </main>
 {{ end }}
