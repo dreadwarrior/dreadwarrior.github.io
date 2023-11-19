@@ -1,0 +1,11 @@
+{{- $rating := .rating -}}
+{{- range (seq 5) -}}
+<i class="review--meta--rating {{ if le . $rating -}}
+        fas fa-star
+    {{- else if lt (sub . $rating) 1 -}}
+        fas fa-star-half-alt
+    {{- else -}}
+        far fa-star
+    {{- end -}}
+"></i>
+{{- end -}}
