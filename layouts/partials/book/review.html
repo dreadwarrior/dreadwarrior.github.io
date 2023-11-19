@@ -7,7 +7,7 @@
                 <summary>
                     {{ $rating := .Params.rating }}
                     {{ range (seq 5) }}<i class="review--meta--rating {{ if le . $rating }}fas fa-star{{ else if lt (sub . $rating) 1 }}fas fa-star-half-alt{{ else }}far fa-star{{ end }}"></i>{{ end }}
-                    <i class="fas fa-info-circle"></i>
+                    <i class="tooltip--icon fas fa-info-circle"></i>
                 </summary>
                 <ul class="tooltip--review--meta--rating tooltip--body">
                     <li>★★★★★<br><small>Ohne Einschränkung empfehlenswert.</small></li>
