@@ -105,11 +105,6 @@
     }
 
     .review--rating--tooltip {
-      // Left-align the tooltip triangle.
-      &:before {
-        left: .5rem;
-      }
-
       list-style: none;
       padding: .5rem;
       margin: var(--tooltip-triange-size) 0 0 0;

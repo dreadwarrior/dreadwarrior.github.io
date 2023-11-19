@@ -52,6 +52,14 @@
   }
 }
 
+.tooltip__left-aligned {
+  .tooltip--body {
+    &:before {
+      left: .5rem;
+    }
+  }
+}
+
 .tooltip--icon {
   color: var(--accent-color);
 }
