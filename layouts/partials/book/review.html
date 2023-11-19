@@ -1,20 +1,32 @@
 {{ with .Resources.GetMatch "review.md" }}
     <hr class="ruler-decorated">
-    <div class="content">
-        <section class="review pure-g">
-            <div class="review--meta pure-u-1 pure-u-md-1-4">
-                {{ $rating := .Params.rating }}
-                {{ range (seq 5) }}<i class="review--meta--rating {{ if le . $rating }}fas fa-star{{ else if lt (sub . $rating) 1 }}fas fa-star-half-alt{{ else }}far fa-star{{ end }}"></i>{{ end }}<br>
-                {{ $.Params.Date | time.Format "2. Jan 2006" }}
-            </div>
-            <div class="review--title pure-u-1 pure-u-md-3-4">
-                <h3>„{{ .Params.Title }}“</h3>
-            </div>
-            {{ with .Content }}
-            <div class="review--comment pure-u-1">
-                {{ . }}
-            </div>
-            {{ end }}
-        </section>
-    </div>
+
+    <section class="review pure-g">
+        <div class="review--meta pure-u-1 pure-u-md-1-4">
+            <details class="tooltip">
+                <summary>
+                    {{ $rating := .Params.rating }}
+                    {{ range (seq 5) }}<i class="review--meta--rating {{ if le . $rating }}fas fa-star{{ else if lt (sub . $rating) 1 }}fas fa-star-half-alt{{ else }}far fa-star{{ end }}"></i>{{ end }}
+                    <i class="fas fa-info-circle"></i>
+                </summary>
+                <ul class="tooltip--review--meta--rating tooltip--body">
+                    <li>★★★★★<br><small>Ohne Einschränkung empfehlenswert.</small></li>
+                    <li>★★★★☆<br><small>Für Interessierte des Themas empfehlenswert.</small></li>
+                    <li>★★★☆☆<br><small>Für Fans des Themas empfehlenswert.</small></li>
+                    <li>★★☆☆☆<br><small>Nicht empfehlenswert, obwohl das Thema interessant war.</small></li>
+                    <li>★☆☆☆☆<br><small>Überhaupt nicht empfehlenswert.</small></li>
+                </ul>
+            </details>
+            <br>
+            {{ $.Params.Date | time.Format "2. Jan 2006" }}
+        </div>
+        <div class="review--title pure-u-1 pure-u-md-3-4">
+            <h3>„{{ .Params.Title }}“</h3>
+        </div>
+        {{ with .Content }}
+        <div class="review--comment pure-u-1">
+            {{ . }}
+        </div>
+        {{ end }}
+    </section>
 {{ end }}

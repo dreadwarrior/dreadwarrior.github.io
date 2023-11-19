@@ -1,0 +1,57 @@
+/* for blink/webkit */
+details.tooltip summary::-webkit-details-marker {
+  display: none;
+}
+/* for firefox */
+details.tooltip > summary:first-of-type {
+  list-style: none;
+}
+
+details.tooltip[open] .tooltip--body {
+  animation: animateDown 0.2s linear forwards;
+
+  @keyframes animateDown {
+    0% {
+      opacity: 0;
+      transform: translatey(-15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translatey(0);
+    }
+  }
+
+}
+
+.tooltip {
+  --tooltip-triange-size: .5rem;
+
+  .tooltip--body {
+    border: 1px solid var(--secondary-color-o20);
+    border-radius: .5rem;
+    box-shadow: var(--secondary-color-o20) 0 .25rem .5rem;
+
+    background-color: var(--primary-color);
+    position: absolute;
+    width: calc(100% - (2 * var(--tooltip-triange-size)));
+    z-index: 99;
+
+    &:before {
+      content: "";
+      width: 0;
+      height: 0;
+
+      border-left: var(--tooltip-triange-size) solid transparent;
+      border-right: var(--tooltip-triange-size) solid transparent;
+      border-bottom: var(--tooltip-triange-size) solid var(--secondary-color-o20);
+
+      position: absolute;
+      top: calc((-1 * var(--tooltip-triange-size)) - 1px);
+      left: calc(50% - calc(var(--tooltip-triange-size) / 2));
+    }
+  }
+}
+
+.tooltip--inline {
+  display: inline-block;
+}

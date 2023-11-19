@@ -71,7 +71,15 @@
   border-top: 1px solid var(--secondary-color-o20);
   padding-top: 1rem;
 
-  p {
+  .book-metadata-isbn-u {
+    position: relative;
+
+    .tooltip--body {
+      padding: .5rem
+    }
+  }
+
+  .metadata {
     margin-block-start: 0;
     margin-block-end: .5rem;
 
@@ -98,6 +106,7 @@
 
   .review--meta {
     text-align: right;
+    position: relative; // To allow absolute positioning of tooltip.
 
     @include mq-md() {
       padding: 1rem 0;
@@ -105,6 +114,37 @@
 
     .review--meta--rating {
       color: $yellow;
+    }
+
+    .tooltip--review--meta--rating {
+      text-align: left; // Override .review--meta alignment.
+
+      @include mq-md() {
+        // Looks odd on large screens, increase tooltip body width.
+        width: 30rem;
+        right: 0;
+      }
+
+      // Right-align the tooltip triangle.
+      &:before {
+        left: unset;
+        right: .5rem;
+      }
+
+      list-style: none;
+      padding: .5rem;
+      margin: var(--tooltip-triange-size) 0 0 0;
+
+      li {
+        padding: .5rem;
+
+        border-bottom: 1px solid var(--secondary-color-o20);
+
+        &:last-child {
+          border: unset;
+        }
+      }
+
     }
   }
 
@@ -131,59 +171,10 @@
     width: calc((64rem / 3) - 3rem);
   }
 
-  /* for blink/webkit */
-  details summary::-webkit-details-marker {
-    display: none;
-  }
-  /* for firefox */
-  details > summary:first-of-type {
-    list-style: none;
-  }
-
-  details[open] ul {
-    animation: animateDown 0.2s linear forwards;
-  }
-
-  @keyframes animateDown {
-    0% {
-      opacity: 0;
-      transform: translatey(-15px);
-    }
-    100% {
-      opacity: 1;
-      transform: translatey(0);
-    }
-  }
-
   ul {
-    --tooltip-triange-size: .5rem;
-
     list-style: none;
     padding: .5rem;
     margin: var(--tooltip-triange-size) 0 0 0;
-
-    border: 1px solid var(--secondary-color-o20);
-    border-radius: .5rem;
-    box-shadow: var(--secondary-color-o20) 0 .25rem .5rem;
-
-    background-color: var(--primary-color);
-    position: absolute;
-    width: calc(100% - (2 * var(--tooltip-triange-size)));
-    //position: relative;
-
-    &:before {
-      content: "";
-      width: 0;
-      height: 0;
-
-      border-left: var(--tooltip-triange-size) solid transparent;
-      border-right: var(--tooltip-triange-size) solid transparent;
-      border-bottom: var(--tooltip-triange-size) solid var(--secondary-color-o20);
-
-      position: absolute;
-      top: calc((-1 * var(--tooltip-triange-size)) - 1px);
-      left: calc(50% - calc(var(--tooltip-triange-size) / 2));
-    }
 
     li {
       padding: .5rem;
