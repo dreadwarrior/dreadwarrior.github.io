@@ -5,7 +5,9 @@ date: "{{ .Date }}"
 {{- with resources.GetRemote $dnbUrl | transform.Unmarshal -}}
 {{- with partial "dnb/oai_dc/title-parser-re.html" .records.record.recordData.dc.title }}
 title: "{{ with .preferredTitle }}{{ . }} - {{ end }}{{ .mainTitle }}"
-{{ with .titleAddition }}subtitle: "{{ . | strings.FirstUpper }}"{{ end }}
+{{- with .titleAddition }}
+subtitle: "{{ . | strings.FirstUpper }}"
+{{- end }}
 slug: "{{ .mainTitle | anchorize }}"
 {{- end }}
 isbn: "{{ $isbn }}"
