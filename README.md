@@ -6,10 +6,6 @@ Personal, minimal landing page.
 
     hugo server -D
 
-## Update theme
-
-     git submodule update --remote --rebase
-
 ## Howto
 
 ### Add a book to the wishlist
