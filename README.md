@@ -14,7 +14,13 @@ Personal, minimal landing page.
 
 ### Add a book to the wishlist
 
-1. Search for the book title at dnb.de or a similar book catalogue.
+---
+
+**Note**: Only german books with a proper formatted ISBN 13 are supported.
+
+---
+
+1. Search for the book title at dnb.de.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
 3. Generate a book page for that ISBN:
 
@@ -25,7 +31,13 @@ Personal, minimal landing page.
 
 ### Add a completed book
 
-1. Search for the book title at dnb.de or a similar book catalogue.
+---
+
+**Note**: Only german books with a proper formatted ISBN 13 are supported.
+
+---
+
+1. Search for the book title at dnb.de or.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
 3. Generate a book page for that ISBN:
 
