@@ -18,7 +18,7 @@ Personal, minimal landing page.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
 3. Generate a book page for that ISBN:
 
-       make add_book isbn=<isbn>
+       make wishlist_book isbn=<isbn>
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
@@ -29,7 +29,7 @@ Personal, minimal landing page.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
 3. Generate a book page for that ISBN:
 
-       make add_review isbn=<isbn>
+       make completed_book isbn=<isbn>
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
