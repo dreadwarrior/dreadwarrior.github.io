@@ -17,8 +17,6 @@
         </div>
     </body>
 
-    {{ $mainJs := resources.Get "js/theme-switcher.js" | js.Build "main.js" | minify | fingerprint }}
-    <script src="{{ $mainJs.RelPermalink }}"></script>
-    {{ $mainJs := resources.Get "js/tooltips.js" | js.Build "tooltips.js" | minify | fingerprint }}
-    <script src="{{ $mainJs.RelPermalink }}"></script>
+    {{ $main := resources.Get "js/index.js" | js.Build "main.js" | minify | fingerprint }}
+    <script src="{{ $main.RelPermalink }}"></script>
 </html>

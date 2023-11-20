@@ -52,7 +52,4 @@
     </div>
 </main>
 
-{{ $mainJs := resources.Get "js/book-topic-filter.js" | js.Build "book-topic-filter.js" | minify | fingerprint }}
-<script src="{{ $mainJs.RelPermalink }}"></script>
-
 {{ end }}
