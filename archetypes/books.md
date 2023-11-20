@@ -23,7 +23,9 @@ bookshelves:
 Add the excerpt here. E.g. perform a Google search by using the book's title and
 its bibliographic publisher:
 
-"{{ partial "dnb/oai_dc/title.html" .records.record.recordData.dc.title }}" {{ .records.record.recordData.dc.publisher }}
+{{ with partial "dnb/oai_dc/title-parser-re.html" .records.record.recordData.dc.title -}}
+"{{ with .preferredTitle }}{{ . }} - {{ end }}{{ .mainTitle }}{{ with .titleAddition }} {{ . | strings.FirstUpper }}{{ end }}"
+{{- end }} {{ .records.record.recordData.dc.publisher }}
 
 **Don't forget to paste the excerpt's source into the "source" front matter 
 variable.**
