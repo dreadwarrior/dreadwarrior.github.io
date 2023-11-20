@@ -1,1 +1,0 @@
-(()=>{var e=document.querySelector("#theme-switch");e.checked=localStorage.getItem("switchedTheme")==="true",e.addEventListener("change",function(e){e.currentTarget.checked===!0?localStorage.setItem("switchedTheme","true"):localStorage.removeItem("switchedTheme")})})()
