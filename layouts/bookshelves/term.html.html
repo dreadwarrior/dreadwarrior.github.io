@@ -26,13 +26,7 @@
     <hr class="separator separator--decorated">
 
     <div class="cover-list pure-g">
-        {{ $books := slice }}
-        {{ if eq .Data.Term "completed" }}
-        {{ $books = .Pages.ByDate.Reverse }}
-        {{ else }}
-        {{ $books = .Pages.ByTitle }}
-        {{ end }}
-        {{ range $n, $book := $books }}
+        {{ range $n, $book := .Pages.ByDate.Reverse }}
         <a
                 class="cover pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
                 aria-labelledby="cover-label-{{ $book.Params.idn }}"
