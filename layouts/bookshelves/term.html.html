@@ -25,8 +25,10 @@
 
     <hr class="separator separator--decorated">
 
+    {{ $paginator := .Paginate ( .Pages.ByDate.Reverse ) 24 }}
+
     <div class="cover-list pure-g">
-        {{ range $n, $book := .Pages.ByDate.Reverse }}
+        {{ range $n, $book := $paginator.Pages }}
         <a
                 class="cover pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
                 aria-labelledby="cover-label-{{ $book.Params.idn }}"
@@ -35,15 +37,20 @@
             <figure class="cover__figure">
                 {{- with partial "book/cover" (dict "isbn" $book.Params.isbn "coverUri"
                 $book.Params.coverUri "coversPath" $.Site.Params.books.coversPath) -}}
-                <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" {{ if gt $n 15 }}
-                     loading="lazy" {{ end }}>
+                <img src="{{ .RelPermalink }}"
+                     width="{{ .Width }}"
+                     height="{{ .Height }}"
+                     {{ if gt $n 15 }} loading="lazy" {{ end }}>
                 {{- end -}}
-                <figcaption id="cover-label-{{ .Params.idn }}">{{ .Title }} - <em>{{ .Params.author }}</em>
+                <figcaption id="cover-label-{{ .Params.idn }}">
+                    {{ .Title }}<br><em>{{ .Params.author }}</em>
                 </figcaption>
             </figure>
         </a>
         {{ end }}
     </div>
+
+    {{ template "_internal/pagination.html" . }}
 </main>
 
 {{ end }}
