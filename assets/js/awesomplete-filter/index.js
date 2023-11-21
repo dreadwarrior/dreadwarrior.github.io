@@ -1,8 +1,8 @@
 function install(group, filterTargetsSelector, datasetName) {
     window.addEventListener('load', function () {
         const input = group.querySelector('input');
-        const trigger = group.querySelector('.button-trigger');
-        const clear = group.querySelector('.button-clear');
+        const trigger = group.querySelector('button[aria-controls]');
+        const clear = group.querySelector('button[type="reset"]');
 
         const filterTargets = document.querySelectorAll(filterTargetsSelector);
 
@@ -54,7 +54,7 @@ function install(group, filterTargetsSelector, datasetName) {
 }
 
 export function awesompleteFilter(filterTargetsSelector, datasetName) {
-    const group = document.querySelector('.awesomplete-combo-group');
+    const group = document.querySelector('.control-group--awesomplete');
 
     if (group != null) {
         install(group, filterTargetsSelector, datasetName);

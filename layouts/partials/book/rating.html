@@ -1,6 +1,6 @@
 {{- $rating := .rating -}}
 {{- range (seq 5) -}}
-<i class="review--rating--icon {{ if le . $rating -}}
+<i class="review__rating__icon {{ if le . $rating -}}
         fas fa-star
     {{- else if lt (sub . $rating) 1 -}}
         fas fa-star-half-alt

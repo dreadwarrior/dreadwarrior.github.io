@@ -1,14 +1,14 @@
 {{ with .Resources.GetMatch "review.md" }}
-    <hr class="ruler-decorated">
+    <hr class="separator separator--decorated">
 
     <section class="review pure-g">
-        <div class="review--rating pure-u-1-2">
-            <details class="tooltip tooltip__left-aligned">
+        <div class="review__rating pure-u-1-2">
+            <details class="tooltip tooltip--left-aligned">
                 <summary>
                     {{ partial "book/rating.html" (dict "rating" .Params.rating) }}
-                    <i class="tooltip--icon fas fa-info-circle"></i>
+                    <i class="tooltip__icon fas fa-info-circle"></i>
                 </summary>
-                <ul class="review--rating--tooltip--body tooltip--body">
+                <ul class="review__rating__tooltip__body tooltip__body">
                     <li>
                         {{ partial "book/rating.html" (dict "rating" 5 ) }}<br>
                         <small>Ohne Einschränkung empfehlenswert.</small>
@@ -32,11 +32,11 @@
             </details>
         </div>
 
-        <div class="review--date pure-u-1-2">
+        <div class="review__date pure-u-1-2">
             {{ $.Params.Date | time.Format "2. Jan 2006" }}
         </div>
 
-        <div class="review--comment pure-u-1">
+        <div class="review__comment pure-u-1">
             <h3>„{{ .Params.Title }}“</h3>
             {{ with .Content }}
             {{ . }}

@@ -8,14 +8,14 @@
     {{ $topics = $topics | append .Params.topics }}
     {{ end }}
 
-    <div class="control-group awesomplete-combo-group">
+    <div class="control-group control-group--awesomplete">
         <input
                 placeholder="Thema filtern"
                 aria-label="Thema filtern"
                 list="topics"
                 data-maxitems="{{ $topics | len }}">
-        <button class="button-trigger"><i class="fas fa-filter fa-xs"></i></button>
-        <button class="button-clear"><i class="fas fa-times fa-xs"></i></button>
+        <button aria-controls="topics"><i class="fas fa-filter fa-xs"></i></button>
+        <button type="reset" class="button--last"><i class="fas fa-times fa-xs"></i></button>
         <datalist id="topics">
             {{- range ($topics | uniq | sort) }}
             <option value="{{ . | anchorize }}">{{ . }}</option>
@@ -23,9 +23,9 @@
         </datalist>
     </div>
 
-    <hr class="ruler-decorated">
+    <hr class="separator separator--decorated">
 
-    <div class="pure-g cover-g">
+    <div class="cover-list pure-g">
         {{ $books := slice }}
         {{ if eq .Data.Term "completed" }}
         {{ $books = .Pages.ByDate.Reverse }}
@@ -34,11 +34,11 @@
         {{ end }}
         {{ range $n, $book := $books }}
         <a
-                class="cover-u pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
+                class="cover pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
                 aria-labelledby="cover-label-{{ $book.Params.idn }}"
                 href="{{ $book.Permalink }}"
                 data-topics="{{ range $book.Params.topics }}{{ . | anchorize }} {{end }}">
-            <figure class="cover-figure">
+            <figure class="cover__figure">
                 {{- with partial "book/cover" (dict "isbn" $book.Params.isbn "coverUri"
                 $book.Params.coverUri "coversPath" $.Site.Params.books.coversPath) -}}
                 <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" {{ if gt $n 15 }}

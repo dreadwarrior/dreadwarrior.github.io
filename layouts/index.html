@@ -2,19 +2,19 @@
 
 <main>
     <div class="pure-g introduction">
-        <div class="introduction-u pure-u-1 pure-u-lg-1-2">
+        <div class="introduction__portrait pure-u-1 pure-u-lg-1-2">
             {{ with default "images/portrait.jpg" .Site.Params.author.portrait }}
-            <img src="{{ . | relURL }}" class="img-portrait" alt="Portrait" />
+            <img src="{{ . | relURL }}" class="introduction__portrait__image" alt="Portrait" />
             {{ end }}
         </div>
 
         <div class="pure-u-1 pure-u-lg-1-2">
-            <h1>{{- with .Param "greeting" -}}{{ . }}{{- else -}}Hallo.{{- end -}}</h1>
-            <h2>Ich bin {{ .Site.Params.author.name | default "Hallo" }}.</h2>
+            <h1 class="introduction--header">{{- with .Param "greeting" -}}{{ . }}{{- else -}}Hallo.{{- end -}}</h1>
+            <h2 class="introduction--header">Ich bin {{ .Site.Params.author.name | default "Hallo" }}.</h2>
 
             {{ .Content }}
 
-            <div class="social-links">
+            <div class="introduction__links">
             {{- range .Site.Params.links -}}
                 <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
                     {{ $iconset := default "fa" .iconset }}

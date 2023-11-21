@@ -3,12 +3,11 @@
         <h1>{{ .Title }}</h1>
         {{ .Content }}
 
-        <hr class="ruler-decorated">
+        <hr class="separator separator--decorated">
 
         {{ range $num, $input := .Params.titleSamples }}
+        {{ if gt $num 0 }}<hr class="separator">{{ end }}
         <section>
-            {{ if gt $num 0 }}<hr>{{ end }}
-
             <h2>Ergebnis #{{ add $num 1 }}</h2>
 
             <dl>

@@ -10,7 +10,7 @@
     list-style: none;
   }
 
-  &[open] .tooltip--body {
+  &[open] .tooltip__body {
     animation: animateDown 0.2s linear forwards;
 
     @keyframes animateDown {
@@ -26,7 +26,7 @@
 
   }
 
-  .tooltip--body {
+  &__body {
     border: 1px solid var(--secondary-color-o20);
     border-radius: .5rem;
     box-shadow: var(--secondary-color-o20) 0 .25rem .5rem;
@@ -50,17 +50,17 @@
       left: calc(50% - calc(var(--tooltip-triange-size) / 2));
     }
   }
-}
 
-.tooltip__left-aligned {
-  .tooltip--body {
-    &:before {
-      left: .5rem;
+  &--left-aligned {
+    .tooltip__body {
+      &:before {
+        left: .5rem;
+      }
     }
   }
 }
 
-.tooltip--icon {
+.tooltip__icon {
   color: var(--accent-color);
   cursor: pointer;
 }

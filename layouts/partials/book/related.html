@@ -1,9 +1,9 @@
 {{ $siteParams := .siteParams }}
 {{ with .site.RegularPages.Related (dict "document" .document "indices" .indices) | first .amount }}
-<div class="related-card card">
-    <div class="card--header"><i class="card--header--icon fas fa-link"></i> Ähnliche Bücher</div>
-    <div class="card--body">
-        <div class="related-g pure-g">
+<div class="card">
+    <div class="card__header"><i class="card__header__icon fas fa-link"></i> Ähnliche Bücher</div>
+    <div class="card__body">
+        <div class="related-books pure-g">
             {{ range . }}
             <div class="pure-u-1-4 pure-u-md-1-8 pure-u-lg-2-24">
                 <a href="{{ .RelPermalink }}">
@@ -13,7 +13,7 @@
                 </a>
             </div>
             <div class="pure-u-3-4 pure-u-md-3-8 pure-u-lg-4-24">
-                <div class="related-book">
+                <div class="related-books__book">
                     <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
                     von <em>{{ .Params.author }}</em>
                 </div>

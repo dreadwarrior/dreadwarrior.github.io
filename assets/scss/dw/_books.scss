@@ -1,41 +1,41 @@
 @import "books/list";
 @import "books/single";
 
-.cover-u {
+.cover {
   text-align: center;
-}
 
-// Slide In Image Captions: https://css-tricks.com/slide-in-image-captions/
-.cover-figure {
-  margin: 0;
-  position: relative;
-  overflow: hidden;
+  // Slide In Image Captions: https://css-tricks.com/slide-in-image-captions/
+  &__figure {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
 
-  figcaption {
-    position: absolute;
-    // bottom aligned
-    left: 0;
-    bottom: -30%;
+    figcaption {
+      position: absolute;
+      // bottom aligned
+      left: 0;
+      bottom: -30%;
 
-    background: var(--primary-color);
-    filter: alpha(0.75);
-    color: var(--secondary-color);
-    opacity: 0;
-    @include transition(all 0.6s ease);
+      background: var(--primary-color);
+      filter: alpha(0.75);
+      color: var(--secondary-color);
+      opacity: 0;
+      @include transition(all 0.6s ease);
 
-    border-top: 1px solid var(--secondary-color);
-    padding: 0.5rem 1.5rem;
-  }
+      border-top: 1px solid var(--secondary-color);
+      padding: 0.5rem 1.5rem;
+    }
 
-  &:hover figcaption {
-    opacity: 1;
+    &:hover figcaption {
+      opacity: 1;
 
-    // bottom aligned
-    bottom: 0;
-  }
+      // bottom aligned
+      bottom: 0;
+    }
 
-  img {
-    border-radius: .5rem;
-    box-shadow: 0 0 .5em 0 var(--secondary-color-o20);
+    img {
+      border-radius: .5rem;
+      box-shadow: 0 0 .5em 0 var(--secondary-color-o20);
+    }
   }
 }

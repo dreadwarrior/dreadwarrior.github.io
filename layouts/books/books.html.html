@@ -4,10 +4,10 @@
 
         {{ .Content }}
 
-        <hr class="ruler-decorated">
+        <hr class="separator separator--decorated">
 
         <h2>Kürzlich abgeschlossen</h2>
-        <section class="cover-g pure-g">
+        <section class="cover-list pure-g">
             {{ partial "books/recently-added.html" (dict
                 "siteParams" $.Site.Params
                 "site" site
@@ -16,10 +16,10 @@
             ) }}
         </section>
 
-        <hr class="ruler-decorated">
+        <hr class="separator separator--decorated">
 
         <h2>Kürzlich zur Wunsch&shy;liste hinzugefügt</h2>
-        <section class="cover-g pure-g">
+        <section class="cover-list pure-g">
             {{ partial "books/recently-added.html" (dict
                 "siteParams" $.Site.Params
                 "site" site

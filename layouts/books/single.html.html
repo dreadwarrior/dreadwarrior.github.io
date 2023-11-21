@@ -3,7 +3,7 @@
     <main>
         {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
         <div class="pure-g">
-            <div class="single-cover-u cover-u pure-u-1 pure-u-lg-8-24">
+            <div class="cover--single cover pure-u-1 pure-u-lg-8-24">
                 {{ $inBookshelfCompleted := in .Params.bookshelves "completed" }}
                 {{- with partial "book/cover" (dict
                     "isbn" .Params.isbn
@@ -20,21 +20,21 @@
                 <h1><a href="{{ .Params.cataloguePermalink }}" title="In der Deutschen Nationalbibliothek nachschlagen">{{ .Title }}</a>{{ with .Params.subtitle }}<br><small><em>{{ . }}</em></small>{{ end }}</h1>
                 <h2>von <em>{{ .Params.author }}</em></h2>
 
-                <hr class="ruler-decorated">
+                <hr class="separator separator--decorated">
 
                 {{ .Content }}
 
-                <p><small>Quelle: <a class="force-word-break" href="{{ .Params.source }}">{{ .Params.source }}</a></small></p>
+                <p><small>Quelle: <a class="link--force-word-break" href="{{ .Params.source }}">{{ .Params.source }}</a></small></p>
 
                 {{ partial "book/metadata.html" (dict "Params" .Params) }}
 
                 {{ partial "book/review.html" . }}
             </div>
 
-            <div class="book-links-u pure-u-1">
+            <div class="book-links pure-u-1">
                 <details class="tooltip">
-                    <summary class="button-primary button-block pure-button"><i class="fas fa-shopping-cart"></i> Kaufen</summary>
-                    <ul class="tooltip--body">
+                    <summary class="button button--primary button--block pure-button"><i class="fas fa-shopping-cart"></i> Kaufen</summary>
+                    <ul class="tooltip__body">
                         <li>
                             <i class="fas fa-leaf"></i> <a href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ .Params.isbn }}"
                                                            title="Buch gebraucht bei medimops.de kaufen">Buch gebraucht kaufen</a><br>
