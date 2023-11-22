@@ -19,7 +19,7 @@
 
 {{- if in $validFormats $format }}
   {{- if gt $page.Paginator.TotalPages 1 }}
-    <ul class="pagination pagination-{{ $format }}">
+    <ul class="pagination pagination--{{ $format }}">
       {{- partial (printf "partials/inline/pagination/%s" $format) $page }}
     </ul>
   {{- end }}
@@ -35,23 +35,23 @@
 
     {{- with .First }}
       {{- if ne $currentPageNumber .PageNumber }}
-      <li class="page-item">
-        <a href="{{ .URL }}" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      <li class="pagination__page-item">
+        <a href="{{ .URL }}" aria-label="First" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
       </li>
       {{- else }}
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      <li class="pagination__page-item pagination__page-item--disabled">
+        <a aria-disabled="true" aria-label="First" class="pagination__page-item__page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
       </li>
       {{- end }}
     {{- end }}
 
     {{- with .Prev }}
-      <li class="page-item">
-        <a href="{{ .URL }}" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      <li class="pagination__page-item">
+        <a href="{{ .URL }}" aria-label="Previous" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
       </li>
     {{- else }}
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      <li class="pagination__page-item pagination__page-item--disabled">
+        <a aria-disabled="true" aria-label="Previous" class="pagination__page-item__page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
       </li>
     {{- end }}
 
@@ -64,34 +64,34 @@
 
     {{- range $k := seq $start $end }}
       {{- if eq $.Paginator.PageNumber $k }}
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page {{ $k }}" class="page-link" role="button">{{ $k }}</a>
+      <li class="pagination__page-item pagination__page-item--active">
+        <a aria-current="page" aria-label="Page {{ $k }}" class="pagination__page-item__page-link" role="button">{{ $k }}</a>
       </li>
       {{- else }}
-      <li class="page-item">
-        <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" aria-label="Page {{ $k }}" class="page-link" role="button">{{ $k }}</a>
+      <li class="pagination__page-item">
+        <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" aria-label="Page {{ $k }}" class="pagination__page-item__page-link" role="button">{{ $k }}</a>
       </li>
       {{- end }}
     {{- end }}
 
     {{- with .Next }}
-      <li class="page-item">
-        <a href="{{ .URL }}" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      <li class="pagination__page-item">
+        <a href="{{ .URL }}" aria-label="Next" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
       </li>
     {{- else }}
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      <li class="pagination__page-item pagination__page-item--disabled">
+        <a aria-disabled="true" aria-label="Next" class="pagination__page-item__page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
       </li>
     {{- end }}
 
     {{- with .Last }}
       {{- if ne $currentPageNumber .PageNumber }}
-      <li class="page-item">
+      <li class="pagination__page-item">
         <a href="{{ .URL }}" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
       {{- else }}
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li class="pagination__page-item pagination__page-item--disabled">
+        <a aria-disabled="true" aria-label="Last" class="pagination__page-item__page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
       {{- end }}
     {{- end }}
@@ -106,15 +106,15 @@
 
     {{- with .First }}
       {{- if ne $currentPageNumber .PageNumber }}
-      <li class="page-item">
-        <a href="{{ .URL }}" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      <li class="pagination__page-item">
+        <a href="{{ .URL }}" aria-label="First" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
       </li>
       {{- end }}
     {{- end }}
 
     {{- with .Prev }}
-      <li class="page-item">
-        <a href="{{ .URL }}" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      <li class="pagination__page-item">
+        <a href="{{ .URL }}" aria-label="Previous" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
       </li>
     {{- end }}
 
@@ -127,26 +127,26 @@
 
     {{- range $k := seq $start $end }}
       {{- if eq $.Paginator.PageNumber $k }}
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page {{ $k }}" class="page-link" role="button">{{ $k }}</a>
+      <li class="pagination__page-item pagination__page-item--active">
+        <a aria-current="page" aria-label="Page {{ $k }}" class="pagination__page-item__page-link" role="button">{{ $k }}</a>
       </li>
       {{- else }}
-      <li class="page-item">
-        <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" aria-label="Page {{ $k }}" class="page-link" role="button">{{ $k }}</a>
+      <li class="pagination__page-item">
+        <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" aria-label="Page {{ $k }}" class="pagination__page-item__page-link" role="button">{{ $k }}</a>
       </li>
       {{- end }}
     {{- end }}
 
     {{- with .Next }}
-      <li class="page-item">
-        <a href="{{ .URL }}" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      <li class="pagination__page-item">
+        <a href="{{ .URL }}" aria-label="Next" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
       </li>
     {{- end }}
 
     {{- with .Last }}
       {{- if ne $currentPageNumber .PageNumber }}
-      <li class="page-item">
-        <a href="{{ .URL }}" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li class="pagination__page-item">
+        <a href="{{ .URL }}" aria-label="Last" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
       {{- end }}
     {{- end }}

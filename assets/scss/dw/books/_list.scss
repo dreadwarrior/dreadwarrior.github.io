@@ -6,3 +6,26 @@
     text-align: center;
   }
 }
+
+.pagination {
+  list-style: none;
+  margin: unset;
+  padding: unset;
+  text-align: center;
+
+  &__page-item {
+    display: inline-block;
+
+    &--disabled &__page-link,
+    &--active &__page-link {
+      &:hover {
+        color: unset;
+      }
+    }
+
+    &__page-link {
+      display: block;
+      padding: .5rem;
+    }
+  }
+}
