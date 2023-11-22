@@ -76,7 +76,12 @@
 
     {{- with .Next }}
       <li class="pagination__page-item">
-        <a href="{{ .URL }}" aria-label="Next" class="pagination__page-item__page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+        <a href="{{ .URL }}" aria-label="Next" class="pagination__page-item__page-link" role="button"
+           data-hx-get="{{ .URL }}"
+           data-hx-trigger="revealed"
+           data-hx-target=".pagination"
+           data-hx-swap="outerHTML"
+           data-hx-select=".cover-list, .pagination"><span aria-hidden="true">&raquo;</span></a>
       </li>
     {{- else }}
       <li class="pagination__page-item pagination__page-item--disabled">
