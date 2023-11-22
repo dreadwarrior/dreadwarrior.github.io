@@ -1,4 +1,4 @@
-<div class="book-metadata pure-g">
+<aside class="book-metadata pure-g">
     <div class="book-metadata__isbn pure-u-1 pure-u-md-1-2">
         <div class="book-metadata__item">
             <details class="tooltip tooltip--left-aligned">
@@ -10,9 +10,19 @@
         </div>
     </div>
     <div class="pure-u-1 pure-u-md-1-2">
-        <div class="book-metadata__item"><small>Veröffentlicht im Jahr:</small> {{ .Params.publishedAt }}</div>
+        <div class="book-metadata__item">
+            <small>Quelle der Inhaltsbeschreibung:</small>
+            <a href="{{ .Params.source }}">{{ .Params.source | truncate 32 }}</a>
+        </div>
     </div>
     <div class="pure-u-1">
-        <div class="book-metadata__item"><small>Themen:</small> {{ range $i, $genre := .Params.topics }}{{- if $i -}}, {{ end -}}{{ . }}{{end}}</div>
+        <div class="book-metadata__item">
+            <small>Themen:</small>
+            {{ with .GetTerms "topics" -}}
+            {{- range $i, $topic := . -}}
+            {{- if $i -}}, {{ end -}}<a href="{{ $topic.RelPermalink }}">{{ $topic.LinkTitle }}</a>
+            {{- end -}}
+            {{- end }}
+        </div>
     </div>
-</div>
+</aside>

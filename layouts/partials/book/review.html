@@ -1,7 +1,7 @@
 {{ with .Resources.GetMatch "review.md" }}
     <hr class="separator separator--decorated">
 
-    <section class="review pure-g">
+    <aside class="review pure-g">
         <div class="review__rating pure-u-1-2">
             <details class="tooltip tooltip--left-aligned">
                 <summary>
@@ -36,11 +36,11 @@
             {{ $.Params.Date | time.Format "2. Jan 2006" }}
         </div>
 
-        <div class="review__comment pure-u-1">
-            <h3>„{{ .Params.Title }}“</h3>
+        <blockquote class="review__comment pure-u-1">
+            <h3>{{ .Params.Title }}</h3>
             {{ with .Content }}
             {{ . }}
             {{ end }}
-        </div>
-    </section>
+        </blockquote>
+    </aside>
 {{ end }}

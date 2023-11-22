@@ -1,25 +1,27 @@
 {{ $siteParams := .siteParams }}
 {{ with .site.RegularPages.Related (dict "document" .document "indices" .indices) | first .amount }}
-<div class="card">
-    <div class="card__header"><i class="card__header__icon fas fa-link"></i> Ähnliche Bücher</div>
+<section class="card">
+    <header class="card__header"><i class="card__header__icon fas fa-link"></i> Ähnliche Bücher</header>
     <div class="card__body">
-        <div class="related-books pure-g">
+        <article class="related-books pure-g">
             {{ range . }}
-            <div class="pure-u-1-4 pure-u-md-1-8 pure-u-lg-2-24">
+            <aside class="pure-u-1-4 pure-u-md-1-8 pure-u-lg-2-24">
                 <a href="{{ .RelPermalink }}">
+                    {{ $alternateText := printf "Titelseite des Buchs „%s“ von %s" .Title .Params.author }}
                     {{- with partial "book/cover" (dict "isbn" .Params.isbn "coverUri" .Params.coverUri "coversPath" $siteParams.books.coversPath) -}}
-                    <img class="cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    <img class="cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alternateText }}">
                     {{- end -}}
                 </a>
-            </div>
-            <div class="pure-u-3-4 pure-u-md-3-8 pure-u-lg-4-24">
+            </aside>
+
+            <section class="pure-u-3-4 pure-u-md-3-8 pure-u-lg-4-24">
                 <div class="related-books__book">
                     <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
                     von <em>{{ .Params.author }}</em>
                 </div>
-            </div>
+            </section>
             {{ end }}
-        </div>
+        </article>
     </div>
-</div>
+</section>
 {{ end }}

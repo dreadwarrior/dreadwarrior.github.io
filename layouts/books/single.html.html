@@ -2,8 +2,8 @@
 
     <main>
         {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
-        <div class="pure-g">
-            <div class="cover--single cover pure-u-1 pure-u-lg-8-24">
+        <article class="book pure-g">
+            <aside class="cover--single cover pure-u-1 pure-u-lg-8-24" aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}">
                 {{ $inBookshelfCompleted := in .Params.bookshelves "completed" }}
                 {{- with partial "book/cover" (dict
                     "isbn" .Params.isbn
@@ -15,23 +15,25 @@
                     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                 </figure>
                 {{- end -}}
-            </div>
-            <div class="pure-u-1 pure-u-lg-16-24">
-                <h1><a href="{{ .Params.cataloguePermalink }}" title="In der Deutschen Nationalbibliothek nachschlagen">{{ .Title }}</a>{{ with .Params.subtitle }}<br><small><em>{{ . }}</em></small>{{ end }}</h1>
-                <h2>von <em>{{ .Params.author }}</em></h2>
+            </aside>
+
+            <section class="pure-u-1 pure-u-lg-16-24">
+                <header class="book__header">
+                    <h1><a href="{{ .Params.cataloguePermalink }}"
+                           title="In der Deutschen Nationalbibliothek nachschlagen">{{ .Title }}</a>{{ with .Params.subtitle }}<br><small><em>{{ . }}</em></small>{{ end }}</h1>
+                    <p>von <em>{{ .Params.author }}</em> (<time aria-label="Jahr der Veröffentlichung">{{ .Params.publishedAt }}</time>)</p>
+                </header>
 
                 <hr class="separator separator--decorated">
 
                 {{ .Content }}
 
-                <p><small>Quelle: <a class="link--force-word-break" href="{{ .Params.source }}">{{ .Params.source }}</a></small></p>
-
-                {{ partial "book/metadata.html" (dict "Params" .Params) }}
+                {{ partial "book/metadata.html" . }}
 
                 {{ partial "book/review.html" . }}
-            </div>
+            </section>
 
-            <div class="book-links pure-u-1">
+            <aside class="book-links pure-u-1" aria-label="Kaufoptionen">
                 <details class="tooltip">
                     <summary class="button button--primary button--block pure-button"><i class="fas fa-shopping-cart"></i> Kaufen</summary>
                     <ul class="tooltip__body">
@@ -46,9 +48,9 @@
                         </li>
                     </ul>
                 </details>
-            </div>
+            </aside>
 
-            <div class="pure-u-1">
+            <aside class="pure-u-1" aria-label="Ähnliche Bücher">
                 {{ partial "book/related.html" (dict
                     "site" .Site
                     "siteParams" $.Site.Params
@@ -56,8 +58,8 @@
                     "indices" (slice "topics")
                     "amount" 4
                 ) }}
-            </div>
-        </div>
+            </aside>
+        </article>
     </main>
 
 {{ end }}

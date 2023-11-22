@@ -67,6 +67,15 @@
   }
 }
 
+.book__header {
+  h1 {
+    margin-block-end: .5rem;
+  }
+  p {
+    margin-block-start: .5rem;
+  }
+}
+
 .book-metadata {
   border-top: 1px solid var(--secondary-color-o20);
   padding-top: 1rem;
@@ -128,6 +137,19 @@
 
   &__comment {
     font-style: italic;
+    // Reset some parts of the generic blockquote rules.
+    margin: 1rem 0;
+    padding-right: unset;
+
+    &:before {
+      left: -2rem;
+      top: -.25rem;
+
+      @include mq-md() {
+        left: .75rem;
+        top: -.75rem;
+      }
+    }
   }
 }
 
