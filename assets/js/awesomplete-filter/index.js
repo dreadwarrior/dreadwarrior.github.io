@@ -1,62 +1,64 @@
-function install(group, filterTargetsSelector, datasetName) {
-    window.addEventListener('load', function () {
-        const input = group.querySelector('input');
-        const trigger = group.querySelector('button[aria-controls]');
-        const clear = group.querySelector('button[type="reset"]');
+const create = group => {
+    const filterSource = group.dataset.filterSource;
+    const filterTarget = group.dataset.filterTarget;
 
-        const filterTargets = document.querySelectorAll(filterTargetsSelector);
+    const input = group.querySelector('input');
+    const trigger = group.querySelector('button[aria-controls]');
+    const clear = group.querySelector('button[type="reset"]');
 
-        const comboplete = new Awesomplete(
-            input,
+    const awesompleteInstance = new Awesomplete(
+        input,
+        {
+            minChars: 0,
+            sort: false,
+            replace: function(suggestion) {
+                this.input.value = suggestion.label;
+            }
+        }
+    );
+
+    trigger.addEventListener('click', function() {
+        if (awesompleteInstance.ul.childNodes.length === 0) {
+            awesompleteInstance.evaluate();
+        } else if (awesompleteInstance.ul.hasAttribute('hidden')) {
+            awesompleteInstance.open();
+        } else {
+            awesompleteInstance.close();
+        }
+    });
+    clear.addEventListener('click', () => {
+        input.value = '';
+
+        awesompleteInstance.evaluate();
+        awesompleteInstance.close();
+    });
+    input.addEventListener('awesomplete-selectcomplete', (event) => {
+        const url = event.text.value;
+        htmx.ajax(
+            'GET',
+            url,
             {
-                minChars: 0,
-                sort: false,
-                replace: function(suggestion) {
-                    this.input.value = suggestion.label;
-                }
+                'target': filterTarget,
+                'select': filterSource,
+                'swap': 'outerHTML'
             }
         );
-        Awesomplete.$(trigger).addEventListener('click', function() {
-            if (comboplete.ul.childNodes.length === 0) {
-                comboplete.evaluate();
-            } else if (comboplete.ul.hasAttribute('hidden')) {
-                comboplete.open();
-            } else {
-                comboplete.close();
-            }
-        });
-        Awesomplete.$(clear).addEventListener('click', () => {
-            input.value = '';
-
-            comboplete.evaluate();
-            comboplete.close();
-
-            filterTargets.forEach((it) => it.style.display = 'block');
-        });
-        input.addEventListener('awesomplete-selectcomplete', (event) => {
-            const filterValue = event.text.value;
-
-            filterTargets.forEach((it) => it.style.display = 'block');
-
-            [...filterTargets]
-                .filter((it) => !it.dataset[datasetName].includes(filterValue))
-                .forEach((it) => it.style.display = 'none');
-        });
-        input.addEventListener('awesomplete-close', (event) => {
-            if (event.reason === 'blur' || event.reason === 'esc') {
-                if (input.value === '') {
-                    filterTargets.forEach((it) => it.style.display = 'block');
-                }
-            }
-        })
     });
+    input.addEventListener('awesomplete-close', (event) => {
+        if (event.reason === 'blur' || event.reason === 'esc') {
+            if (input.value === '') {
+                clear.click();
+            }
+        }
+    })
+};
 
-}
-
-export function awesompleteFilter(filterTargetsSelector, datasetName) {
+export function awesompleteFilter() {
     const group = document.querySelector('.control-group--awesomplete');
 
     if (group != null) {
-        install(group, filterTargetsSelector, datasetName);
+        window.addEventListener('load', function () {
+            create(group)
+        });
     }
 }

@@ -106,6 +106,7 @@
         color: ButtonText;
 
         // Use default OS colors like a default select box.
+        &[aria-selected="true"],
         &:hover {
           background-color: AccentColor;
           color: AccentColorText;

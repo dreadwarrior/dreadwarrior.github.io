@@ -1,0 +1,23 @@
+{{ $n := .Scratch.Get "n" }}
+{{ $alternateText := printf "Titelseite des Buchs „%s“ von %s" .Title .Params.author }}
+<a
+        class="cover pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
+        aria-labelledby="cover-label-{{ .Params.idn }}"
+        href="{{ .Permalink }}">
+    <figure class="cover__figure">
+        {{- with partial "book/cover" (dict
+            "isbn" .Params.isbn
+            "coverUri" .Params.coverUri
+            "coversPath" $.Site.Params.books.coversPath)
+        -}}
+        <img src="{{ .RelPermalink }}"
+             width="{{ .Width }}"
+             height="{{ .Height }}"
+             alt="{{ $alternateText }}"
+             {{ if gt $n 15 }} loading="lazy"{{ end }}>
+        {{- end -}}
+        <figcaption id="cover-label-{{ .Params.idn }}">
+            {{ .Title }}<br><em>{{ .Params.author }}</em>
+        </figcaption>
+    </figure>
+</a>
