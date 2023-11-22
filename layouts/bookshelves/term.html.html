@@ -50,7 +50,7 @@
         {{ end }}
     </div>
 
-    {{ template "_internal/pagination.html" . }}
+    {{ partial "books/pagination.html" (dict "page" . "format" "default") }}
 </main>
 
 {{ end }}
