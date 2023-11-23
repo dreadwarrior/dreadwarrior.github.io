@@ -39,8 +39,7 @@ const create = group => {
             url,
             {
                 'target': filterTarget,
-                'select': filterSource,
-                'swap': 'outerHTML'
+                'select': filterSource
             }
         );
     });

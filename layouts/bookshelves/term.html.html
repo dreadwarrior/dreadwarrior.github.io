@@ -2,7 +2,7 @@
 
 <main>
     <section>
-        <h1>{{ with .Params.Title }}{{ . }}{{ else }}{{ .Section | title }} - {{ .Data.Term | title }}{{ end }}</h1>
+        <h1 id="section-header">{{ with .Params.Title }}{{ . }}{{ else }}{{ .Section | title }} - {{ .Data.Term | title }}{{ end }}</h1>
 
         <aside>
             {{- $topics := slice -}}
@@ -16,8 +16,8 @@
             {{ $topics = $topics | uniq }}
 
             <div class="control-group control-group--awesomplete"
-                 data-filter-source=".topic-books__{{ .Data.Term }} .cover-list"
-                 data-filter-target=".cover-list">
+                 data-filter-source=".books__{{ .Data.Term }} .topic__books"
+                 data-filter-target=".bookshelf">
                 <input
                         placeholder="Thema filtern"
                         aria-label="Thema filtern"
@@ -26,8 +26,9 @@
                 <button aria-controls="topics"><i class="fas fa-filter fa-xs"></i></button>
                 <button type="reset" class="button--last"
                         data-hx-get="{{ .RelPermalink }}"
-                        data-hx-select=".cover-list"
-                        data-hx-target=".cover-list"><i class="fas fa-times fa-xs"></i></button>
+                        data-hx-select=".bookshelf"
+                        data-hx-target=".bookshelf"
+                        data-hx-swap="outerHTML"><i class="fas fa-times fa-xs"></i></button>
                 <datalist id="topics">
                     {{- range (sort $topics "title") }}
                     <option value="{{ .link }}">{{ .title }}</option>
@@ -40,16 +41,16 @@
 
         {{ $paginator := .Paginate ( .Pages.ByDate.Reverse ) 24 }}
 
-        <div class="cover-list pure-g">
-            {{ range $n, $book := $paginator.Pages }}
-            {{ .Scratch.Set "n" $n }}
-            {{ .Render "cover-list" }}
-            {{ end }}
+        <nav class="bookshelf" aria-labelledby="section-header">
+            <div class="bookshelf__books pure-g">
+                {{ range $n, $book := $paginator.Pages }}
+                {{ .Scratch.Set "n" $n }}
+                {{ .Render "cover-list" }}
+                {{ end }}
+            </div>
 
-            <nav>
-                {{ partial "books/pagination.html" (dict "page" . "format" "default") }}
-            </nav>
-        </div>
+            {{ partial "books/pagination.html" (dict "page" . "format" "default") }}
+        </nav>
     </section>
 </main>
 

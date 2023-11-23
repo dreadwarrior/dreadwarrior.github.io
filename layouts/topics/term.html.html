@@ -4,31 +4,33 @@
         {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
 
         {{ with (where .Pages "Section" "books") }}
-        <article class="topic-books">
+        <article class="books">
             <h1>Bücher mit dem Thema „{{ $topic }}“</h1>
 
-            {{ with (where . "Params.bookshelves" "intersect" (slice "wishlist")) }}
-            <section class="topic-books__wishlist">
-                <h2>Wunschliste</h2>
-                <div class="cover-list pure-g">
+            {{ with (where . "Params.bookshelves" "intersect" (slice "completed")) }}
+            <nav class="books__completed" aria-labelledby="completed-books">
+                <h2 id="completed-books">Abgeschlossen</h2>
+
+                <div class="topic__books pure-g">
                     {{ range $n, $book := .ByDate.Reverse }}
                     {{ .Scratch.Set "n" $n }}
                     {{ .Render "cover-list" }}
                     {{ end }}
                 </div>
-            </section>
+            </nav>
             {{ end }}
 
-            {{ with (where . "Params.bookshelves" "intersect" (slice "completed")) }}
-            <section class="topic-books__completed">
-                <h2>Abgeschlossen</h2>
-                <div class="cover-list pure-g">
+            {{ with (where . "Params.bookshelves" "intersect" (slice "wishlist")) }}
+            <nav class="books__wishlist" aria-labelledby="books-in-wishlist">
+                <h2 id="books-in-wishlist">Wunschliste</h2>
+
+                <div class="topic__books pure-g">
                     {{ range $n, $book := .ByDate.Reverse }}
                     {{ .Scratch.Set "n" $n }}
                     {{ .Render "cover-list" }}
                     {{ end }}
                 </div>
-            </section>
+            </nav>
             {{ end }}
         </article>
         {{ end }}
