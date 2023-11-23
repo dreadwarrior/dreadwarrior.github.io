@@ -15,6 +15,10 @@ main {
     text-align: right;
 
     border-top: 1px solid var(--secondary-color-o20);
+
+    .fa-heart {
+        color: red;
+    }
 }
 
 .separator {
