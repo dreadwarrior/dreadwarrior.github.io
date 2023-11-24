@@ -1,0 +1,50 @@
+{{ define "main" }}
+    <main>
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        <hr class="separator separator--decorated">
+
+        {{ $debug := .Params.debug }}
+        {{ range $num, $input := .Params.titleSamples }}
+        {{ if gt $num 0 }}<hr class="separator">{{ end }}
+        <section>
+            <h2>Ergebnis #{{ add $num 1 }}</h2>
+
+            <dl>
+                <dt><strong>Bezeichnung des Eingabewerts</strong></dt>
+                <dd>{{ $input.title }}</dd>
+                {{- with resources.GetRemote (printf "http://openlibrary.org/api/books?bibkeys=ISBN:%s&format=json&jscmd=data" $input.source) | transform.Unmarshal -}}
+                {{ if $debug.printResponse }}
+                <code><pre>{{ . | jsonify (dict "indent" "  ") }}</pre></code>
+                {{ end }}
+                <dt>Titel</dt>
+                <dd>{{ index . (printf "ISBN:%s" $input.source) "title" }}</dd>
+                <dt>Untertitel</dt>
+                <dd>{{ with (index . (printf "ISBN:%s" $input.source) "subtitle") }}{{ . }}{{ else }}<em>keine Angabe</em>{{ end }}</dd>
+                <dt>Autor:in</dt>
+                <dd>{{ index . (printf "ISBN:%s" $input.source) "authors" 0 "name" }}</dd>
+                <dt>Cover URI</dt>
+                <dd>{{ index . (printf "ISBN:%s" $input.source) "cover" "large" }}</dd>
+                <dt>Permalink des Katalogs</dt>
+                <dd>https://openlibrary.org{{ index . (printf "ISBN:%s" $input.source) "key" }}</dd>
+                <dt>Jahr der Veröffentlichung</dt>
+                <dd>{{ index . (printf "ISBN:%s" $input.source) "publish_date" }}</dd>
+                <dt>Themen</dt>
+                <dd>
+                    {{ range (index . (printf "ISBN:%s" $input.source) "subjects") }}
+                    - {{ .name }}<br>
+                    {{ else }}
+                    <em>keine Angabe</em>
+                    {{ end }}
+                </dd>
+                <dt>Verlag</dt>
+                <dd>{{ index . (printf "ISBN:%s" $input.source) "publishers" 0 "name" }}</dd>
+                {{- end -}}
+            </dl>
+
+            <p>Quelle: <em>{{ printf "http://openlibrary.org/api/books?bibkeys=ISBN:%s&format=json&jscmd=data" $input.source }}</em></p>
+        {{ end }}
+        </section>
+    </main>
+{{ end }}
