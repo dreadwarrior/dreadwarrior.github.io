@@ -8,6 +8,22 @@ Personal, minimal landing page.
 
 ## Howto
 
+### Format an ISBN 13
+
+_Motivation_: Some tools and apps don't use properly formatted ISBN 13 values.
+I want to have that in this project. Therefore, a make target is introduced to
+support this right away from the CLI.
+
+*Requirements*:
+
+- [SDKMAN!](https://sdkman.io/)
+- JDK 17, e.g. `sdk install java 17.0.2-open`
+- [JBang](https://www.jbang.dev/), e.g. `sdk install jbang`
+
+
+    > make formatted_isbn isbn=9780571330638
+    < 978-0-571-33063-8
+
 ### Add a book to the wishlist
 
 ---
