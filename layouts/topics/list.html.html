@@ -13,7 +13,7 @@
             <nav aria-label="Alphabetische Navigation">
                 <ul class="pagination">
                     {{ range $alphabeticalNavSymbols }}
-                    <li class="pagination__page-item"><a href="#{{ . }}">{{ if eq . "0"}}0-9{{ else }}{{ . | upper }}{{ end }}</a></li>
+                    <li class="pagination__page-item"><a href="#{{ . }}" class="pagination__page-item__page-link">{{ if eq . "0"}}0-9{{ else }}{{ . | upper }}{{ end }}</a></li>
                     {{ end }}
                 </ul>
             </nav>
