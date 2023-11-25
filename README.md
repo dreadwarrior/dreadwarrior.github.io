@@ -20,9 +20,14 @@ support this right away from the CLI.
 - JDK 17, e.g. `sdk install java 17.0.2-open`
 - [JBang](https://www.jbang.dev/), e.g. `sdk install jbang`
 
+Run `formatted_isbn` `make` target with parameter `isbn`.
 
-    > make formatted_isbn isbn=9780571330638
-    < 978-0-571-33063-8
+Example: 
+
+```
+> make formatted_isbn isbn=9780571330638
+< 978-0-571-33063-8
+```
 
 ### Add a book to the wishlist
 
