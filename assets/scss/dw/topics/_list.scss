@@ -1,0 +1,31 @@
+.topic-group {
+  position: relative;
+
+  small {
+    font-weight: normal;
+    font-size: .75rem;
+
+    position: absolute;
+    right: 0;
+    top: .5rem;
+  }
+}
+.topic-list {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+
+  li {
+    padding: .5rem 0;
+
+    small a {
+      text-decoration-style: dotted;
+    }
+  }
+
+  &__item {
+    border-bottom: 1px dashed var(--secondary-color-o20);
+    margin: 0 .5rem;
+    padding: 0 .5rem .5rem .5rem;
+  }
+}
