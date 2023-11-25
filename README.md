@@ -31,34 +31,30 @@ Example:
 
 ### Add a book to the wishlist
 
----
-
-**Note**: Only german books with a proper formatted ISBN 13 are supported.
-
----
-
 1. Search for the book title at dnb.de.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
-3. Generate a book page for that ISBN:
+3. Generate a book page for that ISBN.
+   1. For a german book, run:
 
-       make wishlist_book isbn=<isbn>
+          make wishlist_book isbn=<isbn>
+   2. For an english book, run:
+
+          make en_wishlist_book isbn=<isbn>
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
 
 ### Add a completed book
 
----
-
-**Note**: Only german books with a proper formatted ISBN 13 are supported.
-
----
-
 1. Search for the book title at dnb.de or.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
-3. Generate a book page for that ISBN:
+3. Generate a book page for that ISBN.
+   1. For a german book, run:
 
-       make completed_book isbn=<isbn>
+          make completed_book isbn=<isbn>
+   2. For a german book, run:
+
+          make en_completed_book isbn=<isbn>
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
