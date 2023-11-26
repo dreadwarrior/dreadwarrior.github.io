@@ -20,41 +20,23 @@ support this right away from the CLI.
 - JDK 17, e.g. `sdk install java 17.0.2-open`
 - [JBang](https://www.jbang.dev/), e.g. `sdk install jbang`
 
-Run `formatted_isbn` `make` target with parameter `isbn`.
+Run `formatted-isbn` `make` target.
 
 Example: 
 
 ```
-> make formatted_isbn isbn=9780571330638
-< 978-0-571-33063-8
+> make formatted-isbn
+< ISBN: 9783442735648
+< 978-3-442-73564-8
 ```
 
-### Add a book to the wishlist
+### Add a new book
 
-1. Search for the book title at dnb.de.
+1. Go and find the ISBN of the book title, e.g from a book catalogue like dnb.de or openlibrary.org.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
-3. Generate a book page for that ISBN.
-   1. For a german book, run:
+3. Run the following command and answer the interactive questions:
 
-          make wishlist_book isbn=<isbn>
-   2. For an english book, run:
-
-          make en_wishlist_book isbn=<isbn>
-
-4. Open the newly generated file and adjust the front matter variable `topics`.
-5. If you like, add an excerpt to the file's content area.
-
-### Add a completed book
-
-1. Search for the book title at dnb.de or.
-2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
-3. Generate a book page for that ISBN.
-   1. For a german book, run:
-
-          make completed_book isbn=<isbn>
-   2. For a german book, run:
-
-          make en_completed_book isbn=<isbn>
+       make book
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
