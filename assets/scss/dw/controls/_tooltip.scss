@@ -31,7 +31,8 @@
     border-radius: .5rem;
     box-shadow: var(--secondary-color-o20) 0 .25rem .5rem;
 
-    background-color: var(--primary-color);
+    background-color: var(--closest-primary-color); //var(--primary-color);
+    color: var(--closest-secondary-color);
     position: absolute;
     width: calc(100% - (2 * var(--tooltip-triange-size)));
     z-index: 99;
@@ -48,6 +49,16 @@
       position: absolute;
       top: calc((-1 * var(--tooltip-triange-size)) - 1px);
       left: calc(50% - calc(var(--tooltip-triange-size) / 2));
+    }
+
+    a {
+      @include transition(color .2s ease-out);
+
+      color: var(--closest-secondary-color);
+
+      &:hover {
+        color: var(--accent-color);
+      }
     }
   }
 

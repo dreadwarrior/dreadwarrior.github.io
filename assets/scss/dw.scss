@@ -7,6 +7,7 @@ $powder-blue: rgb(161, 181, 216);
 
 // Other colors
 $sea: rgb(28, 37, 65);
+$sea-o20-opaque: rgb(73, 80, 101); // Used for "closest" elements, e.g. tooltips. Needs to be adjusted if --dark-primary-color-o20 changes.
 
 // Colors from Semantic UI: https://semantic-ui.com/usage/theming.html#sitewide-defaults
 $green: rgb(33, 186, 69);
@@ -27,6 +28,9 @@ $black: rgb(0, 0, 0);
   --light-primary-color-o20: #{rgba($baby-powder, 0.2)};
   --light-secondary-color-o20: #{rgba($sea, 0.2)};
 
+  --light-closest-primary-color: #{$white};
+  --light-closest-secondary-color: #{$sea};
+
   // Dark mode
   --dark-primary-color: #{$sea};
   --dark-secondary-color: #{$baby-powder};
@@ -35,6 +39,9 @@ $black: rgb(0, 0, 0);
   --dark-primary-color-o20: #{rgba($sea, 0.2)};
   --dark-secondary-color-o20: #{rgba($baby-powder, 0.2)};
 
+  --dark-closest-primary-color: #{$sea-o20-opaque};
+  --dark-closest-secondary-color: #{$baby-powder};
+
   // Default mode
   --primary-color: var(--light-primary-color);
   --secondary-color: var(--light-secondary-color);
@@ -42,6 +49,9 @@ $black: rgb(0, 0, 0);
 
   --primary-color-o20: var(--light-primary-color-o20);
   --secondary-color-o20: var(--light-secondary-color-o20);
+
+  --closest-primary-color: var(--light-closest-primary-color);
+  --closest-secondary-color: var(--light-closest-secondary-color);
 }
 
 @import 'dw/fonts';
