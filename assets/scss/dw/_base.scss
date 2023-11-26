@@ -107,6 +107,9 @@ blockquote {
         line-height: 1.2;
         margin-top: 1rem;
     }
+
+    // Allows proper absolute positioning of .scroll-to-top element.
+    position: relative;
 }
 
 .button {

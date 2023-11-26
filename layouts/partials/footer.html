@@ -1,3 +1,16 @@
+{{ with .Params.enableScrollToTop }}
+    {{ if . }}
+<div class="scroll-to-top">
+    <a href="#" role="button" aria-label="Zurück zum Anfang der Seite">
+        <svg height="48" viewBox="0 0 48 48" width="48" height="48px" xmlns="http://www.w3.org/2000/svg">
+            <path class="scroll-to-top__background" d="M0 0h48v48h-48z"></path>
+            <path class="scroll-to-top__icon" d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"></path>
+        </svg>
+    </a>
+</div>
+    {{ end }}
+{{ end }}
+
 <footer class="footer">
     <p>
         Made with <i class="fas fa-heart"></i>, <a href='https://gohugo.io'>Hugo</a>, <a href="https://purecss.io/">Pure.css</a>
