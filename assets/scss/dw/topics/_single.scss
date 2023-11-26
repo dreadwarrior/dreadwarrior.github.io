@@ -1,0 +1,14 @@
+.topic {
+  nav h2 {
+    position: relative;
+
+    small {
+      font-weight: normal;
+      font-size: .75rem;
+
+      position: absolute;
+      right: 0;
+      top: .5rem;
+    }
+  }
+}

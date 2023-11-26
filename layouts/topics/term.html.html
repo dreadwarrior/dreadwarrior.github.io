@@ -4,25 +4,38 @@
         {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
 
         {{ with (where .Pages "Section" "books") }}
-        <article class="books">
-            <h1>Bücher mit dem Thema „{{ $topic }}“</h1>
+        <article class="topic books">
+            <h1 id="section-header">Bücher mit dem Thema „{{ $topic }}“</h1>
 
-            {{ with (where . "Params.bookshelves" "intersect" (slice "completed")) }}
-            <nav class="books__completed" aria-labelledby="completed-books">
-                <h2 id="completed-books">Abgeschlossen</h2>
+            {{ $wishlistBooks := where . "Params.bookshelves" "intersect" (slice "wishlist") }}
+            {{ $completedBooks := where . "Params.bookshelves" "intersect" (slice "completed") }}
 
-                <div class="topic__books pure-g">
-                    {{ range $n, $book := .ByDate.Reverse }}
-                    {{ .Scratch.Set "n" $n }}
-                    {{ .Render "cover-list" }}
-                    {{ end }}
-                </div>
-            </nav>
+            <ul>
+                <li>{{ with $wishlistBooks.Len }}{{ . }} {{ if gt 1 . }}Bücher{{ else }}Buch{{ end}}{{ end }} auf der <a href="#books-in-wishlist">Wunschliste</a></li>
+                <li>{{ $completedBooks.Len }} Bücher <a href="#completed-books">abgeschlossen</a></li>
+            </ul>
+
+            <hr class="separator separator--decorated">
+
+            {{ with $wishlistBooks }}
+                <nav class="books__wishlist" aria-labelledby="books-in-wishlist">
+                    <h2 id="books-in-wishlist">Wunschliste <small><a href="#section-header">zurück nach oben</a></small></h2>
+
+                    <div class="topic__books pure-g">
+                        {{ range $n, $book := .ByDate.Reverse }}
+                            {{ .Scratch.Set "n" $n }}
+                            {{ .Render "cover-list" }}
+                        {{ end }}
+                    </div>
+                </nav>
             {{ end }}
 
-            {{ with (where . "Params.bookshelves" "intersect" (slice "wishlist")) }}
-            <nav class="books__wishlist" aria-labelledby="books-in-wishlist">
-                <h2 id="books-in-wishlist">Wunschliste</h2>
+            {{ with $completedBooks }}
+
+            <hr class="separator separator--decorated">
+
+            <nav class="books__completed" aria-labelledby="completed-books">
+                <h2 id="completed-books">Abgeschlossen <small><a href="#section-header">zurück nach oben</a></small></h2>
 
                 <div class="topic__books pure-g">
                     {{ range $n, $book := .ByDate.Reverse }}
