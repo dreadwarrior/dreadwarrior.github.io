@@ -11,27 +11,30 @@
             {{ $completedBooks := where . "Params.bookshelves" "intersect" (slice "completed") }}
 
             <ul>
-                <li>{{ with $wishlistBooks.Len }}{{ . }} {{ if gt 1 . }}Bücher{{ else }}Buch{{ end}}{{ end }} auf der <a href="#books-in-wishlist">Wunschliste</a></li>
-                <li>{{ $completedBooks.Len }} Bücher <a href="#completed-books">abgeschlossen</a></li>
+                {{ with $wishlistBooks }}
+                <li>{{ T "book_with_count" .Len }} auf der <a href="#books-in-wishlist">Wunschliste</a></li>
+                {{ end }}
+                {{ with $completedBooks }}
+                <li>{{T "book_with_count" .Len }} <a href="#completed-books">abgeschlossen</a></li>
+                {{ end }}
             </ul>
 
+            {{ with $wishlistBooks }}
             <hr class="separator separator--decorated">
 
-            {{ with $wishlistBooks }}
-                <nav class="books__wishlist" aria-labelledby="books-in-wishlist">
-                    <h2 id="books-in-wishlist">Wunschliste <small><a href="#section-header">zurück nach oben</a></small></h2>
+            <nav class="books__wishlist" aria-labelledby="books-in-wishlist">
+                <h2 id="books-in-wishlist">Wunschliste <small><a href="#section-header">zurück nach oben</a></small></h2>
 
-                    <div class="topic__books pure-g">
-                        {{ range $n, $book := .ByDate.Reverse }}
-                            {{ .Scratch.Set "n" $n }}
-                            {{ .Render "cover-list" }}
-                        {{ end }}
-                    </div>
-                </nav>
+                <div class="topic__books pure-g">
+                    {{ range $n, $book := .ByDate.Reverse }}
+                        {{ .Scratch.Set "n" $n }}
+                        {{ .Render "cover-list" }}
+                    {{ end }}
+                </div>
+            </nav>
             {{ end }}
 
             {{ with $completedBooks }}
-
             <hr class="separator separator--decorated">
 
             <nav class="books__completed" aria-labelledby="completed-books">

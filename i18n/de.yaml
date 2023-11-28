@@ -1,0 +1,3 @@
+book_with_count:
+  one: "{{ . }} Buch"
+  other: "{{ . }} Bücher"
