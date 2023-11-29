@@ -137,17 +137,18 @@
 
   &__comment {
     font-style: italic;
-    // Reset some parts of the generic blockquote rules.
-    margin: 1rem 0;
-    padding-right: unset;
+    margin: 1rem 0; // Reset some parts of the generic blockquote rules.
+    padding: 2rem 0 1rem 2rem;
+
+    @include mq-md() {
+      padding: 2rem 0 1rem 2.75rem;
+    }
 
     &:before {
-      left: -2rem;
-      top: -7.75rem;
+      left: 0;
 
       @include mq-md() {
         left: .75rem;
-        top: -6.75rem;
       }
     }
   }

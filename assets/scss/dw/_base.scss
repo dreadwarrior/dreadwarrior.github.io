@@ -59,7 +59,6 @@ a {
 
 blockquote {
     padding: 1rem 0 1rem 0;
-    overflow: hidden; // Prevent ::before content overlays neighboring elements.
 
     @include mq-md() {
         padding: 1.2rem 2rem 1.2rem 4rem;
@@ -75,14 +74,14 @@ blockquote {
         color: var(--secondary-color-o20);
         font-size: 8rem;
         font-weight: bold;
+        line-height: 0;
 
         position: absolute;
         left: -3rem;
-        top: -8rem;
+        top: 0;
 
         @include mq-md() {
             left: .75rem;
-            top: -8rem;
         }
     }
     footer {
