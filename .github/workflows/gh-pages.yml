@@ -11,6 +11,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Install jq
+        uses: dcarbone/install-jq-action@v2.1.0
+
       - uses: actions/checkout@v4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -21,6 +24,9 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+
+      - name: Ensure Hugo cache 'getresource' never evicts
+        run: test $(hugo config --format json | jq .caches.getresource.maxage) -eq -1
 
       - name: Fetch resources directory from cache
         uses: actions/cache@v3
