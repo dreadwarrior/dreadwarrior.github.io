@@ -59,6 +59,7 @@ a {
 
 blockquote {
     padding: 1rem 0 1rem 0;
+    overflow: hidden; // Prevent ::before content overlays neighboring elements.
 
     @include mq-md() {
         padding: 1.2rem 2rem 1.2rem 4rem;
@@ -70,17 +71,18 @@ blockquote {
     line-height: 1.6;
 
     &:before {
-        content: "\201C";
+        content: "\201E";
         color: var(--secondary-color-o20);
-        font-size: 4rem;
+        font-size: 8rem;
+        font-weight: bold;
 
         position: absolute;
         left: -3rem;
-        top: -1rem;
+        top: -8rem;
 
         @include mq-md() {
             left: .75rem;
-            top: -.75rem;
+            top: -8rem;
         }
     }
     footer {
