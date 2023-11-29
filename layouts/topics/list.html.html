@@ -22,6 +22,7 @@
             {{/* Source: https://discourse.gohugo.io/t/alphabetical-sorting-with-headings/17566/5 */}}
             {{ $page := . }}
             {{ $numericSymbols := slice "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" }}
+            {{ $umlautSymbols := dict "a" "ä" "o" "ö" "u" "ü" }}
             <!-- Create an array of alphanumeric characters -->
             {{ $symbols := slice "0" "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" }}
 
@@ -41,7 +42,7 @@
                     {{ $term := .Name }}
 
                     <!-- If the current term's preFix matches the current iteration of $symbol, then add the term to the $terms slice -->
-                    {{ if hasPrefix $term $symbol }}
+                    {{ if  or (hasPrefix $term $symbol) (and (isset $umlautSymbols $symbol) (hasPrefix $term (index $umlautSymbols $symbol))) }}
                         {{ $terms = $terms | append . }}
                     {{ else if and (eq $symbol "0") (in $numericSymbols (slicestr $term 0 1)) }}
                         {{ $terms = $terms | append . }}
