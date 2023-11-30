@@ -19,9 +19,10 @@
 
             <section class="pure-u-1 pure-u-lg-16-24">
                 <header class="book__header">
-                    <h1><a href="{{ .Params.cataloguePermalink }}"
-                           title="In der Deutschen Nationalbibliothek nachschlagen">{{ .Title }}</a>{{ with .Params.subtitle }}<br><small><em>{{ . }}</em></small>{{ end }}</h1>
-                    <p>von <em>{{ .Params.author }}</em> (<time aria-label="Jahr der Veröffentlichung">{{ .Params.publishedAt }}</time>)</p>
+                    <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.subtitle }}<br>
+                        <small><em>{{ . }}</em></small>{{ end }}</h1>
+                    <p>von <em>{{ .Params.author }}</em>
+                        (<time aria-label="Jahr der Veröffentlichung">{{ .Params.publishedAt }}</time>)</p>
                 </header>
 
                 <hr class="separator separator--decorated">

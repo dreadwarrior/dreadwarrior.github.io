@@ -70,6 +70,14 @@
 .book__header {
   h1 {
     margin-block-end: .5rem;
+
+    a:hover:after {
+      content: "¶";
+      margin-inline-start: .25rem;
+
+      font-size: 1.5rem;
+      color: var(--secondary-color-o20);
+    }
   }
   p {
     margin-block-start: .5rem;
@@ -80,11 +88,17 @@
   border-top: 1px solid var(--secondary-color-o20);
   padding-top: 1rem;
 
-  .book-metadata__isbn {
+  &__isbn {
     position: relative;
 
     .tooltip__body {
       padding: .5rem
+    }
+  }
+
+  &__source-references {
+    ul {
+      margin: 0 0 0 2rem;
     }
   }
 
