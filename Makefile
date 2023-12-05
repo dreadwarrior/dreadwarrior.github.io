@@ -30,10 +30,10 @@ book:
 		\
 		echo "Generating book content for ISBN $${formatted_isbn} in bookshelf $${bookshelf}"; \
 		\
-		if [[ "x$${completed}" -eq "xNo" ]]; then \
+		if [[ "x$${completed}" = "xNo" ]]; then \
 			hugo new content $${archetype_kind} books/$${formatted_isbn}.md; \
 			git add content/books/$${formatted_isbn}.md; \
-		elif [[ "x$${completed}" -eq "xYes" ]]; then \
+		elif [[ "x$${completed}" = "xYes" ]]; then \
 			hugo new content $${archetype_kind} books/$${formatted_isbn}/index.md; \
 			touch content/books/$${formatted_isbn}/review.md; \
 			git add content/books/$${formatted_isbn}/; \
