@@ -18,22 +18,24 @@ book:
                    	done; \
                    )"; \
 	    \
-	    echo "Is the book in English?"; \
+	    echo "What language was the book written in?"; \
 	    archetype_kind="$$( \
-                        	select is_english in "Yes" "No"; do \
-                        		case $$is_english in \
-                        			Yes ) echo "--kind books.openlibrary";exit;; \
-                        			No ) exit;; \
+                        	select language in "english" "german"; do \
+                        		case $$language in \
+                        			english ) echo "--kind books.openlibrary";exit;; \
+                        			german ) exit;; \
                         		esac \
                         	done; \
                         )"; \
 		\
-		echo "Generating book content for ISBN $${formatted_isbn} in bookshelf $${bookshelf}"; \
-		\
 		if [[ "x$${completed}" = "xNo" ]]; then \
+			echo "Generating book content for ISBN $${formatted_isbn} in bookshelf 'wishlist'"; \
+			\
 			hugo new content $${archetype_kind} books/$${formatted_isbn}.md; \
 			git add content/books/$${formatted_isbn}.md; \
 		elif [[ "x$${completed}" = "xYes" ]]; then \
+			echo "Generating book content for ISBN $${formatted_isbn} in bookshelf 'completed'"; \
+			\
 			hugo new content $${archetype_kind} books/$${formatted_isbn}/index.md; \
 			cp ./archetypes/review.md.dist content/books/$${formatted_isbn}/review.md; \
 			git add content/books/$${formatted_isbn}/; \
