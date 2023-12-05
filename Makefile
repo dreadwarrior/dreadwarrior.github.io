@@ -35,7 +35,7 @@ book:
 			git add content/books/$${formatted_isbn}.md; \
 		elif [[ "x$${completed}" = "xYes" ]]; then \
 			hugo new content $${archetype_kind} books/$${formatted_isbn}/index.md; \
-			touch content/books/$${formatted_isbn}/review.md; \
+			cp ./archetypes/review.md.dist content/books/$${formatted_isbn}/review.md; \
 			git add content/books/$${formatted_isbn}/; \
 		fi; \
 	}
