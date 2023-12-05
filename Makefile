@@ -32,11 +32,15 @@ book:
 			echo "Generating book content for ISBN $${formatted_isbn} in bookshelf 'wishlist'"; \
 			\
 			hugo new content $${archetype_kind} books/$${formatted_isbn}.md; \
+			sed -i.bak "s~###BOOKSHELF###~wishlist~g" content/books/$${formatted_isbn}.md; \
+			rm -f content/books/$${formatted_isbn}.md.bak; \
 			git add content/books/$${formatted_isbn}.md; \
 		elif [[ "x$${completed}" = "xYes" ]]; then \
 			echo "Generating book content for ISBN $${formatted_isbn} in bookshelf 'completed'"; \
 			\
 			hugo new content $${archetype_kind} books/$${formatted_isbn}/index.md; \
+			sed -i.bak "s~###BOOKSHELF###~completed~g" content/books/$${formatted_isbn}/index.md; \
+			rm -f content/books/$${formatted_isbn}/index.md.bak; \
 			cp ./archetypes/review.md.dist content/books/$${formatted_isbn}/review.md; \
 			git add content/books/$${formatted_isbn}/; \
 		fi; \
