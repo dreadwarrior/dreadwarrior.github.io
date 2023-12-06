@@ -1,5 +1,7 @@
 {{ define "main" }}
     <main>
+        {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
+
         <h1>{{ .Params.Title }}</h1>
 
         {{ .Content }}
