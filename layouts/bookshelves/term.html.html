@@ -1,6 +1,8 @@
 {{ define "main" }}
 
 <main>
+    {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
+
     <section>
         <h1 id="section-header">{{ with .Params.Title }}{{ . }}{{ else }}{{ .Section | title }} - {{ .Data.Term | title }}{{ end }}</h1>
 
