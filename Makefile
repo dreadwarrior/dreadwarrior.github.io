@@ -18,7 +18,7 @@ book:
                    	done; \
                    )"; \
 	    \
-	    echo "What language was the book written in?"; \
+	    echo "In which language area was the book published?"; \
 	    archetype_kind="$$( \
                         	select language in "english" "german"; do \
                         		case $$language in \
