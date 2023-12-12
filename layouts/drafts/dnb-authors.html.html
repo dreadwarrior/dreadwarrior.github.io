@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <main>
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        <hr class="separator separator--decorated">
+
+        {{ range $num, $input := .Params.samples }}
+        {{ if gt $num 0 }}<hr class="separator">{{ end }}
+        <section>
+            <h2>Ergebnis #{{ add $num 1 }}</h2>
+
+            <dl>
+                <dt><strong>Eingabewert</strong></dt>
+                <dd><pre>{{ $input.creator | jsonify (dict "indent" "  ") }}</pre></dd>
+            {{ with partial "dnb/oai_dc/author.html" $input.creator }}
+                <dt><strong>Autor:innen / geistige:r Schöpfer:innen</strong></dt>
+                <dd>{{ . }}</dd>
+            {{ end }}
+            </dl>
+
+            <p>Quelle: <em>{{ $input.source }}</em></p>
+        {{ end }}
+        </section>
+    </main>
+{{ end }}

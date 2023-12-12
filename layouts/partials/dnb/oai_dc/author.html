@@ -1,33 +1,31 @@
-{{ $author := "" }}
+{{ $authors := slice }}
 {{ if reflect.IsSlice . }}
   {{ range . }}
-    {{ if strings.Contains . "Verfasser" }}
-      {{/* Remove author augments, like "Verfasser", "Illustrator", "Mitwirkender" from field, enclosed in square brackets. */}}
-      {{ $author = replaceRE `\s+\[[a-zA-Z].+\]` "" . }}
-      {{/* Split author's first and last name. */}}
-      {{ $author = split $author "," }}
-      {{ if isset $author 1 }}
-        {{/* Make author name in order of first and last name. */}}
-        {{ $author = printf "%s %s" (index $author 1) (index $author 0) }}
-      {{ else }}
-        {{/* Sometimes, the authors first and last names are not separated by comma and given in reverse order. */}}
-        {{ $author = printf "%s" (index $author 0) }}
-      {{ end }}
-    {{ end }}
+    {{ $authors = $authors | append (partial "inline/dnb-oai_dc-author.html" .) }}
   {{ end }}
 {{ else }}
-    {{ if strings.Contains . "Verfasser" }}
-      {{/* Remove author augments, like "Verfasser", "Illustrator", "Mitwirkender" from field, enclosed in square brackets. */}}
-      {{ $author = replaceRE `\s+\[[a-zA-Z].+\]` "" . }}
-      {{/* Split author's first and last name. */}}
-      {{ $author = split $author "," }}
-      {{ if isset $author 1 }}
-        {{/* Make author name in order of first and last name. */}}
-        {{ $author = printf "%s %s" (index $author 1) (index $author 0) }}
-      {{ else }}
-        {{/* Sometimes, the authors first and last names are not separated by comma and given in reverse order. */}}
-        {{ $author = printf "%s" (index $author 0) }}
-      {{ end }}
-    {{ end }}
+    {{ $authors = $authors | append (partial "inline/dnb-oai_dc-author.html" .) }}
 {{ end }}
-{{ return (trim $author " ") }}
+{{ $delimiter := "" }}
+{{ if gt ($authors | len) 2 }}
+  {{ $delimiter = ", " }}
+{{ end }}
+{{ return (delimit $authors $delimiter) }}
+
+{{ define "partials/inline/dnb-oai_dc-author.html" }}
+  {{ $author := "" }}
+  {{ if strings.Contains . "Verfasser" }}
+    {{/* Remove author augments, like "Verfasser", "Illustrator", "Mitwirkender" from field, enclosed in square brackets. */}}
+    {{ $author = replaceRE `\s+\[[a-zA-Z].+\]` "" . }}
+    {{/* Split author's first and last name. */}}
+    {{ $author = split $author "," }}
+    {{ if isset $author 1 }}
+      {{/* Make author name in order of first and last name. */}}
+      {{ $author = printf "%s %s" (index $author 1) (index $author 0) }}
+    {{ else }}
+      {{/* Sometimes, the authors first and last names are not separated by comma and given in reverse order. */}}
+      {{ $author = printf "%s" (index $author 0) }}
+    {{ end }}
+  {{ end }}
+  {{ return (trim $author " ") }}
+{{ end }}
