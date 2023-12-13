@@ -19,7 +19,7 @@ Personal, minimal landing page (with personal bookshelf management).
 ### Format an ISBN 13
 
 _Motivation_: Some tools and apps don't use properly formatted ISBN 13 values.
-I want to have that in this project. Therefore, a make target is introduced to
+I want to have that in this project. Therefore, a JBang script exists to
 support this right away from the CLI.
 
 Run the following command, replace `9783442735648` with _your_ ISBN:
