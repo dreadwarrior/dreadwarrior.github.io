@@ -1,0 +1,75 @@
+version: '3'
+
+vars:
+  FORMATTED_ISBN:
+    sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
+
+tasks:
+  de.book.wishlist:
+    vars:
+      TARGET: 'books/{{.FORMATTED_ISBN}}.md'
+    cmds:
+      - echo "Create wishlist book for ISBN {{.FORMATTED_ISBN}}"
+      - hugo new content {{.TARGET}}
+      - task: _replace-bookshelf-placeholder
+        vars:
+          BOOKSHELF: 'wishlist'
+          TARGET: 'content/{{.TARGET}}'
+      - task: _add-to-vcs
+        vars:
+          REF: 'content/{{.TARGET}}'
+
+  en.book.wishlist:
+    vars:
+      TARGET: 'books/{{.FORMATTED_ISBN}}.md'
+    cmds:
+      - echo "Create wishlist book for ISBN {{.FORMATTED_ISBN}}"
+      - hugo new content --kind books.openlibrary {{.TARGET}}
+      - task: _replace-bookshelf-placeholder
+        vars:
+          BOOKSHELF: 'wishlist'
+          TARGET: 'content/{{.TARGET}}'
+      - task: _add-to-vcs
+        vars:
+          REF: 'content/{{.TARGET}}'
+
+  de.book.completed:
+    vars:
+      TARGET: 'books/{{.FORMATTED_ISBN}}'
+    cmds:
+      - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
+      - hugo new content {{.TARGET}}/index.md
+      - task: _replace-bookshelf-placeholder
+        vars:
+          BOOKSHELF: 'completed'
+          TARGET: 'content/{{.TARGET}}/index.md'
+      - cp ./archetypes/review.md.dist content/{{.TARGET}}/review.md
+      - task: _add-to-vcs
+        vars:
+          REF: 'content/{{.TARGET}}/'
+
+  en.book.completed:
+    vars:
+      TARGET: 'books/{{.FORMATTED_ISBN}}'
+    cmds:
+      - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
+      - hugo new content --kind books.openlibrary {{.TARGET}}/index.md
+      - task: _replace-bookshelf-placeholder
+        vars:
+          BOOKSHELF: 'completed'
+          TARGET: 'content/{{.TARGET}}/index.md'
+      - cp ./archetypes/review.md.dist content/{{.TARGET}}/review.md
+      - task: _add-to-vcs
+        vars:
+          REF: 'content/{{.TARGET}}/'
+
+  _replace-bookshelf-placeholder:
+    internal: true
+    cmds:
+      - sed -i.bak "s~###BOOKSHELF###~{{.BOOKSHELF}}~g" {{.TARGET}}
+      - rm -f {{.TARGET}}.bak
+
+  _add-to-vcs:
+    internal: true
+    cmds:
+      - git add {{.REF}}

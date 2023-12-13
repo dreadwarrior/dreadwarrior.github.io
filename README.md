@@ -1,6 +1,14 @@
 # van-tomas.de
 
-Personal, minimal landing page.
+Personal, minimal landing page (with personal bookshelf management).
+
+## Requirements
+
+- [SDKMAN!](https://sdkman.io/)
+- JDK 17, e.g. `sdk install java 17.0.2-open`
+- [JBang](https://www.jbang.dev/), e.g. `sdk install jbang`
+- [hugo](https://gohugo.io/installation/)
+- [go-task](https://taskfile.dev/installation/)
 
 ## Run
 
@@ -14,19 +22,10 @@ _Motivation_: Some tools and apps don't use properly formatted ISBN 13 values.
 I want to have that in this project. Therefore, a make target is introduced to
 support this right away from the CLI.
 
-*Requirements*:
-
-- [SDKMAN!](https://sdkman.io/)
-- JDK 17, e.g. `sdk install java 17.0.2-open`
-- [JBang](https://www.jbang.dev/), e.g. `sdk install jbang`
-
-Run `formatted-isbn` `make` target.
-
-Example: 
+Run the following command, replace `9783442735648` with _your_ ISBN:
 
 ```
-> make formatted-isbn
-< ISBN: 9783442735648
+> jbang ./script/isbn13.java 9783442735648
 < 978-3-442-73564-8
 ```
 
@@ -34,9 +33,29 @@ Example:
 
 1. Go and find the ISBN of the book title, e.g from a book catalogue like dnb.de or openlibrary.org.
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
-3. Run the following command and answer the interactive questions:
+3. Run the following command to add a new book, published in the german language area to the wishlist:
 
-       make book
+       ISBN=978-3-7645-3237-6 task de.book.wishlist
+
+---
+   
+**NOTE**: _Language area and bookshelf variations_
+
+To create a book in the _english language area_, replace the prefix `de.` by 
+`en.`. Example:
+
+```
+ISBN=9780553381689 task en.book.wishlist
+```
+
+To create a _completed_ book, replace the suffix `.wishlist` by `.completed`.
+Example:
+
+```
+ISBN=978-3-7645-3237-6 task de.book.completed
+```
+
+---
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
 5. If you like, add an excerpt to the file's content area.
