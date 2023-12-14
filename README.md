@@ -35,7 +35,7 @@ Run the following command, replace `9783442735648` with _your_ ISBN:
 2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
 3. Run the following command to add a new book, published in the german language area to the wishlist:
 
-       ISBN=978-3-7645-3237-6 task de.book.wishlist
+       ISBN=978-3-7645-3237-6 task [--silent] de.book.wishlist
 
 ---
    
@@ -45,14 +45,14 @@ To create a book in the _english language area_, replace the prefix `de.` by
 `en.`. Example:
 
 ```
-ISBN=9780553381689 task en.book.wishlist
+ISBN=9780553381689 task [--silent] en.book.wishlist
 ```
 
 To create a _completed_ book, replace the suffix `.wishlist` by `.completed`.
 Example:
 
 ```
-ISBN=978-3-7645-3237-6 task de.book.completed
+ISBN=978-3-7645-3237-6 [--silent] task de.book.completed
 ```
 
 ---

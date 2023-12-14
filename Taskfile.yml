@@ -1,30 +1,47 @@
 version: '3'
 
-vars:
-  FORMATTED_ISBN:
-    sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
-
 tasks:
   de.book.wishlist:
     vars:
-      TARGET: 'books/{{.FORMATTED_ISBN}}.md'
+      LANGUAGE: '{{ (split "." .TASK)._0 }}'
     cmds:
-      - echo "Create wishlist book for ISBN {{.FORMATTED_ISBN}}"
-      - hugo new content {{.TARGET}}
-      - task: _replace-bookshelf-placeholder
+      - task: _wishlist-book
         vars:
-          BOOKSHELF: 'wishlist'
-          TARGET: 'content/{{.TARGET}}'
-      - task: _add-to-vcs
-        vars:
-          REF: 'content/{{.TARGET}}'
+          LANGUAGE: '{{.LANGUAGE}}'
 
   en.book.wishlist:
     vars:
+      LANGUAGE: '{{ (split "." .TASK)._0 }}'
+    cmds:
+      - task: _wishlist-book
+        vars:
+          LANGUAGE: '{{.LANGUAGE}}'
+
+  de.book.completed:
+    vars:
+      LANGUAGE: '{{ (split "." .TASK)._0 }}'
+    cmds:
+      - task: _completed-book
+        vars:
+          LANGUAGE: '{{.LANGUAGE}}'
+
+  en.book.completed:
+    vars:
+      LANGUAGE: '{{ (split "." .TASK)._0 }}'
+    cmds:
+      - task: _completed-book
+        vars:
+          LANGUAGE: '{{.LANGUAGE}}'
+
+  _wishlist-book:
+    internal: true
+    vars:
+      FORMATTED_ISBN:
+        sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
       TARGET: 'books/{{.FORMATTED_ISBN}}.md'
     cmds:
       - echo "Create wishlist book for ISBN {{.FORMATTED_ISBN}}"
-      - hugo new content --kind books.openlibrary {{.TARGET}}
+      - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}
       - task: _replace-bookshelf-placeholder
         vars:
           BOOKSHELF: 'wishlist'
@@ -33,27 +50,15 @@ tasks:
         vars:
           REF: 'content/{{.TARGET}}'
 
-  de.book.completed:
+  _completed-book:
+    internal: true
     vars:
+      FORMATTED_ISBN:
+        sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
       TARGET: 'books/{{.FORMATTED_ISBN}}'
     cmds:
       - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
-      - hugo new content {{.TARGET}}/index.md
-      - task: _replace-bookshelf-placeholder
-        vars:
-          BOOKSHELF: 'completed'
-          TARGET: 'content/{{.TARGET}}/index.md'
-      - cp ./archetypes/review.md.dist content/{{.TARGET}}/review.md
-      - task: _add-to-vcs
-        vars:
-          REF: 'content/{{.TARGET}}/'
-
-  en.book.completed:
-    vars:
-      TARGET: 'books/{{.FORMATTED_ISBN}}'
-    cmds:
-      - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
-      - hugo new content --kind books.openlibrary {{.TARGET}}/index.md
+      - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}/index.md
       - task: _replace-bookshelf-placeholder
         vars:
           BOOKSHELF: 'completed'
