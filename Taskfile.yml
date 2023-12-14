@@ -2,36 +2,28 @@ version: '3'
 
 tasks:
   de.book.wishlist:
-    vars:
-      LANGUAGE: '{{ (split "." .TASK)._0 }}'
     cmds:
       - task: _wishlist-book
         vars:
-          LANGUAGE: '{{.LANGUAGE}}'
+          LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   en.book.wishlist:
-    vars:
-      LANGUAGE: '{{ (split "." .TASK)._0 }}'
     cmds:
       - task: _wishlist-book
         vars:
-          LANGUAGE: '{{.LANGUAGE}}'
+          LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   de.book.completed:
-    vars:
-      LANGUAGE: '{{ (split "." .TASK)._0 }}'
     cmds:
       - task: _completed-book
         vars:
-          LANGUAGE: '{{.LANGUAGE}}'
+          LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   en.book.completed:
-    vars:
-      LANGUAGE: '{{ (split "." .TASK)._0 }}'
     cmds:
       - task: _completed-book
         vars:
-          LANGUAGE: '{{.LANGUAGE}}'
+          LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   _wishlist-book:
     internal: true
