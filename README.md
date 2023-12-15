@@ -18,6 +18,11 @@ For automated synopsis extraction:
 - [yq](https://github.com/mikefarah/yq)
 - curl
 
+## Recommendations
+
+A lot of Copy & Paste action is involved when managing book content. Using a
+[clipboard manager](https://github.com/p0deje/Maccy) will improve the workflow.
+
 ## Run
 
     hugo server -D
