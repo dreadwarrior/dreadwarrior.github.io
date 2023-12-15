@@ -1,6 +1,6 @@
 # van-tomas.de
 
-Personal, minimal landing page (with personal bookshelf management).
+Personal landing page, including bookshelf management.
 
 ## Requirements
 
