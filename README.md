@@ -10,6 +10,14 @@ Personal, minimal landing page (with personal bookshelf management).
 - [hugo](https://gohugo.io/installation/)
 - [go-task](https://taskfile.dev/installation/)
 
+_Optional_
+
+For automated synopsis extraction:
+
+- [htmlq](https://github.com/mgdm/htmlq)
+- [yq](https://github.com/mikefarah/yq)
+- curl
+
 ## Run
 
     hugo server -D
@@ -58,7 +66,28 @@ ISBN=978-3-7645-3237-6 [--silent] task de.book.completed
 ---
 
 4. Open the newly generated file and adjust the front matter variable `topics`.
-5. If you like, add an excerpt to the file's content area.
+5. If you like, add the book's synopsis to it's content area, cf. 
+   [Add book synopsis](#add-book-synopsis).
+
+### Add book synopsis
+
+A book's synopsis can be used from various sources, e.g. from a publisher's 
+landing page of the book.
+
+To re-use this content and fulfill the obligation to indicate the source of 
+supply, follow these steps:
+
+1. Make note of the URL of that page.
+2. Make note of the CSS selector to the book's synopsis, e.g. by using the 
+   [browser's developer toolbar](https://devtoolstips.org/tips/en/copy-css-selector/).
+3. Add value from 1. to front matter field `source` of the book's content file.
+
+Then run the following command:
+
+```
+BOOK=./content/books/978-3-641-26688-2/index.md SELECTOR='.column-count-md-2 > p:nth-child(1)' task synopsis
+```
+
 
 ## Decisions
 

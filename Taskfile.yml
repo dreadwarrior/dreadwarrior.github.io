@@ -25,6 +25,13 @@ tasks:
         vars:
           LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
+  synopsis:
+    vars:
+      SOURCE:
+        sh: "yq --front-matter='extract' '.source' {{.BOOK}} | tr -d '\n'"
+    cmds:
+      - curl --silent {{.SOURCE}} | htmlq --text '{{.SELECTOR}}' | fold -w 80 -s | xargs -0 printf "\n\n%s" >> {{.BOOK}}
+
   _wishlist-book:
     internal: true
     vars:
