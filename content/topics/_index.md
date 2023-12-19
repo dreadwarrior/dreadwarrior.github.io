@@ -1,5 +1,6 @@
 ---
 title: "Themen"
+enableScrollToTop: true
 ---
 Hier findest du eine Übersicht der Themen, die für die Verschlagwortung der
 Bücher verwendet wurden.

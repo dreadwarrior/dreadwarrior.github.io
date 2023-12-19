@@ -1,5 +1,4 @@
-{{ with .Params.enableScrollToTop }}
-    {{ if . }}
+{{ if .Params.enableScrollToTop }}
 <div class="scroll-to-top">
     <a href="#" role="button" aria-label="Zurück zum Anfang der Seite">
         <svg height="48" viewBox="0 0 48 48" width="48" height="48px" xmlns="http://www.w3.org/2000/svg">
@@ -8,7 +7,6 @@
         </svg>
     </a>
 </div>
-    {{ end }}
 {{ end }}
 
 <footer class="footer">

@@ -51,7 +51,7 @@
 
                 <!-- Once every term whose preFix matches the current $symbol has been added to the $terms slice, range over the $terms slice. If the $terms slice is greater than 0 (meaning the current symbol has .Data.Terms associated with it, then display a proper heading, and list out each term -->
                 {{ if gt $terms 0 }}
-                    <h2 id="{{ $symbol }}" class="topic-group">{{ if eq $symbol "0"}}0-9{{ else }}{{ $symbol | upper }}{{ end }} <small><a href="#section-header">zurück nach oben</a></small></h2>
+                    <h2 id="{{ $symbol }}" class="topic-group">{{ if eq $symbol "0"}}0-9{{ else }}{{ $symbol | upper }}{{ end }}</h2>
                     <ul class="topic-list pure-g">
                     {{ range $terms }}
                         <li class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
