@@ -41,7 +41,7 @@ tasks:
     cmds:
       - echo "Create wishlist book for ISBN {{.FORMATTED_ISBN}}"
       - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}
-      - task: _replace-bookshelf-placeholder
+      - task: _update-bookshelf
         vars:
           BOOKSHELF: 'wishlist'
           TARGET: 'content/{{.TARGET}}'
@@ -58,7 +58,7 @@ tasks:
     cmds:
       - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
       - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}/index.md
-      - task: _replace-bookshelf-placeholder
+      - task: _update-bookshelf
         vars:
           BOOKSHELF: 'completed'
           TARGET: 'content/{{.TARGET}}/index.md'
@@ -67,11 +67,10 @@ tasks:
         vars:
           REF: 'content/{{.TARGET}}/'
 
-  _replace-bookshelf-placeholder:
+  _update-bookshelf:
     internal: true
     cmds:
-      - sed -i.bak "s~###BOOKSHELF###~{{.BOOKSHELF}}~g" {{.TARGET}}
-      - rm -f {{.TARGET}}.bak
+      - yq --front-matter=process -i '.bookshelves = ["{{.BOOKSHELF}}"]' {{.TARGET}}
 
   _add-to-vcs:
     internal: true

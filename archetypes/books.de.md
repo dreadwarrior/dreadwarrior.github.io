@@ -18,8 +18,7 @@ publishedAt: "{{ .records.record.recordData.dc.date }}"
 topics:
   - "Add topics here. Repeat as much as you like."
 source: "https://url/to/source/of/excerpt/"
-bookshelves:
-  - "###BOOKSHELF###"
+bookshelves: []
 ---
 
 Add the excerpt here. E.g. perform a Google search by using the book's title and

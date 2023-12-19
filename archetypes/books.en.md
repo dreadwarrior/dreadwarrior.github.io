@@ -18,8 +18,7 @@ topics:
   - "{{ .name }}"
 {{- end }}
 source: "https://url/to/source/of/excerpt/"
-bookshelves:
-  - "###BOOKSHELF###"
+bookshelves: []
 ---
 
 Add the excerpt here. E.g. perform a Google search by using the book's title and
