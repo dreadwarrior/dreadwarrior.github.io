@@ -15,6 +15,7 @@ topics:
 source: "https://www.piper.de/buecher/1795-isbn-978-3-492-06195-7"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Im dritten Teil der „Winge und Cardell“-Trilogie folgt Emil Winge zusammen mit 
 Jean Michael Cardell ein letztes Mal dem Ruf nach Gerechtigkeit im verruchten 

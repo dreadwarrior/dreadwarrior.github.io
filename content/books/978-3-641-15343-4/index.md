@@ -13,6 +13,7 @@ topics:
 source: "https://shop.penguinrandomhouse.de/shop/article/25995515/stephen_king_the_stand_das_letzte_gefecht.html"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 In einem entvölkerten Amerika versucht eine Handvoll Überlebende die 
 Zivilisation zu retten. Ihr Gegenspieler ist eine mythische Gestalt, die man den 

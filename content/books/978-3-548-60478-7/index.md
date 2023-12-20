@@ -13,6 +13,7 @@ topics:
 source: "https://www.buecher.de/shop/historische-romane/das-karmesinrote-bluetenblatt/faber-michel/products_products/detail/prod_id/12800524/"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 London 1847.
 

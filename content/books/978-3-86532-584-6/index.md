@@ -13,6 +13,7 @@ topics:
 source: "https://www.pendragon.de/kerstin-ehmer/der-weisse-affe"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Ein jüdischer Bankier wird erschlagen im Hausflur seiner Geliebten aufgefunden. 
 Kommissar Ariel Spiro ist gerade aus der Provinz nach Berlin gezogen und 

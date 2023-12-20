@@ -13,6 +13,7 @@ topics:
 source: "https://www.splitter-verlag.de/elma-ein-baerenleben.html"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Elma ist ein fröhliches und sorgenfreies Kind, das tief im Wald von einem Bären 
 aufgezogen wird, den sie als ihren Papa betrachtet.

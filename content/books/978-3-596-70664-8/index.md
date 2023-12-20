@@ -13,6 +13,7 @@ topics:
 source: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-one-9783596706648"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Im Jahr 2045 ist die Welt ein hässlicher Ort: Die Erdölvorräte sind 
 aufgebraucht, ein Großteil der Bevölkerung lebt in Armut. Einziger Lichtblick 

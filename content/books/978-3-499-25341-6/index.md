@@ -13,6 +13,7 @@ topics:
 source: "https://www.isbn.de/buch/9783499253416/kuesschen-kuesschen-und-noch-ein-kuesschen"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Küsse voller Lust und Gift.
 

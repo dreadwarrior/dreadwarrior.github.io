@@ -14,6 +14,7 @@ topics:
 source: "https://www.hodder.co.uk/titles/stephen-king-3/full-dark-no-stars/9781444712568/"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Is it possible to fully know anyone? Even those we love the most? What tips 
 someone over the edge to commit a crime?

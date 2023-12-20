@@ -8,10 +8,14 @@
             <h1 id="section-header">Bücher mit dem Thema „{{ $topic }}“</h1>
 
             {{ $wishlistBooks := where . "Params.bookshelves" "intersect" (slice "wishlist") }}
+            {{ $favoriteBooks := where . "Params.bookshelves" "intersect" (slice "favorites") }}
             {{ $completedBooks := where . "Params.bookshelves" "intersect" (slice "completed") }}
 
             <ul>
                 {{ with $wishlistBooks }}
+                <li>{{ T "book_with_count" .Len }} auf der <a href="#books-in-wishlist">Wunschliste</a></li>
+                {{ end }}
+                {{ with $favoriteBooks }}
                 <li>{{ T "book_with_count" .Len }} auf der <a href="#books-in-wishlist">Wunschliste</a></li>
                 {{ end }}
                 {{ with $completedBooks }}
@@ -29,6 +33,21 @@
                     {{ range $n, $book := .ByDate.Reverse }}
                         {{ .Scratch.Set "n" $n }}
                         {{ .Render "cover-list" }}
+                    {{ end }}
+                </div>
+            </nav>
+            {{ end }}
+
+            {{ with $favoriteBooks }}
+            <hr class="separator separator--decorated">
+
+            <nav class="books__favorites" aria-labelledby="favorite-books">
+                <h2 id="favorite-books">Lieblingsbücher <small><a href="#section-header">zurück nach oben</a></small></h2>
+
+                <div class="topic__books pure-g">
+                    {{ range $n, $book := .ByDate.Reverse }}
+                    {{ .Scratch.Set "n" $n }}
+                    {{ .Render "cover-list" }}
                     {{ end }}
                 </div>
             </nav>

@@ -1,0 +1,4 @@
+---
+title: Lieblingsbücher
+enableScrollToTop: true
+---

@@ -14,6 +14,7 @@ topics:
 source: "https://www.perlentaucher.de/buch/johanna-sinisalo/troll-eine-liebesgeschichte.html"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Nach einer durchzechten Nacht trifft der junge Fotograf Angel im Innenhof seines 
 Apartmenthauses auf eine Gruppe Halbwüchsiger, die einen kleinen Troll bedrohen. 

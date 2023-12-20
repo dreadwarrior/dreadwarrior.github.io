@@ -15,6 +15,7 @@ topics:
 source: "https://www.piper.de/buecher/1794-isbn-978-3-492-31794-8"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Ermittler Jean Michael Cardell ist am Ende seiner Kräfte. Er schafft es kaum, 
 die Ereignisse des Vorjahres zu verarbeiten, da meldet sich eine Frau bei ihm. 

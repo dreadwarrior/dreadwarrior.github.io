@@ -13,6 +13,7 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/science-fiction-romane/die-haarteppichknuepfer/id_8790667"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Schon seit jeher fertigen die Haarteppichknüpfer ihre Teppiche für den Kaiser – 
 Teppiche, die aus den Haaren ihrer Frauen und Töchter bestehen. Für die 

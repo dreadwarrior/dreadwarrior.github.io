@@ -13,6 +13,7 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Der-Astronaut/Andy-Weir/Heyne/e614209.rhd"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Als Ryland Grace erwacht, muss er feststellen, dass er ganz allein ist. Er ist 
 anscheinend der einzige Überlebende einer Raumfahrtmission, Millionen Kilometer 

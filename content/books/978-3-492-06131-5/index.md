@@ -15,6 +15,7 @@ topics:
 source: "https://www.piper.de/buecher/1793-isbn-978-3-492-31793-1"
 bookshelves:
   - "completed"
+  - "favorites"
 ---
 Stockholm im Jahr 1793: Ein verstümmeltes Bündel treibt in der schlammigen 
 Stadtkloake. Es sind die Überreste eines Menschen, fast bis zur Unkenntlichkeit 
