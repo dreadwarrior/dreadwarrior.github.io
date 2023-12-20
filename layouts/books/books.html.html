@@ -9,13 +9,13 @@
         <hr class="separator separator--decorated">
 
         <section>
-            <nav aria-labelledby="bookshelf-completed" class="bookshelf__books pure-g">
-                <h2 id="bookshelf-completed" class="pure-u-1">Kürzlich abgeschlossen</h2>
-                {{ range $n, $book := first 5 (where .Pages.ByDate.Reverse "Params.bookshelves" "intersect" (slice "completed")) }}
+            <nav aria-labelledby="bookshelf-wishlist" class="bookshelf__books pure-g">
+                <h2 id="bookshelf-wishlist" class="pure-u-1">Kürzlich zur Wunsch&shy;liste hinzugefügt</h2>
+                {{ range $n, $book := first 5 (where .Pages.ByDate.Reverse "Params.bookshelves" "intersect" (slice "wishlist")) }}
                 {{ .Scratch.Set "n" $n }}
                 {{ .Render "cover-list" }}
                 {{ end }}
-                {{ with $.Site.GetPage (path.Join "bookshelves" "completed") }}
+                {{ with $.Site.GetPage (path.Join "bookshelves" "wishlist") }}
                 <a href="{{ .RelPermalink }}" class="bookshelf__books__show-all pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6">
                     <i class="fas fa-angle-double-right"></i><br>
                     alle anzeigen
@@ -27,13 +27,13 @@
         <hr class="separator separator--decorated">
 
         <section>
-            <nav aria-labelledby="bookshelf-wishlist" class="bookshelf__books pure-g">
-                <h2 id="bookshelf-wishlist" class="pure-u-1">Kürzlich zur Wunsch&shy;liste hinzugefügt</h2>
-                {{ range $n, $book := first 5 (where .Pages.ByDate.Reverse "Params.bookshelves" "intersect" (slice "wishlist")) }}
+            <nav aria-labelledby="bookshelf-completed" class="bookshelf__books pure-g">
+                <h2 id="bookshelf-completed" class="pure-u-1">Kürzlich abgeschlossen</h2>
+                {{ range $n, $book := first 5 (where .Pages.ByDate.Reverse "Params.bookshelves" "intersect" (slice "completed")) }}
                 {{ .Scratch.Set "n" $n }}
                 {{ .Render "cover-list" }}
                 {{ end }}
-                {{ with $.Site.GetPage (path.Join "bookshelves" "wishlist") }}
+                {{ with $.Site.GetPage (path.Join "bookshelves" "completed") }}
                 <a href="{{ .RelPermalink }}" class="bookshelf__books__show-all pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6">
                     <i class="fas fa-angle-double-right"></i><br>
                     alle anzeigen
