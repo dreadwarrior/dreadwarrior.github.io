@@ -1,5 +1,6 @@
 ---
 title: "Bücher"
+enableScrollToTop: true
 aliases:
   - "/bookshelves"
 ---
