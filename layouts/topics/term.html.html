@@ -5,7 +5,7 @@
 
         {{ with (where .Pages "Section" "books") }}
         <article class="topic books">
-            <h1 id="section-header">Bücher mit dem Thema „{{ $topic }}“</h1>
+            <h1 id="section-header">Bücher zum Thema „{{ $topic }}“</h1>
 
             {{ $wishlistBooks := where . "Params.bookshelves" "intersect" (slice "wishlist") }}
             {{ $favoriteBooks := where . "Params.bookshelves" "intersect" (slice "favorites") }}
