@@ -7,9 +7,10 @@
         <article class="topic books">
             <h1 id="section-header">Bücher zum Thema „{{ $topic }}“</h1>
 
-            {{ $wishlistBooks := where . "Params.bookshelves" "intersect" (slice "wishlist") }}
-            {{ $favoriteBooks := where . "Params.bookshelves" "intersect" (slice "favorites") }}
-            {{ $completedBooks := where . "Params.bookshelves" "intersect" (slice "completed") }}
+            {{ $wishlistBooks := where . "Params.booklists" "intersect" (slice "wishlist") }}
+            {{ $favoriteBooks := where . "Params.booklists" "intersect" (slice "favorites") }}
+            {{ $completedBooks := where . "Params.booklists" "intersect" (slice "completed") }}
+            {{ $unreadBooks := where . "Params.booklists" "intersect" (slice "unread") }}
 
             <ul>
                 {{ with $wishlistBooks }}
@@ -20,6 +21,9 @@
                 {{ end }}
                 {{ with $completedBooks }}
                 <li><a href="#completed-books">Abgeschlossen</a>: {{T "book_with_count" .Len }}</li>
+                {{ end }}
+                {{ with $unreadBooks }}
+                <li><a href="#unread-books">Ungelesen</a>: {{T "book_with_count" .Len }}</li>
                 {{ end }}
             </ul>
 
@@ -58,6 +62,21 @@
 
             <nav class="books__completed" aria-labelledby="completed-books">
                 <h2 id="completed-books">Abgeschlossen <small><a href="#section-header">zurück nach oben</a></small></h2>
+
+                <div class="topic__books pure-g">
+                    {{ range $n, $book := .ByDate.Reverse }}
+                    {{ .Scratch.Set "n" $n }}
+                    {{ .Render "cover-list" }}
+                    {{ end }}
+                </div>
+            </nav>
+            {{ end }}
+
+            {{ with $unreadBooks }}
+            <hr class="separator separator--decorated">
+
+            <nav class="books__unread" aria-labelledby="unread-books">
+                <h2 id="unread-books">Ungelesen <small><a href="#section-header">zurück nach oben</a></small></h2>
 
                 <div class="topic__books pure-g">
                     {{ range $n, $book := .ByDate.Reverse }}

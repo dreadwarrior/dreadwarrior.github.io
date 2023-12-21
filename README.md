@@ -68,6 +68,13 @@ Example:
 ISBN=978-3-7645-3237-6 task [--silent] de.book.completed
 ```
 
+Likewise, to create a book in the _unread_ booklist, use the suffix
+`.unread`. Example:
+
+```
+ISBN=9783895840227 task [--silent] de.book.unread
+```
+
 ---
 
 4. Open the newly generated file and adjust the front matter variable `topics`.

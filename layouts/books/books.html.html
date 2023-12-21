@@ -59,5 +59,23 @@
                 {{ end }}
             </nav>
         </section>
+
+        <hr class="separator separator--decorated">
+
+        <section>
+            <nav aria-labelledby="booklist-unread" class="booklist__books pure-g">
+                <h2 id="booklist-unread" class="pure-u-1">Ungelesene Bücher</h2>
+                {{ range $n, $book := first 5 (where .Pages.ByDate.Reverse "Params.booklists" "intersect" (slice "unread")) }}
+                {{ .Scratch.Set "n" $n }}
+                {{ .Render "cover-list" }}
+                {{ end }}
+                {{ with $.Site.GetPage (path.Join "booklists" "unread") }}
+                <a href="{{ .RelPermalink }}" class="booklist__books__show-all pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6">
+                    <i class="fas fa-angle-double-right"></i><br>
+                    alle anzeigen
+                </a>
+                {{ end }}
+            </nav>
+        </section>
     </main>
 {{ end }}

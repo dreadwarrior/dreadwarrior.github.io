@@ -3,16 +3,30 @@ version: '3'
 tasks:
   de.book.wishlist:
     cmds:
-      - task: _wishlist-book
+      - task: _unread-book
         vars:
           BOOKLIST: 'wishlist'
           LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   en.book.wishlist:
     cmds:
-      - task: _wishlist-book
+      - task: _unread-book
         vars:
           BOOKLIST: 'wishlist'
+          LANGUAGE: '{{ (split "." .TASK)._0 }}'
+
+  de.book.unread:
+    cmds:
+      - task: _unread-book
+        vars:
+          BOOKLIST: 'unread'
+          LANGUAGE: '{{ (split "." .TASK)._0 }}'
+
+  en.book.unread:
+    cmds:
+      - task: _unread-book
+        vars:
+          BOOKLIST: 'unread'
           LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   de.book.completed:
@@ -34,7 +48,7 @@ tasks:
     cmds:
       - curl --silent {{.SOURCE}} | htmlq --text '{{.SELECTOR}}' | fold -w 80 -s | xargs -0 printf "\n\n%s" >> {{.BOOK}}
 
-  _wishlist-book:
+  _unread-book:
     internal: true
     vars:
       FORMATTED_ISBN:
