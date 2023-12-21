@@ -13,13 +13,13 @@
 
             <ul>
                 {{ with $wishlistBooks }}
-                <li>{{ T "book_with_count" .Len }} auf der <a href="#books-in-wishlist">Wunschliste</a></li>
+                <li><a href="#books-in-wishlist">Wunschliste</a>: {{ T "book_with_count" .Len }}</li>
                 {{ end }}
                 {{ with $favoriteBooks }}
-                <li>{{ T "book_with_count" .Len }} auf der <a href="#books-in-wishlist">Wunschliste</a></li>
+                <li><a href="#favorite-books">Lieblingsbücher</a>: {{ T "book_with_count" .Len }}</li>
                 {{ end }}
                 {{ with $completedBooks }}
-                <li>{{T "book_with_count" .Len }} <a href="#completed-books">abgeschlossen</a></li>
+                <li><a href="#completed-books">Abgeschlossen</a>: {{T "book_with_count" .Len }}</li>
                 {{ end }}
             </ul>
 
