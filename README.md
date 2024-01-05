@@ -65,7 +65,7 @@ To create a _completed_ book, replace the suffix `.wishlist` by `.completed`.
 Example:
 
 ```
-ISBN=978-3-7645-3237-6 [--silent] task de.book.completed
+ISBN=978-3-7645-3237-6 task [--silent] de.book.completed
 ```
 
 ---
