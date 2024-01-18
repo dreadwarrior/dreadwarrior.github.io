@@ -11,7 +11,7 @@ topics:
   - "Humor"
   - "Zitatesammlung"
 source: "https://www.suhrkamp.de/buch/mark-twain-mark-twain-fuer-boshafte-t-9783458351733"
-bookshelves:
+booklists:
   - "completed"
 ---
 Mark Twain erlangte nicht nur als Autor von Tom Sawyer und Huckleberry Finn 

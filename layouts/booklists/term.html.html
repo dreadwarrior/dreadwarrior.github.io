@@ -19,7 +19,7 @@
 
             <div class="control-group control-group--awesomplete"
                  data-filter-source=".books__{{ .Data.Term }} .topic__books"
-                 data-filter-target=".bookshelf">
+                 data-filter-target=".booklist">
                 <input
                         placeholder="Thema filtern"
                         aria-label="Thema filtern"
@@ -28,8 +28,8 @@
                 <button aria-controls="topics"><i class="fas fa-filter fa-xs"></i></button>
                 <button type="reset" class="button--last"
                         data-hx-get="{{ .RelPermalink }}"
-                        data-hx-select=".bookshelf"
-                        data-hx-target=".bookshelf"
+                        data-hx-select=".booklist"
+                        data-hx-target=".booklist"
                         data-hx-swap="outerHTML"><i class="fas fa-times fa-xs"></i></button>
                 <datalist id="topics">
                     {{- range (sort $topics "title") }}
@@ -43,8 +43,8 @@
 
         {{ $paginator := .Paginate ( .Pages.ByDate.Reverse ) 24 }}
 
-        <nav class="bookshelf" aria-labelledby="section-header">
-            <div class="bookshelf__books pure-g">
+        <nav class="booklist" aria-labelledby="section-header">
+            <div class="booklist__books pure-g">
                 {{ range $n, $book := $paginator.Pages }}
                 {{ .Scratch.Set "n" $n }}
                 {{ .Render "cover-list" }}

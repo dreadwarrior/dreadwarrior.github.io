@@ -12,7 +12,7 @@ topics:
   - "Gesellschaft"
   - "Humor"
 source: "https://www.ullstein.de/werke/maria-ihm-schmeckts-nicht/taschenbuch/9783548264264"
-bookshelves:
+booklists:
   - "completed"
 ---
 Nach der Hochzeit verändern sich Dinge grundlegend - besonders, wenn man wie Jan 

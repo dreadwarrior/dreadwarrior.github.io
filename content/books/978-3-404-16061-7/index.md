@@ -11,7 +11,7 @@ topics:
   - "Historischer Roman"
   - "Gesellschaft"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/sonstige-belletristik/der-junge-der-traeume-schenkte/id_3229442"
-bookshelves:
+booklists:
   - "completed"
 ---
 New York, 1909. Aus einem transatlantischen Frachter steigt eine junge Frau mit 

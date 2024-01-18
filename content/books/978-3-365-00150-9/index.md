@@ -11,7 +11,7 @@ topics:
   - "Feminismus"
   - "Historischer Roman"
 source: "https://www.harpercollins.de/products/die-versteckte-apotheke-9783365001509"
-bookshelves:
+booklists:
   - "completed"
 ---
 **Gift, Rache und ein geheimer Frauenbund**

@@ -11,7 +11,7 @@ topics:
   - "Krimi"
   - "Berlin"
 source: "https://www.penguin.de/ebook/Fremdland/Philipp-Reinartz/Goldmann/e507915.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Peng Peng. Zwei nächtliche Schüsse ins Nichts. Zwei Schüsse, die trotzdem alles 

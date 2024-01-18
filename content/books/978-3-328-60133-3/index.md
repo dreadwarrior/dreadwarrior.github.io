@@ -12,7 +12,7 @@ topics:
   - "Graphic Novel"
   - "Fantasy"
 source: "https://www.penguin.de/Buch/Die-Stadt-der-Traeumenden-Buecher-Comic-/Walter-Moers/Penguin/e568049.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Buchhaim ist die „Stadt der Träumenden Bücher“, wo Bücher nicht nur spannend 

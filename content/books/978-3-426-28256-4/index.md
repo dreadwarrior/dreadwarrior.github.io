@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Psychologie"
 source: "https://www.droemer-knaur.de/buch/matt-haig-die-mitternachtsbibliothek-9783426308257"
-bookshelves:
+booklists:
   - "completed"
 ---
 Stell dir vor, auf dem Weg ins Jenseits gäbe es eine riesige Bibliothek, gefüllt 

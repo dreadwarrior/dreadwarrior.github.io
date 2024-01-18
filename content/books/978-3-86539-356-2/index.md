@@ -11,7 +11,7 @@ topics:
   - "Kurzgeschichten"
   - "Mystery"
 source: "https://www.verlagshaus-roemerweg.de/Marix_Verlag/Edgar_Allan_Poe-Der_Goldkaefer-EAN:9783865393562.html"
-bookshelves:
+booklists:
   - "completed"
 ---
 In dieser Sammlung seiner bekanntesten Erzählungen zeigt sich Poe als Meister 

@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Dystopie"
 source: "https://www.fischerverlage.de/buch/philip-k-dick-ubik-9783596905690"
-bookshelves:
+booklists:
   - completed
 ---
 

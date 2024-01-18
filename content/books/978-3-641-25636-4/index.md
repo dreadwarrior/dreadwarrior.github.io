@@ -11,7 +11,7 @@ topics:
   - "Dark Fantasy"
   - "Meer"
 source: "https://www.penguin.de/Buch/Die-Chroniken-der-Meerjungfrau-Der-Fluch-der-Wellen/Christina-Henry/Penhaligon/e567150.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Einst zog ein einsamer Fischer sein Netz an Land und fand darin eine Frau. Eine 

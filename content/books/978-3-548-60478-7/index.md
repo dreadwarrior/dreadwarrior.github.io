@@ -11,7 +11,7 @@ topics:
   - "Historischer Roman"
   - "Prostitution"
 source: "https://www.buecher.de/shop/historische-romane/das-karmesinrote-bluetenblatt/faber-michel/products_products/detail/prod_id/12800524/"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

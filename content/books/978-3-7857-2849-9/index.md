@@ -11,7 +11,7 @@ topics:
   - "Satire"
   - "Gesellschaft"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/literarische-unterhaltung/der-schlauste-mann-der-welt/id_9517616"
-bookshelves:
+booklists:
   - "completed"
 ---
 Jens Leunich besitzt nur so viel, wie in zwei Koffer passt – und außerdem genug 

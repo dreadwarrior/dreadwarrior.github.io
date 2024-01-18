@@ -11,7 +11,7 @@ topics:
   - "Dark Fantasy"
   - "Abenteuer"
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Die-Schwarze-Koenigin/Christina-Henry/Penhaligon/e567147.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Alice hat den Kampf gegen den Wahnsinn gewonnen – vorerst. Sie hat die 

@@ -11,7 +11,7 @@ topics:
   - "Horror"
   - "Fantasy"
 source: "https://www.penguin.de/Taschenbuch/Regulator/Stephen-King/Heyne/e366280.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Ohne Vorwarnung tauchen in der Kleinstadt Wentworth die mörderischen 

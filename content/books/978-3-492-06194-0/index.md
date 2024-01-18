@@ -13,7 +13,7 @@ topics:
   - "Schweden"
   - "Historischer Roman"
 source: "https://www.piper.de/buecher/1794-isbn-978-3-492-31794-8"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

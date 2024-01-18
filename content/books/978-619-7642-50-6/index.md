@@ -11,7 +11,7 @@ topics:
   - "Dystopie"
   - "Science Fiction"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1067302801"
-bookshelves:
+booklists:
   - "completed"
 ---
 **1984** dreht sich um den Büroangestellten Winston Smith, der im Ministerium 

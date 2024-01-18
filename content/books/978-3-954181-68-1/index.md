@@ -10,7 +10,7 @@ publishedAt: "2012"
 topics:
   - "Detektivgeschichte"
 source: "https://null-papier.de/shop/gratis-sherlock-holmes-das-tal-des-grauens/"
-bookshelves:
+booklists:
   - "completed"
 ---
 Der vierte Roman von Sir Arthur Conan Doyle in dem die Figuren Sherlock Holmes 

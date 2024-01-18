@@ -11,7 +11,7 @@ topics:
   - "Dark Fantasy"
   - "Dystopie"
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Rotkaeppchen-Allein-im-tiefen-tiefen-Wald/Christina-Henry/Penhaligon/e565576.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 

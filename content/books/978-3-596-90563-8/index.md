@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Mars"
 source: "https://www.fischerverlage.de/buch/philip-k-dick-marsianischer-zeitsturz-9783596905638"
-bookshelves:
+booklists:
   - completed
 ---
 

@@ -11,7 +11,7 @@ topics:
   - "Horror"
   - "Fantasy"
 source: "https://www.penguin.de/Taschenbuch/Desperation/Stephen-King/Heyne/e229218.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Im Bergbaustädtchen Desperation ist das Gewebe zwischen den Welten dünn. 

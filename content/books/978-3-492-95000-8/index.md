@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Zwerge"
 source: "https://www.piper.de/buecher/die-zwerge-isbn-978-3-492-95000-8-ebook"
-bookshelves:
+booklists:
   - "completed"
 ---
 Sie sind die schlagkräftigsten Helden aus J. R. R. Tolkiens „Herr der Ringe“: 

@@ -11,7 +11,7 @@ topics:
   - "Krimi"
   - "Brandenburg"
 source: "https://emons-verlag.de/p/finstere-havel-4562"
-bookshelves:
+booklists:
   - "completed"
 ---
 Ein Auto wird aus der Havel geborgen, am Steuer eine tote Frau. Beging sie 

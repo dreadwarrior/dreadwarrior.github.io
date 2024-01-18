@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Mond"
 source: "https://www.penguin.de/ebook/Artemis/Andy-Weir/Heyne/e535471.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Jazz Bashara ist kriminell. Zumindest ein bisschen. Schließlich ist das Leben in 

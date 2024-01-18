@@ -12,7 +12,7 @@ topics:
   - "Kurzgeschichten"
   - "Übersinnliches"
 source: "https://voebb.onleihe.de/berlin/frontend/mediaInfo,0-0-547079946-200-0-0-0-0-400001-0-0.html"
-bookshelves:
+booklists:
   - "completed"
 ---
 Die Toten sind erwacht - und die Lebenden haben sie in Lager gesperrt. Diese 

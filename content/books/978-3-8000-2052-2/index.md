@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Abenteuer"
 source: "https://www.ueberreuter.de/produkt/der-greif/"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

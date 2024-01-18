@@ -13,7 +13,7 @@ topics:
   - "Israel"
   - "Religion"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/das-jesus-video/id_3333758"
-bookshelves:
+booklists:
   - "completed"
 ---
 Gibt es ein Video von Jesus Christus?

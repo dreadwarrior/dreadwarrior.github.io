@@ -11,7 +11,7 @@ topics:
   - "Märchen"
   - "Norwegen"
 source: "https://www.suhrkamp.de/buch/die-schoensten-norwegischen-maerchen-t-9783458364009"
-bookshelves:
+booklists:
   - "completed"
 ---
 Es rauschen die dunklen Wälder des Nordlandes, es faucht der Wind über die 

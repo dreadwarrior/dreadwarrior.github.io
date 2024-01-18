@@ -12,7 +12,7 @@ topics:
   - "Horror"
   - "Kurzgeschichten"
 source: "https://www.hodder.co.uk/titles/stephen-king-3/full-dark-no-stars/9781444712568/"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

@@ -12,7 +12,7 @@ topics:
   - "Historischer Roman"
   - "Thriller"
 source: "https://www.diogenes.ch/leser/titel/patrick-sueskind/das-parfum-9783257228007.html"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

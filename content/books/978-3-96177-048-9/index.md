@@ -11,7 +11,7 @@ topics:
   - "Religion"
   - "Skandinavien"
 source: "https://www.w1-media.de/produkte/nordische-goetter-5518"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

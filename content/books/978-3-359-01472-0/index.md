@@ -11,7 +11,7 @@ topics:
   - "Krimi"
   - "Abenteuer"
 source: "https://www.eulenspiegel.com/verlage/eulenspiegel-kinderbuchverlag/titel/257-kaeuzchenkuhle.html"
-bookshelves:
+booklists:
   - "completed"
 ---
 Nur widerwillig macht sich Jampoll – der eigentlich Jean-Paul heißt, aber dessen 

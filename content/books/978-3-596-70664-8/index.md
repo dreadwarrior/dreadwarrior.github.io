@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Dystopie"
 source: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-one-9783596706648"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

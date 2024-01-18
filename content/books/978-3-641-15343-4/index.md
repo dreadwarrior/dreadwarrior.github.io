@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Pandemie"
 source: "https://shop.penguinrandomhouse.de/shop/article/25995515/stephen_king_the_stand_das_letzte_gefecht.html"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

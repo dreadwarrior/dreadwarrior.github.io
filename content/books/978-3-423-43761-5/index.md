@@ -10,7 +10,7 @@ publishedAt: "2021"
 topics:
   - "Krimi"
 source: "https://www.dtv.de/buch/kein-entkommen-21849"
-bookshelves:
+booklists:
   - "completed"
 ---
 Zwei Tote, der eine ertrunken in einem See, der andere erstickt in einem 

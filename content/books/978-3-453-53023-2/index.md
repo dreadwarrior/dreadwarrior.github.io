@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/Wolfsmond/Stephen-King/Heyne/e171947.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Roland von Gilead, der Revolvermann, ist in Mittwelt noch immer auf der Suche 

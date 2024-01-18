@@ -10,7 +10,7 @@ publishedAt: "2013"
 topics:
   - "Krimi"
 source: "https://www.penguin.de/Taschenbuch/Joyland/Stephen-King/Heyne/e600966.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Auf verhängnisvolle Weise kreuzen sich in einem kleinen Vergnügungspark die Wege 

@@ -5,12 +5,14 @@ tasks:
     cmds:
       - task: _wishlist-book
         vars:
+          BOOKLIST: 'wishlist'
           LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   en.book.wishlist:
     cmds:
       - task: _wishlist-book
         vars:
+          BOOKLIST: 'wishlist'
           LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
   de.book.completed:
@@ -39,11 +41,11 @@ tasks:
         sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
       TARGET: 'books/{{.FORMATTED_ISBN}}.md'
     cmds:
-      - echo "Create wishlist book for ISBN {{.FORMATTED_ISBN}}"
+      - echo "Create {{.BOOKLIST}} book for ISBN {{.FORMATTED_ISBN}}"
       - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}
-      - task: _update-bookshelf
+      - task: _update-booklist
         vars:
-          BOOKSHELF: 'wishlist'
+          BOOKLIST: '{{.BOOKLIST}}'
           TARGET: 'content/{{.TARGET}}'
       - task: _add-to-vcs
         vars:
@@ -58,19 +60,19 @@ tasks:
     cmds:
       - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
       - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}/index.md
-      - task: _update-bookshelf
+      - task: _update-booklist
         vars:
-          BOOKSHELF: 'completed'
+          BOOKLIST: 'completed'
           TARGET: 'content/{{.TARGET}}/index.md'
       - cp ./archetypes/review.md.dist content/{{.TARGET}}/review.md
       - task: _add-to-vcs
         vars:
           REF: 'content/{{.TARGET}}/'
 
-  _update-bookshelf:
+  _update-booklist:
     internal: true
     cmds:
-      - yq --front-matter=process -i '.bookshelves = ["{{.BOOKSHELF}}"]' {{.TARGET}}
+      - yq --front-matter=process -i '.booklists = ["{{.BOOKLIST}}"]' {{.TARGET}}
 
   _add-to-vcs:
     internal: true

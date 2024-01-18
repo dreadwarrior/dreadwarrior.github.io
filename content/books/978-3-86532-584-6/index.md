@@ -11,7 +11,7 @@ topics:
   - "Krimi"
   - "Berlin"
 source: "https://www.pendragon.de/kerstin-ehmer/der-weisse-affe"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

@@ -11,7 +11,7 @@ topics:
   - "Dark Fantasy"
   - "Abenteuer"
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Finsternis-im-Wunderland/Christina-Henry/Penhaligon/e565572.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Seit zehn Jahren ist Alice in einem düsteren Hospital gefangen. Alle halten sie 

@@ -13,7 +13,7 @@ topics:
   - "Schweden"
   - "Historischer Roman"
 source: "https://www.piper.de/buecher/1795-isbn-978-3-492-06195-7"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

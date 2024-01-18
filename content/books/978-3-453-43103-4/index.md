@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/Susannah/Stephen-King/Heyne/e174209.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Mia hat im Körper der hochschwangeren Susannah die Flucht in das New York von 

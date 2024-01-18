@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/Drei/Stephen-King/Heyne/e168758.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 „Drei“ schließt nahtlos an die Ereignisse aus [„Schwarz“]({{< ref "978-3-453-87556-2" >}}).

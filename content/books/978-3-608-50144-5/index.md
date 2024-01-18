@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Feminismus"
 source: "https://www.klett-cotta.de/produkt/johanna-sinisalo-finnisches-feuer-9783608501445-t-2733"
-bookshelves:
+booklists:
   - "completed"
 ---
 Alle Bürger Finnlands sind ruhig gestellt, seit die oberste Staatsgewalt vom 

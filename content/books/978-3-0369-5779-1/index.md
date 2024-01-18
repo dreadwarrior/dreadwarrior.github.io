@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Religion"
 source: "https://www.keinundaber.ch/buecher/das-buch-der-seltsamen-neuen-dinge?variant=264338"
-bookshelves:
+booklists:
   - "completed"
 ---
 Was verbindet zwei Menschen, selbst wenn sie Lichtjahre voneinander entfernt 

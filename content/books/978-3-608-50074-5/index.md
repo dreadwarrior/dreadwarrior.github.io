@@ -12,7 +12,7 @@ topics:
   - "Fantasy"
   - "Finnland"
 source: "https://www.perlentaucher.de/buch/johanna-sinisalo/troll-eine-liebesgeschichte.html"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

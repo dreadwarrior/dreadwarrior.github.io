@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Fantasy"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/science-fiction-romane/die-haarteppichknuepfer/id_8790667"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

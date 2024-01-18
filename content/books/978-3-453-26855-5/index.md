@@ -11,7 +11,7 @@ topics:
   - "Horror"
   - "Übersinnliches"
 source: "https://www.penguin.de/Taschenbuch/Doctor-Sleep/Stephen-King/Heyne/e461201.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Auf Amerikas Highways ist eine mörderische Sekte unterwegs. Sie hat es auf 

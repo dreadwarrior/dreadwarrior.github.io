@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/Der-Turm/Stephen-King/Heyne/e182927.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Roland Deschain, der letzte Revolvermann in einer Welt, die sich weiterbewegt 

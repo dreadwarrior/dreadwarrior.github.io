@@ -12,7 +12,7 @@ topics:
   - "Thriller"
   - "Mystery"
 source: "https://us.macmillan.com/books/9781250819345/hidden-pictures"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

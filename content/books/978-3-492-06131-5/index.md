@@ -13,7 +13,7 @@ topics:
   - "Schweden"
   - "Historischer Roman"
 source: "https://www.piper.de/buecher/1793-isbn-978-3-492-31793-1"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

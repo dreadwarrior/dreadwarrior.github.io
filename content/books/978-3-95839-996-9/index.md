@@ -11,7 +11,7 @@ topics:
   - "Fabel"
   - "Kinderbuch"
 source: "https://www.splitter-verlag.de/elma-ein-baerenleben.html"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

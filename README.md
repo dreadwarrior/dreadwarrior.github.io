@@ -1,6 +1,6 @@
 # van-tomas.de
 
-Personal landing page, including bookshelf management.
+Personal landing page, including booklist management.
 
 ## Requirements
 
@@ -52,7 +52,7 @@ Run the following command, replace `9783442735648` with _your_ ISBN:
 
 ---
    
-**NOTE**: _Language area and bookshelf variations_
+**NOTE**: _Language area and booklist variations_
 
 To create a book in the _english language area_, replace the prefix `de.` by 
 `en.`. Example:

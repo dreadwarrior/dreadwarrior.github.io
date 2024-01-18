@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/Schwarz/Stephen-King/Heyne/e168759.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Ein Heer von Feinden und tödliche Gefahren markieren Rolands Suche nach dem 

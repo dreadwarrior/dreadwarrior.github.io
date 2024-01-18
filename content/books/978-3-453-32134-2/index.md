@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Außerirdische"
 source: "https://www.penguin.de/Taschenbuch/Der-Astronaut/Andy-Weir/Heyne/e614209.rhd"
-bookshelves:
+booklists:
   - "completed"
   - "favorites"
 ---

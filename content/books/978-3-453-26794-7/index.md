@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/Wind/Stephen-King/Heyne/e407226.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Roland Deschain, der letzte Revolvermann, und seine Gefährten haben den Grünen 

@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Androiden"
 source: "https://www.fischerverlage.de/buch/philip-k-dick-blade-runner-9783596297702"
-bookshelves:
+booklists:
   - "completed"
 ---
 Der Kopfgeldjäger Rick Deckard macht Jagd auf künstliche Menschen.

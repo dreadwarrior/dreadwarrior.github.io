@@ -12,7 +12,7 @@ topics:
   - "Dark Fantasy"
   - "Kurzgeschichten"
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Dunkelheit-im-Spiegelland/Christina-Henry/Penhaligon/e573337.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Alice und der Axtmörder Hatcher haben in Christina Henrys finsterem Wunderland 

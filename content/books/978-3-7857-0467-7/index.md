@@ -12,7 +12,7 @@ topics:
   - "Horror"
   - "Kurzgeschichten"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/horror/nachtschicht/id_3181218"
-bookshelves:
+booklists:
   - "completed"
 ---
 Die zwanzig Erzählungen in Nachtschicht sind Stephen Kings persönliche Auswahl 

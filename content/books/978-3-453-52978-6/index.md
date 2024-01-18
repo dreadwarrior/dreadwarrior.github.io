@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Fantasy"
 source: "https://www.penguin.de/Paperback/Die-Hyperion-Gesaenge/Dan-Simmons/Heyne/e406505.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 In den Weiten des Alls hat sich die Menschheit über unzählige Sonnensysteme 

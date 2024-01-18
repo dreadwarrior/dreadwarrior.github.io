@@ -11,7 +11,7 @@ topics:
   - "Dark Fantasy"
   - "Dreißigjähriger Krieg"
 source: "https://www.droemer-knaur.de/buch/markus-heitz-die-dunklen-lande-9783426226766"
-bookshelves:
+booklists:
   - "completed"
 ---
 

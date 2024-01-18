@@ -11,7 +11,7 @@ topics:
   - "Zeitreisen"
   - "Thriller"
 source: "https://www.penguin.de/Taschenbuch/Der-Anschlag/Stephen-King/Heyne/e600973.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Am 22. November 1963 fielen in Dallas, Texas, drei Schüsse. John F. Kennedy 

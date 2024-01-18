@@ -11,7 +11,7 @@ topics:
   - "Science Fiction"
   - "Humor"
 source: "https://www.thalia.de/shop/home/suggestartikel/A1042835568"
-bookshelves:
+booklists:
   - "completed"
 ---
 Eines normalen Tages erfährt Arthur Dent zufällig, dass die Zerstörung der Erde 

@@ -4,14 +4,14 @@
         {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
         <article class="book pure-g">
             <aside class="cover--single cover pure-u-1 pure-u-lg-8-24" aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}">
-                {{ $inBookshelfCompleted := in .Params.bookshelves "completed" }}
+                {{ $inBooklistCompleted := in .Params.booklists "completed" }}
                 {{- with partial "book/cover" (dict
                     "isbn" .Params.isbn
                     "coverUri" .Params.coverUri
                     "coversPath" $.Site.Params.books.coversPath
                     "factor" 1.5
                 ) -}}
-                <figure{{ if $inBookshelfCompleted }} class="ribbon" data-ribbon="bereits gelesen"{{ end }}>
+                <figure{{ if $inBooklistCompleted }} class="ribbon" data-ribbon="bereits gelesen"{{ end }}>
                     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                 </figure>
                 {{- end -}}

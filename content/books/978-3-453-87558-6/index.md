@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/tot-/Stephen-King/Heyne/e168761.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Rolands wüstes Land nimmt immer groteskere Formen und erschreckendere Gestalten 

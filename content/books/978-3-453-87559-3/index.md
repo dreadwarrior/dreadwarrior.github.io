@@ -11,7 +11,7 @@ topics:
   - "Fantasy"
   - "Western"
 source: "https://www.penguin.de/Taschenbuch/Glas/Stephen-King/Heyne/e168760.rhd"
-bookshelves:
+booklists:
   - "completed"
 ---
 Roland und seine Freunde befinden sich an Bord des Zuges Blaine, wo sie einen 
