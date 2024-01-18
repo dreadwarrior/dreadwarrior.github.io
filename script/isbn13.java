@@ -1,5 +1,5 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS de.creativecouple.validation:fast-isbn:1.1.1
+//DEPS de.creativecouple.validation:fast-isbn:1.1.2
 
 import de.creativecouple.validation.isbn.ISBN;
 import static java.lang.System.*;
