@@ -41,6 +41,16 @@ tasks:
         vars:
           LANGUAGE: '{{ (split "." .TASK)._0 }}'
 
+  book.start-reading:
+    cmds:
+      - yq --front-matter=process -i '.booklists = ["currently-reading"]' {{.BOOK}}
+      - yq --front-matter=process -i '.date = now' {{.BOOK}}
+
+  book.completed:
+    cmds:
+      - yq --front-matter=process -i '.booklists = ["completed"]' {{.BOOK}}
+      - yq --front-matter=process -i '.date = now' {{.BOOK}}
+
   synopsis:
     vars:
       SOURCE:
