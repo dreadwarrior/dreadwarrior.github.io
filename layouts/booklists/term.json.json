@@ -1,0 +1,20 @@
+{{- $.Scratch.Add "books" slice -}}
+{{ range $index, $book := .Pages }}
+  {{ $image := partial "book/cover" (dict
+    "isbn" $book.Params.isbn
+    "coverUri" $book.Params.coverUri
+    "coversPath" $.Site.Params.books.coversPath
+    "factor" 1.5
+  ) }}
+  {{- $.Scratch.Add "books" (dict
+    "title" $book.Title
+    "permalink" $book.RelPermalink
+    "cover" (dict
+      "url" $image.RelPermalink
+      "width" $image.Width
+    )
+  ) -}}
+{{ end }}
+{
+  "books": {{- $.Scratch.Get "books" | jsonify -}}
+}

@@ -41,6 +41,11 @@
             <hr class="separator separator--decorated">
         </aside>
 
+        {{ with .OutputFormats.Get "json" }}
+        <button class="book-chooser__button button button--primary button--block pure-button"
+                data-book-list="{{ .RelPermalink }}"><i class="fas fa-dice"></i> Ein Buch zufällig auswählen</button>
+        {{ end }}
+
         {{ $paginator := .Paginate ( .Pages.ByDate.Reverse ) 24 }}
 
         <nav class="booklist" aria-labelledby="section-header">
