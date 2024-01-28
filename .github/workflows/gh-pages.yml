@@ -29,7 +29,7 @@ jobs:
         run: test $(hugo config --format json | jq .caches.getresource.maxage) -eq -1
 
       - name: Fetch resources directory from cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-directory-${{ github.run_id }}
