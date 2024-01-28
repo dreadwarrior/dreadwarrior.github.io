@@ -29,7 +29,7 @@
       display: block;
     }
 
-    @include mq-mouse() {
+    @include mq-xl() {
       display: flex;
 
       .menu__item--mobile-only {
@@ -67,7 +67,7 @@
       margin-right: auto;
       width: 80px;
 
-      @include mq-mouse() {
+      @include mq-xl() {
         margin: unset;
       }
 
@@ -107,7 +107,7 @@
           }
         }
       }
-      @include mq-mouse() {
+      @include mq-xl() {
         display: block;
         margin-right: auto;
       }
@@ -117,8 +117,10 @@
       display: flex;
       gap: 1.5rem;
 
-      @include mq-touch() {
-        order: 2;
+      order: 2;
+
+      @include mq-xl() {
+        order: 3;
       }
     }
   }
