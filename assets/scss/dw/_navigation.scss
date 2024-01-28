@@ -1,0 +1,122 @@
+.navigation {
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color-o20);
+  backdrop-filter: blur(.5rem);
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  z-index: 700;
+
+  padding: 2rem 0 1rem 0;
+  margin-bottom: .5rem;
+
+  .menu, .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    z-index: inherit;
+  }
+
+  .menu {
+    ul li a {
+      display: block;
+    }
+
+    @include mq-mouse() {
+      display: flex;
+
+      .menu__item--mobile-only {
+        display: none;
+      }
+
+      ul {
+        display: none;
+
+        position: absolute;
+        top: calc(100% - 2.5rem);
+
+        border: 1px solid var(--secondary-color-o20);
+        padding: .5rem;
+        border-radius: .5rem;
+        box-shadow: rgba(43, 42, 51, 0.1) 0 1px 6px 0;
+      }
+
+      li:hover {
+        ul {
+          display: block;
+          background-color: var(--closest-primary-color);
+
+          a {
+            box-sizing: border-box;
+            padding: .5rem .75rem;
+          }
+        }
+      }
+    }
+  }
+
+  &__wrap {
+    &--logo {
+      margin-right: auto;
+      width: 80px;
+
+      @include mq-mouse() {
+        margin: unset;
+      }
+
+      img {
+        border-radius: 2rem;
+      }
+    }
+
+    &--main {
+      display: none; // Hidden for mobile-first display.
+      z-index: inherit;
+
+      &[data-open="true"] {
+        display: block;
+        order: 3;
+        flex: 100%;
+
+        nav {
+          background-color: var(--closest-primary-color);
+
+          padding: 1rem 1.25rem 0 1.25rem;
+          margin-top: .5rem;
+
+          border-top: 1px solid var(--secondary-color-o20);
+          border-bottom: 1px solid var(--secondary-color-o20);
+
+          .menu {
+            li {
+              a {
+                padding: .75rem;
+              }
+
+              ul a {
+                padding-left: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+      @include mq-mouse() {
+        display: block;
+        margin-right: auto;
+      }
+    }
+
+    .menu--tools {
+      display: flex;
+      gap: 1.5rem;
+
+      @include mq-touch() {
+        order: 2;
+      }
+    }
+  }
+}

@@ -1,7 +1,6 @@
 {{ define "main" }}
 
     <main>
-        {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
         <article class="book pure-g">
             <aside class="cover--single cover pure-u-1 pure-u-lg-8-24" aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}">
                 {{ $inBooklistCompleted := in .Params.booklists "completed" }}

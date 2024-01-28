@@ -7,9 +7,32 @@
 
         <input type="checkbox" id="theme-switch">
         <div class="page">
-            <label for="theme-switch">
-                <i class="fas fa-adjust" aria-label="Farbschema umschalten" title="Farbschema umschalten"></i>
-            </label>
+            <header class="navigation">
+                <div class="navigation__wrap navigation__wrap--logo">
+                    <a href="/" title="Zur Startseite">
+                        <img
+                            src="/Ahoi.-Logo-128x128.png"
+                            width="64"
+                            height="64"
+                            alt="Ahoi. Logo" class="logo" />
+                    </a>
+                </div>
+                <div class="navigation__wrap navigation__wrap--main" data-open="false">
+                    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+                </div>
+                <div class="navigation__wrap">
+                    <ul class="menu menu--tools">
+                        <li>
+                            <label for="theme-switch">
+                                <i class="fas fa-adjust fa-lg" aria-label="Farbschema umschalten" title="Farbschema umschalten"></i>
+                            </label>
+                        </li>
+                        <li class="menu__item menu__item--mobile-only">
+                            <a href="#" title="Menü anzeigen" id="main-menu-toggle"><i class="fas fa-bars fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
 
             {{- block "main" . }}{{- end }}
 

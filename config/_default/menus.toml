@@ -1,0 +1,34 @@
+[[main]]
+    name = 'Bücher'
+    pageRef = '/books'
+    weight = 1
+
+[[main]]
+    name = 'Wunschliste'
+    pageRef = '/booklists/wishlist'
+    parent = 'Bücher'
+    weight = 1
+
+[[main]]
+    name = 'Lieblingsbücher'
+    pageRef = '/booklists/favorites'
+    parent = 'Bücher'
+    weight = 2
+
+[[main]]
+    name = 'Abgeschlossen'
+    pageRef = '/booklists/completed'
+    parent = 'Bücher'
+    weight = 3
+
+[[main]]
+    name = 'Ungelesen'
+    pageRef = '/booklists/unread'
+    parent = 'Bücher'
+    weight = 4
+
+[[main]]
+    name = 'Themen'
+    pageRef = '/topics'
+    parent = 'Bücher'
+    weight = 5

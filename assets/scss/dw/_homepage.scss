@@ -1,7 +1,6 @@
 .introduction {
   @include mq-lg() {
-    margin-top: 20vh;
-    min-height: calc(100vh - 20vh);
+    min-height: 75vh;
   }
 
   &__portrait {

@@ -41,3 +41,15 @@
     @content;
   }
 }
+
+// Pointer device media query mixins.
+@mixin mq-touch() {
+  @media (pointer: coarse) { // The input mechanism of the device includes a pointing device of limited accuracy.
+    @content;
+  }
+}
+@mixin mq-mouse() {
+  @media (pointer: fine) { // The input mechanism of the device includes an accurate pointing device.
+    @content;
+  }
+}

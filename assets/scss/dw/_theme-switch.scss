@@ -8,9 +8,6 @@
   ~ .page {
     label[for="theme-switch"] {
       cursor: pointer;
-      position: absolute;
-      right: 1rem;
-      top: 1rem;
 
       &:hover {
         color: var(--accent-color);
@@ -29,7 +26,7 @@
     --closest-primary-color: var(--dark-closest-primary-color);
     --closest-secondary-color: var(--dark-closest-secondary-color);
 
-    img {
+    img:not(.logo) {
       filter: brightness(.8) contrast(1.2);
     }
   }

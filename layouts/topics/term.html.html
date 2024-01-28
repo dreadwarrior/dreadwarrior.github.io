@@ -1,8 +1,6 @@
 {{ define "main" }}
     {{ $topic := .Data.Term }}
     <main>
-        {{ partial "breadcrumbs.html" (dict "page" . "showCurrent" "0") }}
-
         {{ with (where .Pages "Section" "books") }}
         <article class="topic books">
             <h1 id="section-header">Bücher zum Thema „{{ $topic }}“</h1>
