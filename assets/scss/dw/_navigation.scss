@@ -1,8 +1,11 @@
 .navigation {
   position: sticky;
   top: 0;
+
   background-color: var(--primary-color-o20);
+
   backdrop-filter: blur(.5rem);
+  -webkit-backdrop-filter: blur(.5rem);
 
   display: flex;
   align-items: center;
