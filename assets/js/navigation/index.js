@@ -11,8 +11,9 @@ export function navigation() {
 
     const mainNavigationWrap = document.querySelector('.navigation__wrap--main');
 
-    toggleButton.addEventListener('click', () => {
+    toggleButton.addEventListener('click', (e) => {
         const openState = mainNavigationWrap.dataset.open;
+
         if (openState === 'false') {
             mainNavigationWrap.dataset.open = 'true';
 
@@ -22,5 +23,8 @@ export function navigation() {
 
             toggleIcon('fa-times', 'fa-bars');
         }
+
+        e.preventDefault(); // Cancel the native event
+        e.stopPropagation();// Don't bubble/capture the event any further
     });
 }
