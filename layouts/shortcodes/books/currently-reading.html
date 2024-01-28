@@ -1,0 +1,19 @@
+<hr class="separator separator--decorated">
+
+<section>
+    <nav aria-labelledby="book-currently-reading" class="booklist__books pure-g">
+        {{ .Inner | markdownify }}
+
+        {{ range $n, $book := first 1 (where .Page.Pages.ByDate.Reverse "Params.booklists" "intersect" (slice "currently-reading")) }}
+            {{ .Scratch.Set "n" $n }}
+            {{ .Render "cover-list" }}
+            <div class="pure-u-1 pure-u-md-3-4 pure-u-lg-5-6">
+                <h3>{{ .Title }}{{ with .Params.subtitle }}<br>
+                    <small><em>{{ . }}</em></small>{{ end }}</h3>
+                <p>von <em>{{ .Params.author }}</em>
+                    (<time aria-label="Jahr der Veröffentlichung">{{ .Params.publishedAt }}</time>)</p>
+                <p>{{ .Summary }}</p>
+            </div>
+        {{ end }}
+    </nav>
+</section>
