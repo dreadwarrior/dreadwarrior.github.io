@@ -5,6 +5,16 @@
   <nav>
     <ul class="menu menu--{{ $menuID }}">
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+        {{ with $page.Params.onThisPage }}
+        <li class="menu__item menu__item--collapsed menu__item--toc">
+            <button>Auf dieser Seite</button>
+            <ul>
+                {{ range $item := .items }}
+                <li><a href="#{{ $item.id }}">{{ $item.title }}</a></li>
+                {{ end }}
+            </ul>
+        </li>
+        {{ end }}
     </ul>
   </nav>
 {{- end }}
@@ -24,7 +34,7 @@
         {{- $name = . }}
       {{- end }}
     {{- end }}
-    <li>
+    <li class="menu__item">
       <a
         {{- range $k, $v := $attrs }}
           {{- with $v }}
