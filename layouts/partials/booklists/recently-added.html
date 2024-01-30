@@ -1,0 +1,21 @@
+{{- $page := .page -}}
+{{- $booklist := .booklist -}}
+{{- $title := .title -}}
+<hr class="separator separator--decorated">
+
+<section>
+    <nav aria-labelledby="booklist-{{ $booklist }}" class="booklist__books pure-g">
+        <h2 id="booklist-wishlist" class="pure-u-1">{{ $title | safeHTML }}</h2>
+
+        {{- range $n, $book := first 5 (where $page.Pages.ByDate.Reverse "Params.booklists" "intersect" (slice $booklist)) -}}
+            {{- .Scratch.Set "n" $n -}}
+            {{- .Render "cover-list" -}}
+        {{- end -}}
+        {{- with $page.Site.GetPage (path.Join "booklists" $booklist) -}}
+        <a href="{{ .RelPermalink }}" class="booklist__books__show-all pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6">
+            <i class="fas fa-angle-double-right"></i><br>
+            alle anzeigen
+        </a>
+        {{- end -}}
+    </nav>
+</section>

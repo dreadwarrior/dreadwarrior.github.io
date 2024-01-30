@@ -3,5 +3,35 @@
         <h1>{{ .Params.Title }}</h1>
 
         {{ .Content }}
+
+        <!-- TODO: add "on this page" navigation component -->
+
+        {{ partial "booklists/recently-added.html" (dict
+            "page" .
+            "booklist" "wishlist"
+            "title" "Kürzlich zur Wunsch&shy;liste hinzugefügt"
+        ) }}
+        {{ partial "booklists/recently-added.html" (dict
+            "page" .
+            "booklist" "favorites"
+            "title" "Lieblingsbücher"
+        ) }}
+
+        {{ partial "books/currently-reading.html" (dict
+            "page" .
+            "title" "Aktuelles Buch"
+        ) }}
+
+        {{ partial "booklists/recently-added.html" (dict
+            "page" .
+            "booklist" "completed"
+            "title" "Kürzlich abgeschlossen"
+        ) }}
+        {{ partial "booklists/recently-added.html" (dict
+            "page" .
+            "booklist" "unread"
+            "title" "Ungelesene Bücher"
+        ) }}
+
     </main>
 {{ end }}
