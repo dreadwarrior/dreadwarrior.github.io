@@ -1,10 +1,11 @@
 {{ $n := .Scratch.Get "n" }}
 {{ $alternateText := printf "Darstellung der Titelseite des Buchs „%s“ von %s" .Title .Params.author }}
+{{ $inBooklistWishlistAndReserved := and (in .Params.booklists "wishlist") (.Params.isReserved) }}
 <a
         class="cover pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
         aria-label="{{ .Title }} von {{ .Params.author }}"
         href="{{ .Permalink }}">
-    <figure class="cover__figure">
+    <figure{{ if $inBooklistWishlistAndReserved }} class="cover__figure ribbon" data-ribbon="reserviert"{{ else }} class="cover__figure"{{ end }}>
         {{- with partial "book/cover" (dict
             "isbn" .Params.isbn
             "coverUri" .Params.coverUri

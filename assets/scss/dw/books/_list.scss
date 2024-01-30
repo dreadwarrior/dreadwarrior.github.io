@@ -9,6 +9,16 @@
   }
 }
 
+.booklist__books {
+  .cover__figure {
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+
+    @include ribbon($blue);
+  }
+}
+
 .pagination {
   list-style: none;
   margin: unset;

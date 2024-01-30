@@ -51,6 +51,10 @@ tasks:
       - yq --front-matter=process -i '.booklists = ["completed"]' {{.BOOK}}
       - yq --front-matter=process -i '.date = now' {{.BOOK}}
 
+  book.reserved:
+    cmds:
+      - yq --front-matter=process -i '.isReserved = true' {{.BOOK}}
+
   synopsis:
     vars:
       SOURCE:
