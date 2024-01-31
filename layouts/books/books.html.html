@@ -4,34 +4,21 @@
 
         {{ .Content }}
 
-        <!-- TODO: add "on this page" navigation component -->
+        <hr class="separator separator--decorated">
 
-        {{ partial "booklists/recently-added.html" (dict
-            "page" .
-            "booklist" "wishlist"
-            "title" "Kürzlich zur Wunsch&shy;liste hinzugefügt"
-        ) }}
-        {{ partial "booklists/recently-added.html" (dict
-            "page" .
-            "booklist" "favorites"
-            "title" "Lieblingsbücher"
-        ) }}
+        {{ $booklists := sort .Site.Taxonomies.booklists "Page.Weight" }}
+        <nav class="menu menu--toc">
+            <h2><small>Auf dieser Seite:</small></h2>
+            <ul>
+            {{ range $booklists -}}
+                <li><a href="#booklist-{{ .Page.Data.Term }}" title="insgesamt {{ T "book_with_count" .Count }}">{{ .Page.Title }}</a></li>
+            {{ end -}}
+            </ul>
+        </nav>
 
-        {{ partial "books/currently-reading.html" (dict
-            "page" .
-            "title" "Aktuelles Buch"
-        ) }}
-
-        {{ partial "booklists/recently-added.html" (dict
-            "page" .
-            "booklist" "completed"
-            "title" "Kürzlich abgeschlossen"
-        ) }}
-        {{ partial "booklists/recently-added.html" (dict
-            "page" .
-            "booklist" "unread"
-            "title" "Ungelesene Bücher"
-        ) }}
+        {{ range $booklists }}
+            {{ partial "booklists/recent.html" .Page }}
+        {{ end }}
 
     </main>
 {{ end }}

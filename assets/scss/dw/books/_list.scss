@@ -10,6 +10,10 @@
 }
 
 .booklist__books {
+  h2 {
+    // Header navigation logo + padding top + padding bottom
+    scroll-margin-top: calc(80px + 3rem);
+  }
   .cover__figure {
     position: relative;
     width: max-content;
