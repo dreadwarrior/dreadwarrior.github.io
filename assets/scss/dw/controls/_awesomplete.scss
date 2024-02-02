@@ -100,6 +100,8 @@
       max-height: 320px;
       overflow-y: scroll;
 
+      z-index: 2; // Prevent leakage of cover ribbon.
+
       li {
         cursor: pointer;
 
