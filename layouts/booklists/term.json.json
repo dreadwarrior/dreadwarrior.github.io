@@ -12,6 +12,7 @@
     "cover" (dict
       "url" $image.RelPermalink
       "width" $image.Width
+      "height" $image.Height
     )
   ) -}}
 {{ end }}

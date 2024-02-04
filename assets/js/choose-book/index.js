@@ -10,6 +10,7 @@ function renderSweetAlert() {
         titleText: book.title,
         imageUrl: book.cover.url,
         imageWidth: book.cover.width,
+        imageHeight: book.cover.height,
         confirmButtonText: 'Buch anzeigen',
         preConfirm: () => {
             return book.permalink;
