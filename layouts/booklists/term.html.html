@@ -40,7 +40,24 @@
         </aside>
 
         {{ with .OutputFormats.Get "json" }}
-        <button class="book-chooser__button button button--primary button--block pure-button"
+        <dialog id="random-book-chooser" class="dialog dialog--modal">
+            <form>
+                <section class="dialog__content dialog__content--centered">
+                    <header>
+                        <h2 class="dialog__title"></h2>
+                        <button class="button pure-button" formmethod="dialog" value="close"><i class="fas fa-times fa-lg"></i></button>
+                    </header>
+
+                    <img />
+                </section>
+
+                <nav aria-label="Bitte eine Aktion wählen" class="dialog__navigation">
+                    <button class="button button--primary pure-button" type="submit">Buch anzeigen</button>
+                    <button class="button button--secondary pure-button" value="continue" formmethod="dialog">Anderes Buch wählen</button>
+                </nav>
+            </form>
+        </dialog>
+        <button class="button button--primary button--block pure-button"
                 data-book-list="{{ .RelPermalink }}"><i class="fas fa-dice"></i> Ein Buch zufällig auswählen</button>
         {{ end }}
 

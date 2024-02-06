@@ -5,48 +5,48 @@ function selectRandomBook(booklistUri) {
         .then(it => it[Math.floor(Math.random() * it.length)]);
 }
 
-function renderSweetAlert() {
-    return book => Swal.fire({
-        titleText: book.title,
-        imageUrl: book.cover.url,
-        imageWidth: book.cover.width,
-        imageHeight: book.cover.height,
-        confirmButtonText: 'Buch anzeigen',
-        preConfirm: () => {
-            return book.permalink;
-        },
-        showDenyButton: true,
-        denyButtonText: 'Anderes Buch wählen',
-        showCloseButton: true,
-        buttonsStyling: false,
-        customClass: {
-            confirmButton: 'button button--primary pure-button',
-            denyButton: 'button button--secondary pure-button'
-        }
-    })
+function updateDialog(dialog) {
+    const form = dialog.querySelector('form');
+    const title = dialog.querySelector('.dialog__title');
+    const img = dialog.querySelector('img');
+
+    return book => {
+        form.action = book.permalink;
+        title.textContent = book.title;
+
+        img.src = book.cover.url;
+        img.width = book.cover.width;
+        img.height = book.cover.height;
+
+        return dialog;
+    }
+
 }
 
-function handleSweetAlertResult(booklistUri) {
-    return sweetAlertResult => {
-        if (sweetAlertResult.isConfirmed) {
-            // .value is overridden by using `preConfirm` in Swal setup.
-            window.location = sweetAlertResult.value;
-        }
-        if (sweetAlertResult.isDenied) {
-            showPopup(booklistUri);
-        }
-    };
+function openDialog() {
+    return dialog => dialog.showModal();
 }
 
-function showPopup(booklistUri) {
+function handleDialogResult(dialog, booklistUri) {
+    const returnValue = dialog.returnValue;
+
+    if (returnValue === 'continue') {
+        showDialog(dialog, booklistUri);
+    }
+}
+
+function showDialog(dialog, booklistUri) {
     selectRandomBook(booklistUri)
-        .then(renderSweetAlert())
-        .then(handleSweetAlertResult(booklistUri))
+        .then(updateDialog(dialog))
+        .then(openDialog())
 }
 
-export function chooseBook(selector) {
-    const button = document.querySelector(selector);
-    if (button != null) {
-        button.addEventListener('click', () => showPopup(button.dataset.bookList));
+export function chooseBook(dialogSelector) {
+    const dialog = document.querySelector(dialogSelector);
+    const button = document.querySelector(dialogSelector + " + button");
+
+    if (dialog != null && button != null) {
+        dialog.addEventListener('close', () => handleDialogResult(dialog, button.dataset.bookList));
+        button.addEventListener('click', () => showDialog(dialog, button.dataset.bookList));
     }
 }

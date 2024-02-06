@@ -7,5 +7,5 @@ import { navigation } from "./navigation";
 awesompleteFilter();
 themeSwitcher('#theme-switch');
 tooltip('.tooltip');
-chooseBook('.book-chooser__button');
+chooseBook('#random-book-chooser');
 navigation();
