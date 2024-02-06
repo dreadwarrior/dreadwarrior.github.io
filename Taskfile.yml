@@ -55,6 +55,15 @@ tasks:
     cmds:
       - yq --front-matter=process -i '.isReserved = true' {{.BOOK}}
 
+  book.unread:
+    cmds:
+      - task: _update-booklist
+        vars:
+          BOOKLIST: "unread"
+          TARGET: '{{.BOOK}}'
+      - yq --front-matter=process -i 'del(.isReserved)' {{.BOOK}}
+      - yq --front-matter=process -i '.date = now' {{.BOOK}}
+
   synopsis:
     vars:
       SOURCE:

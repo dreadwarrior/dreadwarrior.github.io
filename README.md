@@ -105,12 +105,22 @@ BOOK=<insert path to book's content file here> task --silent book.completed
 
 ### Mark a book in booklist wishlist as reserved
 
-Use-case: A book from the wish list may be reserved by someone as a gift.
+Use-case: A book from the wishlist may be reserved by someone as a gift.
 
 Determine the path to the book's content file. Then run the following command:
 
 ```
 BOOK=<insert path to book's content file here> task --silent book.reserved
+```
+
+### Mark an existing book as unread
+
+Use-case: A book from the wish list has come into your possession.
+
+Determine the path to the book's content file. Then run the following command:
+
+```
+BOOK=<insert path to book's content file here> task [--silent] book.unread
 ```
 
 ## Howto
