@@ -1,5 +1,5 @@
 ---
-date: "2023-12-25T13:35:55+01:00"
+date: 2024-02-08T15:48:12+01:00
 title: "Hard boiled wonderland und das Ende der Welt"
 slug: "hard-boiled-wonderland-und-das-ende-der-welt"
 isbn: "978-3-8321-7905-2"
@@ -12,7 +12,7 @@ topics:
   - "Japan"
 source: "https://shop.penguinrandomhouse.de/shop/article/28953972/haruki_murakami_hard_boiled_wonderland_und_das_ende_der_welt.html"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 Tokyo, ferne Gegenwart: Zwischen Wirklichkeit und virtueller Realität.
