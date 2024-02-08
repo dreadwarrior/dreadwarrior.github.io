@@ -1,6 +1,6 @@
 ---
 rating: 3.5
-title: "Eine wundersam fantastische Reise durch Tokios Untergrund und eine perfekte Stadt."
+title: "Eine wundersam fantastische Reise durch Tokyos Untergrund und eine perfekte Stadt."
 ---
 
 Im Nachhinein betrachtet muss ich für mich feststellen, dass die Inhaltsangabe
@@ -20,7 +20,7 @@ Welt“ und die bedrohliche, unterirdische Atmosphäre im „Hard-Boiled Wonderl
 spüren.
 
 Das Buch enthält zwei Erzählstränge, deren Zusammenhang mit Fortschreiten der
-Geschichte immer klarer werden. Ich überlege, nach einiger Zeit das Buch erneut
+Geschichte immer klarer wird. Ich überlege nach einiger Zeit das Buch erneut
 in die Hand zu nehmen, und dann die Geschichten nacheinander zu lesen. Beginnen
 würde ich mit „Hard-Boiled Wonderland“.
 
