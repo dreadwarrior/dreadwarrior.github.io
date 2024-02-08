@@ -47,9 +47,21 @@ tasks:
       - yq --front-matter=process -i '.date = now' {{.BOOK}}
 
   book.completed:
+    vars:
+      ISBN:
+        sh: "basename -s .md {{.BOOK}}"
+      CONTENT_DIRECTORY:
+        sh: "dirname {{.BOOK}}"
+      BOOK_DIRECTORY: "{{.CONTENT_DIRECTORY}}/{{.ISBN}}"
     cmds:
-      - yq --front-matter=process -i '.booklists = ["completed"]' {{.BOOK}}
-      - yq --front-matter=process -i '.date = now' {{.BOOK}}
+      - mkdir {{.BOOK_DIRECTORY}}
+      - mv {{.BOOK}} {{.BOOK_DIRECTORY}}/index.md
+      - yq --front-matter=process -i '.booklists = ["completed"]' {{.BOOK_DIRECTORY}}/index.md
+      - yq --front-matter=process -i '.date = now' {{.BOOK_DIRECTORY}}/index.md
+      - cp archetypes/review.md.dist {{.BOOK_DIRECTORY}}/review.md
+      - task: _add-to-vcs
+        vars:
+          REF: '{{.BOOK_DIRECTORY}}/'
 
   book.reserved:
     cmds:
