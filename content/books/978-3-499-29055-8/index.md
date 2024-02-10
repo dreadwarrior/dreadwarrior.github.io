@@ -1,5 +1,5 @@
 ---
-date: 2024-02-08T16:31:07+01:00
+date: 2024-02-10T22:42:21+01:00
 title: "... und morgen werde ich dich vermissen"
 slug: "-und-morgen-werde-ich-dich-vermissen"
 isbn: "978-3-499-29055-8"
@@ -12,7 +12,7 @@ topics:
   - "Norwegen"
 source: "https://www.rowohlt.de/buch/heine-bakkeid-morgen-werde-ich-dich-vermissen-9783499290558"
 booklists:
-  - currently-reading
+  - completed
 ---
 Wenn man am Tiefpunkt ist, gibt es nur einen Weg: Hoch, in den Norden.
 
