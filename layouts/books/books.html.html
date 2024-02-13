@@ -8,10 +8,11 @@
 
         {{ $booklists := sort .Site.Taxonomies.booklists "Page.Weight" }}
         <nav class="menu menu--toc">
-            <h2><small>Auf dieser Seite:</small></h2>
             <ul>
             {{ range $booklists -}}
-                <li><a href="#booklist-{{ .Page.Data.Term }}" title="insgesamt {{ T "book_with_count" .Count }}">{{ .Page.Title }}</a></li>
+                <li><a href="#booklist-{{ .Page.Data.Term }}"
+                       class="button button--secondary pure-button"
+                       title="insgesamt {{ T "book_with_count" .Count }}">{{ .Page.Title }}</a></li>
             {{ end -}}
             </ul>
         </nav>

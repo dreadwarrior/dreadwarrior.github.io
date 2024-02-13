@@ -5,7 +5,7 @@ function toggleClass(classList) {
     }
 }
 
-export function navigation() {
+function mainNavigation() {
     const toggleButton = document.querySelector('#main-menu-toggle');
     const toggleIcon = toggleClass(toggleButton.querySelector('.fas').classList);
 
@@ -27,4 +27,19 @@ export function navigation() {
         e.preventDefault(); // Cancel the native event
         e.stopPropagation();// Don't bubble/capture the event any further
     });
+}
+
+function tocNavigation() {
+    const tocLinks = document.querySelectorAll('.menu--toc a');
+
+    tocLinks.forEach((it) => it.addEventListener('click', (e) => {
+        it.scrollIntoView({
+            inline: 'center'
+        });
+    }));
+}
+
+export function navigation() {
+    mainNavigation();
+    tocNavigation();
 }
