@@ -132,6 +132,10 @@ blockquote {
     &--secondary {
         background-color: $teal;
     }
+    &--auxiliary {
+        background-color: var(--secondary-color-o20);
+        color: var(--secondary-color);
+    }
 }
 
 .card {

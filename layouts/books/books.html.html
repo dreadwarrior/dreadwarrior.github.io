@@ -11,7 +11,7 @@
             <ul>
             {{ range $booklists -}}
                 <li><a href="#booklist-{{ .Page.Data.Term }}"
-                       class="button button--secondary pure-button"
+                       class="button button--auxiliary pure-button"
                        title="insgesamt {{ T "book_with_count" .Count }}">{{ .Page.Title }}</a></li>
             {{ end -}}
             </ul>
