@@ -1,5 +1,5 @@
 ---
-date: 2024-02-10T22:50:22+01:00
+date: 2024-02-13T19:19:04+01:00
 title: "Der Stier und das Mädchen"
 slug: "der-stier-und-das-mädchen"
 isbn: "978-1-5420-4969-6"
@@ -12,7 +12,7 @@ topics:
   - "Island"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1047688029"
 booklists:
-  - currently-reading
+  - completed
 ---
 In einer verlassenen Ecke Islands, wo der weite Himmel bis zur Erde reicht und 
 nur das Brausen des fernen Meeres zu hören ist, haben zwei junge Touristinnen 
