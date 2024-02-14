@@ -6,4 +6,5 @@ outputs:
   - html
   - rss
   - json
+recentTitle: "Neue ungelesene Bücher"
 ---

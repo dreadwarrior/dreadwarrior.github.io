@@ -10,15 +10,15 @@
         <nav class="menu menu--toc">
             <ul>
             {{ range $booklists -}}
-                <li><a href="#booklist-{{ .Page.Data.Term }}"
+                <li><a href="#recent-books-{{ .Page.Data.Term }}"
                        class="button button--auxiliary pure-button"
-                       title="insgesamt {{ T "book_with_count" .Count }}">{{ .Page.Title }}</a></li>
+                       title="insgesamt {{ T "book_with_count" .Count }}">{{ default .Page.Title .Page.Params.recentTitle }}</a></li>
             {{ end -}}
             </ul>
         </nav>
 
         {{ range $booklists }}
-            {{ partial "booklists/recent.html" .Page }}
+            {{ partial "booklists/recently-updated.html" .Page }}
         {{ end }}
 
     </main>

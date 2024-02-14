@@ -1,0 +1,87 @@
+.recent-books {
+  &__title {
+    font-size: 1rem;
+    font-style: italic;
+
+    // Height of header navigation
+    scroll-margin-top: 80px;
+    @include mq-md() {
+      scroll-margin-top: 128px;
+    }
+  }
+
+  nav {
+    margin: 0 auto;
+  }
+
+  &__browse {
+    align-self: center;
+    text-align: center;
+  }
+}
+
+.recent-book {
+  margin-block: .75rem;
+
+  @include mq-lg() {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    h3 {
+      hyphens: auto;
+      line-height: 1.5;
+      margin-block: 0;
+    }
+    p {
+      margin-block: 0 1rem;
+    }
+
+    time {
+      &:before {
+        content: "(";
+      }
+
+      &:after {
+        content: ")";
+      }
+    }
+  }
+
+  &__cover {
+    text-align: right;
+    figure {
+      margin: 0 auto;
+
+      position: relative;
+      @include ribbon($blue);
+
+      img {
+        border-radius: .5rem;
+        box-shadow: 0 0 .5rem 0 var(--secondary-color-o20); // TODO: keep shadow dark, even in dark mode.
+      }
+    }
+  }
+
+  &__summary {
+    display: none;
+
+    @include mq-md() {
+      display: unset;
+    }
+
+    &--always-displayed {
+      display: unset;
+    }
+
+    p {
+      margin-top: unset;
+      hyphens: auto;
+
+      @include mq-md() {
+        padding-left: 1rem;
+      }
+    }
+  }
+}

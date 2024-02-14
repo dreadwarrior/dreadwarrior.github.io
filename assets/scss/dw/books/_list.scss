@@ -2,21 +2,9 @@
 .topic__books {
   row-gap: .75rem;
   margin: .75rem 0;
-
-  &__show-all {
-    align-self: center;
-    text-align: center;
-  }
 }
 
 .booklist__books {
-  h2 {
-    // Height of header navigation
-    scroll-margin-top: 80px;
-    @include mq-md() {
-      scroll-margin-top: 128px;
-    }
-  }
   .cover__figure {
     position: relative;
     width: max-content;
