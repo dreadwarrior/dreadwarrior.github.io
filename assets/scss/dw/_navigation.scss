@@ -13,7 +13,11 @@
 
   z-index: 700;
 
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 0.5rem 2rem;
+  @include mq-md() {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+
   margin: 0 -2rem .5rem -2rem;
 
   .menu, .menu ul {
@@ -93,6 +97,14 @@
 
       img {
         border-radius: 2rem;
+
+        width: 40px;
+        height: 40px;
+
+        @include mq-md() {
+          width: 64px;
+          height: 64px;
+        }
       }
     }
 
@@ -141,6 +153,12 @@
 
       @include mq-xl() {
         order: 3;
+      }
+
+      i.fas {
+        @include mq-md() {
+          font-size: 1.3rem;
+        }
       }
     }
   }
