@@ -1,0 +1,106 @@
+version: '3'
+
+tasks:
+  completed:
+    desc: Move existing book to booklist 'completed'.
+    summary: |
+      Move existing book to booklist 'completed'.
+
+      Required variables:
+      -------------------
+      * BOOK: Path to content file of a book.
+
+      Example:
+      --------
+      > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
+    vars:
+      BOOK_DIRECTORY: "{{.CONTENT_DIRECTORY}}/{{.ISBN}}"
+      CONTENT_DIRECTORY:
+        sh: "dirname {{.BOOK}}"
+      ISBN:
+        sh: "basename -s .md {{.BOOK}}"
+    cmds:
+      - mkdir {{.BOOK_DIRECTORY}}
+      - mv {{.BOOK}} {{.BOOK_DIRECTORY}}/index.md
+      - yq --front-matter=process -i '.booklists = ["completed"]' {{.BOOK_DIRECTORY}}/index.md
+      - yq --front-matter=process -i '.date = now' {{.BOOK_DIRECTORY}}/index.md
+      - cp archetypes/review.md.dist {{.BOOK_DIRECTORY}}/review.md
+      - task: _add-to-vcs
+        vars:
+          REF: '{{.BOOK_DIRECTORY}}/'
+
+  reserve:
+    desc: Mark existing book (in booklist 'wishlist') as reserved.
+    summary: |
+      Mark existing book (in booklist 'wishlist') as reserved.
+
+      Required variables:
+      -------------------
+      * BOOK: Path to content file of a book.
+
+      Example:
+      --------
+      > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
+    cmds:
+      - yq --front-matter=process -i '.isReserved = true' {{.BOOK}}
+
+  search:
+    desc: Search book in content repository.
+    summary: |
+      Search book in content repository.
+
+      Required variables:
+      -------------------
+      * TITLE: Title of the book to search for.
+
+      Example:
+      --------
+      > TITLE='Der Name der Rose' task {{.TASK}}
+    cmds:
+      - grep --include=\*.md -Rwl './content/books' -e '{{.TITLE}}'
+
+  start-reading:
+    desc: Move existing book to booklist 'currently-reading'.
+    summary: |
+      Move existing book to booklist 'currently-reading'.
+
+      Required variables:
+      -------------------
+      * BOOK: Path to content file of a book.
+
+      Example:
+      -------
+      > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
+    cmds:
+      - yq --front-matter=process -i '.booklists = ["currently-reading"]' {{.BOOK}}
+      - yq --front-matter=process -i '.date = now' {{.BOOK}}
+
+  unread:
+    desc: Move existing book (from booklist 'wishlist') to booklist 'unread'.
+    summary: |
+      Move existing book (from booklist 'wishlist') to booklist 'unread'.
+
+      Required variables:
+      -------------------
+      * BOOK: Path to content file of a book.
+
+      Example:
+      --------
+      > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
+    cmds:
+      - task: _update-booklist
+        vars:
+          BOOKLIST: "unread"
+          TARGET: '{{.BOOK}}'
+      - yq --front-matter=process -i 'del(.isReserved)' {{.BOOK}}
+      - yq --front-matter=process -i '.date = now' {{.BOOK}}
+
+  _add-to-vcs:
+    internal: true
+    cmds:
+      - git add {{.REF}}
+
+  _update-booklist:
+    internal: true
+    cmds:
+      - yq --front-matter=process -i '.booklists = ["{{.BOOKLIST}}"]' {{.TARGET}}

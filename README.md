@@ -29,99 +29,30 @@ A lot of Copy & Paste action is involved when managing book content. Using a
 
 ## Usage
 
-### Add a new book
+### General information
 
-1. Go and find the ISBN of the book title, e.g from a book catalogue like dnb.de or openlibrary.org.
-2. Make note of the ISBN 13, ideally formatted. Example: **978-3-7645-3237-6**.
-3. Run the following command to add a new book, published in the german language area to the wishlist:
+Managing book content is performed by using go-task via command line interface.
 
-       ISBN=978-3-7645-3237-6 task [--silent] de.book.wishlist
+To list all available commands and a short description, execute the following
+command:
 
----
+    task --list-all
 
-**NOTE**: _Language area and booklist variations_
+To display help of a command, e.g. about required variables and usage examples, 
+use go-task's `--summary` command line option. For example:
 
-To create a book in the _english language area_, replace the prefix `de.` by
-`en.`. Example:
+    task --summary book:completed
 
-```
-ISBN=9780553381689 task [--silent] en.book.wishlist
-```
+### Selecting the right command for different languages
 
-To create a _completed_ book, replace the suffix `.wishlist` by `.completed`.
-Example:
+Currently, fetching bibliographic data is supported for german and english 
+books. The ISBN 13 indicates, which language space the book was published in:
 
-```
-ISBN=978-3-7645-3237-6 task [--silent] de.book.completed
-```
+* ISBN beginning with **978-3** indicates a book published in german language area.
+* ISBN beginning with **978-1** indicates a book published in english language area.
 
-Likewise, to create a book in the _unread_ booklist, use the suffix
-`.unread`. Example:
-
-```
-ISBN=9783895840227 task [--silent] de.book.unread
-```
-
----
-
-4. Open the newly generated file and adjust the front matter variable `topics`.
-5. If you like, add the book's synopsis to it's content area, cf.
-   [Add book synopsis](#add-book-synopsis).
-
-### Add book synopsis
-
-A book's synopsis can be used from various sources, e.g. from a publisher's
-landing page of the book.
-
-To re-use this content and fulfill the obligation to indicate the source of
-supply, follow these steps:
-
-1. Make note of the URL of that page.
-2. Make note of the CSS selector to the book's synopsis, e.g. by using the
-   [browser's developer toolbar](https://devtoolstips.org/tips/en/copy-css-selector/).
-3. Add value from 1. to front matter field `source` of the book's content file.
-
-Then run the following command:
-
-```
-BOOK=./content/books/978-3-641-26688-2/index.md SELECTOR='.column-count-md-2 > p:nth-child(1)' task synopsis
-```
-
-### Mark an existing book as currently read
-
-Determine the path to the book's content file. Then run the following command:
-
-```
-BOOK=<insert path to book's content file here> task --silent book.start-reading
-```
-
-### Mark an existing book as completed
-
-Determine the path to the book's content file. Then run the following command:
-
-```
-BOOK=<insert path to book's content file here> task --silent book.completed
-```
-
-### Mark a book in booklist wishlist as reserved
-
-Use-case: A book from the wishlist may be reserved by someone as a gift.
-
-Determine the path to the book's content file. Then run the following command:
-
-```
-BOOK=<insert path to book's content file here> task --silent book.reserved
-```
-
-### Mark an existing book as unread
-
-Use-case: A book from the wish list has come into your possession.
-
-Determine the path to the book's content file. Then run the following command:
-
-```
-BOOK=<insert path to book's content file here> task [--silent] book.unread
-```
+Fetching bibliographic data is different for those language areas, and you have 
+to choose the correct command.
 
 ## Howto
 

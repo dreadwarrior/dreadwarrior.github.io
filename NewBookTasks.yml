@@ -1,0 +1,189 @@
+version: '3'
+
+tasks:
+  completed.de:
+    desc: Add new german book to booklist 'completed'.
+    summary: |
+      Add new german book to booklist 'completed'.
+
+      Required variables:
+      -------------------
+      * ISBN: ISBN 13 of the book to add.
+
+      Example:
+      --------
+      > ISBN=978-3-641-26688-2 task {{.TASK}}
+    cmds:
+      - task: _completed-book
+        vars:
+          LANGUAGE: '{{ last (splitList "." .TASK) }}'
+      - task: _new-book-content-management
+
+  completed.en:
+    desc: Add new english book to booklist 'completed'.
+    summary: |
+      Add new english book to booklist 'completed'.
+
+      Required variables:
+      -------------------
+      * ISBN: ISBN 13 of the book to add.
+
+      Example:
+      --------
+      > ISBN=978-1-80336-191-3 task {{.TASK}}
+    cmds:
+      - task: _completed-book
+        vars:
+          LANGUAGE: '{{ last (splitList "." .TASK) }}'
+      - task: _new-book-content-management
+
+  synopsis:
+    desc: Crawl synopsis for a book from external website.
+    summary: |
+      Crawl synopsis for a book from external website.
+
+      The book's 'source' front matter attribute needs to point to the external website. 
+
+      Required variables:
+      -------------------
+      * BOOK: Path to content file of a book.
+      * SELECTOR: CSS selector of the website's section containing the book synopsis.
+
+      Example:
+      --------
+      > BOOK=./content/books/978-3-641-26688-2.md SELECTOR='p#description' task {{.TASK}}
+    vars:
+      SOURCE:
+        sh: "yq --front-matter='extract' '.source' {{.BOOK}} | tr -d '\n'"
+    cmds:
+      - curl --silent {{.SOURCE}} | htmlq --text '{{.SELECTOR}}' | fold -w 80 -s | xargs -0 printf "\n\n%s" >> {{.BOOK}}
+
+  unread.de:
+    desc: Add new german book to booklist 'unread'.
+    summary: |
+      Add new german book to booklist 'unread'.
+
+      Required variables:
+      -------------------
+      * ISBN: ISBN 13 of the book to add.
+
+      Example:
+      --------
+      > ISBN=978-3-641-26688-2 task {{.TASK}}
+    cmds:
+      - task: _unread-book
+        vars:
+          BOOKLIST: 'unread'
+          LANGUAGE: '{{ last (splitList "." .TASK) }}'
+      - task: _new-book-content-management
+
+  unread.en:
+    desc: Add new english book to booklist 'unread'.
+    summary: |
+      Add new english book to booklist 'unread'.
+
+      Required variables:
+      -------------------
+      * ISBN: ISBN 13 of the book to add.
+
+      Example:
+      --------
+      > ISBN=978-1-80336-191-3 task {{.TASK}}
+    cmds:
+      - task: _unread-book
+        vars:
+          BOOKLIST: 'unread'
+          LANGUAGE: '{{ last (splitList "." .TASK) }}'
+      - task: _new-book-content-management
+
+  wishlist.de:
+    desc: Add new german book to booklist 'wishlist'.
+    summary: |
+      Add new german book to booklist 'wishlist'.
+
+      Required variables:
+      -------------------
+      * ISBN: ISBN 13 of the book to add.
+      
+      Example:
+      --------
+      > ISBN=978-3-641-26688-2 task {{.TASK}}
+    cmds:
+      - task: _unread-book
+        vars:
+          BOOKLIST: 'wishlist'
+          LANGUAGE: '{{ last (splitList "." .TASK) }}'
+      - task: _new-book-content-management
+
+  wishlist.en:
+    desc: Add new english book to booklist 'wishlist'.
+    summary: |
+      Add new english book to booklist 'wishlist'.
+
+      Required variables:
+      -------------------
+      * ISBN: ISBN 13 of the book to add.
+
+      Example:
+      --------
+      > ISBN=978-1-80336-191-3 task {{.TASK}}
+    cmds:
+      - task: _unread-book
+        vars:
+          LANGUAGE: '{{ last (splitList "." .TASK) }}'
+          BOOKLIST: 'wishlist'
+      - task: _new-book-content-management
+
+  _add-to-vcs:
+    internal: true
+    cmds:
+      - git add {{.REF}}
+
+  _completed-book:
+    internal: true
+    vars:
+      FORMATTED_ISBN:
+        sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
+      TARGET: 'books/{{.FORMATTED_ISBN}}'
+    cmds:
+      - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
+      - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}/index.md
+      - task: _update-booklist
+        vars:
+          BOOKLIST: 'completed'
+          TARGET: 'content/{{.TARGET}}/index.md'
+      - cp ./archetypes/review.md.dist content/{{.TARGET}}/review.md
+      - task: _add-to-vcs
+        vars:
+          REF: 'content/{{.TARGET}}/'
+
+  _new-book-content-management:
+    internal: true
+    cmds:
+      - echo "1. Open the newly generated file."
+      - echo "2. Adjust the front matter field 'topics'."
+      - echo "3. To fulfill the obligation to indicate the source of supply, e.g. the publisher's landing page of the book, adjust the front matter field 'source' accordingly."
+      - echo "4. Discover the book synopsis' CSS selector path."
+      - echo "5. Crawl the synopsis of the book."
+
+  _unread-book:
+    internal: true
+    vars:
+      FORMATTED_ISBN:
+        sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
+      TARGET: 'books/{{.FORMATTED_ISBN}}.md'
+    cmds:
+      - echo "Create {{.BOOKLIST}} book for ISBN {{.FORMATTED_ISBN}}"
+      - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}
+      - task: _update-booklist
+        vars:
+          BOOKLIST: '{{.BOOKLIST}}'
+          TARGET: 'content/{{.TARGET}}'
+      - task: _add-to-vcs
+        vars:
+          REF: 'content/{{.TARGET}}'
+
+  _update-booklist:
+    internal: true
+    cmds:
+      - yq --front-matter=process -i '.booklists = ["{{.BOOKLIST}}"]' {{.TARGET}}
