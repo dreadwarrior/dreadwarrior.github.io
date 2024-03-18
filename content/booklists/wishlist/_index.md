@@ -5,4 +5,7 @@ aliases:
   - "/books/wishlist"
   - "/bookshelves/wishlist"
 enableScrollToTop: true
+outputs:
+  - html
+  - rss
 ---
