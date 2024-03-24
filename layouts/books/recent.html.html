@@ -8,6 +8,11 @@
         <header class="recent-book__title pure-u-7-12 pure-u-md-1-1">
             <h3>{{ .Title }}</h3>
             <p>von <em>{{ .Params.author }}</em> <time>{{ .Params.publishedAt }}</time></p>
+            <ul class="recent-book__topics">
+                {{- range $i, $topic := (first 3 (.GetTerms "topics")) -}}
+                <li><a href="{{ $topic.RelPermalink }}" class="recent-book__topic button button--auxiliary pure-button">{{ $topic.LinkTitle }}</a> </li>
+                {{- end -}}
+            </ul>
         </header>
 
         <section class="recent-book__cover pure-u-5-12 pure-u-md-1-4 pure-u-lg-5-24">
