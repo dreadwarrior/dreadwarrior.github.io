@@ -4,10 +4,11 @@
 
         {{ .Content }}
 
-        <hr class="separator separator--decorated">
+        {{- $booklists := sort .Site.Taxonomies.booklists "Page.Weight" -}}
 
-        {{ $booklists := sort .Site.Taxonomies.booklists "Page.Weight" }}
         <nav class="menu menu--toc">
+            <hr class="separator separator--decorated">
+
             <ul>
             {{ range $booklists -}}
                 <li><a href="#recent-books-{{ .Page.Data.Term }}"
