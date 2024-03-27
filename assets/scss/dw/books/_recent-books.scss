@@ -69,9 +69,6 @@
   &__cover {
     text-align: right;
     figure {
-      margin: 0 auto;
-
-      position: relative;
       @include ribbon($blue);
 
       img {
@@ -95,10 +92,6 @@
     p {
       margin-top: unset;
       hyphens: auto;
-
-      @include mq-md() {
-        padding-left: 1rem;
-      }
     }
   }
 }

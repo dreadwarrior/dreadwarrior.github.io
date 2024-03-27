@@ -90,6 +90,13 @@ blockquote {
     }
 }
 
+figure {
+    margin-block-start: .25rem;
+    margin-block-end: .25rem;
+    margin-inline-start: .75rem;
+    margin-inline-end: .75rem;
+}
+
 img {
     max-width: 100%;
     height: auto;

@@ -60,6 +60,8 @@
   --c: #{rgba($color, .75)}; // color
   --f: .85rem; // ribbon font-size
 
+  position: relative;
+
   &.ribbon::before {
     content: attr(data-ribbon) !important;
 
