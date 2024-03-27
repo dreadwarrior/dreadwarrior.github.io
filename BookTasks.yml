@@ -14,11 +14,11 @@ tasks:
       --------
       > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
     vars:
-      BOOK_DIRECTORY: "{{.CONTENT_DIRECTORY}}/{{.ISBN}}"
-      CONTENT_DIRECTORY:
-        sh: "dirname {{.BOOK}}"
       ISBN:
         sh: "basename -s .md {{.BOOK}}"
+      CONTENT_DIRECTORY:
+        sh: "dirname {{.BOOK}}"
+      BOOK_DIRECTORY: "{{.CONTENT_DIRECTORY}}/{{.ISBN}}"
     cmds:
       - mkdir {{.BOOK_DIRECTORY}}
       - mv {{.BOOK}} {{.BOOK_DIRECTORY}}/index.md
