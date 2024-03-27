@@ -6,7 +6,7 @@
     <div class="pure-g">
 
         <header class="recent-book__title pure-u-7-12 pure-u-md-1-1">
-            <h3>{{ .Title }}</h3>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             <p>von <em>{{ .Params.author }}</em> <time>{{ .Params.publishedAt }}</time></p>
             <ul class="recent-book__topics">
                 {{- range $i, $topic := (first 3 (.GetTerms "topics")) -}}
