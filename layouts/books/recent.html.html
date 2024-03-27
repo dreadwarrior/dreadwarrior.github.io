@@ -16,8 +16,8 @@
         </header>
 
         <section class="recent-book__cover pure-u-5-12 pure-u-md-1-4 pure-u-lg-5-24">
-            <a href="{{ .Permalink }}">
-                <figure{{ if $inBooklistWishlistAndReserved }} class="ribbon" data-ribbon="reserviert"{{ end }}>
+            <a href="{{ .Permalink }}" aria-label="Zum Buch „{{ .Title }}“ von {{ .Params.author }}">
+                <figure{{ if $inBooklistWishlistAndReserved }} class="ribbon" data-ribbon="reserviert"{{ end }} aria-label="{{ $alternateText }}">
                     {{- $isbn := .Params.isbn -}}
                     {{- $coverUri := .Params.coverUri -}}
                     {{- $coversPath := $.Site.Params.books.coversPath -}}

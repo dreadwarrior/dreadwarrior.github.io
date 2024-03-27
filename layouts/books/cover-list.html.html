@@ -5,7 +5,7 @@
         class="cover pure-u-1-2 pure-u-md-1-4 pure-u-lg-1-6"
         aria-label="{{ .Title }} von {{ .Params.author }}"
         href="{{ .Permalink }}">
-    <figure{{ if $inBooklistWishlistAndReserved }} class="cover__figure ribbon" data-ribbon="reserviert"{{ else }} class="cover__figure"{{ end }}>
+    <figure{{ if $inBooklistWishlistAndReserved }} class="cover__figure ribbon" data-ribbon="reserviert"{{ else }} class="cover__figure"{{ end }} aria-label="{{ $alternateText }}">
         {{- with partial "book/cover" (dict
             "isbn" .Params.isbn
             "coverUri" .Params.coverUri
