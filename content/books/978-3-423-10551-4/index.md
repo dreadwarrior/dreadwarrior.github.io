@@ -1,5 +1,5 @@
 ---
-date: 2024-02-29T21:25:50+01:00
+date: 2024-03-25T21:54:51+01:00
 title: "Der Name der Rose"
 slug: "der-name-der-rose"
 isbn: "978-3-423-10551-4"
@@ -14,7 +14,7 @@ topics:
   - "Krimi"
 source: "https://www.isbn.de/buch/9783423105514/der-name-der-rose"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 Daß er in den Mauern der prächtigen Benediktinerabtei an den Hängen des Apennin 
