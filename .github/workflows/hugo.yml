@@ -39,7 +39,7 @@ jobs:
             ${{ runner.os }}-hugo-resources-directory    
 
       - name: Build Hugo site
-        run: HUGO_BASEURL=https://van-tomas.de/ hugo --minify
+        run: hugo --minify --baseURL "https://van-tomas.de/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
