@@ -30,13 +30,21 @@ jobs:
       - name: Ensure Hugo cache 'getresource' never evicts
         run: test $(hugo config --format json | jq .caches.getresource.maxage) -eq -1
 
-      - name: Fetch resources directory from cache
+      - name: Cache resources directory
         uses: actions/cache@v4
         with:
           path: resources
           key: ${{ runner.os }}-hugo-resources-directory-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-hugo-resources-directory    
+            ${{ runner.os }}-hugo-resources-directory
+
+      - name: Cache Hugo cache directory
+        uses: actions/cache@v4
+        with:
+          path: /tmp/hugo_cache_runner/
+          key: ${{ runner.os }}-hugo-cache-directory-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-cache-directory
 
       - name: Build Hugo site
         run: hugo --gc --minify --baseURL "https://van-tomas.de/"
