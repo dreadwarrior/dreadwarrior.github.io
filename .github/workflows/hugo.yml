@@ -30,12 +30,6 @@ jobs:
       - name: Ensure Hugo cache 'getresource' never evicts
         run: test $(hugo config --format json | jq .caches.getresource.maxage) -eq -1
 
-      - name: "Debug: Hugo cache dir"
-        run: hugo config --format json | jq .cachedir
-
-      - name: "Debug: Hugo getresources cache dir"
-        run: hugo config --format json | jq .caches.getresource.dir
-
       - name: Fetch resources directory from cache
         uses: actions/cache@v4
         with:
