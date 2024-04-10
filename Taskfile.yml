@@ -6,3 +6,6 @@ includes:
 
   book:
     taskfile: ./BookTasks.yml
+
+  maintenance:
+    taskfile: ./MaintenanceTasks.yml

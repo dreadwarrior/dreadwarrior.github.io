@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  covercheck.http:
+    desc: Check HTTP availability of book covers.
+    summary: |
+      Check HTTP availability of book covers.
+
+      Collects book cover URIs from content repository.
+      Runs a script, printing the cover URI and its HTTP status code.
+    cmds:
+      - "grep -Rh content/books/ -e 'coverUri: ' | grep -o 'http.[^\"]*' > cover-uris.txt"
+      - ./script/cover-check.sh cover-uris.txt
+      - rm cover-uris.txt
