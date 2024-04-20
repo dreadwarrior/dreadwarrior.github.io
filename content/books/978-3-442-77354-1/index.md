@@ -1,5 +1,5 @@
 ---
-date: 2024-03-26T21:11:04+01:00
+date: 2024-04-18T22:38:18+02:00
 title: "Die schwarze Rose"
 slug: "die-schwarze-rose"
 isbn: "978-3-442-77354-1"
@@ -14,7 +14,7 @@ topics:
   - "Korruption"
 source: "https://www.penguin.de/Taschenbuch/Die-schwarze-Rose/Dirk-Schuemer/btb/e612817.rhd"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 Als Ketzer denunziert, muss sich der deutsche Prediger Eckhart von Hochheim im
