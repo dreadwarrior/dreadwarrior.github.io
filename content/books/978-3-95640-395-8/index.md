@@ -1,5 +1,5 @@
 ---
-date: "2024-02-22T20:43:15+01:00"
+date: 2024-05-05T23:11:54+02:00
 title: "Shunas Reise"
 slug: "shunas-reise"
 isbn: "978-3-95640-395-8"
@@ -12,7 +12,7 @@ topics:
   - "Fantasy"
 source: "https://reprodukt.com/products/shunas-reise"
 booklists:
-  - unread
+  - completed
 ---
 
 Shuna, der Prinz eines armen Reichs, sieht verzweifelt zu, wie sich sein Volk 
