@@ -1,5 +1,5 @@
 ---
-date: 2024-05-06T17:27:01+02:00
+date: 2024-05-27T00:33:24+02:00
 title: "Die sieben Leben des Arthur Bowman"
 slug: "die-sieben-leben-des-arthur-bowman"
 isbn: "978-3-328-10303-5"
@@ -12,7 +12,7 @@ topics:
   - "Western"
 source: "https://www.penguin.de/ebook/Die-sieben-Leben-des-Arthur-Bowman/Antonin-Varenne/C-Bertelsmann/e467110.rhd"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 1852: Arthur Bowman, einer der härtesten Söldner der Ostindienkompanie in Birma, 
