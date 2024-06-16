@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/awesomplete@1.1.5/awesomplete.base.min.css">
 
-    {{- $inServerMode	:= .Site.IsServer }}
+    {{- $inServerMode	:= hugo.IsServer }}
     {{- $cssTarget		:= "css/style.css" }}
     {{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
     {{- $style			:= resources.Get "scss/dw.scss" | resources.ExecuteAsTemplate "style.dw.scss" . | toCSS $cssOptions }}
