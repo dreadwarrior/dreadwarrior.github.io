@@ -1,5 +1,5 @@
 ---
-date: 2024-05-27T22:09:04+02:00
+date: 2024-06-16T17:18:15+02:00
 title: "The Fahrenheit Twins"
 slug: "the-fahrenheit-twins"
 isbn: "978-1-84195-777-7"
@@ -11,7 +11,7 @@ topics:
   - "Kurzgeschichten"
 source: "https://canongate.co.uk/books/573-the-fahrenheit-twins-and-other-stories/"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 Deft and lyrical, Michel Faber's new collection of stories is his first since 
