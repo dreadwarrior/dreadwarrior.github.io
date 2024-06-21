@@ -24,7 +24,7 @@ jobs:
         id: lychee-books-covers
         uses: lycheeverse/lychee-action@v1
         with:
-          lycheeVersion: v0.15.1
+          lycheeVersion: 0.15.1
           args: --config ./lychee-ci.toml ./.lychee/books-covers.txt
           format: markdown
           output: .lychee/books-covers.md
@@ -35,7 +35,7 @@ jobs:
         id: lychee-books-sources
         uses: lycheeverse/lychee-action@v1
         with:
-          lycheeVersion: v0.15.1
+          lycheeVersion: 0.15.1
           args: --config ./lychee-ci.toml ./.lychee/books-sources.txt
           format: markdown
           output: .lychee/books-sources.md
@@ -46,7 +46,7 @@ jobs:
         id: lychee-books-permalinks
         uses: lycheeverse/lychee-action@v1
         with:
-          lycheeVersion: v0.15.1
+          lycheeVersion: 0.15.1
           args: --config ./lychee-ci.toml ./.lychee/books-permalinks.txt
           format: markdown
           output: .lychee/books-permalinks.md
