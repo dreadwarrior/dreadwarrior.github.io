@@ -28,8 +28,7 @@ jobs:
           args: --config ./lychee-ci.toml --suggest ./.lychee/books-covers.txt
           format: markdown
           output: .lychee/books-covers.md
-          # Don't fail action on broken links
-          fail: false
+          fail: true
 
       - name: Check book source URLs
         id: lychee-books-sources
