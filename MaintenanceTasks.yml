@@ -1,14 +1,61 @@
 version: '3'
 
 tasks:
-  covercheck.http:
-    desc: Check HTTP availability of book covers.
+  broken-links.books:
+    desc: Check for broken book cover, source and permalink URLs.
     summary: |
-      Check HTTP availability of book covers.
-
-      Collects book cover URIs from content repository.
-      Runs a script, printing the cover URI and its HTTP status code.
+      Check for broken book cover, source and permalink URLs.
     cmds:
-      - "grep -Rh content/books/ -e 'coverUri: ' | grep -o 'http.[^\"]*' > cover-uris.txt"
-      - ./script/cover-check.sh cover-uris.txt
-      - rm cover-uris.txt
+      - task: broken-links.books.covers
+      - task: broken-links.books.sources
+      - task: broken-links.books.permalinks
+
+  broken-links.books.covers:
+    desc: Check for broken book cover URLs.
+    summary: |
+      Check for broken book cover URLs.
+    cmds:
+      - task: _collect-urls
+        vars:
+          PROPERTY: 'coverUri'
+          LOG_FILE_NAME: 'books-covers'
+      - task: _check-urls
+        vars:
+          LOG_FILE_NAME: "books-covers"
+
+  broken-links.books.sources:
+    desc: Check for broken book excerpt source URLs.
+    summary: |
+      Check for broken book excerpt source URLs.
+    cmds:
+      - task: _collect-urls
+        vars:
+          PROPERTY: 'source'
+          LOG_FILE_NAME: 'books-sources'
+      - task: _check-urls
+        vars:
+          LOG_FILE_NAME: "books-sources"
+
+  broken-links.books.permalinks:
+    desc: Check for broken book catalogue permalink URLs.
+    summary: |
+      Check for broken book catalogue permalink URLs.
+    cmds:
+      - task: _collect-urls
+        vars:
+          PROPERTY: 'cataloguePermalink'
+          LOG_FILE_NAME: 'books-permalinks'
+      - task: _check-urls
+        vars:
+          LOG_FILE_NAME: "books-permalinks"
+
+  _collect-urls:
+    internal: true
+    cmds:
+      - "mkdir -p ./.lychee"
+      - "grep -Rh content/books/ -e '{{.PROPERTY}}: ' | grep -o 'http.[^\"]*' > ./.lychee/{{.LOG_FILE_NAME}}.txt"
+
+  _check-urls:
+    internal: true
+    cmds:
+      - "lychee --config ./lychee-ci.toml --output ./.lychee/{{.LOG_FILE_NAME}}.md --format markdown ./.lychee/{{.LOG_FILE_NAME}}.txt"
