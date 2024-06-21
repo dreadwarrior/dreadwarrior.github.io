@@ -4,7 +4,7 @@ title: "Der Stier und das Mädchen"
 slug: "der-stier-und-das-mädchen"
 isbn: "978-1-5420-4969-6"
 coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-1-5420-4969-6"
-cataloguePermalink: "https://d-nb.info/114438592"
+cataloguePermalink: "https://d-nb.info/114438592X"
 author: "Stefán Máni"
 publishedAt: "2017"
 topics:
