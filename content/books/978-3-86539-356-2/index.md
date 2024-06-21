@@ -10,7 +10,7 @@ publishedAt: "2014"
 topics:
   - "Kurzgeschichten"
   - "Mystery"
-source: "https://www.verlagshaus-roemerweg.de/Marix_Verlag/Edgar_Allan_Poe-Der_Goldkaefer-EAN:9783865393562.html"
+source: "http://web.archive.org/web/20231004060142/https://www.verlagshaus-roemerweg.de/Marix_Verlag/Edgar_Allan_Poe-Der_Goldkaefer-EAN:9783865393562.html"
 booklists:
   - "completed"
 ---

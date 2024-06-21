@@ -12,7 +12,7 @@ topics:
   - "Krimi"
   - "Schweden"
   - "Historischer Roman"
-source: "https://www.piper.de/buecher/1795-isbn-978-3-492-06195-7"
+source: "http://web.archive.org/web/20230929142216/https://www.piper.de/buecher/1795-isbn-978-3-492-06195-7"
 booklists:
   - "completed"
   - "favorites"

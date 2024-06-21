@@ -10,7 +10,7 @@ publishedAt: "2018"
 topics:
   - "Krimi"
   - "Western"
-source: "https://www.penguin.de/ebook/Die-sieben-Leben-des-Arthur-Bowman/Antonin-Varenne/C-Bertelsmann/e467110.rhd"
+source: "http://web.archive.org/web/20240303091633/https://www.penguin.de/ebook/Die-sieben-Leben-des-Arthur-Bowman/Antonin-Varenne/C-Bertelsmann/e467110.rhd"
 booklists:
   - completed
 ---
