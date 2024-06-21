@@ -25,7 +25,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           lycheeVersion: 0.15.1
-          args: --config ./lychee-ci.toml ./.lychee/books-covers.txt
+          args: --config ./lychee-ci.toml --suggest ./.lychee/books-covers.txt
           format: markdown
           output: .lychee/books-covers.md
           # Don't fail action on broken links
@@ -36,7 +36,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           lycheeVersion: 0.15.1
-          args: --config ./lychee-ci.toml ./.lychee/books-sources.txt
+          args: --config ./lychee-ci.toml --suggest ./.lychee/books-sources.txt
           format: markdown
           output: .lychee/books-sources.md
           # Don't fail action on broken links
@@ -47,7 +47,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           lycheeVersion: 0.15.1
-          args: --config ./lychee-ci.toml ./.lychee/books-permalinks.txt
+          args: --config ./lychee-ci.toml --suggest ./.lychee/books-permalinks.txt
           format: markdown
           output: .lychee/books-permalinks.md
           # Don't fail action on broken links

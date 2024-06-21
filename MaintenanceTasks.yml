@@ -58,4 +58,4 @@ tasks:
   _check-urls:
     internal: true
     cmds:
-      - "lychee --config ./lychee-ci.toml --output ./.lychee/{{.LOG_FILE_NAME}}.md --format markdown ./.lychee/{{.LOG_FILE_NAME}}.txt"
+      - "lychee --config ./lychee-ci.toml --suggest --output ./.lychee/{{.LOG_FILE_NAME}}.md --format markdown ./.lychee/{{.LOG_FILE_NAME}}.txt"

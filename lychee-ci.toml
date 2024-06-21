@@ -22,8 +22,6 @@ retry_wait_time = 2
 # Ignore case of paths when matching glob patterns.
 glob_ignore_case = true
 
-#############################  Exclusions  ##########################
-
 # Exclude URLs and mail addresses from checking (supports regex).
 exclude = [
     '^https://www\.thalia\.de' # (Temporarily) exclude Thalia URLs, because of activated CloudFlare's "I'm under attack" mode.
