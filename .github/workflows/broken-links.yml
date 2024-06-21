@@ -21,7 +21,7 @@ jobs:
           grep -Rh content/books/ -e 'cataloguePermalink: ' | grep -o 'http.[^\"]*' > ./.lychee/books-permalinks.txt
 
       - name: Check book cover URLs
-        id: lychee
+        id: lychee-books-covers
         uses: lycheeverse/lychee-action@v1
         with:
           lycheeVersion: v0.15.1
@@ -32,7 +32,7 @@ jobs:
           fail: false
 
       - name: Check book source URLs
-        id: lychee
+        id: lychee-books-sources
         uses: lycheeverse/lychee-action@v1
         with:
           lycheeVersion: v0.15.1
@@ -43,7 +43,7 @@ jobs:
           fail: false
 
       - name: Check book permalink URLs
-        id: lychee
+        id: lychee-books-permalinks
         uses: lycheeverse/lychee-action@v1
         with:
           lycheeVersion: v0.15.1
