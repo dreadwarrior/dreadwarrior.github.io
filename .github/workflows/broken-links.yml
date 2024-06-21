@@ -11,22 +11,44 @@ jobs:
   run-check:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Task
-        uses: arduino/setup-task@v1
-        with:
-          # Which go-task version to use.
-          version: 3.x
-
       - uses: actions/checkout@v4
 
-      - name: Check book cover URLs
-        run: task maintenance:broken-links.books.covers
-        continue-on-error: true
+      - name: Collect URLs from books
+        run: |
+          mkdir -p ./.lychee
+          grep -Rh content/books/ -e 'coverUri: ' | grep -o 'http.[^\"]*' > ./.lychee/books-covers.txt
+          grep -Rh content/books/ -e 'source: ' | grep -o 'http.[^\"]*' > ./.lychee/books-sources.txt
+          grep -Rh content/books/ -e 'cataloguePermalink: ' | grep -o 'http.[^\"]*' > ./.lychee/books-permalinks.txt
 
-      - name: Check book excerpt source URLs
-        run: task maintenance:broken-links.books.sources
-        continue-on-error: true
+      - name: Check book cover URLs
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          lycheeVersion: v0.15.1
+          args: --config ./lychee-ci.toml ./.lychee/books-covers.txt
+          format: markdown
+          output: .lychee/books-covers.md
+          # Don't fail action on broken links
+          fail: false
+
+      - name: Check book source URLs
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          lycheeVersion: v0.15.1
+          args: --config ./lychee-ci.toml ./.lychee/books-sources.txt
+          format: markdown
+          output: .lychee/books-sources.md
+          # Don't fail action on broken links
+          fail: false
 
       - name: Check book permalink URLs
-        run: task maintenance:broken-links.books.permalinks
-        continue-on-error: true
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          lycheeVersion: v0.15.1
+          args: --config ./lychee-ci.toml ./.lychee/books-permalinks.txt
+          format: markdown
+          output: .lychee/books-permalinks.md
+          # Don't fail action on broken links
+          fail: false
