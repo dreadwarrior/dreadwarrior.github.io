@@ -1,5 +1,5 @@
 ---
-date: 2024-06-24T22:46:40+02:00
+date: 2024-06-28T17:33:06+02:00
 title: "Wie man einen Bären kocht"
 slug: "wie-man-einen-bären-kocht"
 isbn: "978-3-442-77140-0"
@@ -12,7 +12,8 @@ topics:
   - "Schweden"
 source: "https://www.penguin.de/Taschenbuch/Wie-man-einen-Baeren-kocht/Mikael-Niemi/btb/e592604.rhd"
 booklists:
-  - currently-reading
+  - completed
+  - favorites
 ---
 
 Ein Dorf in Nordschweden 1852. Der vielseitig gebildete protestantische 
