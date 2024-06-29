@@ -3,7 +3,7 @@ date: 2024-03-25T21:54:51+01:00
 title: "Der Name der Rose"
 slug: "der-name-der-rose"
 isbn: "978-3-423-10551-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-10551-4"
+coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-27074-9"
 cataloguePermalink: "https://d-nb.info/946460159"
 author: "Umberto Eco"
 publishedAt: "1996"
