@@ -1,7 +1,6 @@
 ---
 date: "2023-04-01T21:31:46+01:00"
 title: "Die Chroniken von Alice - Dunkelheit im Spiegelland"
-subtitle: "Kurzgeschichten"
 slug: "die-chroniken-von-alice---dunkelheit-im-spiegelland"
 isbn: "978-3-641-27428-3"
 coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-641-27428-3"

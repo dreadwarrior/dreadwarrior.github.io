@@ -1,7 +1,6 @@
 ---
 date: "2023-12-17T22:30:30+01:00"
 title: "Das Jesus-Video"
-subtitle: "Roman"
 slug: "das-jesus-video"
 isbn: "978-3-404-17035-7"
 coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-17035-7"

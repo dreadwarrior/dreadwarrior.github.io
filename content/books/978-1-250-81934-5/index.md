@@ -1,7 +1,6 @@
 ---
 date: "2023-11-24T22:54:30+01:00"
 title: "Hidden Pictures"
-subtitle: "A Novel"
 slug: "hidden-pictures"
 isbn: "978-1-250-81934-5"
 coverUri: "https://covers.openlibrary.org/b/id/12775985-L.jpg"

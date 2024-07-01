@@ -1,7 +1,6 @@
 ---
 date: "2023-11-02T20:32:26+01:00"
 title: "Die Entsorgung"
-subtitle: "Erzählungen"
 slug: "die-entsorgung"
 isbn: "978-3-7325-4196-6"
 coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7325-4196-6"
