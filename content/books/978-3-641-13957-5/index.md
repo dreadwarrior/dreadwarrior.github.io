@@ -1,5 +1,5 @@
 ---
-date: 2024-06-28T18:07:54+02:00
+date: 2024-07-14T16:52:14+02:00
 title: "Der Wüstenplanet"
 slug: "der-wüstenplanet"
 isbn: "978-3-641-13957-5"
@@ -12,7 +12,7 @@ topics:
   - "Weltraumoper"
 source: "https://www.penguin.de/Taschenbuch/Der-Wuestenplanet/Frank-Herbert/Heyne/e162204.rhd"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 Herzog Leto, Oberhaupt des Hauses Atreides, erhält Arrakis zum Lehen, den 
