@@ -51,13 +51,13 @@ tasks:
 
       Required variables:
       -------------------
-      * TITLE: Title of the book to search for.
+      * TERM: Term of the book to search for, e.g. title, isbn.
 
       Example:
       --------
-      > TITLE='Der Name der Rose' task {{.TASK}}
+      > TERM='Der Name der Rose' task {{.TASK}}
     cmds:
-      - grep --include=\*.md -Rwl './content/books' -e '{{.TITLE}}'
+      - grep --include=\*.md -Rwl './content/books' -e '{{.TERM}}'
 
   start-reading:
     desc: Move existing book to booklist 'currently-reading'.
