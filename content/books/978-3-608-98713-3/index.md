@@ -1,5 +1,5 @@
 ---
-date: 2024-07-14T21:13:24+02:00
+date: 2024-07-21T10:22:18+02:00
 title: "Der Uhrmacher in der Filigree Street"
 slug: "der-uhrmacher-in-der-filigree-street"
 isbn: "978-3-608-98713-3"
@@ -13,7 +13,7 @@ topics:
   - "Japan"
 source: "https://www.klett-cotta.de/produkt/natasha-pulley-der-uhrmacher-in-der-filigree-street-9783608987133-t-5524"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 London, Oktober 1883. Eines Abends kehrt Thaniel Steepleton, ein einfacher 
