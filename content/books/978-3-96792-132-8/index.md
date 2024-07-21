@@ -1,5 +1,5 @@
 ---
-date: "2024-01-19T19:57:56+01:00"
+date: 2024-07-21T16:52:04+02:00
 title: "Elecboy. Band 1 : Geburt"
 slug: "elecboy-band-1-geburt"
 isbn: "978-3-96792-132-8"
@@ -13,7 +13,7 @@ topics:
   - "Graphic Novel"
 source: "https://www.splitter-verlag.de/elecboy-1-geburt.html"
 booklists:
-  - unread
+  - completed
 ---
 
 Im Jahre 2122 ist die Welt eine Wüste, und für die wenigen verbleibenden 
