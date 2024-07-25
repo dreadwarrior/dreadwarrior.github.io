@@ -1,5 +1,5 @@
 ---
-date: 2024-07-21T16:55:43+02:00
+date: 2024-07-25T00:31:50+02:00
 title: "Das Geheimnis des weißen Bandes"
 slug: "das-geheimnis-des-weißen-bandes"
 isbn: "978-3-458-35915-9"
@@ -12,7 +12,7 @@ topics:
   - "Krimi"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1027127465"
 booklists:
-  - currently-reading
+  - completed
 ---
 **Es ist Sherlock Holmes' spektakulärster und dunkelster Fall. Jetzt endlich 
 kommt er ans Licht.**
