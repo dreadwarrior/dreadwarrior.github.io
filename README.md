@@ -12,11 +12,15 @@ Personal landing page, including booklist management.
 
 _Optional_
 
-For automated synopsis extraction:
+To automated synopsis extraction (via task `new.book:synopsis`):
 
 - [htmlq](https://github.com/mgdm/htmlq)
 - [yq](https://github.com/mikefarah/yq)
 - curl
+
+To run broken link checks (via task namespace `maintenance:broken-links.*`):
+
+- [lychee](https://lychee.cli.rs/)
 
 ## Recommendations
 
