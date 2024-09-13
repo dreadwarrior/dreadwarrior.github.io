@@ -1,5 +1,5 @@
 ---
-date: 2024-08-14T20:17:40+02:00
+date: 2024-09-11T22:18:28+02:00
 title: "Der freundliche Mr Crippen"
 slug: "der-freundliche-mr-crippen"
 isbn: "978-3-492-30556-3"
@@ -12,7 +12,7 @@ topics:
   - "England"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1034941693"
 booklists:
-  - currently-reading
+  - completed
 ---
 Im Sommer 1910 steht Scotland Yard vor einem unlösbaren Fall: Im Haus des 
 allseits beliebten Mr Hawley Crippen wird die grausam zerstückelte Leiche 
