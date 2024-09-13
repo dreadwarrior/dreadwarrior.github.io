@@ -1,5 +1,5 @@
 ---
-date: "2024-01-19T19:57:57+01:00"
+date: 2024-08-15T21:58:31+02:00
 title: "Elecboy. Band 2 : Offenbarungen"
 slug: "elecboy-band-2-offenbarungen"
 isbn: "978-3-96792-133-5"
@@ -13,7 +13,7 @@ topics:
   - "Graphic Novel"
 source: "https://www.splitter-verlag.de/elecboy-2-offenbarungen.html"
 booklists:
-  - unread
+  - completed
 ---
 
 Im Jahre 2122 ist die Welt eine Wüste, die ein Mann in Begleitung eines Riesen 
