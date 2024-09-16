@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-    <main>
+    <main data-pagefind-body>
         <article class="book pure-g">
             <aside class="cover--single cover pure-u-1 pure-u-lg-8-24" aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}">
                 {{ $inBooklistCompleted := in .Params.booklists "completed" }}
@@ -16,7 +16,7 @@
                     {{ if $inBooklistWishlistAndReserved }} class="ribbon" data-ribbon="reserviert"{{ end }}
                     aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}"
                     >
-                    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    <img data-pagefind-meta="image[src]" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                 </figure>
                 {{- end -}}
             </aside>
@@ -38,7 +38,7 @@
                 {{ partial "book/review.html" . }}
             </section>
 
-            <aside class="book-links pure-u-1" aria-label="Kaufoptionen">
+            <aside class="book-links pure-u-1" aria-label="Kaufoptionen" data-pagefind-ignore>
                 <details class="tooltip">
                     <summary class="button button--primary button--block pure-button"><i class="fas fa-shopping-cart"></i> Kaufen</summary>
                     <ul class="tooltip__body">
@@ -55,7 +55,7 @@
                 </details>
             </aside>
 
-            <aside class="pure-u-1" aria-label="Ähnliche Bücher">
+            <aside class="pure-u-1" aria-label="Ähnliche Bücher" data-pagefind-ignore>
                 {{ partial "book/related.html" (dict
                     "site" .Site
                     "siteParams" $.Site.Params

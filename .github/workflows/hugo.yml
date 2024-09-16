@@ -49,6 +49,15 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify --baseURL "https://van-tomas.de/"
 
+      - name: Install Pagefind
+        uses: sigoden/install-binary@v1
+        with:
+          repo: CloudCannon/pagefind
+          tag: v1.1.1
+
+      - name: Create fulltext search index
+        run: pagefind --site public
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'

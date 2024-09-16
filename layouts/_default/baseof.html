@@ -40,6 +40,19 @@
         </div>
     </body>
 
+    <script src="/pagefind/pagefind-ui.js"></script>
     {{ $main := resources.Get "js/index.js" | js.Build "main.js" | minify | fingerprint }}
     <script src="{{ $main.RelPermalink }}"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({
+                element: "#search",
+                showSubResults: true,
+                resetStyles: false,
+                translations: {
+                    placeholder: "Volltextsuche"
+                }
+            });
+        });
+    </script>
 </html>

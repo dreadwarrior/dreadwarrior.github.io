@@ -4,10 +4,14 @@
 
         {{ .Content }}
 
+        <hr class="separator separator--decorated">
+
+        <div id="search"></div>
+
         {{- $booklists := sort .Site.Taxonomies.booklists "Page.Weight" -}}
 
         <nav class="menu menu--toc">
-            <hr class="separator separator--decorated">
+            <hr class="separator">
 
             <ul>
             {{ range $booklists -}}

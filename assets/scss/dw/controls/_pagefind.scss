@@ -1,0 +1,86 @@
+.pagefind-ui {
+
+  &__form {
+    position: relative;
+  }
+
+  &__search-input {
+    width: calc(100% - (2 * 0.625rem));
+
+    &[style] {
+      width: calc(100% - 97px - 0.625rem);
+    }
+
+    // Remove default border and (focus) outlines.
+    border: 0;
+    outline: 0;
+
+    background-color: $white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 .5em var(--secondary-color-o20);
+
+    padding: 0.625rem;
+    line-height: 1.5rem;
+  }
+
+  &__suppressed {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &__search-clear {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: 0.625rem;
+  }
+
+  &__message {
+    font-weight: bold;
+  }
+
+  &__results {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__result {
+    border-top: 1px solid var(--secondary-color-o20);
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: .5rem;
+    padding: .5rem;
+
+    &-title {
+      margin-block-start: 0;
+      font-weight: bold;
+    }
+    &-thumb {
+      width: 40%;
+      max-width: 120px;
+    }
+    &-excerpt {
+      font-style: italic;
+    }
+  }
+
+  &__button {
+    display: block;
+
+    width: 100%;
+    padding: .625rem;
+
+    color: white;
+
+    border: none;
+    border-radius: 0.25rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+    background-color: $teal;
+  }
+
+}
