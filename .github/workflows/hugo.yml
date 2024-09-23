@@ -50,11 +50,10 @@ jobs:
         run: hugo --gc --minify --baseURL "https://van-tomas.de/"
 
       - name: Install Pagefind
-        uses: sigoden/install-binary@v1
+        uses: baptiste0928/cargo-install@v3
         with:
-          repo: CloudCannon/pagefind
-          tag: v1.1.1
-          name: pagefind-v1.1.1-x86_64-unknown-linux-musl
+          crate: pagefind
+          version: '^1.1' # You can specify any semver range
 
       - name: Create fulltext search index
         run: pagefind --site public
