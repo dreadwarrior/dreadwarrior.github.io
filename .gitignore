@@ -110,3 +110,4 @@ hugo.linux
 ### Project specific
 # Broken links reports
 /.lychee/
+/static/pagefind/

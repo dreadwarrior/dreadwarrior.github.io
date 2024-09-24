@@ -9,6 +9,7 @@ Personal landing page, including booklist management.
 - [JBang](https://www.jbang.dev/), e.g. `sdk install jbang`
 - [hugo](https://gohugo.io/installation/)
 - [go-task](https://taskfile.dev/installation/)
+- [Pagefind](https://pagefind.app/docs/installation/) (see [Decision: Assume `pagefind` in `PATH` or aliased](#decision-assume-pagefind-in-path-or-aliased))
 
 _Optional_
 
@@ -29,7 +30,7 @@ A lot of Copy & Paste action is involved when managing book content. Using a
 
 ## Run
 
-    hugo server -D
+    task run:dev
 
 ## Usage
 
@@ -86,3 +87,12 @@ are included in the VCS of this project.
 The font packages are compiled by using the _latin_ charset only. The used
 styles are constrained to the _regular_, _italic_, _700_ and _700italic_ if
 available. For CSS generation the "Best Support" option was used.
+
+### Decision: Assume `pagefind` in PATH or aliased
+
+I opted in to use [Pagefind](https://pagefind.app/docs/installation/) as a 
+precompiled binary instead of managing installation of a Node.js stack at my 
+local machine. The binary is located in a directory made available to `PATH`. 
+
+The task `dev:run` assumes `pagefind` is made available that way, or an alias 
+`pagefind` of `npx pagefind` exists.

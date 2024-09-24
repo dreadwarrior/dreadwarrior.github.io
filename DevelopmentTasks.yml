@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  run:
+    desc: Run the application for local development.
+    summary: |
+      Run the application for local development.
+    cmds:
+      - pagefind --site "public" --output-subdir ../static/pagefind
+      - hugo server -D
