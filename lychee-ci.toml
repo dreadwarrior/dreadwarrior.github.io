@@ -9,6 +9,11 @@ no_progress = true
 
 mode = "plain"
 
+#############################  Runtime  #############################
+
+# Maximum number of concurrent link checks.
+max_concurrency = 32
+
 #############################  Requests  ############################
 
 # Website timeout from connect to response finished.
