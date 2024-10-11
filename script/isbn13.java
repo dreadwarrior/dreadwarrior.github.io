@@ -1,7 +1,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
-//DEPS de.creativecouple.validation:fast-isbn:1.1.11
+//DEPS net.creativecouple.validation:fast-isbn:1.2.1
 
-import de.creativecouple.validation.isbn.ISBN;
+import net.creativecouple.validation.isbn.ISBN;
 import static java.lang.System.*;
 
 public class isbn13 {
