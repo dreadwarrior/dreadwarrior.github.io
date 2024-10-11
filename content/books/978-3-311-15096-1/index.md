@@ -1,5 +1,5 @@
 ---
-date: 2024-09-12T22:23:46+02:00
+date: 2024-10-11T17:44:46+02:00
 title: "Anatomie der Wolken"
 subtitle: "Als Caspar David Friedrich auf Johann Wolfgang von Goethe traf"
 slug: "anatomie-der-wolken"
@@ -13,7 +13,7 @@ topics:
   - "Deutschland"
 source: "https://kampaverlag.ch/produkt/anatomie-der-wolken-ebook/"
 booklists:
-  - currently-reading
+  - completed
 ---
 
 „Keine Ahnung von Mythologie und klassischen Regeln, doch Wolken malen kann
