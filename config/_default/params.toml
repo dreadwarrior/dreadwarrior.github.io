@@ -16,6 +16,3 @@
     icon = "id-card-alt"
     title = "Portfolio / Resume"
     url = "https://dreadlabs.de/"
-
-[books]
-    coversPath = "images/books/covers/"

@@ -5,12 +5,7 @@
             <aside class="cover--single cover pure-u-1 pure-u-lg-8-24" aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}">
                 {{ $inBooklistCompleted := in .Params.booklists "completed" }}
                 {{ $inBooklistWishlistAndReserved := and (in .Params.booklists "wishlist") (.Params.isReserved) }}
-                {{- with partial "book/cover" (dict
-                    "isbn" .Params.isbn
-                    "coverUri" .Params.coverUri
-                    "coversPath" $.Site.Params.books.coversPath
-                    "factor" 1.5
-                ) -}}
+                {{- with partial "book/cover" (dict "factor" 1.5 "page" . ) -}}
                 <figure
                     {{ if $inBooklistCompleted }} class="ribbon" data-ribbon="bereits gelesen"{{ end }}
                     {{ if $inBooklistWishlistAndReserved }} class="ribbon" data-ribbon="reserviert"{{ end }}

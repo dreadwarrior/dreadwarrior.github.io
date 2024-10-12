@@ -24,13 +24,9 @@
 
                     {{- $sourcesets := slice -}}
                     {{- $factors := slice .75 1.5 2.25 -}}
+                    {{- $page := . }}
                     {{- range $factors -}}
-                        {{- with partial "book/cover" (dict
-                            "factor" .
-                            "isbn" $isbn
-                            "coverUri" $coverUri
-                            "coversPath" $coversPath
-                        ) -}}
+                        {{- with partial "book/cover" (dict "factor" . "page" $page ) -}}
                         {{- $sourcesets = $sourcesets | append (dict
                             "url" .RelPermalink
                             "width" .Width

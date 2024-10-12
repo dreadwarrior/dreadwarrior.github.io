@@ -8,7 +8,7 @@
             <aside class="pure-u-1-4 pure-u-md-1-8 pure-u-lg-2-24">
                 <a href="{{ .RelPermalink }}">
                     {{ $alternateText := printf "Titelseite des Buchs „%s“ von %s" .Title .Params.author }}
-                    {{- with partial "book/cover" (dict "isbn" .Params.isbn "coverUri" .Params.coverUri "coversPath" $siteParams.books.coversPath) -}}
+                    {{- with partial "book/cover" (dict "page" .) -}}
                     <img class="cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alternateText }}">
                     {{- end -}}
                 </a>

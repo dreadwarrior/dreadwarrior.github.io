@@ -1,9 +1,8 @@
 <!-- 317x509 = 0.62 : 1 -->
 <!-- 627x1000 = 0.63 : 1 -->
 <!-- https://www.redcrab-software.com/de/Rechner/Seitenverh%C3%A4ltnis -->
+{{ $page := .page }}
 {{ $factor := default 1 .factor }}
 {{ $width := mul 148 $factor }}
 {{ $height := mul 240 $factor }}
-{{- $path := printf "%s%s.jpg" .coversPath .isbn }}
-{{- $image := resources.GetRemote .coverUri | resources.Copy $path -}}
-{{- return $image.Fill (print $width "x" $height " Center") -}}
+{{- return (index (first 1 ($page.Resources.ByType "image")) 0).Fill (print $width "x" $height " Center") -}}

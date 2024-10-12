@@ -30,7 +30,7 @@ A lot of Copy & Paste action is involved when managing book content. Using a
 
 ## Run
 
-    task run:dev
+    task dev:run
 
 ## Usage
 

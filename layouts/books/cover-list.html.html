@@ -6,11 +6,7 @@
         aria-label="{{ .Title }} von {{ .Params.author }}"
         href="{{ .Permalink }}">
     <figure{{ if $inBooklistWishlistAndReserved }} class="cover__figure ribbon" data-ribbon="reserviert"{{ else }} class="cover__figure"{{ end }} aria-label="{{ $alternateText }}">
-        {{- with partial "book/cover" (dict
-            "isbn" .Params.isbn
-            "coverUri" .Params.coverUri
-            "coversPath" $.Site.Params.books.coversPath
-        ) -}}
+        {{- with partial "book/cover" (dict "page" . ) -}}
         <img src="{{ .RelPermalink }}"
              width="{{ .Width }}"
              height="{{ .Height }}"
