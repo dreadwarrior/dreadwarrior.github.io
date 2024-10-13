@@ -1,7 +1,7 @@
 ---
 date: 2024-02-10T22:42:21+01:00
 title: "... und morgen werde ich dich vermissen"
-slug: "-und-morgen-werde-ich-dich-vermissen"
+slug: "und-morgen-werde-ich-dich-vermissen"
 isbn: "978-3-499-29055-8"
 coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-29055-8"
 cataloguePermalink: "https://d-nb.info/1119919061"

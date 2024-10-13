@@ -1,6 +1,6 @@
 ---
 title: "Vor dem Abgrund"
-slug: "vor-dem-abgrund"
+slug: "vor-dem-abgrund-1"
 isbn: "978-3-96966-397-4"
 coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-96966-397-4"
 cataloguePermalink: "https://d-nb.info/1225057213"
