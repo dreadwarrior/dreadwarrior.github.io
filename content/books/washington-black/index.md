@@ -10,8 +10,11 @@ topics:
   - "Sklaverei"
   - "Karibik"
 source: "https://www.luebbe.de/eichborn/buecher/sonstige-belletristik/washington-black/id_7503749"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Barbados, 1830: Der Sklavenjunge Washington Black lebt und arbeitet auf einer 
 Zuckerrohrplantage unter unmenschlichen Bedingungen. Bis er zum Leibdiener 

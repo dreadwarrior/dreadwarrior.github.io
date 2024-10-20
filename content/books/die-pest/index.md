@@ -14,6 +14,9 @@ topics:
 source: "https://www.rowohlt.de/buch/albert-camus-die-pest-9783499006166"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Die Stadt Oran wird von rätselhaften Ereignissen heimgesucht. Die Ratten kommen 

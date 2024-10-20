@@ -13,6 +13,9 @@ topics:
 source: "https://www.suhrkamp.de/buch/die-schoensten-norwegischen-maerchen-t-9783458364009"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Es rauschen die dunklen Wälder des Nordlandes, es faucht der Wind über die 
 Berge, es tobt das Meer an den zerfurchten Küsten und Fjorden, wo Trolle spuken, 

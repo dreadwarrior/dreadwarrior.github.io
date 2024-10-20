@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/969646100"
 author: "Michel Faber"
 publishedAt: "2004"
 topics:
-  
   - "Suspense"
-    
   - "Schottland"
-    
 source: "https://openlibrary.org/works/OL56004W/Under_the_skin?edition=underskin0000fabe_b1a8"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Isserley ist davon besessen männliche Anhalter mitzunehmen - vorausgesetzt sie 
 sind gut gebaut und allein. Aber warum? Im Laufe der Geschichte wird der Grund 

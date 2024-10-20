@@ -14,6 +14,9 @@ topics:
 source: "https://www.ullstein.de/werke/maria-ihm-schmeckts-nicht/taschenbuch/9783548264264"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Nach der Hochzeit verändern sich Dinge grundlegend - besonders, wenn man wie Jan 
 Weiler in eine italienische Großfamilie einheiratet: „Es gibt nämlich einen

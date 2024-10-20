@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Paperback/Die-Hyperion-Gesaenge/Dan-Simmons/Heyne/e406505.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 In den Weiten des Alls hat sich die Menschheit über unzählige Sonnensysteme 
 ausgebreitet. Während technischer Fortschritt und Dekadenz Unmögliches wahr 

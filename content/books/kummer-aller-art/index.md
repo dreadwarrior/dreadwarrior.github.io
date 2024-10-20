@@ -13,6 +13,9 @@ topics:
 source: "https://www.dumont-buchverlag.de/buch/mariana-leky-kummer-aller-art-9783832167233-t-5900"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 „Alle wirken innerlich blitzblank, nur in unserem Inneren sieht es aus wie bei 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Der-Anschlag/Stephen-King/Heyne/e600973.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Am 22. November 1963 fielen in Dallas, Texas, drei Schüsse. John F. Kennedy 
 starb, und die Welt veränderte sich für immer.

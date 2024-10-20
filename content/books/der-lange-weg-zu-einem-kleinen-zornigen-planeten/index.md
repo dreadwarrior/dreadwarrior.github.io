@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/becky-chambers-der-lange-weg-zu-einem-kleinen-zornigen-planeten-9783596035687"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Willkommen an Bord der Wayfarer!

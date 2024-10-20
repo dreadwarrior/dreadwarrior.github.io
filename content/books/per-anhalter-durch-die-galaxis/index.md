@@ -13,6 +13,9 @@ topics:
 source: "https://www.thalia.de/shop/home/suggestartikel/A1042835568"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Eines normalen Tages erfährt Arthur Dent zufällig, dass die Zerstörung der Erde 
 unmittelbar bevorsteht: Sie soll einer Hyperraumumgehungsstraße weichen. Zum 

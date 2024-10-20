@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Der-Herr-des-Wuestenplaneten/Frank-Herbert/Heyne/e162203.rhd"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Paul Atreides, genannt Muad’dib, ist in der extrem menschenfeindlichen Wüste 

@@ -15,6 +15,9 @@ source: "https://www.diogenes.ch/leser/titel/patrick-sueskind/das-parfum-9783257
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Im achtzehnten Jahrhundert lebte in Frankreich ein Mann, der zu den genialsten 
 und abscheulichsten Gestalten dieser an genialen und abscheulichen Gestalten 

@@ -12,6 +12,9 @@ topics:
 source: "https://null-papier.de/shop/gratis-sherlock-holmes-das-tal-des-grauens/"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Der vierte Roman von Sir Arthur Conan Doyle in dem die Figuren Sherlock Holmes 
 und Dr. Watson auftauchen.

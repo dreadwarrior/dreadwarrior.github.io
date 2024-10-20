@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1153327554"
 author: "James P. Hogan"
 publishedAt: "2018"
 topics:
-  
   - "Science Fiction"
-    
   - "Saturn"
-    
 source: "https://shop.penguinrandomhouse.de/shop/article/35323790/james_p_hogan_der_schoepfungscode.html"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Etwa eine Million Jahre vor unserer Zeit fliegt ein automatisches 
 Roboterschiff einer fremden Zivilisation zu nahe an einer Sonne vorbei, die 

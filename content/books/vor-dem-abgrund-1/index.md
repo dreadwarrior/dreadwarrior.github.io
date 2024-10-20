@@ -10,8 +10,11 @@ topics:
   - "Science Fiction"
   - "Dystopie"
 source: "https://www.michael-h76.at/veroeffentlichungen/"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Fünf Studenten bekommen den Auftrag, eine revolutionäre Nanotechnologie zu 
 prüfen. Die Studierenden wittern ihre große Chance.

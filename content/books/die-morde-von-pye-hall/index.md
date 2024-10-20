@@ -13,6 +13,9 @@ topics:
 source: "https://www.suhrkamp.de/buch/anthony-horowitz-die-morde-von-pye-hall-t-9783458177388"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Susan Ryeland, Lektorin bei Cloverleaf Books, arbeitet schon seit Jahren mit 

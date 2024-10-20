@@ -13,6 +13,9 @@ topics:
 source: "https://de.wikipedia.org/wiki/Die_letzte_Versuchung"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Jesus ist Zimmermann und stellt Kreuze her, welche von den Römern für die
 Hinrichtung jüdischer Aufständischer benutzt werden.

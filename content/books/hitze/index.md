@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1147602158"
 author: "Jane Harper"
 publishedAt: "2018"
 topics:
-  
   - "Thriller"
-    
   - "Australien"
-    
 source: "https://www.rowohlt.de/buch/jane-harper-hitze-9783499272509"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die schlimmste Dürre seit Jahrzehnten lastet wie heißes Blei auf dem 
 ländlichen Städtchen Kiewarra mitten im Nirgendwo. Das Vieh der Farmer stirbt, 

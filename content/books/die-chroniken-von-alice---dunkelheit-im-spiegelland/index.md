@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Dunkelheit-im-Spiegelland/Christina-Henry/Penhaligon/e573337.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Alice und der Axtmörder Hatcher haben in Christina Henrys finsterem Wunderland 
 schrecklichen Gefahren getrotzt – jetzt erfahren wir, wie es mit den beiden 

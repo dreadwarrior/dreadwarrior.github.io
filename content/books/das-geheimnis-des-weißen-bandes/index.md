@@ -13,6 +13,9 @@ topics:
 source: "https://www.thalia.de/shop/home/artikeldetails/A1027127465"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 **Es ist Sherlock Holmes' spektakulärster und dunkelster Fall. Jetzt endlich 
 kommt er ans Licht.**

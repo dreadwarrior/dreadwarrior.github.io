@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Die-Schwarze-Koenigin/Christina-Henry/Penhaligon/e567147.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Alice hat den Kampf gegen den Wahnsinn gewonnen – vorerst. Sie hat die 
 Schandtaten des Kaninchens sowie den Blutdurst des Jabberwocks überlebt und will 

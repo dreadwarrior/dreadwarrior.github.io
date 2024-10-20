@@ -12,6 +12,9 @@ topics:
 source: "https://www.isbn.de/buch/9783961112050/huckleberry-finns-abenteuer-und-fahrten"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Huck Finn flieht vor seinem Vater, einem verwahrlosten Säufer, und tut sich mit 

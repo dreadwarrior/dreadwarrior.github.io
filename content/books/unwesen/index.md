@@ -10,8 +10,11 @@ topics:
   - "Fantasy"
   - "Schweden"
 source: "https://www.dtv.de/buch/unwesen-28338"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Norrtälje, eine verschlafene Küstenstadt in Nordschweden. Als am Hafen ein 
 Container auftaucht, von dessen Herkunft niemand etwas wissen will, geschieht 

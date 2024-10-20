@@ -13,6 +13,9 @@ topics:
 source: "http://web.archive.org/web/20240303091633/https://www.penguin.de/ebook/Die-sieben-Leben-des-Arthur-Bowman/Antonin-Varenne/C-Bertelsmann/e467110.rhd"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 1852: Arthur Bowman, einer der härtesten Söldner der Ostindienkompanie in Birma, 

@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1118427106"
 author: "Daniel Keyes"
 publishedAt: "2016"
 topics:
-  
   - "Science Fiction"
-    
   - "Klassiker"
-    
 source: "https://www.thalia.de/shop/home/suggestartikel/A1035273926"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Charlie Gordon, ursprünglich kaum des Lesens mächtig, ist zu Forschungszwecken 
 operiert worden und entwickelt eine überragende Intelligenz; schließlich 

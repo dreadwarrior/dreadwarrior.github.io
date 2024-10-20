@@ -13,6 +13,9 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/science-fiction-romane/quest/id_8790694"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Das Reich Gheera steht vor dem Untergang. Die Verteidigungskräfte haben keine 

@@ -14,6 +14,9 @@ topics:
 source: "https://www.isbn.de/buch/9783442356188/shogun"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 In der turbulenten, politisch chaotischen Zeit, in der einzig die Jesuiten und 

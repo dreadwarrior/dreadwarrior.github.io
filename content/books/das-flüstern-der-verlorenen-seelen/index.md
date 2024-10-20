@@ -14,6 +14,9 @@ topics:
 source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/das-flustern-der-verlorenen-seelen/978-3-7466-2399-3"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Irland im 7. Jahrhundert: In einem Kloster wird ein Mönch ermordet. Die Täterin 

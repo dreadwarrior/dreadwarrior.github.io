@@ -14,6 +14,9 @@ source: "https://www.luebbe.de/luebbe-belletristik/buecher/science-fiction-roman
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Schon seit jeher fertigen die Haarteppichknüpfer ihre Teppiche für den Kaiser – 
 Teppiche, die aus den Haaren ihrer Frauen und Töchter bestehen. Für die 

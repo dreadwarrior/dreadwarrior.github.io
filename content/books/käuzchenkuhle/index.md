@@ -13,6 +13,9 @@ topics:
 source: "https://www.eulenspiegel.com/verlage/eulenspiegel-kinderbuchverlag/titel/257-kaeuzchenkuhle.html"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Nur widerwillig macht sich Jampoll – der eigentlich Jean-Paul heißt, aber dessen 
 Namen keiner richtig aussprechen kann – von Berlin aus auf den Weg in das 

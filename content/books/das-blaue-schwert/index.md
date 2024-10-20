@@ -13,6 +13,9 @@ topics:
 source: "https://openlibrary.org/books/OL24231189M/The_Blue_Sword"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Als Harry Crewes Vater stirbt, verlässt sie ihr Heimatland und reist nach Osten, 

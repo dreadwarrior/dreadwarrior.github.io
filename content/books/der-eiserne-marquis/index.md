@@ -14,6 +14,9 @@ topics:
 source: "https://www.liebeskind.de/buecher/backlist/der-eiserne-marquis"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Wien, im Jahr des Herrn 1753. Ein junger Bursche aus der Provinz tritt als 

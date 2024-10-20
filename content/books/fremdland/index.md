@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/ebook/Fremdland/Philipp-Reinartz/Goldmann/e507915.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Peng Peng. Zwei nächtliche Schüsse ins Nichts. Zwei Schüsse, die trotzdem alles 
 verändern. Eine junge Familie aus dem Senegal glaubt nicht mehr an das neue 

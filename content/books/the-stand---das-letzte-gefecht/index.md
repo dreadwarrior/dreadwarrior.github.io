@@ -14,6 +14,9 @@ source: "https://shop.penguinrandomhouse.de/shop/article/25995515/stephen_king_t
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 In einem entvölkerten Amerika versucht eine Handvoll Überlebende die 
 Zivilisation zu retten. Ihr Gegenspieler ist eine mythische Gestalt, die man den 

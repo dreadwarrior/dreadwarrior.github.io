@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Das-Schweigen-der-Laemmer/Thomas-Harris/Heyne/e561821.rhd"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Nur ein Mann kann dem FBI noch helfen, den geistesgestörten Frauenmörder 

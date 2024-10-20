@@ -13,6 +13,9 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/solarstation/id_9166532"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Hauchdünn und kostbar sind die Sonnensegel der japanischen Solarstation
 NIPPON. Von ihnen aus wird die Erde mit Energie versorgt. Als die

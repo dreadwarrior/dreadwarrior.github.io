@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/967720214"
 author: "Philip Kerr"
 publishedAt: "2003"
 topics:
-  
   - "Krimi"
-    
   - "England"
-    
 source: "https://www.rowohlt.de/buch/philip-kerr-newtons-schatten-9783499234101"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 London 1696: Der berühmte Mathematiker, Physiker und Astronom Sir Isaac Newton 
 erhält die Aufsicht über die königliche Münzanstalt. Die neue Aufgabe lässt 

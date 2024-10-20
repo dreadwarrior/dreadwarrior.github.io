@@ -13,6 +13,9 @@ topics:
 source: "https://reprodukt.com/products/shunas-reise"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Shuna, der Prinz eines armen Reichs, sieht verzweifelt zu, wie sich sein Volk 

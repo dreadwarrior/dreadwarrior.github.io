@@ -15,6 +15,9 @@ topics:
 source: "https://www.maroverlag.de/marohefte/269-eine-frau-geht-einen-trinken-alleine-9783875126266.html"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Das Alleine-Ausgehen ist für Frauen ein vertracktes, teils auch gefährliches 

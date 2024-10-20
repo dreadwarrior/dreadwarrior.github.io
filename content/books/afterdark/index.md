@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Afterdark/Haruki-Murakami/btb/e206681.rhd"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Geschichten zwischen Mitternacht und Morgengrauen: Murakami begleitet seine 

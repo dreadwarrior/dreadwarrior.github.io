@@ -14,6 +14,9 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/das-jesus-video/id_3333758"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Gibt es ein Video von Jesus Christus?
 

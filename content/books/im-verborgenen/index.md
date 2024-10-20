@@ -10,8 +10,11 @@ topics:
   - "Kurzgeschichten"
   - "Horror"
 source: "https://www.isbn.de/ebook/9783732538744/im-verborgenen"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein Hochhaus in einem Vorort von Stockholm wird lebendig - und zu einer
 grausigen Bedrohung. Eine Frau findet eine Leiche - und mag sich nicht mehr 

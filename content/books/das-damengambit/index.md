@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1223789136"
 author: "Walter S. Tevis"
 publishedAt: "2021"
 topics:
-  
   - "Schach"
-    
   - "Coming of Age"
-    
 source: "https://www.thalia.de/shop/home/suggestartikel/A1063539682"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Mit acht entdeckt Beth Harmon im Waisenhaus zwei Möglichkeiten, der harten
 Realität zu entfliehen: die grünen Beruhigungspillen, die den Kindern täglich

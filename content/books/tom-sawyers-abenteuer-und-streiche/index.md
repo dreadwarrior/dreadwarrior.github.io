@@ -12,6 +12,9 @@ topics:
 source: "https://www.isbn.de/ebook/9783849624835/tom-sawyers-abenteuer-und-streiche"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Die Abenteuer des Tom Sawyer ist eine typische Lausbubengeschichte und spielt 

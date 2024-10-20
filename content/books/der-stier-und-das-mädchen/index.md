@@ -13,6 +13,9 @@ topics:
 source: "https://www.thalia.de/shop/home/artikeldetails/A1047688029"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 In einer verlassenen Ecke Islands, wo der weite Himmel bis zur Erde reicht und 
 nur das Brausen des fernen Meeres zu hören ist, haben zwei junge Touristinnen 

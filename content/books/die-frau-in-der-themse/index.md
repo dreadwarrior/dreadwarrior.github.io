@@ -13,6 +13,9 @@ topics:
 source: "https://www.diogenes.ch/leser/titel/steven-price/die-frau-in-der-themse-9783257245875.html"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Charlotte Reckitt ist schön, stolz und gesetzlos. Ihre Coups sind phänomenal, 

@@ -14,6 +14,9 @@ topics:
 source: "https://kampaverlag.ch/produkt/anatomie-der-wolken-ebook/"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 „Keine Ahnung von Mythologie und klassischen Regeln, doch Wolken malen kann

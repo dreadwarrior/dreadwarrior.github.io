@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1255134712"
 author: "Karolina Kuszyk"
 publishedAt: "2022"
 topics:
-  
   - "Sachbuch"
-    
   - "Polen"
-    
 source: "https://www.aufbau-verlage.de/ch-links-verlag/den-hausern-der-anderen/978-3-96289-146-6"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Poniemieckie heißt in Polen das ehemals Deutsche: Orte, Gebäude, Gegenstände, 
 die von Millionen Deutschen zurückgelassen wurden, als sie am Ende des Zweiten 

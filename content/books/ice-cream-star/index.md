@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1185294228"
 author: "Sandra Newman"
 publishedAt: "2019"
 topics:
-  
   - "Dystopie"
-    
   - "Überlebenskampf"
-    
 source: "https://www.matthes-seitz-berlin.de/buch/ice-cream-star.html?lid=2"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Auf der Suche nach einem Gegenmittel für eine Grippeepidemie, die sie durch 
 die Reste einer vergangenen Zivilisation führt, erlebt eine unerschrockene 

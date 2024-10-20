@@ -11,8 +11,11 @@ topics:
   - "Detektivgeschichte"
   - "Krimi"
 source: "http://web.archive.org/web/20240228162158/https://titanbooks.com/71135-sherlock-holmes-and-the-twelve-thefts-of-christmas/"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.webp
 ---
 Sherlock Holmes’s discovery of a mysterious musical score initiates a devious 
 Christmas challenge set by Irene Adler, with clues that are all variations on 

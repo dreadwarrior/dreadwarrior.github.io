@@ -13,6 +13,9 @@ topics:
 source: "https://emons-verlag.de/p/finstere-havel-4562"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein Auto wird aus der Havel geborgen, am Steuer eine tote Frau. Beging sie 
 Selbstmord, war es ein Unfall oder wurde sie umgebracht?

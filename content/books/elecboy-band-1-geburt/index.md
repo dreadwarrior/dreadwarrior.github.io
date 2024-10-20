@@ -14,6 +14,9 @@ topics:
 source: "https://www.splitter-verlag.de/elecboy-1-geburt.html"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Im Jahre 2122 ist die Welt eine Wüste, und für die wenigen verbleibenden 

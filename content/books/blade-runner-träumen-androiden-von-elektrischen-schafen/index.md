@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/philip-k-dick-blade-runner-9783596297702"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Der Kopfgeldjäger Rick Deckard macht Jagd auf künstliche Menschen.
 

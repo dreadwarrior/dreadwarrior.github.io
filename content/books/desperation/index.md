@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Desperation/Stephen-King/Heyne/e229218.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Im Bergbaustädtchen Desperation ist das Gewebe zwischen den Welten dünn. 
 Bergleute sind versehentlich in eine andere Dimension durchgebrochen und haben 

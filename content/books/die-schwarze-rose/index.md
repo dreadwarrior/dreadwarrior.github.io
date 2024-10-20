@@ -15,6 +15,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Die-schwarze-Rose/Dirk-Schuemer/btb/e612817.rhd"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Als Ketzer denunziert, muss sich der deutsche Prediger Eckhart von Hochheim im

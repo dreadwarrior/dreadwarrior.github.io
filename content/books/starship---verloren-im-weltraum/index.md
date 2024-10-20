@@ -7,12 +7,13 @@ cataloguePermalink: "https://d-nb.info/1135946264"
 author: "Brian Wilson Aldiss"
 publishedAt: "2018"
 topics:
-  
   - "Science Fiction"
-    
 source: "https://mantikoreverlag.de/starship-verloren-im-weltraum/"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein gigantisches Raumschiff driftet seit Jahrhunderten scheinbar ziellos durch 
 Raum und Zeit. Allmählich haben Schlingpflanzen das Innere des Schiffs 

@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1070341061"
 author: "José Saramago"
 publishedAt: "2015"
 topics:
-  
   - "Gesellschaft"
-    
   - "Dystopie"
-    
 source: "https://www.isbn.de/buch/9783442745296/die-stadt-der-blinden"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein Mann steht an einer Ampel. Von einer Sekunde auf die nächste, ohne 
 erklärbaren Grund, erblindet er. Wie ihm ergeht es immer mehr Menschen in 

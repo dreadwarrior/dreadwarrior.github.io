@@ -12,6 +12,9 @@ topics:
 source: "https://www.penguin.de/Paperback/Der-Tod-reist-mit/Tom-Hindle/Heyne/e596332.rhd"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 November 1924: An Bord des Ozeandampfers Endeavor wird ein älterer Gentleman 

@@ -14,6 +14,9 @@ topics:
 source: "https://whatchareadin.de/buecher/contact-eine-mission-ins-herz-des-universums"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Gegen alle Vorurteile erkämpft sich die junge Wissenschaftlerin Arroway ihre

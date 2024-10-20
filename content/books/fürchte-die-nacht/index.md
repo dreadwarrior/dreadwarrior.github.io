@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1100707190"
 author: "Claudia Puhlfürst"
 publishedAt: "2017"
 topics:
-  
   - "Thriller"
-    
   - "Klassenfahrt"
-    
 source: "https://www.isbn.de/buch/9783649671275/fuerchte-die-nacht"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Eine Woche Exkursion ins Nirgendwo – auf so eine Idee können auch nur 
 verschrobene Biolehrer kommen, finden Lena und ihre beste Freundin Anne. Rund 

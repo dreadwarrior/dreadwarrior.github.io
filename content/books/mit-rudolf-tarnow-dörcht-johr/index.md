@@ -13,6 +13,9 @@ topics:
 source: "https://www.hinstorff.de/Start/BELLETRISTIK/Niederdeutsch/Niederdeutsch/354/Mit-Rudolf-Tarnow-doerch-t-Johr"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Rudolf Tarnow – einer der beliebtesten und populärsten plattdeutschen Dichter – 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.rowohlt.de/buch/david-mitchell-slade-house-9783499272394"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Geh die Slade Alley hinunter– schmal, feucht und leicht zu verfehlen, selbst 

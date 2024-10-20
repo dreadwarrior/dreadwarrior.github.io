@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/joshua-tree-singularity-9783596700875"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Ende des 21. Jahrhunderts ist die Menschheit tief gespalten: Während die eine 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.buecher.de/shop/buecher/so-ruhet-in-frieden/lindqvist-john-ajvide/products_products/detail/prod_id/23322061/"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Stockholm, 13. August 2002: Nach einer extremen Hitzewelle legt sich ein 
 elektrisches Feld über die Stadt. Lampen können nicht mehr gelöscht, Maschinen 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Der-Turm/Stephen-King/Heyne/e182927.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Roland Deschain, der letzte Revolvermann in einer Welt, die sich weiterbewegt 
 hat, steht endlich vor dem Ziel seiner epischen Reise, dem Turm selbst, dem 

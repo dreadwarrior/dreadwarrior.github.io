@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1155492714"
 author: "Patrick S. Tomlinson"
 publishedAt: "2019"
 topics:
-  
   - "Science Fiction"
-    
   - "Krimi"
-    
 source: "https://www.droemer-knaur.de/buch/patrick-s-tomlinson-the-colony-ein-neuer-anfang-9783426522608"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Zwei Welten, zwei Völker, ein drohender Krieg: Die Zukunft der Menschheit 
 hängt in Patrick Tomlinsons neuem Science Fiction-Thriller an zwei ungleichen 

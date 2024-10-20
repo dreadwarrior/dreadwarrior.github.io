@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/wilkie-collins-der-rote-schal-9783596125333"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Zwei Freunde, die beide den verhängnisvollen Namen Allan Armadale tragen, stehen 

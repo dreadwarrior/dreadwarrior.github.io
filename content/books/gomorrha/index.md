@@ -10,8 +10,11 @@ topics:
   - "Investigativjournalismus"
   - "Mafia"
 source: "https://www.dtv.de/buch/gomorrha-34529"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die süditalienische Camorra mischt mit im internationalen Drogenhandel, 
 verschiebt riesige Mengen Giftmülls in Italien, macht gewaltige Geschäfte mit 

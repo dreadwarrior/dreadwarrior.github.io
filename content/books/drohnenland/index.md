@@ -10,8 +10,11 @@ topics:
   - "Krimi"
   - "Belgien"
 source: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-drohnenland-9783462046625"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 **Alles wird überwacht. Alles ist sicher. Doch dann geschieht ein Mord, der 
 alles infrage stellt.**

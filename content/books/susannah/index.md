@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Susannah/Stephen-King/Heyne/e174209.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Mia hat im Körper der hochschwangeren Susannah die Flucht in das New York von 
 1977 ergriffen, und mithilfe der Manni gelingt es Roland und seinen Gefährten 

@@ -14,6 +14,9 @@ source: "https://www.penguin.de/Taschenbuch/Die-Leiche/Stephen-King/Heyne/e56093
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die vier besten Freunde Gordon, Chris, Teddy und Vern aus Castle Rock hören von 
 der Leiche eines gleichaltrigen Jungen, die in der Gegend an den Bahngleisen 

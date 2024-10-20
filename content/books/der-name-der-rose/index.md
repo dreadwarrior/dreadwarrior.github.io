@@ -15,6 +15,9 @@ topics:
 source: "https://www.isbn.de/buch/9783423105514/der-name-der-rose"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Daß er in den Mauern der prächtigen Benediktinerabtei an den Hängen des Apennin 

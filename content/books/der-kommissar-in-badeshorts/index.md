@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1061200469"
 author: "Tim Frühling"
 publishedAt: "2015"
 topics:
-  
   - "Krimi"
-    
   - "Kanaren"
-    
 source: "https://emons-verlag.de/p/der-kommissar-in-badeshorts-2077"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Wie kommt ein toter Immobilienhai auf das Dach eines Hotels? Das muss sich 
 Kommissar Daniel Rohde fragen, obwohl er auf Ermittlungen rein gar keine Lust 

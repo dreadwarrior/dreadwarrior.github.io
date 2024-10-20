@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/942340604"
 author: "Joseph Heller"
 publishedAt: "1994"
 topics:
-  
   - "Satire"
-    
   - "Zweiter Weltkrieg"
-    
 source: "https://www.thalia.de/shop/home/artikeldetails/A1000358667"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Catch 22, also Falle 22 oder Trick 22- das ist die ebenso irrsinnige wie 
 ausweglose Dienstanweisung für das amerikanische Bombengeschwader, der zufolge 

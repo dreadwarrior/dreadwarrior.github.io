@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Die-Kinder-des-Wuestenplaneten/Frank-Herbert/Heyne/e162202.rhd"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Der Djihad, der Heilige Krieg der Fremen, ist vorüber. Das Imperium trägt den 

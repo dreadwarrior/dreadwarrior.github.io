@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1182453155"
 author: "Camilla Bruce"
 publishedAt: "2020"
 topics:
-  
   - "Fantasy"
-    
   - "Norwegen"
-    
 source: "https://www.droemer-knaur.de/buch/camilla-bruce-pepper-man-9783426524329"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Dies ist die Geschichte der verstorbenen Cassandra Tipp. Cassandra war 
 erfolgreiche Autorin, exzentrische Tante – und angeklagte Mörderin. Sie 

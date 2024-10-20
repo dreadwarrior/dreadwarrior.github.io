@@ -14,6 +14,9 @@ source: "https://www.ueberreuter.de/produkt/der-greif/"
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Als Mark in den Schwarzen Turm eindringt, ahnt er nicht, welche Kräfte er 
 entfesselt. Der Greif, der über dieses albtraumhafte Reich herrscht, bietet all 

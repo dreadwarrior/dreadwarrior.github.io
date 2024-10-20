@@ -14,6 +14,9 @@ topics:
 source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/mythos/978-3-7466-3732-7"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Stephen Fry hat sich die griechischen Göttersagen vorgeknöpft: Grandios und 

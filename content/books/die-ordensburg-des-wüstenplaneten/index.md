@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Die-Ordensburg-des-Wuestenplaneten/Frank-Herbert/Heyne/e165028.rhd"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Seit Tausenden von Jahren herrscht die Schwesternschaft der Bene Gesserit 

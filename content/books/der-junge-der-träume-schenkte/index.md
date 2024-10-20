@@ -13,6 +13,9 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/sonstige-belletristik/der-junge-der-traeume-schenkte/id_3229442"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 New York, 1909. Aus einem transatlantischen Frachter steigt eine junge Frau mit 
 ihrem Sohn Natale. Sie kommen aus dem tiefsten Süden Italiens – mit dem Traum 

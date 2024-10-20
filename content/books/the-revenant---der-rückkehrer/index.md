@@ -14,6 +14,9 @@ topics:
 source: "https://www.buecher.de/shop/usa/the-revenant-der-rueckkehrer/punke-michael/products_products/detail/prod_id/44119438/"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 South Dakota, zu Beginn des 19. Jahrhunderts: Der Pelztierjäger Hugh Glass wird 
 am Grand River von einem Grizzly angefallen und lebensgefährlich verletzt. Seine 

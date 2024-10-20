@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Glas/Stephen-King/Heyne/e168760.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Roland und seine Freunde befinden sich an Bord des Zuges Blaine, wo sie einen 
 letzten verzweifelten Versuch unternehmen, den in den sicheren Tod rasenden, 

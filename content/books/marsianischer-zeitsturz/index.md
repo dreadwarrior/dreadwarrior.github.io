@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/philip-k-dick-marsianischer-zeitsturz-9783596905638"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Eine Siedlung auf dem Mars, ein hochbegabtes Kind, das Zeitbrüche aufspürt, 

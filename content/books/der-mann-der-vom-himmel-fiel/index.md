@@ -13,6 +13,9 @@ topics:
 source: "https://www.diogenes.ch/leser/titel/walter-tevis/der-mann-der-vom-himmel-fiel-9783257247138.html"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Thomas Jerome Newton ist ein geheimnisvoller Mann. Wie aus dem Nichts taucht der
 seltsame Fremde in Kentucky auf und scheint eine Mission zu haben.

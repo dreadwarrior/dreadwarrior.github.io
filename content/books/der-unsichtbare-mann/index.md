@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1171920962"
 author: "Ralph Ellison"
 publishedAt: "2019"
 topics:
-  
   - "Rassismus"
-    
   - "Amerika"
-    
 source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/der-unsichtbare-mann/978-3-7466-3822-5"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die Geschichte von der Odyssee eines namenlosen Schwarzen, die ihn von ganz 
 oben bis ganz unten durch alle Schichten der amerikanischen Gesellschaft 

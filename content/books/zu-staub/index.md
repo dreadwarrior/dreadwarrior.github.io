@@ -13,6 +13,9 @@ topics:
 source: "https://www.rowohlt.de/buch/jane-harper-zu-staub-9783499001437"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Zwei Brüder treffen sich am Zaun, der ihre Farmen voneinander trennt. Tief im 

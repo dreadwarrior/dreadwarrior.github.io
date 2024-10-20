@@ -13,6 +13,9 @@ topics:
 source: "https://www.dtv.de/buch/woman-in-cabin-10-21777"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Was tust du, wenn du Zeugin eines Mordes wirst – und niemand glaubt dir?

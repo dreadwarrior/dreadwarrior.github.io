@@ -13,6 +13,9 @@ topics:
 source: "https://www.rowohlt.de/buch/alfred-kubin-die-andere-seite-9783499255564"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Eines Tages erhält ein Mann überraschend Besuch. Der verkündet ihm:
 

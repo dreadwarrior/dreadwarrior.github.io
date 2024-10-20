@@ -14,6 +14,9 @@ source: "https://us.macmillan.com/books/9781250819345/hidden-pictures"
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Mallory Quinn is fresh out of rehab when she takes a job as a babysitter for Ted 

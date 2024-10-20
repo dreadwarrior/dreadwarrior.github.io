@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1173927425"
 author: "Thomas Harris"
 publishedAt: "2019"
 topics:
-  
   - "Thriller"
-    
   - "Suspense"
-    
 source: "https://shop.penguinrandomhouse.de/shop/article/38738341/thomas_harris_hannibal_rising.html"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Der Dämon erwacht: Thomas Harris führt uns in die Kindheit des genialen, 
 äußerst kultivierten und monströsen Serienkillers. Er enthüllt den Albtraum, 

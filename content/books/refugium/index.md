@@ -13,6 +13,9 @@ topics:
 source: "https://www.dtv.de/buch/refugium-28364"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein explosives Ermittler-Duo. Sie: Expolizistin und Krimiautorin im
 Karrieretief. Er: ein Hacker mit gequälter Seele. Sie ziehen einander an. Sie

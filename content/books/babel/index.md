@@ -15,6 +15,9 @@ topics:
 source: "https://www.luebbe.de/babel/"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 1828\. Robin Swift, den ein Cholera-Ausbruch im chinesischen Kanton als 

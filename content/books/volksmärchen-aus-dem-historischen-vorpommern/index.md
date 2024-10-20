@@ -8,10 +8,13 @@ cataloguePermalink: "https://d-nb.info/840264887"
 author: "Siegfried Neumann, Werner Schinko"
 publishedAt: "1983"
 topics:
-- "Märchen"
-- "Vorpommern"
+  - "Märchen"
+  - "Vorpommern"
 source: "https://www.hinstorff.de/"
 booklists: ["unread"]
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Das historische Vorpommern, jenes Gebiet zwischen Kap Arkona im Norden und dem

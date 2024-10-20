@@ -13,6 +13,9 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/literarische-unterhaltung/der-schlauste-mann-der-welt/id_9517616"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Jens Leunich besitzt nur so viel, wie in zwei Koffer passt – und außerdem genug 
 Millionen auf dem Konto, um sein ganzes Leben in den Luxushotels der Welt zu 

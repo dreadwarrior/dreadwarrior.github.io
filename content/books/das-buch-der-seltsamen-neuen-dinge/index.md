@@ -13,6 +13,9 @@ topics:
 source: "https://www.keinundaber.ch/buecher/das-buch-der-seltsamen-neuen-dinge?variant=264338"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Was verbindet zwei Menschen, selbst wenn sie Lichtjahre voneinander entfernt 
 leben?

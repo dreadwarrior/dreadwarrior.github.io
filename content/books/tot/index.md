@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/tot-/Stephen-King/Heyne/e168761.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Rolands wüstes Land nimmt immer groteskere Formen und erschreckendere Gestalten 
 an.

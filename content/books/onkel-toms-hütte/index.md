@@ -13,6 +13,9 @@ topics:
 source: "https://www.dtv.de/buch/onkel-toms-huette-14060"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Harriet Beecher Stowe, die Tochter und Gattin eines presbyterianischen Gelehrten, 

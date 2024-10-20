@@ -15,6 +15,9 @@ topics:
 source: "https://www.scheidegger-spiess.ch/produkt/soviet-design/1013"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Innenarchitektur und Möbeldesign aus der UdSSR. Stilistische Vielfalt zwischen 

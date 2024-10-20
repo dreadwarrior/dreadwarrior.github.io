@@ -13,6 +13,9 @@ topics:
 source: "http://jasonrekulak.com/impossiblefortress/"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.png
 ---
 A trio of awkward teen boys... and one brilliant geek girl with a shattering 
 secret.

@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1119351650"
 author: "Patrick S. Tomlinson"
 publishedAt: "2017"
 topics:
-  
   - "Science Fiction"
-    
   - "Thriller"
-    
 source: "https://www.droemer-knaur.de/buch/patrick-s-tomlinson-the-ark-die-letzte-reise-der-menschheit-9783426520482"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Nachdem die Erde zerstört wurde, sind die letzten 50.000 Menschen auf einem 
 gewaltigen Raumschiff, der „Arche", unterwegs zum nächsten bewohnbaren 

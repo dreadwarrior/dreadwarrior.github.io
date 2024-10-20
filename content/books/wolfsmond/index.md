@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Wolfsmond/Stephen-King/Heyne/e171947.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Roland von Gilead, der Revolvermann, ist in Mittwelt noch immer auf der Suche 
 nach dem magischen Dunklen Turm.

@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Finsternis-im-Wunderland/Christina-Henry/Penhaligon/e565572.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Seit zehn Jahren ist Alice in einem düsteren Hospital gefangen. Alle halten sie 
 für verrückt, während sie selbst sich an nichts erinnert. Weder, warum sie sich 

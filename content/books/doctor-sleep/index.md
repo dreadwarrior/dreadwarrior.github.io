@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Doctor-Sleep/Stephen-King/Heyne/e461201.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Auf Amerikas Highways ist eine mörderische Sekte unterwegs. Sie hat es auf 
 Kinder abgesehen, die das Shining haben.

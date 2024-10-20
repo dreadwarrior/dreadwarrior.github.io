@@ -13,6 +13,9 @@ topics:
 source: "https://paninishop.de/science-fiction-buecher/das-grubenbuch-ydwend001"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Einst lebte der junge Nathan mit seinem gewalttätigen Vater in einem Haus auf 

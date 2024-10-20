@@ -12,6 +12,9 @@ topics:
 source: "https://www.luebbe.de/bastei-luebbe/ebooks/historische-romane/vor-dem-abgrund/id_3241583"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Mit diesem historischen Roman ist dem Schriftsteller Tom Finnek in seiner 

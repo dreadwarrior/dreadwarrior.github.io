@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1144215242"
 author: "Markus Heitz"
 publishedAt: "2018"
 topics:
-  
   - "Fantasy"
-    
   - "Thriller"
-    
 source: "https://www.droemer-knaur.de/buch/markus-heitz-des-teufels-gebetbuch-9783426517802"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Der ehemalige Spieler Tadeus Boch gelangt in Baden-Baden in den Besitz einer 
 mysteriösen Spielkarte aus einem vergangenen Jahrhundert. Alsbald gerät er in 

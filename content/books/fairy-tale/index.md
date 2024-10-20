@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1254684808"
 author: "Stephen King"
 publishedAt: "2022"
 topics:
-  
   - "Dark Fantasy"
-    
   - "Märchen"
-    
 source: "https://shop.penguinrandomhouse.de/shop/article/46635227/stephen_king_fairy_tale.html"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Der siebzehnjährige Charlie Reade hat kein leichtes Leben. Seine Mutter starb, 
 als er sieben war, und sein Vater ist dem Alkohol verfallen. Eines Tages 

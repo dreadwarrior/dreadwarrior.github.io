@@ -10,8 +10,11 @@ topics:
   - "Dark Fantasy"
   - "Steampunk"
 source: "http://web.archive.org/web/20230610115300/https://bedey-thoms.de/products/dreizehn-tagebuch"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Godric End, Symbolfigur des Bürgerkriegs in Dustrien, ist in Gefangenschaft 
 geraten. Für eine Zigarette pro Tag erzählt er den Insassen von Zellenblock 13 

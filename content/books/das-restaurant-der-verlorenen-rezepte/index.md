@@ -10,8 +10,11 @@ topics:
   - "Kulinarik"
   - "Japan"
 source: "https://www.ullstein.de/werke/das-restaurant-der-verlorenen-rezepte/hardcover/9783471360620"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Nagare und seine zwanzigjährige Tochter Koishi betreiben ein kleines 
 Restaurant in Kyoto, das Kamogawa-Café. Kaum jemand kennt das Lokal, doch wer 

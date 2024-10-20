@@ -12,6 +12,9 @@ topics:
 source: "https://canongate.co.uk/books/573-the-fahrenheit-twins-and-other-stories/"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Deft and lyrical, Michel Faber's new collection of stories is his first since 

@@ -10,8 +10,11 @@ topics:
   - "Thriller"
   - "Deutschland"
 source: "http://web.archive.org/web/20230601214435/https://emons-verlag.de/p/lautlos-2961"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Am 3. Juni 1999 streckt der serbische Diktator Slobodan Milosevic die Waffen 
 vor den Verbänden der Nato. Der Krieg der Werte scheint gewonnen, der Frieden 

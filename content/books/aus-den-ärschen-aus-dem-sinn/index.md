@@ -15,6 +15,9 @@ topics:
 source: "https://www.maroverlag.de/marohefte/242-aus-den-aerschen-aus-dem-sinn-9783875126181.html"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Dieses Heft donnert durch Fallrohre, umschifft museumsreife Fettberge, entdeckt 

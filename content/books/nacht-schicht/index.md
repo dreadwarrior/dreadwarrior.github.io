@@ -14,6 +14,9 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/horror/nachtschicht/id_3181218"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die zwanzig Erzählungen in Nachtschicht sind Stephen Kings persönliche Auswahl 
 vom Besten, was er je geschrieben hat: der Stoff, aus dem die Alpträume sind.

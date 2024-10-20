@@ -14,6 +14,9 @@ topics:
 source: "https://www.maroverlag.de/marohefte/243-die-legende-von-den-strippenziehern-9783875126198.html"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Die Erde – von Echsen regiert? Eine gierige Finanzelite haut die Menschen mit 

@@ -14,6 +14,9 @@ topics:
 source: "https://www.penguin.de/Buch/Die-Stadt-der-Traeumenden-Buecher-Comic-/Walter-Moers/Penguin/e568049.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Buchhaim ist die „Stadt der Träumenden Bücher“, wo Bücher nicht nur spannend 
 oder komisch sind, sondern auch in den Wahnsinn treiben oder sogar töten können. 

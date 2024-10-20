@@ -10,8 +10,11 @@ topics:
   - "Fantasy"
   - "Russland"
 source: "https://shop.penguinrandomhouse.de/shop/article/5206727/michail_bulgakow_der_meister_und_margarita.html?source=42754145"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Der Teufel persönlich stürzt Moskau in ein Chaos aus Hypnose, Spuk und 
 Zerstörung. Die Heimsuchung für Heuchelei und Korruption trifft alle - 

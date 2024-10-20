@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1265200017"
 author: "Richard Osman"
 publishedAt: "2023"
 topics:
-  
   - "Krimi"
-    
   - "England"
-    
 source: "https://www.ullstein.de/werke/der-donnerstagsmordclub/taschenbuch/9783548066530"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Man möchte meinen, so eine luxuriöse Seniorenresidenz in der idyllischen 
 Grafschaft Kent sei ein friedlicher Ort. Das dachte auch die fast 

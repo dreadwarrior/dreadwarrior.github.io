@@ -13,6 +13,9 @@ topics:
 source: "https://www.thalia.de/shop/home/artikeldetails/A1067302801"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 **1984** dreht sich um den Büroangestellten Winston Smith, der im Ministerium 
 für Wahrheit Ozeaniens als kleines Zahnrad im Getriebe eines monströsen 

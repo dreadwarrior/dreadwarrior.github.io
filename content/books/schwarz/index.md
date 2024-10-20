@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Schwarz/Stephen-King/Heyne/e168759.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein Heer von Feinden und tödliche Gefahren markieren Rolands Suche nach dem 
 Dunklen Turm.

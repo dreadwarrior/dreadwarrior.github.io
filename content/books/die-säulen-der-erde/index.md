@@ -13,6 +13,9 @@ topics:
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/historische-romane/die-saeulen-der-erde/id_7041488"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Schon als einfacher Steinmetz träumt Tom Builder davon, eine Kathedrale zu 

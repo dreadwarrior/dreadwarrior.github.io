@@ -13,6 +13,9 @@ topics:
 source: "https://www.diogenes.ch/leser/titel/ray-bradbury/die-mars-chroniken-9783257208634.html"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 ›Die Mars-Chroniken‹ über eine Folge von Reisen, die Erdbewohner zum Mars 
 bringen – erst Raumfahrer, dann Pioniere, dann Außenseiter und schließlich die

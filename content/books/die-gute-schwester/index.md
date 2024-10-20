@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Die-gute-Schwester/Sarah-Bonner/Goldmann/e596310.rhd"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Als Megan auf dem Handy ihres Mannes Chris ein Foto ihrer Zwillingsschwester 

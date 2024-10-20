@@ -12,6 +12,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Joyland/Stephen-King/Heyne/e600966.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Auf verhängnisvolle Weise kreuzen sich in einem kleinen Vergnügungspark die Wege 
 eines untergetauchten Mörders und eines Kindes. Und mitten im sich 

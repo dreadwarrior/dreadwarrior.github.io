@@ -13,6 +13,9 @@ topics:
 source: "https://emons-verlag.de/p/die-tote-aus-der-emscher-6983"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 September 1816: An Ruhr und Emscher scheint die Sonne seit Monaten nicht mehr, 

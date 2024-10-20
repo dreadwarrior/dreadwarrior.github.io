@@ -14,6 +14,9 @@ topics:
 source: "https://www.m-vg.de/riva/shop/article/13008-helter-skelter/"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Im Sommer 1969 erschüttert eine Reihe bestialischer Morde Los Angeles und die 

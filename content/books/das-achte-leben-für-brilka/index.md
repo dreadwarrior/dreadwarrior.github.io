@@ -13,6 +13,9 @@ topics:
 source: "https://www.ullstein.de/werke/das-achte-leben-fuer-brilka/taschenbuch/9783548289274"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Ein wuchtiges Familienepos, das am Beispiel von sechs Generationen 

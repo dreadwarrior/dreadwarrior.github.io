@@ -14,6 +14,9 @@ topics:
 source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/helden/978-3-7466-3975-8"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Jason und Medea schläfern den niemals schlafenden Drachen ein und stehlen das 

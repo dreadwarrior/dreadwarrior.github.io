@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1142558754"
 author: "Benjamin Kuhlhoff"
 publishedAt: "2018"
 topics:
-  
   - "Sachbuch"
-    
   - "Fußball"
-    
 source: "http://web.archive.org/web/20240222081442/https://www.piper.de/buecher/alles-amateure-isbn-978-3-492-31262-2"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Drei Spiele vor Saisonende steht dem TSV das Wasser bis zum Hals. Der Abstieg 
 droht. Trainer Uwe fordert spielerische Raffinesse. Doch die Sprüche von 

@@ -13,6 +13,9 @@ topics:
 source: "https://shop.penguinrandomhouse.de/shop/article/25647478/harry_harrison_new_york_1999.html"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 New York kurz vor der Jahrhundertwende: 35 Millionen Menschen leben in der
 Stadt, die längst nicht mehr in der Lage ist, alle mit den einfachsten Mitteln

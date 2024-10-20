@@ -14,6 +14,9 @@ source: "https://www.lovelybooks.de/autor/Arthur-C.-Clarke/Rendezvous-mit-Rama-1
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Aus den Tiefen des Alls taucht ein rätselhaftes Objekt auf, das die 
 Wissenschaftler zunächst für einen Asteroiden halten. Allein seine Größe – es 

@@ -10,8 +10,11 @@ topics:
   - "Science Fiction"
   - "Thriller"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1060202010"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Das rasante Wachstum hat Stephanie und ihr Team bei Fastlane blind gemacht. 
 Nach Jahren des Erfolgs hat eine einzige Fehlentscheidung ausgereicht, um 

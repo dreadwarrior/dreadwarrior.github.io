@@ -13,6 +13,9 @@ topics:
 source: "https://www.rowohlt.de/buch/antti-tuomainen-klein-sibirien-9783499001468"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Rallyefahrer Tarvainen rast mit zu viel Promille und Selbstmordgedanken durch 
 die schneebedeckten finnischen Wälder, als es am Himmel aufblitzt und etwas in 

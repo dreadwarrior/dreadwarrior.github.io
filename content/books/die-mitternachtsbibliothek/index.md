@@ -13,6 +13,9 @@ topics:
 source: "https://www.droemer-knaur.de/buch/matt-haig-die-mitternachtsbibliothek-9783426308257"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Stell dir vor, auf dem Weg ins Jenseits gäbe es eine riesige Bibliothek, gefüllt 
 mit all den Leben, die du hättest führen können. Alles, was du jemals bereut 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/william-golding-herr-der-fliegen-9783596906673"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein Flugzeugabsturz über einer unbewohnten Insel im Pazifischen Ozean. Kein
 Erwachsener überlebt, eine Gruppe englischer Schüler bleibt sich selbst

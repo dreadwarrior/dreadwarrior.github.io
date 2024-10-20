@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Der-Gottkaiser-des-Wuestenplaneten/Frank-Herbert/Heyne/e165026.rhd"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Dreieinhalb Jahrtausende sind auf Arrakis vergangen, und die Welt hat sich 

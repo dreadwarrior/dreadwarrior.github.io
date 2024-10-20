@@ -14,6 +14,9 @@ topics:
 source: "https://www.rowohlt.de/buch/peter-hoeeg-fraeulein-smillas-gespuer-fuer-schnee-9783499237010"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Im Kopenhagener Hafenviertel stürzt ein Junge vom Dach eines Lagerhauses. 

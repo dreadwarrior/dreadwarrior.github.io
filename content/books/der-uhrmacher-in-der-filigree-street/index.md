@@ -14,6 +14,9 @@ topics:
 source: "https://www.klett-cotta.de/produkt/natasha-pulley-der-uhrmacher-in-der-filigree-street-9783608987133-t-5524"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 London, Oktober 1883. Eines Abends kehrt Thaniel Steepleton, ein einfacher 

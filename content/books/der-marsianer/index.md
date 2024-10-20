@@ -10,8 +10,11 @@ topics:
   - "Science Fiction"
   - "Mars"
 source: "https://shop.penguinrandomhouse.de/shop/article/25256455/andy_weir_der_marsianer.html"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Der Astronaut Mark Watney war auf dem besten Weg, eine lebende Legende zu 
 werden: Als einer der ersten Menschen in der Geschichte der Raumfahrt betritt 

@@ -13,6 +13,9 @@ topics:
 source: "https://hoffmann-und-campe.de/products/45103-junger-mann?variant=44570021855500"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Der Dreizehnjährige, der auf die Waage stieg und sich um den Verstand verliebte.

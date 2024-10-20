@@ -14,6 +14,9 @@ topics:
 source: "https://www.hanser-literaturverlage.de/buch/percival-everett-james-9783446279483-t-5217"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Jim spielt den Dummen. Es wäre zu gefährlich, wenn die Weißen wüssten, wie 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.luebbe.de/bastei-luebbe/ebooks/thriller/ausgebrannt/id_3050586"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die Menschheit vor ihrer größten Herausforderung: Das Ende des Erdölzeitalters
 steht bevor!

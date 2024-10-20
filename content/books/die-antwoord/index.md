@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1034164279"
 author: "Roger Ballen"
 publishedAt: "2013"
 topics:
-  
   - "Fotografie"
-    
   - "Sachbuch"
-    
 source: "http://web.archive.org/web/20230208142008/https://prestelpublishing.penguinrandomhouse.de/book/Roger-Ballen-Die-Antwoord/Prestel-com/e441774.rhd"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Art photography meets popular culture in this behind-the-scenes look at the 
 making of a hugely successful music video by musicians Die Antwoord and 

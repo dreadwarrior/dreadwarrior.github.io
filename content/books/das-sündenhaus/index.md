@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1138570095"
 author: "Antonia Hodgson"
 publishedAt: "2017"
 topics:
-  
   - "Thriller"
-    
   - "England"
-    
 source: "https://www.droemer-knaur.de/buch/antonia-hodgson-das-suendenhaus-9783426654408"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 London, Spätfrühjahr 1728. Auf eine "Bitte" von Englands Königin Queen 
 Caroline reist Tom Hawkins, mit allen Wassern gewaschener Gentleman, zum 

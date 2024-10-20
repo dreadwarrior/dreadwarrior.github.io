@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/956142176"
 author: "Vladimir Vladimirovič Nabokov"
 publishedAt: "1999"
 topics:
-  
   - "Schach"
-    
   - "Russland"
-    
 source: "https://www.rowohlt.de/buch/vladimir-nabokov-lushins-verteidigung-9783499225505"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein kleiner verschlossener Junge findet an nichts Vergnügen außer an 
 Puzzlespielen und Zaubertricks. Mit vierzehn Jahren schon holt sich Lushin den 

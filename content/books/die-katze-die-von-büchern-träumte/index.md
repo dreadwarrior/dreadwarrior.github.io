@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1254681922"
 author: "Sōsuke Natsukawa"
 publishedAt: "2022"
 topics:
-  
   - "Fantasy"
-    
   - "Japan"
-    
 source: "https://www.thalia.de/shop/home/suggestartikel/A1063536927"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 **Großvater sagte immer: »Bücher besitzen eine besondere Macht. Wenn du sie 
 liest, wirst du immer einen Freund zur Seite haben.«**

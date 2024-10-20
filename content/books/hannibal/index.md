@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1173519769"
 author: "Thomas Harris"
 publishedAt: "2019"
 topics:
-  
   - "Thriller"
-    
   - "FBI"
-    
 source: "https://shop.penguinrandomhouse.de/shop/article/38726435/thomas_harris_hannibal.html"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Clarice Starling steckt in einer Krise, seit sie eine Drogendealerin 
 erschossen hat. Doch dann wird sie wieder auf Hannibal Lecter angesetzt, der 

@@ -15,6 +15,9 @@ source: "https://www.perlentaucher.de/buch/johanna-sinisalo/troll-eine-liebesges
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Nach einer durchzechten Nacht trifft der junge Fotograf Angel im Innenhof seines 
 Apartmenthauses auf eine Gruppe Halbwüchsiger, die einen kleinen Troll bedrohen. 

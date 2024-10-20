@@ -13,6 +13,9 @@ topics:
 source: "https://www.droemer-knaur.de/buch/markus-heitz-die-dunklen-lande-9783426226766"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 1629 - Der Dreißigjährige Krieg mit seinen Konflikten erschüttert Europa und tobt 

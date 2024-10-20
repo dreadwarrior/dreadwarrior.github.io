@@ -14,6 +14,9 @@ topics:
 source: "https://www.harpercollins.de/products/elementarwellen-9783365004203"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Zusammen mit ihrem Freund zieht Tamsin auf eine Insel der Äußeren Hebriden. Sie 

@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1078866481"
 author: "John Christopher"
 publishedAt: "2016"
 topics:
-  
   - "Science Fiction"
-    
   - "Außerirdische"
-    
 source: "https://www.isbn.de/buch/9783492703499/tripods-die-dreibeinigen-herrscher"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die Welt wird von den Tripods kontrolliert – riesigen, metallischen Maschinen, 
 die wie aus dem Nichts auf der Erde auftauchten und die Bevölkerung 

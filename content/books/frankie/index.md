@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Buch/Frankie/Jochen-Gutsch/Penguin/e585913.rhd"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Richard Gold hat alles vorbereitet. Heute ist der Tag, an dem er sich das Leben 

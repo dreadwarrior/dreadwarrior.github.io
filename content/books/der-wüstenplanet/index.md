@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Der-Wuestenplanet/Frank-Herbert/Heyne/e162204.rhd"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Herzog Leto, Oberhaupt des Hauses Atreides, erhält Arrakis zum Lehen, den 

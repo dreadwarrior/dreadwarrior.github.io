@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Die-Ketzer-des-Wuestenplaneten/Frank-Herbert/Heyne/e165027.rhd"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Unter Gottkaiser Leto II. wurde die Menschheit über die Galaxis verstreut. Nun 

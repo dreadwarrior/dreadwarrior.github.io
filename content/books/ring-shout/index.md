@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/126162808"
 author: "P. Djèlí Clark"
 publishedAt: "2022"
 topics:
-  
   - "Fantasy"
-    
   - "Rassismus"
-    
 source: "https://www.festa-verlag.de/ring-shout.html"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 USA, 1915: Der Ku-Klux-Klan wird neu gegründet, aber diesmal mit echter 
 Hexenkraft und dunkler Höllenkunst. Aus den Kapuzenträgern werden Monster – 

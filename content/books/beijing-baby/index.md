@@ -10,8 +10,11 @@ topics:
   - "Krimi"
   - "China"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1040072396"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Eine Schauspielstudentin wird tot im Innenhof des Zentralen Theaterinstitutes 
 Peking aufgefunden. Zunächst deutet alles auf einen Selbstmord hin, doch dann 

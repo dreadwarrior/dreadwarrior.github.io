@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Rotkaeppchen-Allein-im-tiefen-tiefen-Wald/Christina-Henry/Penhaligon/e565576.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Geh nicht allein in den tiefen, tiefen Wald. Aber Red hat keine Wahl: Seit die 

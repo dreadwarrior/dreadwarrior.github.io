@@ -13,6 +13,9 @@ topics:
 source: "https://www.harpercollins.de/products/die-versteckte-apotheke-9783365001509"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 **Gift, Rache und ein geheimer Frauenbund**
 

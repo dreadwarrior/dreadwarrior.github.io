@@ -12,6 +12,9 @@ topics:
 source: "https://www.dtv.de/buch/kein-entkommen-21849"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Zwei Tote, der eine ertrunken in einem See, der andere erstickt in einem 
 Kühlschrank. Doch handelt es sich wirklich um Suizide, wie es die Obduktion 

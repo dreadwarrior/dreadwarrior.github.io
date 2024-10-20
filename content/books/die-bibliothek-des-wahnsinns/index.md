@@ -14,6 +14,9 @@ topics:
 source: "https://www.knesebeck-verlag.de/die_bibliothek_des_wahnsinns/t-1/1181"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 **Die ungewöhnlichsten Bücher und bizarrsten Schriftzeugnisse aus den Weiten der 
 menschlichen Vorstellungskraft**

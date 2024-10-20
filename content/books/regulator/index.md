@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Regulator/Stephen-King/Heyne/e366280.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ohne Vorwarnung tauchen in der Kleinstadt Wentworth die mörderischen 
 „Regulatoren“ auf und erschießen alles und jeden, der sich ihnen nähert. Aber 

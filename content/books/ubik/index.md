@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/philip-k-dick-ubik-9783596905690"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Vom Mond kehrte Glen Runciter nur als Toter zurück. Aber wer schreibt dann die

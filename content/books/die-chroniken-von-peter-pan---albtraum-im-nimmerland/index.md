@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Buch/Die-Chroniken-von-Peter-Pan-Albtraum-im-Nimmerland/Christina-Henry/Penhaligon/e567149.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Du glaubst, meine Geschichte zu kennen. Natürlich, jeder kennt meine Geschichte,
 sie wird wieder und wieder erzählt. Aber sie entspricht nicht der Wahrheit. Denn

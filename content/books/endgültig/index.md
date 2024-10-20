@@ -13,6 +13,9 @@ topics:
 source: "https://www.suhrkamp.de/buch/andreas-pflueger-endgueltig-t-9783518467701"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Jenny Aaron war Mitglied einer international operierenden Eliteeinheit der 

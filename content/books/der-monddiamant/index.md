@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/wilkie-collins-der-monddiamant-9783596904952"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Zu ihrem einundzwanzigsten Geburtstag erhält Lady Rachel Verinder den 
 geheimnisumwitterten Monddiamanten zum Geschenk. Einst gelangte er durch ein 

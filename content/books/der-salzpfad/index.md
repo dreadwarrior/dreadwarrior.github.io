@@ -14,6 +14,9 @@ topics:
 source: "https://www.mairdumont.com/presse/2019/03/29/raynor-winn-der-salzpfad/"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Raynor und Moth, seit 32 Jahren ein Paar, verlieren durch zwei Schicksalsschläge 

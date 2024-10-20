@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Buch/Die-Chroniken-der-Meerjungfrau-Der-Fluch-der-Wellen/Christina-Henry/Penhaligon/e567150.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Einst zog ein einsamer Fischer sein Netz an Land und fand darin eine Frau. Eine 
 Frau mit schwarzem Haar und Augen, in denen sich der Sturm des Meeres 

@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1103690086"
 author: "William Styron"
 publishedAt: "2016"
 topics:
-  
   - "Gesellschaft"
-    
   - "Novelle"
-    
 source: "https://www.isbn.de/buch/9783596311484/und-legte-feuer-an-dies-haus"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Jene Frühsommernacht in dem kleinen, von Touristen und Filmschauspielern 
 bevölkerten italienischen Küstenort Sambuco lastet auf Peter Leverett, dem 

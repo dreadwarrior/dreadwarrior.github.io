@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1231296712"
 author: "William Boyd"
 publishedAt: "2021"
 topics:
-  
   - "Thriller"
-    
   - "England"
-    
 source: "https://kampaverlag.ch/produkt/einfache-gewitter/"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Ein Mann. Eine Zufallsbekanntschaft. Ein Aktenordner. Ein Toter. Von einer 
 Sekunde auf die andere muss Adam Kindred, angesehener Klimatologe, in London 

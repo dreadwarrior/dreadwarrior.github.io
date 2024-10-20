@@ -13,6 +13,9 @@ topics:
 source: "http://web.archive.org/web/20231004060142/https://www.verlagshaus-roemerweg.de/Marix_Verlag/Edgar_Allan_Poe-Der_Goldkaefer-EAN:9783865393562.html"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 In dieser Sammlung seiner bekanntesten Erzählungen zeigt sich Poe als Meister 
 der poetischen Komposition und des genau kalkulierten Effekts, als Wegbereiter 

@@ -14,6 +14,9 @@ topics:
 source: "https://www.loewe-verlag.de/titel-0-0/erebos-4322/"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 In einer Londoner Schule wird ein Computerspiel herumgereicht – Erebos. Wer es 

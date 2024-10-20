@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1230762841"
 author: "Stephen King"
 publishedAt: "2021"
 topics:
-  
   - "Thriller"
-    
   - "Suspense"
-    
 source: "https://www.thalia.de/shop/home/suggestartikel/A1063536737"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Billy ist Kriegsveteran und verdingt sich als Auftragskiller. Sein neuester 
 Job ist so lukrativ, dass es sein letzter sein soll. Danach will er ein neues 

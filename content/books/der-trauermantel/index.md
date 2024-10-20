@@ -13,6 +13,9 @@ topics:
 source: "https://www.thalia.de/shop/home/artikeldetails/A1039600047"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Eine junge Frau wird in ihrer Osloer Wohnung ermordet aufgefunden. 
 Hauptverdächtiger ist ihr Exmann, von dem sie sich erst vor kurzem getrennt 

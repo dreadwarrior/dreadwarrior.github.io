@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1169591035"
 author: "Terry Pratchett"
 publishedAt: "2019"
 topics:
-  
   - "Fantasy"
-    
   - "Scheibenwelt"
-    
 source: "https://www.piper.de/buecher/gevatter-tod-isbn-978-3-492-28064-8"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Bevor der Tod in seinen wohlverdienten Urlaub aufbricht, stellt er den jungen 
 Lehrling Mort als Vertreter ein. Mort hat alle Hände voll zu tun: Überall auf 

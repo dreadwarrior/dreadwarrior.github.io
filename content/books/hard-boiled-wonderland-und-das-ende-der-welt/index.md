@@ -13,6 +13,9 @@ topics:
 source: "https://shop.penguinrandomhouse.de/shop/article/28953972/haruki_murakami_hard_boiled_wonderland_und_das_ende_der_welt.html"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Tokyo, ferne Gegenwart: Zwischen Wirklichkeit und virtueller Realität.

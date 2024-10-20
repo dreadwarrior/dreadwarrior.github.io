@@ -13,6 +13,9 @@ topics:
 source: "https://voebb.onleihe.de/berlin/frontend/mediaInfo,0-0-547079946-200-0-0-0-0-400001-0-0.html"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Die Toten sind erwacht - und die Lebenden haben sie in Lager gesperrt. Diese 
 Wiedergänger erregen Ekel und Mitleid bei den Menschen, doch vor allem sind sie 

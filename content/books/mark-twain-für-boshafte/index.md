@@ -13,6 +13,9 @@ topics:
 source: "https://www.suhrkamp.de/buch/mark-twain-mark-twain-fuer-boshafte-t-9783458351733"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Mark Twain erlangte nicht nur als Autor von Tom Sawyer und Huckleberry Finn 
 Weltruhm. Er wurde auch berühmt durch seine satirische Sicht auf die 

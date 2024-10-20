@@ -13,6 +13,9 @@ topics:
 source: "https://www.rowohlt.de/buch/bernard-cornwell-das-letzte-koenigreich-9783644407718"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 „Und dann sah ich sie. Prächtige Langschiffe. Schwerelos schienen sie auf dem

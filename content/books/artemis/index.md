@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/ebook/Artemis/Andy-Weir/Heyne/e535471.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Jazz Bashara ist kriminell. Zumindest ein bisschen. Schließlich ist das Leben in 
 Artemis, der ersten und einzigen Stadt auf dem Mond, verdammt teuer. Und 

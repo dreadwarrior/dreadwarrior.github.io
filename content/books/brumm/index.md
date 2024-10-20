@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1206486430"
 author: "Helmut Barz"
 publishedAt: "2020"
 topics:
-  
   - "Fabel"
-    
   - "Neoschamanismus"
-    
 source: "https://www.thalia.de/shop/home/artikeldetails/A1058322573"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Jedem Menschen wohnt ein Krafttier inne – so lehren uns die Schamanen: Man 
 müsse es nur finden, erwecken und befreien. Doch was, wenn dieses Krafttier 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.diogenes.ch/leser/titel/joachim-b-schmidt/in-kuestennaehe-9783257246667.html"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Lárus, Aushilfe im Altenheim und Taugenichts, trifft auf Grímur, einen 

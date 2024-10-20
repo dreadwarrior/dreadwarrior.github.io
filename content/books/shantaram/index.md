@@ -14,6 +14,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Shantaram/Gregory-David-Roberts/Goldmann/e276685.rhd"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Als der Australier Lindsay in Bombay strandet, hat er zwei Jahre Gefängnis 

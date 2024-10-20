@@ -14,6 +14,9 @@ source: "https://www.w1-media.de/produkte/nordische-goetter-5518"
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Tritt ein in die Welt von Odin und Thor und begib dich auf eine dunkle und 
 fantasievolle Reise in den nordischen Götterhimmel der alten Wikinger.

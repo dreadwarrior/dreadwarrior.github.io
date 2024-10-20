@@ -13,6 +13,9 @@ topics:
 source: "https://www.thalia.de/shop/home/artikeldetails/A1034941693"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Im Sommer 1910 steht Scotland Yard vor einem unlösbaren Fall: Im Haus des 
 allseits beliebten Mr Hawley Crippen wird die grausam zerstückelte Leiche 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Drei/Stephen-King/Heyne/e168758.rhd"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 „Drei“ schließt nahtlos an die Ereignisse aus [„Schwarz“]({{< ref "schwarz" >}}).
 

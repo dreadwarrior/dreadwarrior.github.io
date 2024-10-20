@@ -17,6 +17,9 @@ topics:
 source: "https://www.phaidon.com/store/design/soviet-space-graphics-cosmic-visions-from-the-ussr-9781838660536/"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.webp
 ---
 
 **A wonderful, whimsical journey through the pioneering space-race graphics of the 

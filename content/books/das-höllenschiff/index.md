@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/ebook/Das-Hoellenschiff/James-McGee/Heyne/e358891.rhd"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 London, auf dem Höhepunkt der napoleonischen Kriege.

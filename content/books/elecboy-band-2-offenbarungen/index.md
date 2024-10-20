@@ -14,6 +14,9 @@ topics:
 source: "https://www.splitter-verlag.de/elecboy-2-offenbarungen.html"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Im Jahre 2122 ist die Welt eine Wüste, die ein Mann in Begleitung eines Riesen 

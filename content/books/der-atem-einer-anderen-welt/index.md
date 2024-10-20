@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1156553970"
 author: "Seanan McGuire"
 publishedAt: "2019"
 topics:
-  
   - "Fantasy"
-    
   - "Novelle"
-    
 source: "https://www.fischerverlage.de/buch/seanan-mcguire-der-atem-einer-anderen-welt-9783596298846"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Kinder und Jugendliche sind zu allen Zeiten in Kaninchenlöcher gefallen, durch 
 alte Kleiderschränke ins Zauberland vorgestoßen oder auf einer Dampflok in 

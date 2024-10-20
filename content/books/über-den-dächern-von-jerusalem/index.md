@@ -13,6 +13,9 @@ topics:
 source: "https://www.carlsen.de/hardcover/uber-den-dachern-von-jerusalem/978-3-551-58514-1"
 booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 2023: Anat hat den Wehrdienst angetreten und trifft bei einer Übung im 
 Westjordanland auf Karim, einen jungen Palästinenser. Beide sind wie gelähmt vor 

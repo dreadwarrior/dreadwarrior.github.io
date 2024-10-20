@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1059806452"
 author: "Antonia Hodgson"
 publishedAt: "2014"
 topics:
-  
   - "Thriller"
-    
   - "England"
-    
 source: "https://www.droemer-knaur.de/buch/antonia-hodgson-das-teufelsloch-9783426515068"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 London, 1727: Tom Hawkins will lieber verdammt sein, als Landpfarrer zu werden 
 wie sein Vater. Er liebt die Frauen, das Bier und das Glücksspiel – und landet 

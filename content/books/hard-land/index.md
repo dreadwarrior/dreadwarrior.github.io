@@ -14,6 +14,9 @@ topics:
 source: "https://www.diogenes.ch/leser/titel/benedict-wells/hard-land-9783257246742.html"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Missouri, 1985: Um vor den Problemen zu Hause zu fliehen, nimmt der 

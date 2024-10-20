@@ -13,6 +13,9 @@ topics:
 source: "https://www.penguin.de/Taschenbuch/Der-mexikanische-Fluch/Silvia-Moreno-Garcia/Blanvalet/e617399.rhd"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Mexiko, 1950: Ein verstörender Brief führt Noemí in ein gespenstisches 

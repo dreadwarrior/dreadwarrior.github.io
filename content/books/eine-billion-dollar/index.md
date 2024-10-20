@@ -10,8 +10,11 @@ topics:
   - "Thriller"
   - "Weltwirtschaft"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/eine-billion-dollar/id_10217806"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 John Fontanelli ist ein armer Schlucker, bis er eine unglaubliche Erbschaft 
 macht: ein Vermögen, das ein Vorfahre hinterlassen hat und das in fast 500 

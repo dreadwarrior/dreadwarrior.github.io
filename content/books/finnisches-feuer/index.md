@@ -13,6 +13,9 @@ topics:
 source: "https://www.klett-cotta.de/produkt/johanna-sinisalo-finnisches-feuer-9783608501445-t-2733"
 booklists:
   - "completed"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Alle Bürger Finnlands sind ruhig gestellt, seit die oberste Staatsgewalt vom 
 Gesundheitsamt ausgeübt wird. Es gibt keine Handys, dafür überall 

@@ -13,6 +13,9 @@ topics:
 source: "https://www.isbn.de/buch/9783932170393/baikonur"
 booklists:
   - wishlist
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Kaum etwas verbindet die vier merkwürdigen Hauptfiguren des Romans, doch durch 

@@ -14,6 +14,9 @@ source: "https://www.buecher.de/shop/historische-romane/das-karmesinrote-blueten
 booklists:
   - "completed"
   - "favorites"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 London 1847.
 

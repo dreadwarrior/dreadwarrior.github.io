@@ -14,6 +14,9 @@ topics:
 source: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-der-kaffeedieb-9783462050639"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Wir schreiben das Jahr 1683. Europa befindet sich im Griff einer neuen Droge. 
 Ihr Name ist Kahve.

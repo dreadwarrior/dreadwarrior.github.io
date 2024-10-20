@@ -13,6 +13,9 @@ topics:
 source: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-two-9783596706549"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Einige Tage nachdem er das Easter Egg von James Halliday gefunden und den 

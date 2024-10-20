@@ -10,8 +10,11 @@ topics:
   - "Religion"
   - "New England"
 source: "https://www.hanser-literaturverlage.de/buch/der-scharlachrote-buchstabe/978-3-446-24490-0/"
-booklists: 
+booklists:
   - "unread"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Amerika im 17. Jahrhundert: Eine Frau, des Ehebruchs schuldig, steht am 
 Schandpfahl und verrät nicht, wer der Vater ihrer Tochter ist. Die gestrenge 

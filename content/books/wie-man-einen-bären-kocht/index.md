@@ -14,6 +14,9 @@ source: "https://www.penguin.de/Taschenbuch/Wie-man-einen-Baeren-kocht/Mikael-Ni
 booklists:
   - completed
   - favorites
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Ein Dorf in Nordschweden 1852. Der vielseitig gebildete protestantische 

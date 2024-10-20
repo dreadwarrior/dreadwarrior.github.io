@@ -10,8 +10,11 @@ topics:
   - "Fantasy"
   - "Mythologie"
 source: "https://www.luebbe.de/eichborn/buecher/fantasy-buecher/american-gods/id_2776174"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Als Shadow aus dem Gefängnis entlassen wird, ist nichts mehr wie zuvor. Seine 
 Frau wurde getötet, und ein mysteriöser Fremder bietet ihm einen Job an. Er 

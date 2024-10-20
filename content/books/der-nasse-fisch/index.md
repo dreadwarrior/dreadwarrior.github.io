@@ -13,6 +13,9 @@ topics:
 source: "https://www.piper.de/buecher/der-nasse-fisch-isbn-978-3-492-31594-4"
 booklists:
   - currently-reading
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Kriminalkommissar Gereon Rath, neu in Berlin und abgestellt bei der Sitte, 
 erlebt die Weltstadt Berlin Ende der 1920er-Jahre im Rausch, und gleichzeitig

@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1022507230"
 author: "Stefan Zweig"
 publishedAt: "2013"
 topics:
-  
   - "Schach"
-    
   - "Novelle"
-    
 source: "https://www.suhrkamp.de/buch/stefan-zweig-schachnovelle-t-9783458359012"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Auf einer Schiffsreise von New York nach Buenos Aires werden die Passagiere 
 Zeugen eines unglaublichen Ereignisses: Der unbekannte und zurückhaltende 

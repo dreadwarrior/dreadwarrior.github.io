@@ -10,8 +10,11 @@ topics:
   - "Horror"
   - "Kurzgeschichten"
 source: "https://www.thalia.de/shop/home/suggestartikel/A1027079560"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Zwischen Albtraum und Wirklichkeit Der Band vereint 21 Kurzgeschichten, ein 
 Filmskript, einen Essay – und ein Gedicht.

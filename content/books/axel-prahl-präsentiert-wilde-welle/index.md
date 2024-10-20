@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1051957087"
 author: "Stefan Krücken"
 publishedAt: "2014"
 topics:
-  
   - "Seefahrt"
-    
   - "Meer"
-    
 source: "https://www.thalia.de/shop/home/artikeldetails/A1034688634"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Axel Prahl, Deutschlands beliebtester TV-Kommissar, ist ein Kind der Küste. 
 Als Musiker hat er der See Lieder gewidmet. Für WILDE WELLE wählte Prahl seine 

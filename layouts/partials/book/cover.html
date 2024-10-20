@@ -5,4 +5,4 @@
 {{ $factor := default 1 .factor }}
 {{ $width := mul 148 $factor }}
 {{ $height := mul 240 $factor }}
-{{- return (index (first 1 ($page.Resources.ByType "image")) 0).Fill (print $width "x" $height " Center") -}}
+{{- return ($page.Resources.GetMatch "cover").Fill (print $width "x" $height " Center") -}}

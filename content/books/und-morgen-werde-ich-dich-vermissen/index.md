@@ -13,6 +13,9 @@ topics:
 source: "https://www.rowohlt.de/buch/heine-bakkeid-morgen-werde-ich-dich-vermissen-9783499290558"
 booklists:
   - completed
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Wenn man am Tiefpunkt ist, gibt es nur einen Weg: Hoch, in den Norden.
 

@@ -14,6 +14,9 @@ topics:
 source: "https://www.piper.de/buecher/unter-der-mitternachtssonne-isbn-978-3-492-31498-5"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Osaka, 1973: Ein Pfandleiher wird ermordet aufgefunden. Der unerschütterliche 

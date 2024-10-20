@@ -13,6 +13,9 @@ topics:
 source: "https://www.pendragon.de/kerstin-ehmer/die-schwarze-fee"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Berlin tanzt auf dem Vulkan. Glitzernde Tanzpaläste, wilde Partys, Drogen, 

@@ -7,14 +7,14 @@ cataloguePermalink: "https://d-nb.info/1119348005"
 author: "Ray Bradbury"
 publishedAt: "2017"
 topics:
-  
   - "Science Fiction"
-    
   - "Kurzgeschichten"
-    
 source: "https://www.droemer-knaur.de/buch/ray-bradbury-s-is-for-space-9783426520734"
-booklists: 
+booklists:
   - "wishlist"
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 Steven Spielberg nennt ihn seine Inspiration, die Washington Post einen 
 Mythenschöpfer, der Guardian vergleicht ihn mit Edgar Allan Poe: Kaum ein 

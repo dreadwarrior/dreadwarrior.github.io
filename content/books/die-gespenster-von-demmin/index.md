@@ -13,6 +13,9 @@ topics:
 source: "https://www.dtv.de/buch/die-gespenster-von-demmin-62757"
 booklists:
   - unread
+resources:
+  - name: cover
+    src: cover.jpg
 ---
 
 Larry lebt in einer Stadt mit besonderer Vergangenheit – Ende des Zweiten 
