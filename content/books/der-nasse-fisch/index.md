@@ -1,5 +1,5 @@
 ---
-date: 2024-10-11T18:47:34+02:00
+date: 2024-10-21T09:49:01+02:00
 title: "Der nasse Fisch"
 slug: "der-nasse-fisch"
 isbn: "978-3-492-31594-4"
@@ -12,7 +12,7 @@ topics:
   - "Hardboiled"
 source: "https://www.piper.de/buecher/der-nasse-fisch-isbn-978-3-492-31594-4"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
