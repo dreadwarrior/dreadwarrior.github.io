@@ -11,10 +11,11 @@ topics:
   - "Mafia"
 source: "https://www.dtv.de/buch/gomorrha-34529"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
+date: 2024-10-26T16:13:49+02:00
 ---
 Die süditalienische Camorra mischt mit im internationalen Drogenhandel, 
 verschiebt riesige Mengen Giftmülls in Italien, macht gewaltige Geschäfte mit 
