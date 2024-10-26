@@ -1,5 +1,5 @@
 ---
-date: 2024-07-09T12:48:59+02:00
+date: 2024-10-22T21:51:20+02:00
 title: "Der Monddiamant"
 slug: "der-monddiamant"
 isbn: "978-3-596-90495-2"
@@ -12,7 +12,7 @@ topics:
   - "England"
 source: "https://www.fischerverlage.de/buch/wilkie-collins-der-monddiamant-9783596904952"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
