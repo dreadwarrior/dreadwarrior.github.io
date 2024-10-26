@@ -1,14 +1,23 @@
 <aside class="book-metadata pure-g">
+    {{ with .Params.isbn }}
     <div class="book-metadata__isbn pure-u-1 pure-u-md-1-2">
         <div class="book-metadata__item">
             <details class="tooltip tooltip--left-aligned">
-                <summary><small>ISBN:</small> {{ .Params.isbn }} <i class="tooltip__icon fas fa-info-circle"></i></summary>
+                <summary><small>ISBN:</small> {{ . }} <i class="tooltip__icon fas fa-info-circle"></i></summary>
                 <div class="tooltip__body" data-pagefind-ignore>
                     <p>Nutze die ISBN, um das Buch beim lokalen Buchhändler deines Vertrauens zu kaufen.</p>
                 </div>
             </details>
         </div>
     </div>
+    {{ else }}
+    <div class="book-metadata__isbn pure-u-1 pure-u-md-1-2">
+        <div class="book-metadata__item">
+            <small>Hinweis:</small><br>
+            <em>Für dieses Buch ist keine ISBN verfügbar.</em>
+        </div>
+    </div>
+    {{ end }}
     <div class="book-metadata__source-references pure-u-1 pure-u-md-1-2" data-pagefind-ignore>
         <div class="book-metadata__item">
             <small>Quellenangaben:</small>

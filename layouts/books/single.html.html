@@ -33,22 +33,24 @@
                 {{ partial "book/review.html" . }}
             </section>
 
+            {{ with .Params.isbn }}
             <aside class="book-links pure-u-1" aria-label="Kaufoptionen" data-pagefind-ignore>
                 <details class="tooltip">
                     <summary class="button button--primary button--block pure-button"><i class="fas fa-shopping-cart"></i> Kaufen</summary>
                     <ul class="tooltip__body">
                         <li>
-                            <i class="fas fa-leaf"></i> <a href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ .Params.isbn }}"
+                            <i class="fas fa-leaf"></i> <a href="https://www.medimops.de/buecher-C0186606/?fcIsSearch=1&condition=NewItem%2CUsedVeryGood%2CUsedGood%2CUsedAcceptable&searchparam={{ . }}"
                                                            title="Buch gebraucht bei medimops.de kaufen">Buch gebraucht kaufen</a><br>
                             <small>Umweltschonend.</small>
                         </li>
                         <li>
-                            <i class="fas fa-globe"></i> <a href="https://www.thalia.de/suche?sq={{ .Params.isbn }}"
+                            <i class="fas fa-globe"></i> <a href="https://www.thalia.de/suche?sq={{ . }}"
                                                             title="Neues Buch bei thalia.de kaufen">Neues Buch kaufen</a>
                         </li>
                     </ul>
                 </details>
             </aside>
+            {{ end }}
 
             <aside class="pure-u-1" aria-label="Ähnliche Bücher" data-pagefind-ignore>
                 {{ partial "book/related.html" (dict
