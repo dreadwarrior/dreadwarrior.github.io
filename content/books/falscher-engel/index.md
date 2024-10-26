@@ -11,10 +11,11 @@ topics:
   - "Erlebnisbericht"
 source: "https://www.m-vg.de/riva/shop/article/2214-falscher-engel/"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
+date: 2024-10-26T11:11:45+02:00
 ---
 Schon bald nach seiner Gründung Ende der 40er-Jahre in den USA machte der 
 Hells Angels Motorcycle Club durch Gesetzesübertretungen und Gewaltdelikte von 
