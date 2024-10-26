@@ -1,5 +1,5 @@
 ---
-date: "2024-03-18T21:18:44+01:00"
+date: 2024-10-26T16:14:39+02:00
 title: "Shantaram"
 slug: "shantaram"
 isbn: "978-3-442-47308-3"
@@ -13,7 +13,7 @@ topics:
   - "Indien"
 source: "https://www.penguin.de/Taschenbuch/Shantaram/Gregory-David-Roberts/Goldmann/e276685.rhd"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
