@@ -11,10 +11,11 @@ topics:
   - "Polen"
 source: "https://www.aufbau-verlage.de/ch-links-verlag/den-hausern-der-anderen/978-3-96289-146-6"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
+date: 2024-10-26T11:12:47+02:00
 ---
 Poniemieckie heißt in Polen das ehemals Deutsche: Orte, Gebäude, Gegenstände, 
 die von Millionen Deutschen zurückgelassen wurden, als sie am Ende des Zweiten 
