@@ -14,16 +14,14 @@ tasks:
       --------
       > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
     vars:
-      ISBN:
-        sh: "basename -s .md {{.BOOK}}"
-      CONTENT_DIRECTORY:
+      BOOK_DIRECTORY:
         sh: "dirname {{.BOOK}}"
-      BOOK_DIRECTORY: "{{.CONTENT_DIRECTORY}}/{{.ISBN}}"
     cmds:
-      - mkdir {{.BOOK_DIRECTORY}}
-      - mv {{.BOOK}} {{.BOOK_DIRECTORY}}/index.md
-      - yq --front-matter=process -i '.booklists = ["completed"]' {{.BOOK_DIRECTORY}}/index.md
-      - yq --front-matter=process -i '.date = now' {{.BOOK_DIRECTORY}}/index.md
+      - task: _update-booklist
+        vars:
+          BOOKLIST: "completed"
+          TARGET: '{{.BOOK}}'
+      - yq --front-matter=process -i '.date = now' {{.BOOK}}
       - cp archetypes/review.md.dist {{.BOOK_DIRECTORY}}/review.md
       - task: _add-to-vcs
         vars:
