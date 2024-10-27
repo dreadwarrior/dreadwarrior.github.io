@@ -171,7 +171,7 @@ tasks:
     vars:
       FORMATTED_ISBN:
         sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
-      TARGET: 'books/{{.FORMATTED_ISBN}}.md'
+      TARGET: 'books/{{.FORMATTED_ISBN}}/index.md'
     cmds:
       - echo "Create {{.BOOKLIST}} book for ISBN {{.FORMATTED_ISBN}}"
       - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}
