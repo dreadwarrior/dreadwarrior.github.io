@@ -10,10 +10,11 @@ topics:
   - "Science Fiction"
 source: "https://mantikoreverlag.de/starship-verloren-im-weltraum/"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
+date: 2024-10-27T16:31:55+01:00
 ---
 Ein gigantisches Raumschiff driftet seit Jahrhunderten scheinbar ziellos durch 
 Raum und Zeit. Allmählich haben Schlingpflanzen das Innere des Schiffs 

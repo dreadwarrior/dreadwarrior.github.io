@@ -1,5 +1,5 @@
 ---
-date: "2024-04-12T19:40:19+02:00"
+date: 2024-10-27T16:31:42+01:00
 title: "Slade House"
 slug: "slade-house"
 isbn: "978-3-499-27239-4"
@@ -12,7 +12,7 @@ topics:
   - "Fantasy"
 source: "https://www.rowohlt.de/buch/david-mitchell-slade-house-9783499272394"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
