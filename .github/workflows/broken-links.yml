@@ -10,15 +10,13 @@ on:
 
 jobs:
   run-check:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install additional packages
-        uses: awalsh128/cache-apt-pkgs-action@v1.4.2
-        with:
-          packages: yq
-          version: 1.0
+      - name: Installing yq
+        run: |
+          snap install yq
 
       - name: Collect URLs from books
         run: |
