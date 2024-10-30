@@ -58,6 +58,29 @@ tasks:
     cmds:
       - curl --silent {{.SOURCE}} | htmlq --text '{{.SELECTOR}}' | fold -w 80 -s | xargs -0 printf "\n\n%s" >> {{.BOOK}}
 
+  cover-download:
+    desc: Download book cover.
+    summary: |
+      Download book cover.
+
+      The book's 'params.references[rel="cover"]' front matter attribute needs to point to the cover.
+      
+      Note: The file is saved under the name specified by the server. Please check whether and which file name extension needs to be added.
+      This can be achieved, for example, by using the command `file <path-to-cover-file` on *nix systems.
+
+      Required variables:
+      -------------------
+      * BOOK: Path to content file of a book.
+
+      Example:
+      --------
+      > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
+    vars:
+      SOURCE:
+        sh: yq --front-matter='extract' '.params.references.[] | select (.rel == "cover") | .uri' {{.BOOK}} | tr -d '\n'
+    cmds:
+      - curl --silent {{.SOURCE}} -O --output-dir $(dirname {{.BOOK}})
+
   unread.de:
     desc: Add new german book to booklist 'unread'.
     summary: |
