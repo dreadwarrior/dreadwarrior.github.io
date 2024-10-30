@@ -1,13 +1,20 @@
 version: '3'
 
 tasks:
-  broken-links.books:
-    desc: Check for broken book cover, source and permalink URLs.
+  broken-links.clean:
+    desc: Cleans up collected URIs and reports from previous executions.
     summary: |
-      Check for broken book cover, source and permalink URLs.
+      Cleans up collected URIs and reports from previous executions.
+    cmds:
+      - rm -rf ./.lychee/
+
+  broken-links.books:
+    desc: Check for broken book cover, synopsis and permalink reference URLs.
+    summary: |
+      Check for broken book cover, synopsis and permalink reference URLs.
     cmds:
       - task: broken-links.books.covers
-      - task: broken-links.books.sources
+      - task: broken-links.books.synopses
       - task: broken-links.books.permalinks
 
   broken-links.books.covers:
@@ -15,45 +22,63 @@ tasks:
     summary: |
       Check for broken book cover URLs.
     cmds:
-      - task: _collect-urls
+      - task: _collect-urls-legacy
         vars:
           PROPERTY: 'coverUri'
+          LOG_FILE_NAME: 'books-covers'
+      - task: _collect-reference-urls
+        vars:
+          REL: 'cover'
           LOG_FILE_NAME: 'books-covers'
       - task: _check-urls
         vars:
           LOG_FILE_NAME: "books-covers"
 
-  broken-links.books.sources:
-    desc: Check for broken book excerpt source URLs.
+  broken-links.books.synopses:
+    desc: Check for broken book synopsis reference URLs.
     summary: |
-      Check for broken book excerpt source URLs.
+      Check for broken book synopsis reference URLs.
     cmds:
-      - task: _collect-urls
+      - task: _collect-urls-legacy
         vars:
           PROPERTY: 'source'
-          LOG_FILE_NAME: 'books-sources'
+          LOG_FILE_NAME: 'books-synopses'
+      - task: _collect-reference-urls
+        vars:
+          REL: 'synopsis'
+          LOG_FILE_NAME: 'books-synopses'
       - task: _check-urls
         vars:
-          LOG_FILE_NAME: "books-sources"
+          LOG_FILE_NAME: "books-synopses"
 
   broken-links.books.permalinks:
     desc: Check for broken book catalogue permalink URLs.
     summary: |
       Check for broken book catalogue permalink URLs.
     cmds:
-      - task: _collect-urls
+      - task: _collect-urls-legacy
         vars:
           PROPERTY: 'cataloguePermalink'
+          LOG_FILE_NAME: 'books-permalinks'
+      - task: _collect-reference-urls
+        vars:
+          REL: 'permalink'
           LOG_FILE_NAME: 'books-permalinks'
       - task: _check-urls
         vars:
           LOG_FILE_NAME: "books-permalinks"
 
-  _collect-urls:
+  _collect-urls-legacy:
     internal: true
     cmds:
-      - "mkdir -p ./.lychee"
-      - "grep -Rh content/books/ -e '{{.PROPERTY}}: ' | grep -o 'http.[^\"]*' > ./.lychee/{{.LOG_FILE_NAME}}.txt"
+      - mkdir -p ./.lychee
+      - find content/books -name "index.md" -exec yq --front-matter=extract '.{{.PROPERTY}}' {} \; >> ./.lychee/{{.LOG_FILE_NAME}}.txt
+
+  _collect-reference-urls:
+    internal: true
+    cmds:
+      - mkdir -p ./.lychee
+      - find content/books -name "index.md" -exec yq --front-matter=extract '.params.references.[] | select (.rel == "{{.REL}}") | .uri' {} \; >> ./.lychee/{{.LOG_FILE_NAME}}.txt
 
   _check-urls:
     internal: true

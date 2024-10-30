@@ -1,6 +1,7 @@
 name: Check for broken links in content files.
 
 on:
+  # Disabled, no hot loading of covers since git id 45f4d7ees
   #schedule:
   #  - cron: '0 22 * * *'
 
@@ -13,12 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install additional packages
+        uses: awalsh128/cache-apt-pkgs-action@v1.4.2
+        with:
+          packages: yq
+          version: 1.0
+
       - name: Collect URLs from books
         run: |
           mkdir -p ./.lychee
-          grep -Rh content/books/ -e 'coverUri: ' | grep -o 'http.[^\"]*' > ./.lychee/books-covers.txt
-          grep -Rh content/books/ -e 'source: ' | grep -o 'http.[^\"]*' > ./.lychee/books-sources.txt
-          grep -Rh content/books/ -e 'cataloguePermalink: ' | grep -o 'http.[^\"]*' > ./.lychee/books-permalinks.txt
+          find content/books -name "index.md" -exec yq --front-matter=extract '.coverUri' {} \; >> ./.lychee/books-covers.txt
+          find content/books -name "index.md" -exec yq --front-matter=extract '.params.references.[] | select (.rel == "cover") | .uri' {} \; >> ./.lychee/books-covers.txt
+          find content/books -name "index.md" -exec yq --front-matter=extract '.source' {} \; >> ./.lychee/books-synopses.txt
+          find content/books -name "index.md" -exec yq --front-matter=extract '.params.references.[] | select (.rel == "synopsis") | .uri' {} \; >> ./.lychee/books-synopses.txt
+          find content/books -name "index.md" -exec yq --front-matter=extract '.cataloguePermalink' {} \; >> ./.lychee/books-permalinks.txt
+          find content/books -name "index.md" -exec yq --front-matter=extract '.params.references.[] | select (.rel == "permalink") | .uri' {} \; >> ./.lychee/books-permalinks.txt
 
       - name: Check book cover URLs
         id: lychee-books-covers
@@ -35,9 +45,9 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           lycheeVersion: 0.15.1
-          args: --config ./lychee-ci.toml --suggest ./.lychee/books-sources.txt
+          args: --config ./lychee-ci.toml --suggest ./.lychee/books-synopses.txt
           format: markdown
-          output: .lychee/books-sources.md
+          output: .lychee/books-synopses.md
           # Don't fail action on broken links
           fail: false
 

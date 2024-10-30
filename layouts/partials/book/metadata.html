@@ -22,10 +22,18 @@
         <div class="book-metadata__item">
             <small>Quellenangaben:</small>
             <ul class="fa-ul">
-                {{ with .Params.source }}
-                <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ . }}" referrerpolicy="no-referrer">Inhaltsbeschreibung</a></li>
+                {{ $synopsisUris := default (slice (dict "rel" "synopsis" "uri" .Params.source)) .Params.references }}
+                {{ range (where $synopsisUris "rel" "synopsis") }}
+                <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ .uri }}" referrerpolicy="no-referrer">Inhaltsbeschreibung</a></li>
                 {{ end }}
-                <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ .Params.cataloguePermalink }}" referrerpolicy="no-referrer">Bibliografische Daten</a></li>
+                {{ $permalinkUris := default (slice (dict "rel" "permalink" "uri" .Params.cataloguePermalink)) .Params.references }}
+                {{ range (where $permalinkUris "rel" "permalink") }}
+                <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ .uri }}" referrerpolicy="no-referrer">Bibliografische Daten</a></li>
+                {{ end }}
+                {{ $coverUris := default (slice (dict "rel" "cover" "uri" .Params.coverUri)) .Params.references }}
+                {{ range (where $coverUris "rel" "cover") }}
+                <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ .uri }}" referrerpolicy="no-referrer">Cover-Abbildung</a></li>
+                {{ end }}
             </ul>
         </div>
     </div>

@@ -2,17 +2,22 @@
 date: "2022-11-07T21:01:50+01:00"
 title: "1793"
 slug: "1793"
-isbn: "978-3-492-06131-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-06131-5"
-cataloguePermalink: "https://d-nb.info/1169590136"
-author: "Niklas Natt och Dag"
-publishedAt: "2019"
+params:
+  author: "Niklas Natt och Dag"
+  isbn: "978-3-492-06131-5"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-06131-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1169590136"
+    - rel: synopsis
+      uri: "https://www.piper.de/buecher/1793-isbn-978-3-492-31793-1"
 topics:
   - "Nordic Noir"
   - "Krimi"
   - "Schweden"
   - "Historischer Roman"
-source: "https://www.piper.de/buecher/1793-isbn-978-3-492-31793-1"
 booklists:
   - "completed"
   - "favorites"

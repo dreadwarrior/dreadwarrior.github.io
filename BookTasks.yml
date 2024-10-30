@@ -40,7 +40,7 @@ tasks:
       --------
       > BOOK=./content/books/978-3-641-26688-2.md task {{.TASK}}
     cmds:
-      - yq --front-matter=process -i '.isReserved = true' {{.BOOK}}
+      - yq --front-matter=process -i '.params.isReserved = true' {{.BOOK}}
 
   search:
     desc: Search book in content repository.

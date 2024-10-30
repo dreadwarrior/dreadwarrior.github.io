@@ -4,20 +4,27 @@
 date: "{{ .Date }}"
 {{- with resources.GetRemote $dnbUrl | transform.Unmarshal -}}
 {{- with partial "dnb/oai_dc/title-parser-re.html" .records.record.recordData.dc.title }}
-title: "{{ with .preferredTitle }}{{ . }} - {{ end }}{{ .mainTitle }}"
-{{- with .titleAddition }}
-subtitle: "{{ . | strings.FirstUpper }}"
-{{- end }}
 slug: "{{ .mainTitle | anchorize }}"
+title: "{{ with .preferredTitle }}{{ . }} - {{ end }}{{ .mainTitle }}"
 {{- end }}
-isbn: "{{ $isbn }}"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn={{ $isbn }}"
-cataloguePermalink: "https://d-nb.info/{{ partial "dnb/oai_dc/idn.html" .records.record.recordData.dc.identifier }}"
-author: "{{ partial "dnb/oai_dc/author.html" .records.record.recordData.dc.creator }}"
-publishedAt: "{{ .records.record.recordData.dc.date }}"
+params:
+  author: "{{ partial "dnb/oai_dc/author.html" .records.record.recordData.dc.creator }}"
+  isbn: "{{ $isbn }}"
+  publishingYear: "{{ .records.record.recordData.dc.date }}"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn={{ $isbn }}"
+    - rel: permalink
+      uri: "https://d-nb.info/{{ partial "dnb/oai_dc/idn.html" .records.record.recordData.dc.identifier }}"
+    - rel: synopsis
+      uri: "https://url/to/source/of/excerpt/"
+{{- with partial "dnb/oai_dc/title-parser-re.html" .records.record.recordData.dc.title -}}
+{{- with .titleAddition }}
+  subtitle: "{{ . | strings.FirstUpper }}"
+{{- end -}}
+{{- end }}
 topics:
   - "Add topics here. Repeat as much as you like."
-source: "https://url/to/source/of/excerpt/"
 booklists: []
 resources:
   - name: cover

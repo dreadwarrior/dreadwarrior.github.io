@@ -2,22 +2,27 @@
 {{- $url := printf "http://openlibrary.org/api/books?bibkeys=ISBN:%s&format=json&jscmd=data" $isbn -}}
 ---
 date: "{{ .Date }}"
+slug: "{{ index . (printf "ISBN:%s" $isbn) "title" | anchorize }}"
 {{- with resources.GetRemote $url | transform.Unmarshal }}
 title: "{{ index . (printf "ISBN:%s" $isbn) "title" }}"
+params:
+  author: "{{ index . (printf "ISBN:%s" $isbn) "authors" 0 "name" }}"
+  isbn: "{{ $isbn }}"
+  publishingYear: "{{ index . (printf "ISBN:%s" $isbn) "publish_date" }}"
+  references:
+    - rel: cover
+      uri: "{{ index . (printf "ISBN:%s" $isbn) "cover" "large" }}"
+    - rel: permalink
+      uri: "https://openlibrary.org{{ index . (printf "ISBN:%s" $isbn) "key" }}"
+    - rel: synopsis
+      uri: "https://url/to/source/of/excerpt/"
 {{- with (index . (printf "ISBN:%s" $isbn) "subtitle") }}
-subtitle: "{{ . }}"
+  subtitle: "{{ . }}"
 {{- end }}
-slug: "{{ index . (printf "ISBN:%s" $isbn) "title" | anchorize }}"
-isbn: "{{ $isbn }}"
-coverUri: "{{ index . (printf "ISBN:%s" $isbn) "cover" "large" }}"
-cataloguePermalink: "https://openlibrary.org{{ index . (printf "ISBN:%s" $isbn) "key" }}"
-author: "{{ index . (printf "ISBN:%s" $isbn) "authors" 0 "name" }}"
-publishedAt: "{{ index . (printf "ISBN:%s" $isbn) "publish_date" }}"
 topics:
 {{- range (index . (printf "ISBN:%s" $isbn) "subjects") }}
   - "{{ .name }}"
 {{- end }}
-source: "https://url/to/source/of/excerpt/"
 booklists: []
 resources:
   - name: cover

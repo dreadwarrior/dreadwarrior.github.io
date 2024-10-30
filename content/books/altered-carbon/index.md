@@ -1,17 +1,22 @@
 ---
 date: "2024-10-13T18:39:58+02:00"
 title: "Altered Carbon"
-subtitle: "Das Unsterblichkeitsprogramm"
 slug: "altered-carbon---das-unsterblichkeitsprogramm"
-isbn: "978-3-453-31865-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-31865-6"
-cataloguePermalink: "https://d-nb.info/1119734193"
-author: "Richard Morgan"
-publishedAt: "2017"
+params:
+  author: "Richard Morgan"
+  isbn: "978-3-453-31865-6"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-31865-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1119734193"
+    - rel: synopsis
+      uri: "https://www.penguin.de/buecher/richard-morgan-altered-carbon-das-unsterblichkeitsprogramm/taschenbuch/9783453318656"
+  subtitle: "Das Unsterblichkeitsprogramm"
 topics:
   - "Science-Fiction"
   - "Krimi"
-source: "https://www.penguin.de/buecher/richard-morgan-altered-carbon-das-unsterblichkeitsprogramm/taschenbuch/9783453318656"
 booklists:
   - unread
 resources:
