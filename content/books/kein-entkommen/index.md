@@ -1,15 +1,20 @@
 ---
 date: "2023-01-06T20:06:06+01:00"
-title: "Trauma - Kein Entkommen"
-slug: "trauma---kein-entkommen"
-isbn: "978-3-423-43761-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-43761-5"
-cataloguePermalink: "https://d-nb.info/1227804881"
-author: "Christoph Wortberg"
-publishedAt: "2021"
+title: "Kein Entkommen"
+slug: "kein-entkommen"
+params:
+  author: "Christoph Wortberg"
+  isbn: "978-3-423-43761-5"
+  publishingYear: "2021"
+  reference:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-43761-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1227804881"
+    - rel: synopsis
+      uri: "https://www.dtv.de/buch/kein-entkommen-21849"
 topics:
   - "Krimi"
-source: "https://www.dtv.de/buch/kein-entkommen-21849"
 booklists:
   - "completed"
 resources:
