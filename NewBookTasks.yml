@@ -38,7 +38,7 @@ tasks:
           LANGUAGE: '{{ last (splitList "." .TASK) }}'
       - task: _new-book-content-management
 
-  synopsis:
+  crawl-synopsis:
     desc: Crawl synopsis for a book from external website.
     summary: |
       Crawl synopsis for a book from external website.
@@ -59,7 +59,7 @@ tasks:
     cmds:
       - curl --silent {{.SOURCE}} | htmlq --text '{{.SELECTOR}}' | fold -w 80 -s | xargs -0 printf "\n\n%s" >> {{.BOOK}}
 
-  cover-download:
+  download-cover:
     desc: Download book cover.
     summary: |
       Download book cover.
