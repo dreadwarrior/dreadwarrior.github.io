@@ -59,6 +59,11 @@ books. The ISBN 13 indicates, which language space the book was published in:
 Fetching bibliographic data is different for those language areas, and you have 
 to choose the correct command.
 
+### Adding books without ISBNs
+
+For german books, support for IDN identifiers of Deutsche Nationalbibliothek is
+available.
+
 ## Howto
 
 ### Format an ISBN 13

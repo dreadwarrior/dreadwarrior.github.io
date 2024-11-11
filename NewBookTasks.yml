@@ -8,11 +8,12 @@ tasks:
 
       Required variables:
       -------------------
-      * ISBN: ISBN 13 of the book to add.
+      * ID: Either a ISBN 13 or an IDN of the Deutsche National Bibliothek of the book to be added.
 
-      Example:
-      --------
-      > ISBN=978-3-641-26688-2 task {{.TASK}}
+      Examples:
+      ---------
+      > ID=978-3-641-26688-2 task {{.TASK}}
+      > ID=740105604 task {{.TASK}}
     cmds:
       - task: _completed-book
         vars:
@@ -26,11 +27,11 @@ tasks:
 
       Required variables:
       -------------------
-      * ISBN: ISBN 13 of the book to add.
+      * ID: ISBN 13 of the book to add.
 
       Example:
       --------
-      > ISBN=978-1-80336-191-3 task {{.TASK}}
+      > ID=978-1-80336-191-3 task {{.TASK}}
     cmds:
       - task: _completed-book
         vars:
@@ -88,11 +89,12 @@ tasks:
 
       Required variables:
       -------------------
-      * ISBN: ISBN 13 of the book to add.
+      * ID: Either a ISBN 13 or an IDN of the Deutsche National Bibliothek of the book to be added.
 
-      Example:
-      --------
-      > ISBN=978-3-641-26688-2 task {{.TASK}}
+      Examples:
+      ---------
+      > ID=978-3-641-26688-2 task {{.TASK}}
+      > ID=740105604 task {{.TASK}}
     cmds:
       - task: _unread-book
         vars:
@@ -107,11 +109,11 @@ tasks:
 
       Required variables:
       -------------------
-      * ISBN: ISBN 13 of the book to add.
+      * ID: ISBN 13 of the book to add.
 
       Example:
       --------
-      > ISBN=978-1-80336-191-3 task {{.TASK}}
+      > ID=978-1-80336-191-3 task {{.TASK}}
     cmds:
       - task: _unread-book
         vars:
@@ -126,11 +128,13 @@ tasks:
 
       Required variables:
       -------------------
-      * ISBN: ISBN 13 of the book to add.
+      * ID: Either a ISBN 13 or an IDN of the Deutsche National Bibliothek of the book to be added.
+
       
-      Example:
-      --------
-      > ISBN=978-3-641-26688-2 task {{.TASK}}
+      Examples:
+      ---------
+      > ID=978-3-641-26688-2 task {{.TASK}}
+      > ID=740105604 task {{.TASK}}
     cmds:
       - task: _unread-book
         vars:
@@ -145,11 +149,11 @@ tasks:
 
       Required variables:
       -------------------
-      * ISBN: ISBN 13 of the book to add.
+      * ID: ISBN 13 of the book to add.
 
       Example:
       --------
-      > ISBN=978-1-80336-191-3 task {{.TASK}}
+      > ID=978-1-80336-191-3 task {{.TASK}}
     cmds:
       - task: _unread-book
         vars:
@@ -165,11 +169,11 @@ tasks:
   _completed-book:
     internal: true
     vars:
-      FORMATTED_ISBN:
-        sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
-      TARGET: 'books/{{.FORMATTED_ISBN}}'
+      FORMATTED_ID:
+        sh: jbang --quiet ./script/isbn13.java '{{.ID}}' 2>/dev/null || echo '{{.ID}}'
+      TARGET: 'books/{{.FORMATTED_ID}}'
     cmds:
-      - echo "Create completed book for ISBN {{.FORMATTED_ISBN}}"
+      - echo "Create completed book for ID {{.FORMATTED_ID}}"
       - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}/index.md
       - task: _update-booklist
         vars:
@@ -192,11 +196,11 @@ tasks:
   _unread-book:
     internal: true
     vars:
-      FORMATTED_ISBN:
-        sh: 'jbang --quiet ./script/isbn13.java {{.ISBN}}'
-      TARGET: 'books/{{.FORMATTED_ISBN}}/index.md'
+      FORMATTED_ID:
+        sh: jbang --quiet ./script/isbn13.java '{{.ID}}' 2>/dev/null || echo '{{.ID}}'
+      TARGET: 'books/{{.FORMATTED_ID}}/index.md'
     cmds:
-      - echo "Create {{.BOOKLIST}} book for ISBN {{.FORMATTED_ISBN}}"
+      - echo "Create {{.BOOKLIST}} book for ID {{.FORMATTED_ID}}"
       - hugo new content --kind books.{{.LANGUAGE}} {{.TARGET}}
       - task: _update-booklist
         vars:
