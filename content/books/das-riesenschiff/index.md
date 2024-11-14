@@ -1,5 +1,5 @@
 ---
-date: "2024-11-13T12:35:46+01:00"
+date: 2024-11-13T22:44:21+01:00
 slug: "das-riesenschiff"
 title: "Das Riesenschiff"
 params:
@@ -14,7 +14,7 @@ topics:
   - "Märchen"
   - "Mecklenburg-Vorpommern"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: Das-Riesenschiff-von-Albert-Burkhardt.jpeg
