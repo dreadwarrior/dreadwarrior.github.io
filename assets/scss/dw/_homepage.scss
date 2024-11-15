@@ -4,9 +4,6 @@
   margin: 0 -2rem 0 -2rem;
   padding: 2rem;
 
-  border-top: .125rem solid var(--secondary-color-o20);
-  border-bottom: .125rem solid var(--secondary-color-o20);
-
   @include mq-lg() {
     border: none;
     border-radius: 1rem;
