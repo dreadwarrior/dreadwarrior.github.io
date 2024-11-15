@@ -1,6 +1,16 @@
 .introduction {
+  background: var(--introduction-bg);
+
+  margin: 0 -2rem 0 -2rem;
+  padding: 2rem;
+
+  border-top: .125rem solid var(--secondary-color-o20);
+  border-bottom: .125rem solid var(--secondary-color-o20);
+
   @include mq-lg() {
-    min-height: 75vh;
+    border: none;
+    border-radius: 1rem;
+    margin: 0;
   }
 
   &__portrait {
@@ -13,28 +23,20 @@
     &__image {
       box-sizing: border-box;
       border-radius: 50%;
-      border: 10px solid var(--secondary-color);
-
-      @include mq-lg()  {
-        margin: 2rem 3rem;
-      }
+      border: 5px solid var(--secondary-color);
 
       width: 100%;
       height: auto;
-      max-width: 300px;
-      max-height: 300px;
+      max-width: 200px;
+      max-height: 200px;
+
+      @include mq-lg() {
+        border: 10px solid var(--secondary-color);
+        margin: 2rem 3rem;
+        max-width: 300px;
+        max-height: 300px;
+      }
     }
-  }
-
-  .introduction--header {
-    line-height: 1.1;
-  }
-
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2rem;
   }
 
   &__links {

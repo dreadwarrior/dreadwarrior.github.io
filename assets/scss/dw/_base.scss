@@ -4,7 +4,11 @@ html {
 
 main {
     margin: 0 auto;
-    max-width: 64rem;
+
+    @include mq-lg() {
+        max-width: 64rem;
+    }
+
     position: relative;
 }
 

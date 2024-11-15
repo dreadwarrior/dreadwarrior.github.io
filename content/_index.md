@@ -1,11 +1,6 @@
----
-greeting: "Ahoi."
----
-Ich bin ein Familienmensch und {{< fa-icon icon="heart" >}} das Meer, Möwen & 
-Leuchttürme.
+# Leseratte & Büchersammler.
 
-In meiner Freizeit reise ich am liebsten nach Dänemark, [lese gern]({{<ref "books" >}}) 
-und spiele hin und wieder Video- oder [hübsch gestaltete Brettspiele](https://die-abenteuer-des-robin-hood.de/).
+Ahoi, ich bin Tommy – in Berlin gestrandetes Nordlicht & Familienmensch.
 
-Ich [mag Ordnung](https://en.wikipedia.org/wiki/Marie_Kondo) und verdiene meinen 
-Lebensunterhalt als Softwareentwickler. {{< fa-icon icon="pastafarianism" >}}
+Wenn ich nicht lese oder Musik höre, spiele ich gern Brett- & Videospiele, mache 
+Urlaub in Dänemark und verdiene meinen Lebensunterhalt als Softwareentwickler.

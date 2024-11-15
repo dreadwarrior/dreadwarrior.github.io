@@ -31,6 +31,8 @@ $black: rgb(0, 0, 0);
   --light-closest-primary-color: #{$white};
   --light-closest-secondary-color: #{$sea};
 
+  --light-introduction-bg: url('/images/book-1283865_1280.jpg') top right;
+
   // Dark mode
   --dark-primary-color: #{$sea};
   --dark-secondary-color: #{$baby-powder};
@@ -42,6 +44,8 @@ $black: rgb(0, 0, 0);
   --dark-closest-primary-color: #{$sea-o20-opaque};
   --dark-closest-secondary-color: #{$baby-powder};
 
+  --dark-introduction-bg: url('/images/old-books-436498_1280.jpg') bottom right;
+
   // Default mode
   --primary-color: var(--light-primary-color);
   --secondary-color: var(--light-secondary-color);
@@ -52,6 +56,8 @@ $black: rgb(0, 0, 0);
 
   --closest-primary-color: var(--light-closest-primary-color);
   --closest-secondary-color: var(--light-closest-secondary-color);
+
+  --introduction-bg: var(--light-introduction-bg);
 }
 
 @import 'dw/fonts';

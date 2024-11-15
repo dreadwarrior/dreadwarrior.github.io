@@ -1,17 +1,14 @@
 {{ define "main" }}
 
 <main>
-    <div class="pure-g introduction">
-        <div class="introduction__portrait pure-u-1 pure-u-lg-1-2">
+    <section class="pure-g introduction">
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-8 introduction__portrait">
             {{ with default "images/portrait.jpg" .Site.Params.author.portrait }}
-            <img src="{{ . | relURL }}" class="introduction__portrait__image" alt="Portrait" />
+            <img src="{{ . | relURL }}" alt="Portrait" class="introduction__portrait__image" />
             {{ end }}
         </div>
 
-        <div class="pure-u-1 pure-u-lg-1-2">
-            <h1 class="introduction--header">{{- with .Param "greeting" -}}{{ . }}{{- else -}}Hallo.{{- end -}}</h1>
-            <h2 class="introduction--header">Ich bin {{ .Site.Params.author.name | default "Hallo" }}.</h2>
-
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-5-8">
             {{ .Content }}
 
             <div class="introduction__links">
@@ -24,7 +21,9 @@
             {{- end -}}
             </div>
         </div>
-    </div>
+    </section>
+
+    <hr class="separator separator--decorated" />
 </main>
 
 {{ end }}

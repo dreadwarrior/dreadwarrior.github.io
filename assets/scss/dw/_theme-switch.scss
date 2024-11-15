@@ -26,6 +26,8 @@
     --closest-primary-color: var(--dark-closest-primary-color);
     --closest-secondary-color: var(--dark-closest-secondary-color);
 
+    --introduction-bg: var(--dark-introduction-bg);
+
     img:not(.logo) {
       filter: brightness(.8) contrast(1.2);
     }
