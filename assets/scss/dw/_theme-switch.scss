@@ -42,6 +42,9 @@
       --primary-color-o20: var(--dark-primary-color-o20);
       --secondary-color-o20: var(--dark-secondary-color-o20);
 
+      --closest-primary-color: var(--dark-closest-primary-color);
+      --closest-secondary-color: var(--dark-closest-secondary-color);
+
       --introduction-bg: var(--dark-introduction-bg);
 
       img {
@@ -55,6 +58,11 @@
 
       --primary-color-o20: var(--light-primary-color-o20);
       --secondary-color-o20: var(--light-secondary-color-o20);
+
+      --closest-primary-color: var(--light-closest-primary-color);
+      --closest-secondary-color: var(--light-closest-secondary-color);
+
+      --introduction-bg: var(--light-introduction-bg);
 
       img {
         filter: unset;
