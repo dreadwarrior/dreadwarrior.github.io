@@ -11,11 +11,11 @@ topics:
   - "Kurzgeschichten"
 source: "https://www.droemer-knaur.de/buch/ray-bradbury-s-is-for-space-9783426520734"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
-date: 2024-10-27T16:32:08+01:00
+date: 2024-11-25T22:41:01+01:00
 ---
 Steven Spielberg nennt ihn seine Inspiration, die Washington Post einen 
 Mythenschöpfer, der Guardian vergleicht ihn mit Edgar Allan Poe: Kaum ein 
