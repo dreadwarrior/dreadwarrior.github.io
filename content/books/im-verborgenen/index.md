@@ -1,15 +1,20 @@
 ---
 title: "Im Verborgenen"
 slug: "im-verborgenen"
-isbn: "978-3-7325-3874-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7325-3874-4"
-cataloguePermalink: "https://d-nb.info/1123573662"
-author: "John Ajvide Lindqvist"
-publishedAt: "2017"
+params:
+    author: "John Ajvide Lindqvist"
+    isbn: "978-3-404-16452-3"
+    publishingYear: "2010"
+    references:
+        - rel: cover
+          uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-16452-3"
+        - rel: permalink
+          uri: "https://d-nb.info/998314226"
+        - rel: synopsis
+          uri: "https://www.isbn.de/ebook/9783732538744/im-verborgenen"
 topics:
   - "Kurzgeschichten"
   - "Horror"
-source: "https://www.isbn.de/ebook/9783732538744/im-verborgenen"
 booklists:
   - "wishlist"
 resources:
