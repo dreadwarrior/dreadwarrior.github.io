@@ -1,5 +1,5 @@
 ---
-date: "2024-11-13T12:55:49+01:00"
+date: 2025-01-09T16:04:33+01:00
 slug: "die-schatzinsel"
 title: "Die Schatzinsel"
 params:
@@ -14,7 +14,7 @@ topics:
   - "Karibik"
   - "England"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: Die-Schatzinsel-von-Robert-L.-Stevenson.jpeg
