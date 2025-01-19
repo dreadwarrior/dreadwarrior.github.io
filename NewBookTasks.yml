@@ -79,8 +79,13 @@ tasks:
     vars:
       SOURCE:
         sh: yq --front-matter='extract' '.params.references.[] | select (.rel == "cover") | .uri' {{.BOOK}} | tr -d '\n'
+      BOOK_DIRECTORY:
+        sh: dirname {{.BOOK}}
     cmds:
-      - curl --silent {{.SOURCE}} -O --output-dir $(dirname {{.BOOK}})
+      - curl --silent {{.SOURCE}} -O --output-dir {{.BOOK_DIRECTORY}}
+      - task: _add-to-vcs
+        vars:
+          REF: '{{.BOOK_DIRECTORY}}'
 
   unread.de:
     desc: Add new german book to booklist 'unread'.
