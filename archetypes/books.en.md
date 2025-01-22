@@ -2,8 +2,8 @@
 {{- $url := printf "http://openlibrary.org/api/books?bibkeys=ISBN:%s&format=json&jscmd=data" $isbn -}}
 ---
 date: "{{ .Date }}"
-slug: "{{ index . (printf "ISBN:%s" $isbn) "title" | anchorize }}"
 {{- with resources.GetRemote $url | transform.Unmarshal }}
+slug: "{{ index . (printf "ISBN:%s" $isbn) "title" | anchorize }}"
 title: "{{ index . (printf "ISBN:%s" $isbn) "title" }}"
 params:
   author: "{{ index . (printf "ISBN:%s" $isbn) "authors" 0 "name" }}"
