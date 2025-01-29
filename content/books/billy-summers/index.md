@@ -1,15 +1,21 @@
 ---
 title: "Billy Summers"
 slug: "billy-summers"
-isbn: "978-3-453-27359-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-27359-7"
-cataloguePermalink: "https://d-nb.info/1230762841"
-author: "Stephen King"
-publishedAt: "2021"
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-27359-7"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-27359-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1230762841"
+    - rel: synopsis
+      uri: "https://www.thalia.de/shop/home/suggestartikel/A1063536737"
+  isReserved: true
 topics:
   - "Thriller"
   - "Suspense"
-source: "https://www.thalia.de/shop/home/suggestartikel/A1063536737"
 booklists:
   - "wishlist"
 resources:
