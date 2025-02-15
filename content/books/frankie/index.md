@@ -1,5 +1,5 @@
 ---
-date: "2023-11-28T17:40:43+01:00"
+date: 2025-02-15T10:41:34+01:00
 title: "Frankie"
 slug: "frankie"
 isbn: "978-3-328-60183-8"
@@ -12,7 +12,7 @@ topics:
   - "Humor"
 source: "https://www.penguin.de/Buch/Frankie/Jochen-Gutsch/Penguin/e585913.rhd"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
