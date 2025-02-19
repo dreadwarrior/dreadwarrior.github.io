@@ -1,5 +1,5 @@
 ---
-date: 2024-10-27T16:31:55+01:00
+date: 2025-02-19T20:52:04+01:00
 title: "Starship"
 slug: "starship"
 params:
@@ -17,7 +17,7 @@ params:
 topics:
   - "Science Fiction"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
