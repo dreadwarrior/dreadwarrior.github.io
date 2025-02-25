@@ -1,5 +1,5 @@
 ---
-date: "2025-02-24T20:53:45+01:00"
+date: 2025-02-26T00:33:15+01:00
 slug: "der-mordbrand-von-örnolfsdalur-und-andere-isländer-sagas"
 title: "Der Mordbrand von Örnolfsdalur und andere Isländer-Sagas"
 params:
@@ -17,7 +17,7 @@ topics:
   - "Island"
   - "Sagen"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
