@@ -1,5 +1,5 @@
 ---
-date: "2025-01-19T16:44:01+01:00"
+date: 2025-02-26T00:30:04+01:00
 slug: "selbstbetrachtungen"
 title: "Selbstbetrachtungen"
 params:
@@ -16,7 +16,7 @@ params:
 topics:
   - "Philosophie"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
