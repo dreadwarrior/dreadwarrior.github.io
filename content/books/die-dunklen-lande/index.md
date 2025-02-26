@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/1170087310"
 author: "Markus Heitz"
 publishedAt: "2019"
 topics:
-  - "Dark Fantasy"
-  - "Dreißigjähriger Krieg"
+  - "Fantasy"
 source: "https://www.droemer-knaur.de/buch/markus-heitz-die-dunklen-lande-9783426226766"
 booklists:
   - "completed"

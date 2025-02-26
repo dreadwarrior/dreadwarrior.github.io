@@ -9,7 +9,7 @@ author: "John Ajvide Lindqvist"
 publishedAt: "2017"
 topics:
   - "Kurzgeschichten"
-  - "Übersinnliches"
+  - "Horror"
 source: "https://voebb.onleihe.de/berlin/frontend/mediaInfo,0-0-547079946-200-0-0-0-0-400001-0-0.html"
 booklists:
   - "completed"

@@ -9,7 +9,6 @@ author: "Arthur C. Clarke"
 publishedAt: "2008"
 topics:
   - "Science Fiction"
-  - "Raumfahrt"
 source: "https://www.lovelybooks.de/autor/Arthur-C.-Clarke/Rendezvous-mit-Rama-144489480-w/"
 booklists:
   - "completed"

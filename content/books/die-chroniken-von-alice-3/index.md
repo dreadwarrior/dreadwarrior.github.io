@@ -15,7 +15,7 @@ params:
       uri: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Dunkelheit-im-Spiegelland/Christina-Henry/Penhaligon/e573337.rhd"
   subtitle: "Dunkelheit im Spiegelland"
 topics:
-  - "Dark Fantasy"
+  - "Fantasy"
   - "Kurzgeschichten"
 booklists:
   - "completed"

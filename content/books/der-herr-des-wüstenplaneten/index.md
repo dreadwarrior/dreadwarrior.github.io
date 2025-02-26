@@ -9,7 +9,6 @@ author: "Frank Herbert"
 publishedAt: "2014"
 topics:
   - "Science Fiction"
-  - "Weltraumoper"
 source: "https://www.penguin.de/Taschenbuch/Der-Herr-des-Wuestenplaneten/Frank-Herbert/Heyne/e162203.rhd"
 booklists:
   - unread

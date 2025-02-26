@@ -16,8 +16,6 @@ params:
   subtitle: "Schauerliche Morde in den Karpaten"
 topics:
   - "Krimi"
-  - "Karpaten"
-  - "Polen"
 booklists:
   - wishlist
 resources:

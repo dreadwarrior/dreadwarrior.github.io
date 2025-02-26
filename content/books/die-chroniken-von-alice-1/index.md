@@ -15,8 +15,7 @@ params:
       uri: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Finsternis-im-Wunderland/Christina-Henry/Penhaligon/e565572.rhd"
   subtitle: "Finsternis im Wunderland"
 topics:
-  - "Dark Fantasy"
-  - "Abenteuer"
+  - "Fantasy"
 booklists:
   - "completed"
 resources:

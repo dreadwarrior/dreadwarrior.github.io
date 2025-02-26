@@ -15,9 +15,6 @@ params:
       uri: "https://www.penguin.de/lp/tore-renberg-die-lungenschwimmprobe"
   subtitle: "Verteidigung einer jungen Frau, die des Kindsmords bezichtigt wurde"
 topics:
-  - "Aufklärung"
-  - "Mittelalter"
-  - "Deutschland"
   - "Historischer Roman"
 booklists:
   - wishlist

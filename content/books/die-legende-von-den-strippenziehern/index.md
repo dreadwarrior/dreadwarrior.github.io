@@ -10,7 +10,6 @@ author: "Peter Bierl"
 publishedAt: "2021"
 topics:
   - "Essay"
-  - "Verschwörungstheorien"
 source: "https://www.maroverlag.de/marohefte/243-die-legende-von-den-strippenziehern-9783875126198.html"
 booklists:
   - unread

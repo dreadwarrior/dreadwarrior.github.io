@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/1011635895"
 author: "Harriet Beecher Stowe"
 publishedAt: "2011"
 topics:
-  - "Sklaverei"
-  - "Amerika"
+  - "Drama"
 source: "https://www.dtv.de/buch/onkel-toms-huette-14060"
 booklists:
   - unread

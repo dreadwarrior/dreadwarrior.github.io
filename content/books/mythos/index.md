@@ -9,7 +9,6 @@ cataloguePermalink: "https://d-nb.info/1221737686"
 author: "Stephen Fry"
 publishedAt: "2021"
 topics:
-  - "Mythologie"
   - "Fantasy"
 source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/mythos/978-3-7466-3732-7"
 booklists:

@@ -8,10 +8,8 @@ cataloguePermalink: "https://d-nb.info/946460159"
 author: "Umberto Eco"
 publishedAt: "1996"
 topics:
-  - "Historischer Roman"
-  - "Italien"
-  - "Religion"
   - "Krimi"
+  - "Historischer Roman"
 source: "https://www.isbn.de/buch/9783423105514/der-name-der-rose"
 booklists:
   - completed

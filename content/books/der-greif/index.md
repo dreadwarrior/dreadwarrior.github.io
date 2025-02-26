@@ -9,7 +9,6 @@ author: "Wolfgang Hohlbein"
 publishedAt: "2002"
 topics:
   - "Fantasy"
-  - "Abenteuer"
 source: "https://www.ueberreuter.de/produkt/der-greif/"
 booklists:
   - "completed"

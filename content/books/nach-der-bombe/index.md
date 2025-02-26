@@ -7,7 +7,6 @@ cataloguePermalink: "https://d-nb.info/1078036284"
 author: "Philip K. Dick"
 publishedAt: "2016"
 topics:
-  - "Nuklearkrieg"
   - "Science Fiction"
 source: "https://www.fischerverlage.de/buch/philip-k-dick-nach-der-bombe-9783596905607"
 booklists:

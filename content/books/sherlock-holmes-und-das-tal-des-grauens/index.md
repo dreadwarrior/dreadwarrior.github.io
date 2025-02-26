@@ -8,7 +8,7 @@ cataloguePermalink: "https://d-nb.info/1070639230"
 author: "Arthur Conan Doyle"
 publishedAt: "2012"
 topics:
-  - "Detektivgeschichte"
+  - "Krimi"
 source: "https://null-papier.de/shop/gratis-sherlock-holmes-das-tal-des-grauens/"
 booklists:
   - "completed"

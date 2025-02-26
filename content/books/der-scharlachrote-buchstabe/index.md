@@ -8,7 +8,7 @@ author: "Nathaniel Hawthorne"
 publishedAt: "2014"
 topics:
   - "Religion"
-  - "New England"
+  - "Historischer Roman"
 source: "https://www.hanser-literaturverlage.de/buch/der-scharlachrote-buchstabe/978-3-446-24490-0/"
 booklists:
   - "unread"

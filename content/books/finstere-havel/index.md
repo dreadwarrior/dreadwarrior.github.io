@@ -9,7 +9,6 @@ author: "Tim Pieper"
 publishedAt: "2021"
 topics:
   - "Krimi"
-  - "Brandenburg"
 source: "https://emons-verlag.de/p/finstere-havel-4562"
 booklists:
   - "completed"

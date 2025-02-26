@@ -9,7 +9,6 @@ author: "Mark Twain"
 publishedAt: "2012"
 topics:
   - "Humor"
-  - "Zitatesammlung"
 source: "https://www.suhrkamp.de/buch/mark-twain-mark-twain-fuer-boshafte-t-9783458351733"
 booklists:
   - "completed"

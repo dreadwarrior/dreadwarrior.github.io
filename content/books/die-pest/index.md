@@ -8,9 +8,7 @@ cataloguePermalink: "https://d-nb.info/1221489240"
 author: "Albert Camus"
 publishedAt: "2021"
 topics:
-  - "Epidemie"
-  - "Gesellschaft"
-  - "Algerien"
+  - "Drama"
 source: "https://www.rowohlt.de/buch/albert-camus-die-pest-9783499006166"
 booklists:
   - unread

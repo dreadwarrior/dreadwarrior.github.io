@@ -9,7 +9,6 @@ author: "Douglas Adams"
 publishedAt: "2005"
 topics:
   - "Science Fiction"
-  - "Humor"
 source: "https://www.thalia.de/shop/home/suggestartikel/A1042835568"
 booklists:
   - "completed"

@@ -9,7 +9,6 @@ cataloguePermalink: "https://d-nb.info/1199448133"
 author: "Walter Moers"
 publishedAt: "2019"
 topics:
-  - "Graphic Novel"
   - "Fantasy"
 source: "https://www.penguin.de/Buch/Die-Stadt-der-Traeumenden-Buecher-Comic-/Walter-Moers/Penguin/e568049.rhd"
 booklists:

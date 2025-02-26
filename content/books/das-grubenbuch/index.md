@@ -2,15 +2,20 @@
 date: "2024-06-25T17:47:44+02:00"
 title: "Das Grubenbuch"
 slug: "das-grubenbuch"
-isbn: "978-3-8332-4277-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8332-4277-9"
-cataloguePermalink: "https://d-nb.info/1256048364"
-author: "Chuck Wendig"
-publishedAt: "2022"
+params:
+    author: "Chuck Wendig"
+    isbn: "978-3-8332-4277-9"
+    publishingYear: "2022"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8332-4277-9"
+      - rel: permalink
+        uri: "https://d-nb.info/1256048364"
+      - rel: synopsis
+        uri: "https://paninishop.de/science-fiction-buecher/das-grubenbuch-ydwend001"
 topics:
   - "Horror"
   - "Mystery"
-source: "https://paninishop.de/science-fiction-buecher/das-grubenbuch-ydwend001"
 booklists:
   - wishlist
 resources:

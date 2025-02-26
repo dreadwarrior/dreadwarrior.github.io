@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/1078033676"
 author: "William Golding"
 publishedAt: "2017"
 topics:
-  - "Gesellschaft"
-  - "Überlebenskampf"
+  - "Drama"
 source: "https://www.fischerverlage.de/buch/william-golding-herr-der-fliegen-9783596906673"
 booklists:
   - "wishlist"

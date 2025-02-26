@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2020"
 topics:
   - "Coming of Age"
-  - "Spannung"
 source: "https://www.penguin.de/Taschenbuch/Die-Leiche/Stephen-King/Heyne/e560934.rhd"
 booklists:
   - "completed"

@@ -1,15 +1,19 @@
 ---
 title: "Das Sündenhaus"
 slug: "das-sündenhaus"
-isbn: "978-3-426-65440-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-65440-8"
-cataloguePermalink: "https://d-nb.info/1138570095"
-author: "Antonia Hodgson"
-publishedAt: "2017"
+params:
+    author: "Antonia Hodgson"
+    isbn: "978-3-426-65440-8"
+    publishingYear: "2017"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-65440-8"
+      - rel: permalink
+        uri: "https://d-nb.info/1138570095"
+      - rel: synopsis
+        uri: "https://www.droemer-knaur.de/buch/antonia-hodgson-das-suendenhaus-9783426654408"
 topics:
   - "Thriller"
-  - "England"
-source: "https://www.droemer-knaur.de/buch/antonia-hodgson-das-suendenhaus-9783426654408"
 booklists:
   - "wishlist"
 resources:

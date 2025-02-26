@@ -15,8 +15,7 @@ params:
       uri: "https://www.penguin.de/Buch/Die-Chroniken-der-Meerjungfrau-Der-Fluch-der-Wellen/Christina-Henry/Penhaligon/e567150.rhd"
   subtitle: "Der Fluch der Wellen"
 topics:
-  - "Dark Fantasy"
-  - "Meer"
+  - "Fantasy"
 booklists:
   - "completed"
 resources:

@@ -2,15 +2,19 @@
 date: "2023-06-06T13:00:26+01:00"
 title: "Der Astronaut"
 slug: "der-astronaut"
-isbn: "978-3-453-32134-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-32134-2"
-cataloguePermalink: "https://d-nb.info/1220713236"
-author: "Andy Weir"
-publishedAt: "2021"
+params:
+    author: "Andy Weir"
+    isbn: "978-3-453-32134-2"
+    publishingYear: "2021"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-32134-2"
+      - rel: permalink
+        uri: "https://d-nb.info/1220713236"
+      - rel: synopsis
+        uri: "https://www.penguin.de/Taschenbuch/Der-Astronaut/Andy-Weir/Heyne/e614209.rhd"
 topics:
   - "Science Fiction"
-  - "Außerirdische"
-source: "https://www.penguin.de/Taschenbuch/Der-Astronaut/Andy-Weir/Heyne/e614209.rhd"
 booklists:
   - "completed"
   - "favorites"

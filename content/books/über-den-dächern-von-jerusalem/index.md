@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/127137496X"
 author: "Anja Reumschüssel"
 publishedAt: "2023"
 topics:
-  - "Nahost-Konflikt"
-  - "Gesellschaft"
+  - "Drama"
 source: "https://www.carlsen.de/hardcover/uber-den-dachern-von-jerusalem/978-3-551-58514-1"
 booklists:
   - "wishlist"

@@ -9,7 +9,6 @@ author: "Anthony Horowitz"
 publishedAt: "2018"
 topics:
   - "Krimi"
-  - "Detektivgeschichte"
 source: "https://www.suhrkamp.de/buch/anthony-horowitz-die-morde-von-pye-hall-t-9783458177388"
 booklists:
   - unread

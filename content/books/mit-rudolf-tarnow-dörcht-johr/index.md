@@ -9,7 +9,6 @@ author: "Rudolf Tarnow"
 publishedAt: "2004"
 topics:
   - "Humor"
-  - "Plattdeutsch"
 source: "https://www.hinstorff.de/Start/BELLETRISTIK/Niederdeutsch/Niederdeutsch/354/Mit-Rudolf-Tarnow-doerch-t-Johr"
 booklists:
   - unread

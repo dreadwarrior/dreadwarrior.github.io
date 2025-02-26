@@ -8,7 +8,6 @@ author: "Ralph Ellison"
 publishedAt: "2019"
 topics:
   - "Rassismus"
-  - "Amerika"
 source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/der-unsichtbare-mann/978-3-7466-3822-5"
 booklists:
   - "wishlist"

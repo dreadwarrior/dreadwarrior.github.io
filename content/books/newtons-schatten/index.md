@@ -8,7 +8,6 @@ author: "Philip Kerr"
 publishedAt: "2003"
 topics:
   - "Krimi"
-  - "England"
 source: "https://www.rowohlt.de/buch/philip-kerr-newtons-schatten-9783499234101"
 booklists:
   - "wishlist"

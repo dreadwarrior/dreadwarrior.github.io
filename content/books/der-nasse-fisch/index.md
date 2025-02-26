@@ -9,7 +9,6 @@ author: "Volker Kutscher"
 publishedAt: "2020"
 topics:
   - "Krimi"
-  - "Hardboiled"
 source: "https://www.piper.de/buecher/der-nasse-fisch-isbn-978-3-492-31594-4"
 booklists:
   - completed

@@ -9,7 +9,6 @@ author: "Jason Rekulak"
 publishedAt: "2018"
 topics:
   - "Coming of Age"
-  - "80er Jahre"
 source: "http://jasonrekulak.com/impossiblefortress/"
 booklists:
   - "wishlist"

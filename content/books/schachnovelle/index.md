@@ -13,8 +13,7 @@ params:
       - rel: synopsis
         uri: "https://www.suhrkamp.de/buch/stefan-zweig-schachnovelle-t-9783458359012"
 topics:
-  - "Schach"
-  - "Novelle"
+  - "Drama"
 booklists:
   - unread
 resources:

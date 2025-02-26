@@ -2,17 +2,19 @@
 date: "2024-02-11T16:53:31+01:00"
 title: "Babel"
 slug: "babel"
-isbn: "978-3-8479-0143-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8479-0143-3"
-cataloguePermalink: "https://d-nb.info/1275421067"
-author: "Rebecca F. Kuang"
-publishedAt: "2023"
+params:
+    author: "Rebecca F. Kuang"
+    isbn: "978-3-8479-0143-3"
+    publishingYear: "2023"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8479-0143-3"
+      - rel: permalink
+        uri: "https://d-nb.info/1275421067"
+      - rel: synopsis
+        uri: "https://www.luebbe.de/babel/"
 topics:
-  - "Sprache"
-  - "Kultur"
-  - "Kolonialismus"
   - "Fantasy"
-source: "https://www.luebbe.de/babel/"
 booklists:
   - unread
 resources:

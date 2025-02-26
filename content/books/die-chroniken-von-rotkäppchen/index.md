@@ -15,8 +15,7 @@ params:
       uri: "https://www.penguin.de/Buch/Die-Chroniken-von-Rotkaeppchen-Allein-im-tiefen-tiefen-Wald/Christina-Henry/Penhaligon/e565576.rhd"
   subtitle: "Allein im tiefen, tiefen Wald"
 topics:
-  - "Dark Fantasy"
-  - "Dystopie"
+  - "Fantasy"
 booklists:
   - "completed"
 resources:

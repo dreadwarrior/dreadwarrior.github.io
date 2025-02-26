@@ -15,7 +15,6 @@ params:
       uri: "https://gu.de/products/52343-der-kleine-alltagsstoiker?variant=45302645260462"
   subtitle: "10 Gelassenheitsregeln fürs Lebensglück"
 topics:
-  - "Ratgeber"
   - "Philosophie"
 booklists:
   - unread

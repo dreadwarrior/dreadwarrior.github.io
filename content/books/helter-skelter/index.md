@@ -9,8 +9,7 @@ cataloguePermalink: "https://d-nb.info/1131094255"
 author: "Vincent Bugliosi, Curt Gentry"
 publishedAt: "2017"
 topics:
-  - "Organisiertes Verbrechen"
-  - "True Crime"
+  - "Investigation"
 source: "https://www.m-vg.de/riva/shop/article/13008-helter-skelter/"
 booklists:
   - "wishlist"

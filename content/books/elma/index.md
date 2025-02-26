@@ -16,7 +16,6 @@ params:
   subtitle: "Ein Bärenleben"
 topics:
   - "Fabel"
-  - "Kinderbuch"
 booklists:
   - "completed"
   - "favorites"

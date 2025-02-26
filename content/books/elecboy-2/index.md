@@ -16,8 +16,6 @@ params:
   subtitle: "2 - Offenbarungen"
 topics:
   - "Science Fiction"
-  - "Dystopie"
-  - "Graphic Novel"
 booklists:
   - completed
 resources:

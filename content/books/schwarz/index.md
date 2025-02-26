@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2003"
 topics:
   - "Fantasy"
-  - "Western"
 source: "https://www.penguin.de/Taschenbuch/Schwarz/Stephen-King/Heyne/e168759.rhd"
 booklists:
   - "completed"

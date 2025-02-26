@@ -9,7 +9,6 @@ author: "Matt Haig"
 publishedAt: "2021"
 topics:
   - "Fantasy"
-  - "Psychologie"
 source: "https://www.droemer-knaur.de/buch/matt-haig-die-mitternachtsbibliothek-9783426308257"
 booklists:
   - "completed"

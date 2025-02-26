@@ -9,7 +9,6 @@ author: "Antti Tuomainen"
 publishedAt: "2020"
 topics:
   - "Krimi"
-  - "Finnland"
 source: "https://www.rowohlt.de/buch/antti-tuomainen-klein-sibirien-9783499001468"
 booklists:
   - completed

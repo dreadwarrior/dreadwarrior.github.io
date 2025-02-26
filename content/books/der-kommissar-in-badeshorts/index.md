@@ -8,7 +8,6 @@ author: "Tim Frühling"
 publishedAt: "2015"
 topics:
   - "Krimi"
-  - "Kanaren"
 source: "https://emons-verlag.de/p/der-kommissar-in-badeshorts-2077"
 booklists:
   - "wishlist"

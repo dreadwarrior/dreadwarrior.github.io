@@ -9,7 +9,6 @@ author: "Mikael Niemi"
 publishedAt: "2021"
 topics:
   - "Krimi"
-  - "Schweden"
 source: "https://www.penguin.de/Taschenbuch/Wie-man-einen-Baeren-kocht/Mikael-Niemi/btb/e592604.rhd"
 booklists:
   - completed

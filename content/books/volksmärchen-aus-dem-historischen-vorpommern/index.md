@@ -9,7 +9,6 @@ author: "Siegfried Neumann, Werner Schinko"
 publishedAt: "1983"
 topics:
   - "Märchen"
-  - "Vorpommern"
 source: "https://www.hinstorff.de/"
 booklists: ["unread"]
 resources:

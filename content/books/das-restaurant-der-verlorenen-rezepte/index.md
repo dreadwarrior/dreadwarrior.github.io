@@ -1,15 +1,19 @@
 ---
 title: "Das Restaurant der verlorenen Rezepte"
 slug: "das-restaurant-der-verlorenen-rezepte"
-isbn: "978-3-471-36062-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-471-36062-0"
-cataloguePermalink: "https://d-nb.info/1270832751"
-author: "Hisashi Kashiwai"
-publishedAt: "2023"
+params:
+    author: "Hisashi Kashiwai"
+    isbn: "978-3-471-36062-0"
+    publishingYear: "2023"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-471-36062-0"
+      - rel: permalink
+        uri: "https://d-nb.info/1270832751"
+      - rel: synopsis
+        uri: "https://www.ullstein.de/werke/das-restaurant-der-verlorenen-rezepte/hardcover/9783471360620"
 topics:
-  - "Kulinarik"
-  - "Japan"
-source: "https://www.ullstein.de/werke/das-restaurant-der-verlorenen-rezepte/hardcover/9783471360620"
+  - "Fantasy"
 booklists:
   - "wishlist"
 resources:

@@ -9,7 +9,6 @@ author: "Kerstin Ehmer"
 publishedAt: "2019"
 topics:
   - "Krimi"
-  - "Berlin"
 source: "https://www.pendragon.de/kerstin-ehmer/die-schwarze-fee"
 booklists:
   - unread

@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/1255134712"
 author: "Karolina Kuszyk"
 publishedAt: "2022"
 topics:
-  - "Sachbuch"
-  - "Polen"
+  - "Investigation"
 source: "https://www.aufbau-verlage.de/ch-links-verlag/den-hausern-der-anderen/978-3-96289-146-6"
 booklists:
   - unread

@@ -9,7 +9,6 @@ author: "Hans-Jürgen Hube (Hrsg.)"
 publishedAt: "2019"
 topics:
   - "Märchen"
-  - "Norwegen"
 source: "https://www.suhrkamp.de/buch/die-schoensten-norwegischen-maerchen-t-9783458364009"
 booklists:
   - "completed"

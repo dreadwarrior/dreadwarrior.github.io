@@ -9,7 +9,6 @@ author: "Luca Di Fulvio"
 publishedAt: "2011"
 topics:
   - "Historischer Roman"
-  - "Gesellschaft"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/sonstige-belletristik/der-junge-der-traeume-schenkte/id_3229442"
 booklists:
   - "completed"

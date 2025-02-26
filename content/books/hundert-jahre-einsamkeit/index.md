@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/979474140"
 author: "Gabriel García Márquez"
 publishedAt: "2007"
 topics:
-  - "Gesellschaft"
-  - "Lateinamerika"
+  - "Drama"
 source: "https://www.fischerverlage.de/buch/gabriel-garcia-marquez-hundert-jahre-einsamkeit-9783596509812"
 booklists:
   - "wishlist"

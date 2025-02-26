@@ -9,7 +9,6 @@ author: "Heine Bakkeid"
 publishedAt: "2017"
 topics:
   - "Thriller"
-  - "Norwegen"
 source: "https://www.rowohlt.de/buch/heine-bakkeid-morgen-werde-ich-dich-vermissen-9783499290558"
 booklists:
   - completed

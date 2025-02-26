@@ -2,15 +2,20 @@
 date: "2023-09-17T22:02:20+01:00"
 title: "1984, Farm der Tiere"
 slug: "1984-farm-der-tiere"
-isbn: "978-619-7642-50-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-619-7642-50-6"
-cataloguePermalink: "https://d-nb.info/1275136354"
-author: "George Orwell"
-publishedAt: "2022"
+params:
+    author: "George Orwell"
+    isbn: "978-619-7642-50-6"
+    publishingYear: "2022"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-619-7642-50-6"
+      - rel: permalink
+        uri: "https://d-nb.info/1275136354"
+      - rel: synopsis
+        uri: "https://www.thalia.de/shop/home/artikeldetails/A1067302801"
 topics:
   - "Dystopie"
   - "Science Fiction"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1067302801"
 booklists:
   - "completed"
 resources:

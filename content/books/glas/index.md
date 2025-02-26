@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2003"
 topics:
   - "Fantasy"
-  - "Western"
 source: "https://www.penguin.de/Taschenbuch/Glas/Stephen-King/Heyne/e168760.rhd"
 booklists:
   - "completed"

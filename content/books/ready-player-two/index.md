@@ -9,7 +9,6 @@ author: "Ernest Cline"
 publishedAt: "2021"
 topics:
   - "Science Fiction"
-  - "Dystopie"
 source: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-two-9783596706549"
 booklists:
   - unread

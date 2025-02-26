@@ -9,7 +9,6 @@ author: "Frank Herbert"
 publishedAt: "2001"
 topics:
   - "Science Fiction"
-  - "Weltraumoper"
 source: "https://www.penguin.de/Taschenbuch/Die-Ordensburg-des-Wuestenplaneten/Frank-Herbert/Heyne/e165028.rhd"
 booklists:
   - unread

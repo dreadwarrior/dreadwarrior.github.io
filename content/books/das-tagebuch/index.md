@@ -1,15 +1,19 @@
 ---
 title: "Das Tagebuch"
 slug: "das-tagebuch"
-isbn: "978-3-86282-473-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86282-473-1"
-cataloguePermalink: "https://d-nb.info/1115885677"
-author: "Carl Wilckens"
-publishedAt: "2017"
+params:
+    author: "Carl Wilckens"
+    isbn: "978-3-86282-473-1"
+    publishingYear: "2017"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86282-473-1"
+      - rel: permalink
+        uri: "https://d-nb.info/1115885677"
+      - rel: synopsis
+        uri: "http://web.archive.org/web/20230610115300/https://bedey-thoms.de/products/dreizehn-tagebuch"
 topics:
-  - "Dark Fantasy"
-  - "Steampunk"
-source: "http://web.archive.org/web/20230610115300/https://bedey-thoms.de/products/dreizehn-tagebuch"
+  - "Fantasy"
 booklists:
   - "wishlist"
 resources:

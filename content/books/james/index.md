@@ -8,9 +8,7 @@ cataloguePermalink: "https://d-nb.info/1306107237"
 author: "Percival Everett"
 publishedAt: "2024"
 topics:
-  - "Freundschaft"
   - "Abenteuer"
-  - "Sklaverei"
 source: "https://www.hanser-literaturverlage.de/buch/percival-everett-james-9783446279483-t-5217"
 booklists:
   - wishlist

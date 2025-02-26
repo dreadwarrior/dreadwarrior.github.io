@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/98875942X"
 author: "Roberto Saviano"
 publishedAt: "2009"
 topics:
-  - "Investigativjournalismus"
-  - "Mafia"
+  - "Investigation"
 source: "https://www.dtv.de/buch/gomorrha-34529"
 booklists:
   - unread

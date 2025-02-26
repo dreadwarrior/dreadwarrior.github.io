@@ -16,7 +16,6 @@ params:
   subtitle: "Eine Geistergeschichte"
 topics:
   - "Horror"
-  - "Amerika"
 booklists:
   - wishlist
 resources:

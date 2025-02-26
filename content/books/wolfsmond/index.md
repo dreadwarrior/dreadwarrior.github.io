@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2004"
 topics:
   - "Fantasy"
-  - "Western"
 source: "https://www.penguin.de/Taschenbuch/Wolfsmond/Stephen-King/Heyne/e171947.rhd"
 booklists:
   - "completed"

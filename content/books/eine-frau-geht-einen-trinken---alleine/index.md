@@ -10,8 +10,6 @@ author: "Lou Zucker"
 publishedAt: "2023"
 topics:
   - "Essay"
-  - "Feminismus"
-  - "Emanzipation"
 source: "https://www.maroverlag.de/marohefte/269-eine-frau-geht-einen-trinken-alleine-9783875126266.html"
 booklists:
   - completed

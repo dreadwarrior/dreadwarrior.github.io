@@ -9,7 +9,6 @@ author: "John Ajvide Lindqvist"
 publishedAt: "2024"
 topics:
   - "Thriller"
-  - "Schweden"
 source: "https://www.dtv.de/buch/refugium-28364"
 booklists:
   - "wishlist"

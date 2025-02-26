@@ -9,7 +9,6 @@ author: "Walter S. Tevis"
 publishedAt: "2023"
 topics:
   - "Science Fiction"
-  - "Außerirdische"
 source: "https://www.diogenes.ch/leser/titel/walter-tevis/der-mann-der-vom-himmel-fiel-9783257247138.html"
 booklists:
   - "wishlist"

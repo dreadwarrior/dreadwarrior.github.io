@@ -9,7 +9,6 @@ author: "Johanna Sinisalo"
 publishedAt: "2014"
 topics:
   - "Fantasy"
-  - "Feminismus"
 source: "https://www.klett-cotta.de/produkt/johanna-sinisalo-finnisches-feuer-9783608501445-t-2733"
 booklists:
   - "completed"

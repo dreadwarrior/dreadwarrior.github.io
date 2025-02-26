@@ -9,7 +9,6 @@ author: "Markus Heitz"
 publishedAt: "2009"
 topics:
   - "Fantasy"
-  - "Zwerge"
 source: "https://www.piper.de/buecher/die-zwerge-isbn-978-3-492-95000-8-ebook"
 booklists:
   - "completed"

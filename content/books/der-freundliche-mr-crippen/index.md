@@ -9,7 +9,6 @@ author: "John Boyne"
 publishedAt: "2015"
 topics:
   - "Krimi"
-  - "England"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1034941693"
 booklists:
   - completed

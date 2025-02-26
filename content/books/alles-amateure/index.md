@@ -1,15 +1,19 @@
 ---
 title: "Alles Amateure"
 slug: "alles-amateure"
-isbn: "978-3-492-31262-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-31262-2"
-cataloguePermalink: "https://d-nb.info/1142558754"
-author: "Benjamin Kuhlhoff"
-publishedAt: "2018"
+params:
+    author: "Benjamin Kuhlhoff"
+    isbn: "978-3-492-31262-2"
+    publishingYear: "2018"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-31262-2"
+      - rel: permalink
+        uri: "https://d-nb.info/1142558754"
+      - rel: synopsis
+        uri: "http://web.archive.org/web/20240222081442/https://www.piper.de/buecher/alles-amateure-isbn-978-3-492-31262-2"
 topics:
-  - "Sachbuch"
   - "Fußball"
-source: "http://web.archive.org/web/20240222081442/https://www.piper.de/buecher/alles-amateure-isbn-978-3-492-31262-2"
 booklists:
   - "wishlist"
 resources:

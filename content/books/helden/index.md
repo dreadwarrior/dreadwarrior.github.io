@@ -9,7 +9,6 @@ cataloguePermalink: "https://d-nb.info/120842887X"
 author: "Stephen Fry"
 publishedAt: "2020"
 topics:
-  - "Sagen"
   - "Fantasy"
 source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/helden/978-3-7466-3975-8"
 booklists:

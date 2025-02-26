@@ -16,7 +16,6 @@ params:
   subtitle: "Der Rückkehrer"
 topics:
   - "Western"
-  - "Überlebenskampf"
 booklists:
   - completed
 resources:

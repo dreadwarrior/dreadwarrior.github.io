@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/1256046590"
 author: "Mariana Leky"
 publishedAt: "2022"
 topics:
-  - "Mentale Gesundheit"
-  - "Alltag"
+  - "Drama"
 source: "https://www.dumont-buchverlag.de/buch/mariana-leky-kummer-aller-art-9783832167233-t-5900"
 booklists:
   - unread

@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/994208073"
 author: "Jay Dobyns"
 publishedAt: "2010"
 topics:
-  - "Organisiertes Verbrechen"
-  - "Erlebnisbericht"
+  - "Investigation"
 source: "https://www.m-vg.de/riva/shop/article/2214-falscher-engel/"
 booklists:
   - unread

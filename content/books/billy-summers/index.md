@@ -14,7 +14,6 @@ params:
       uri: "https://www.thalia.de/shop/home/suggestartikel/A1063536737"
 topics:
   - "Thriller"
-  - "Suspense"
 booklists:
   - unread
 resources:

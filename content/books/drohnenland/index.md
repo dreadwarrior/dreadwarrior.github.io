@@ -8,7 +8,6 @@ author: "Tom Hillenbrand"
 publishedAt: "2014"
 topics:
   - "Krimi"
-  - "Belgien"
 source: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-drohnenland-9783462046625"
 booklists:
   - "wishlist"

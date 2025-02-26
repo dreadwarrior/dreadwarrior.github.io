@@ -2,17 +2,19 @@
 date: "2022-12-18T20:39:58+01:00"
 title: "1794"
 slug: "1794"
-isbn: "978-3-492-06194-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-06194-0"
-cataloguePermalink: "https://d-nb.info/1193505569"
-author: "Niklas Natt och Dag"
-publishedAt: "2020"
+params:
+    author: "Niklas Natt och Dag"
+    isbn: "978-3-492-06194-0"
+    publishingYear: "2020"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-06194-0"
+      - rel: permalink
+        uri: "https://d-nb.info/1193505569"
+      - rel: synopsis
+        uri: "https://www.piper.de/buecher/1794-isbn-978-3-492-31794-8"
 topics:
-  - "Nordic Noir"
   - "Krimi"
-  - "Schweden"
-  - "Historischer Roman"
-source: "https://www.piper.de/buecher/1794-isbn-978-3-492-31794-8"
 booklists:
   - "completed"
   - "favorites"

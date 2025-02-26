@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/1103690086"
 author: "William Styron"
 publishedAt: "2016"
 topics:
-  - "Gesellschaft"
-  - "Novelle"
+  - "Drama"
 source: "https://www.isbn.de/buch/9783596311484/und-legte-feuer-an-dies-haus"
 booklists:
   - "wishlist"

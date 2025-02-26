@@ -8,7 +8,6 @@ cataloguePermalink: "https://d-nb.info/1244453056"
 author: "Verena Keßler"
 publishedAt: "2022"
 topics:
-  - "Mecklenburg-Vorpommern"
   - "Coming of Age"
 source: "https://www.dtv.de/buch/die-gespenster-von-demmin-62757"
 booklists:

@@ -8,7 +8,6 @@ author: "Thomas Harris"
 publishedAt: "2019"
 topics:
   - "Thriller"
-  - "FBI"
 source: "https://shop.penguinrandomhouse.de/shop/article/38726435/thomas_harris_hannibal.html"
 booklists:
   - "wishlist"

@@ -2,15 +2,19 @@
 date: 2024-07-25T00:31:50+02:00
 title: "Das Geheimnis des weißen Bandes"
 slug: "das-geheimnis-des-weißen-bandes"
-isbn: "978-3-458-35915-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-458-35915-9"
-cataloguePermalink: "https://d-nb.info/1028543816"
-author: "Anthony Horowitz"
-publishedAt: "2013"
+params:
+    author: "Anthony Horowitz"
+    isbn: "978-3-458-35915-9"
+    publishingYear: "2013"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-458-35915-9"
+      - rel: permalink
+        uri: "https://d-nb.info/1028543816"
+      - rel: synopsis
+        uri: "https://www.thalia.de/shop/home/artikeldetails/A1027127465"
 topics:
-  - "Detektivgeschichte"
   - "Krimi"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1027127465"
 booklists:
   - completed
 resources:

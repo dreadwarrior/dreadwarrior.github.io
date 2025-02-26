@@ -14,7 +14,6 @@ params:
     - rel: synopsis
       uri: "https://www.johnmurraypress.co.uk/titles/andrew-michael-hurley/starve-acre/9781529387308/"
 topics:
-  - "Großbritannien"
   - "Folklore"
   - "Horror"
 booklists:

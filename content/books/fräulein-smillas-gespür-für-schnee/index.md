@@ -10,7 +10,6 @@ publishedAt: "1996"
 topics:
   - "Thriller"
   - "Krimi"
-  - "Dänemark"
 source: "https://www.rowohlt.de/buch/peter-hoeeg-fraeulein-smillas-gespuer-fuer-schnee-9783499237010"
 booklists:
   - completed

@@ -8,7 +8,6 @@ author: "William Boyd"
 publishedAt: "2021"
 topics:
   - "Thriller"
-  - "England"
 source: "https://kampaverlag.ch/produkt/einfache-gewitter/"
 booklists:
   - "wishlist"

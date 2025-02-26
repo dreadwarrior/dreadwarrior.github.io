@@ -2,15 +2,19 @@
 date: "2023-10-26T22:05:34+02:00"
 title: "Ausgebrannt"
 slug: "ausgebrannt"
-isbn: "978-3-404-19199-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-19199-4"
-cataloguePermalink: "https://d-nb.info/1271552337"
-author: "Andreas Eschbach"
-publishedAt: "2023"
+params:
+    author: "Andreas Eschbach"
+    isbn: "978-3-404-19199-4"
+    publishingYear: "2023"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-19199-4"
+      - rel: permalink
+        uri: "https://d-nb.info/1271552337"
+      - rel: synopsis
+        uri: "https://www.luebbe.de/bastei-luebbe/ebooks/thriller/ausgebrannt/id_3050586"
 topics:
   - "Thriller"
-  - "Umwelt"
-source: "https://www.luebbe.de/bastei-luebbe/ebooks/thriller/ausgebrannt/id_3050586"
 booklists:
   - "wishlist"
 resources:

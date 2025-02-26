@@ -8,7 +8,6 @@ author: "Frank Schätzing"
 publishedAt: "2011"
 topics:
   - "Thriller"
-  - "Deutschland"
 source: "http://web.archive.org/web/20230601214435/https://emons-verlag.de/p/lautlos-2961"
 booklists:
   - "wishlist"

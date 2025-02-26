@@ -8,8 +8,6 @@ cataloguePermalink: "https://d-nb.info/1131180038"
 author: "Tom Hillenbrand"
 publishedAt: "2017"
 topics:
-  - "Abenteuer"
-  - "Kaffee"
   - "Historischer Roman"
 source: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-der-kaffeedieb-9783462050639"
 booklists:

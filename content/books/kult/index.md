@@ -14,8 +14,7 @@ params:
     - rel: synopsis
       uri: "https://www.suhrkamp.de/buch/ljubko-deresch-kult-t-9783518124499"
 topics:
-  - "Osteuropa"
-  - "Ukraine"
+  - "Drama"
 booklists:
   - wishlist
 resources:

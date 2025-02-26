@@ -16,7 +16,6 @@ params:
   subtitle: "Träumen Androiden von elektrischen Schafen?"
 topics:
   - "Science Fiction"
-  - "Androiden"
 booklists:
   - "completed"
 resources:

@@ -8,7 +8,6 @@ cataloguePermalink: "https://openlibrary.org/books/OL38019943M/Sherlock_Holmes_a
 author: "Tim Major"
 publishedAt: "2022"
 topics:
-  - "Detektivgeschichte"
   - "Krimi"
 source: "http://web.archive.org/web/20240228162158/https://titanbooks.com/71135-sherlock-holmes-and-the-twelve-thefts-of-christmas/"
 booklists:

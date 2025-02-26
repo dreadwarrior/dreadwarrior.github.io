@@ -8,7 +8,6 @@ author: "Andreas Eschbach"
 publishedAt: "2020"
 topics:
   - "Thriller"
-  - "Weltwirtschaft"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/eine-billion-dollar/id_10217806"
 booklists:
   - "wishlist"

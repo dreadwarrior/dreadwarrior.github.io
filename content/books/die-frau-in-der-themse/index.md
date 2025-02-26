@@ -9,7 +9,6 @@ author: "Steven Price"
 publishedAt: "2021"
 topics:
   - "Krimi"
-  - "England"
 source: "https://www.diogenes.ch/leser/titel/steven-price/die-frau-in-der-themse-9783257245875.html"
 booklists:
   - unread

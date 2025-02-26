@@ -16,8 +16,6 @@ params:
   subtitle: "Jüdische Partisanen im Zweiten Weltkrieg"
 topics:
   - "Zweiter Weltkrieg"
-  - "Partisanen"
-  - "Widerstand"
 booklists:
   - wishlist
 resources:

@@ -8,7 +8,6 @@ author: "Michail Bulgakov"
 publishedAt: "2020"
 topics:
   - "Fantasy"
-  - "Russland"
 source: "https://shop.penguinrandomhouse.de/shop/article/5206727/michail_bulgakow_der_meister_und_margarita.html?source=42754145"
 booklists:
   - "wishlist"

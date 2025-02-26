@@ -2,17 +2,19 @@
 date: "2023-01-22T20:00:51+01:00"
 title: "1795"
 slug: "1795"
-isbn: "978-3-492-06195-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-06195-7"
-cataloguePermalink: "https://d-nb.info/1237634199"
-author: "Niklas Natt och Dag"
-publishedAt: "2022"
+params:
+    author: "Niklas Natt och Dag"
+    isbn: "978-3-492-06195-7"
+    publishingYear: "2022"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-06195-7"
+      - rel: permalink
+        uri: "https://d-nb.info/1237634199"
+      - rel: synopsis
+        uri: "http://web.archive.org/web/20230929142216/https://www.piper.de/buecher/1795-isbn-978-3-492-06195-7"
 topics:
-  - "Nordic Noir"
   - "Krimi"
-  - "Schweden"
-  - "Historischer Roman"
-source: "http://web.archive.org/web/20230929142216/https://www.piper.de/buecher/1795-isbn-978-3-492-06195-7"
 booklists:
   - "completed"
   - "favorites"

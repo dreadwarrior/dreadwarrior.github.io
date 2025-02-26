@@ -1,18 +1,21 @@
 ---
 date: "2023-12-23T19:58:04+01:00"
 title: "Aus den Ärschen aus dem Sinn"
-subtitle: "Eine Odyssee durch Körper, Klo, Kanalisation, Kläranlage und Wolken : ein zirkulierendes Heft"
 slug: "aus-den-ärschen-aus-dem-sinn"
-isbn: "978-3-87512-618-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-87512-618-1"
-cataloguePermalink: "https://d-nb.info/1223473163"
-author: "Felix Bork"
-publishedAt: "2021"
+params:
+    author: "Felix Bork"
+    isbn: "978-3-87512-618-1"
+    publishingYear: "2021"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-87512-618-1"
+      - rel: permalink
+        uri: "https://d-nb.info/1223473163"
+      - rel: synopsis
+        uri: "https://www.maroverlag.de/marohefte/242-aus-den-aerschen-aus-dem-sinn-9783875126181.html"
+    subtitle: "Eine Odyssee durch Körper, Klo, Kanalisation, Kläranlage und Wolken : ein zirkulierendes Heft"
 topics:
   - "Essay"
-  - "Abwasser"
-  - "Entsorgung"
-source: "https://www.maroverlag.de/marohefte/242-aus-den-aerschen-aus-dem-sinn-9783875126181.html"
 booklists:
   - completed
 resources:

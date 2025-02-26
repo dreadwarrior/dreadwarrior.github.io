@@ -9,7 +9,6 @@ author: "Wolf Haas"
 publishedAt: "2019"
 topics:
   - "Coming of Age"
-  - "Gesellschaft"
 source: "https://hoffmann-und-campe.de/products/45103-junger-mann?variant=44570021855500"
 booklists:
   - "wishlist"

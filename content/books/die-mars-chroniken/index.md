@@ -9,7 +9,6 @@ author: "Ray Bradbury"
 publishedAt: "1987"
 topics:
   - "Science Fiction"
-  - "Klassiker"
 source: "https://www.diogenes.ch/leser/titel/ray-bradbury/die-mars-chroniken-9783257208634.html"
 booklists:
   - completed

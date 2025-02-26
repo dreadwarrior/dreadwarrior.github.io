@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2005"
 topics:
   - "Fantasy"
-  - "Western"
 source: "https://www.penguin.de/Taschenbuch/Susannah/Stephen-King/Heyne/e174209.rhd"
 booklists:
   - "completed"

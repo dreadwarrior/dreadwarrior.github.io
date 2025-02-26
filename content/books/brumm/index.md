@@ -1,15 +1,19 @@
 ---
 title: "Brumm"
 slug: "brumm"
-isbn: "978-3-96698-284-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-96698-284-9"
-cataloguePermalink: "https://d-nb.info/1206486430"
-author: "Helmut Barz"
-publishedAt: "2020"
+params:
+    author: "Helmut Barz"
+    isbn: "978-3-96698-284-9"
+    publishingYear: "2020"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-96698-284-9"
+      - rel: permalink
+        uri: "https://d-nb.info/1206486430"
+      - rel: synopsis
+        uri: "https://www.thalia.de/shop/home/artikeldetails/A1058322573"
 topics:
-  - "Fabel"
-  - "Neoschamanismus"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1058322573"
+  - "Fantasy"
 booklists:
   - "wishlist"
 resources:

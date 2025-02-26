@@ -15,8 +15,7 @@ params:
       uri: "https://www.penguin.de/Buch/Die-Chroniken-von-Peter-Pan-Albtraum-im-Nimmerland/Christina-Henry/Penhaligon/e567149.rhd"
   subtitle: "Albtraum im Nimmerland"
 topics:
-  - "Dark Fantasy"
-  - "Märchen"
+  - "Fantasy"
 booklists:
   - "completed"
 resources:

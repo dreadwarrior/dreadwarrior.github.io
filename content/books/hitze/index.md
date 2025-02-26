@@ -8,7 +8,6 @@ author: "Jane Harper"
 publishedAt: "2018"
 topics:
   - "Thriller"
-  - "Australien"
 source: "https://www.rowohlt.de/buch/jane-harper-hitze-9783499272509"
 booklists:
   - "wishlist"

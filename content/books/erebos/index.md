@@ -8,8 +8,6 @@ cataloguePermalink: "https://d-nb.info/1183491514"
 author: "Ursula Poznanski"
 publishedAt: "2019"
 topics:
-  - "Künstliche Intelligenz"
-  - "London"
   - "Thriller"
 source: "https://www.loewe-verlag.de/titel-0-0/erebos-4322/"
 booklists:

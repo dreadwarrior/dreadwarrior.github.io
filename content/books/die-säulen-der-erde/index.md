@@ -9,7 +9,6 @@ author: "Ken Follett"
 publishedAt: "2019"
 topics:
   - "Historischer Roman"
-  - "England"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/historische-romane/die-saeulen-der-erde/id_7041488"
 booklists:
   - unread

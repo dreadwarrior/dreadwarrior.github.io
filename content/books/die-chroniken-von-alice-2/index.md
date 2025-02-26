@@ -15,8 +15,7 @@ params:
       uri: "https://www.penguin.de/Buch/Die-Chroniken-von-Alice-Die-Schwarze-Koenigin/Christina-Henry/Penhaligon/e567147.rhd"
   subtitle: "Die Schwarze Königin"
 topics:
-  - "Dark Fantasy"
-  - "Abenteuer"
+  - "Fantasy"
 booklists:
   - "completed"
 resources:

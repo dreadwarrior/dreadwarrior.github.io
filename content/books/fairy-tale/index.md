@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/1254684808"
 author: "Stephen King"
 publishedAt: "2022"
 topics:
-  - "Dark Fantasy"
-  - "Märchen"
+  - "Fantasy"
 source: "https://shop.penguinrandomhouse.de/shop/article/46635227/stephen_king_fairy_tale.html"
 booklists:
   - "wishlist"

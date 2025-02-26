@@ -10,7 +10,6 @@ publishedAt: "2020"
 topics:
   - "Krimi"
   - "Thriller"
-  - "Japan"
 source: "https://www.piper.de/buecher/unter-der-mitternachtssonne-isbn-978-3-492-31498-5"
 booklists:
   - unread

@@ -9,7 +9,6 @@ author: "Johan Egerkrans"
 publishedAt: "2019"
 topics:
   - "Religion"
-  - "Skandinavien"
 source: "https://www.w1-media.de/produkte/nordische-goetter-5518"
 booklists:
   - "completed"

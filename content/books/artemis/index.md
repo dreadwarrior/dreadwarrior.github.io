@@ -2,15 +2,19 @@
 date: "2023-10-31T07:38:48+01:00"
 title: "Artemis"
 slug: "artemis"
-isbn: "978-3-453-27167-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-27167-8"
-cataloguePermalink: "https://d-nb.info/1144300401"
-author: "Andy Weir"
-publishedAt: "2018"
+params:
+    author: "Andy Weir"
+    isbn: "978-3-453-27167-8"
+    publishingYear: "2018"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-27167-8"
+      - rel: permalink
+        uri: "https://d-nb.info/1144300401"
+      - rel: synopsis
+        uri: "https://www.penguin.de/ebook/Artemis/Andy-Weir/Heyne/e535471.rhd"
 topics:
   - "Science Fiction"
-  - "Mond"
-source: "https://www.penguin.de/ebook/Artemis/Andy-Weir/Heyne/e535471.rhd"
 booklists:
   - "completed"
 resources:

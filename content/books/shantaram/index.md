@@ -9,8 +9,6 @@ author: "Gregory David Roberts"
 publishedAt: "2010"
 topics:
   - "Abenteuer"
-  - "Gesellschaft"
-  - "Indien"
 source: "https://www.penguin.de/Taschenbuch/Shantaram/Gregory-David-Roberts/Goldmann/e276685.rhd"
 booklists:
   - unread

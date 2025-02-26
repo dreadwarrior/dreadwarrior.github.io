@@ -1,17 +1,21 @@
 ---
 date: 2024-10-11T17:44:46+02:00
 title: "Anatomie der Wolken"
-subtitle: "Als Caspar David Friedrich auf Johann Wolfgang von Goethe traf"
 slug: "anatomie-der-wolken"
-isbn: "978-3-311-15096-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-311-15096-1"
-cataloguePermalink: "https://d-nb.info/1325501093"
-author: "Lea Singer"
-publishedAt: "2024"
+params:
+    author: "Lea Singer"
+    isbn: "978-3-311-15096-1"
+    publishingYear: "2024"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-311-15096-1"
+      - rel: permalink
+        uri: "https://d-nb.info/1325501093"
+      - rel: synopsis
+        uri: "https://kampaverlag.ch/produkt/anatomie-der-wolken-ebook/"
+    subtitle: "Als Caspar David Friedrich auf Johann Wolfgang von Goethe traf"
 topics:
   - "Historischer Roman"
-  - "Deutschland"
-source: "https://kampaverlag.ch/produkt/anatomie-der-wolken-ebook/"
 booklists:
   - completed
 resources:

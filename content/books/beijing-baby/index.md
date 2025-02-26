@@ -1,15 +1,19 @@
 ---
 title: "Beijing Baby"
 slug: "beijing-baby"
-isbn: "978-3-95889-100-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95889-100-5"
-cataloguePermalink: "https://d-nb.info/1079540040"
-author: "Volker Häring"
-publishedAt: "2016"
+params:
+    author: "Volker Häring"
+    isbn: "978-3-95889-100-5"
+    publishingYear: "2016"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95889-100-5"
+      - rel: permalink
+        uri: "https://d-nb.info/1079540040"
+      - rel: synopsis
+        uri: "https://www.thalia.de/shop/home/artikeldetails/A1040072396"
 topics:
   - "Krimi"
-  - "China"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1040072396"
 booklists:
   - "wishlist"
 resources:

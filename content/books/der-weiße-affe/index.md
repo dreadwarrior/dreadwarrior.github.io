@@ -9,7 +9,6 @@ author: "Kerstin Ehmer"
 publishedAt: "2017"
 topics:
   - "Krimi"
-  - "Berlin"
 source: "https://www.pendragon.de/kerstin-ehmer/der-weisse-affe"
 booklists:
   - "completed"

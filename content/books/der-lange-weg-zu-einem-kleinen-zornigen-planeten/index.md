@@ -9,7 +9,6 @@ author: "Becky Chambers"
 publishedAt: "2016"
 topics:
   - "Science Fiction"
-  - "Weltraumoper"
 source: "https://www.fischerverlage.de/buch/becky-chambers-der-lange-weg-zu-einem-kleinen-zornigen-planeten-9783596035687"
 booklists:
   - wishlist

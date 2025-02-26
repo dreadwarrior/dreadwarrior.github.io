@@ -15,8 +15,6 @@ params:
       uri: "https://www.kiwi-verlag.de/buch/frank-schaetzing-helden-9783462000979"
   subtitle: "Roman"
 topics:
-  - "Mittelalter"
-  - "Deutschland"
   - "Historischer Roman"
 booklists:
   - wishlist

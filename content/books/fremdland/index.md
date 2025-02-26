@@ -9,7 +9,6 @@ author: "Philipp Reinartz"
 publishedAt: "2019"
 topics:
   - "Krimi"
-  - "Berlin"
 source: "https://www.penguin.de/ebook/Fremdland/Philipp-Reinartz/Goldmann/e507915.rhd"
 booklists:
   - "completed"

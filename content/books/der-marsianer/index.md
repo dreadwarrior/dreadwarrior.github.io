@@ -8,7 +8,6 @@ author: "Andy Weir"
 publishedAt: "2014"
 topics:
   - "Science Fiction"
-  - "Mars"
 source: "https://shop.penguinrandomhouse.de/shop/article/25256455/andy_weir_der_marsianer.html"
 booklists:
   - "wishlist"

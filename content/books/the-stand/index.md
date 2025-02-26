@@ -16,7 +16,7 @@ params:
   subtitle: "Das letzte Gefecht"
 topics:
   - "Fantasy"
-  - "Pandemie"
+  - "Horror"
 booklists:
   - "completed"
   - "favorites"

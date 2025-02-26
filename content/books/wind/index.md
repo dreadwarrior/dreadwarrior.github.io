@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2012"
 topics:
   - "Fantasy"
-  - "Western"
 source: "https://www.penguin.de/Taschenbuch/Wind/Stephen-King/Heyne/e407226.rhd"
 booklists:
   - "completed"

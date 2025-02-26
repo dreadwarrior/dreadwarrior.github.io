@@ -2,15 +2,19 @@
 date: "2024-02-11T16:59:33+01:00"
 title: "Das achte Leben (für Brilka)"
 slug: "das-achte-leben-für-brilka"
-isbn: "978-3-548-28927-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-28927-4"
-cataloguePermalink: "https://d-nb.info/1139397303"
-author: "Nino Haratischwili"
-publishedAt: "2017"
+params:
+    author: "Nino Haratischwili"
+    isbn: "978-3-548-28927-4"
+    publishingYear: "2017"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-28927-4"
+      - rel: permalink
+        uri: "https://d-nb.info/1139397303"
+      - rel: synopsis
+        uri: "https://www.ullstein.de/werke/das-achte-leben-fuer-brilka/taschenbuch/9783548289274"
 topics:
   - "Familiensaga"
-  - "Europa"
-source: "https://www.ullstein.de/werke/das-achte-leben-fuer-brilka/taschenbuch/9783548289274"
 booklists:
   - unread
 resources:

@@ -9,7 +9,6 @@ author: "Andreas Eschbach"
 publishedAt: "2005"
 topics:
   - "Science Fiction"
-  - "Fantasy"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/science-fiction-romane/die-haarteppichknuepfer/id_8790667"
 booklists:
   - "completed"

@@ -9,7 +9,6 @@ author: "Nikos Kazantzakēs"
 publishedAt: "1995"
 topics:
   - "Religion"
-  - "Israel"
 source: "https://de.wikipedia.org/wiki/Die_letzte_Versuchung"
 booklists:
   - "wishlist"

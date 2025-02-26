@@ -9,7 +9,6 @@ author: "Silvia Moreno-Garcia"
 publishedAt: "2023"
 topics:
   - "Krimi"
-  - "Mexiko"
 source: "https://www.penguin.de/Taschenbuch/Der-mexikanische-Fluch/Silvia-Moreno-Garcia/Blanvalet/e617399.rhd"
 booklists:
   - unread

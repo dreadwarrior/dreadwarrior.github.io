@@ -8,7 +8,6 @@ author: "John Ajvide Lindqvist"
 publishedAt: "2023"
 topics:
   - "Fantasy"
-  - "Schweden"
 source: "https://www.dtv.de/buch/unwesen-28338"
 booklists:
   - "wishlist"

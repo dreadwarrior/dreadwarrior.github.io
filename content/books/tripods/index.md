@@ -8,7 +8,6 @@ author: "John Christopher"
 publishedAt: "2016"
 topics:
   - "Science Fiction"
-  - "Außerirdische"
 source: "https://www.isbn.de/buch/9783492703499/tripods-die-dreibeinigen-herrscher"
 booklists:
   - "wishlist"

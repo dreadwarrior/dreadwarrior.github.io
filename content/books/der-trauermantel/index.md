@@ -9,7 +9,6 @@ author: "Unni Lindell"
 publishedAt: "2001"
 topics:
   - "Krimi"
-  - "Norwegen"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1039600047"
 booklists:
   - "wishlist"

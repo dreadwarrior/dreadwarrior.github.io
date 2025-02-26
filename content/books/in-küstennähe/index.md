@@ -9,7 +9,6 @@ author: "Joachim B. Schmidt"
 publishedAt: "2022"
 topics:
   - "Erzählung"
-  - "Island"
 source: "https://www.diogenes.ch/leser/titel/joachim-b-schmidt/in-kuestennaehe-9783257246667.html"
 booklists:
   - unread

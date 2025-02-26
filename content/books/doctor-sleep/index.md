@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2013"
 topics:
   - "Horror"
-  - "Übersinnliches"
 source: "https://www.penguin.de/Taschenbuch/Doctor-Sleep/Stephen-King/Heyne/e461201.rhd"
 booklists:
   - "completed"

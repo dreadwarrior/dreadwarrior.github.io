@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/1208988824"
 author: "Esi Edugyan"
 publishedAt: "2020"
 topics:
-  - "Sklaverei"
-  - "Karibik"
+  - "Historischer Roman"
 source: "https://www.luebbe.de/eichborn/buecher/sonstige-belletristik/washington-black/id_7503749"
 booklists:
   - "wishlist"

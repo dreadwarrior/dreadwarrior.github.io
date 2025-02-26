@@ -1,15 +1,20 @@
 ---
 title: "Countdown zum Untergang"
 slug: "countdown-zum-untergang"
-isbn: "978-3-96966-398-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-96966-398-1"
-cataloguePermalink: "https://d-nb.info/1225057140"
-author: "Michael Hirtzy"
-publishedAt: "2021"
+params:
+    author: "Michael Hirtzy"
+    isbn: "978-3-96966-398-1"
+    publishingYear: "2021"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-96966-398-1"
+      - rel: permalink
+        uri: "https://d-nb.info/1225057140"
+      - rel: synopsis
+        uri: "https://www.thalia.de/shop/home/artikeldetails/A1060202010"
 topics:
   - "Science Fiction"
   - "Thriller"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1060202010"
 booklists:
   - "wishlist"
 resources:

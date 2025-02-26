@@ -7,7 +7,6 @@ cataloguePermalink: "https://d-nb.info/1119918960"
 author: "Sven Stricker"
 publishedAt: "2017"
 topics:
-  - "Midlife-Crisis"
   - "Humor"
 source: "https://www.rowohlt.de/buch/sven-stricker-mensch-ruediger-9783499290787"
 booklists:

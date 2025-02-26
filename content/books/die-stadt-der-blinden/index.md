@@ -7,7 +7,6 @@ cataloguePermalink: "https://d-nb.info/1070341061"
 author: "José Saramago"
 publishedAt: "2015"
 topics:
-  - "Gesellschaft"
   - "Dystopie"
 source: "https://www.isbn.de/buch/9783442745296/die-stadt-der-blinden"
 booklists:

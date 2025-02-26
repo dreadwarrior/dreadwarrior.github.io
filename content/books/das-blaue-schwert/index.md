@@ -2,15 +2,20 @@
 date: "2023-12-04T21:21:30+01:00"
 title: "Das blaue Schwert"
 slug: "das-blaue-schwert"
-isbn: "978-3-453-02782-4"
-coverUri: "https://m.media-amazon.com/images/I/51Xzse0eQ2L.jpg"
-cataloguePermalink: "https://d-nb.info/881478075"
-author: "Robin McKinley"
-publishedAt: "1988"
+params:
+    author: "Robin McKinley"
+    isbn: "978-3-453-02782-4"
+    publishingYear: "1988"
+    references:
+      - rel: cover
+        uri: "https://m.media-amazon.com/images/I/51Xzse0eQ2L.jpg"
+      - rel: permalink
+        uri: "https://d-nb.info/881478075"
+      - rel: synopsis
+        uri: "https://openlibrary.org/books/OL24231189M/The_Blue_Sword"
 topics:
   - "Fantasy"
   - "Coming of Age"
-source: "https://openlibrary.org/books/OL24231189M/The_Blue_Sword"
 booklists:
   - "wishlist"
 resources:

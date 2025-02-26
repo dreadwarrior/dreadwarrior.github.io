@@ -14,8 +14,7 @@ params:
       uri: "https://www.thalia.de/shop/home/artikeldetails/A1034688634"
   subtitle: "Die besten Geschichten alter Kapitäne"
 topics:
-  - "Seefahrt"
-  - "Meer"
+  - "Kurzgeschichten"
 booklists:
   - "wishlist"
 resources:

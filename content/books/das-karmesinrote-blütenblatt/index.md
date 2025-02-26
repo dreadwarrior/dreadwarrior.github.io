@@ -2,15 +2,19 @@
 date: "2023-08-17T21:18:56+01:00"
 title: "Das karmesinrote Blütenblatt"
 slug: "das-karmesinrote-blütenblatt"
-isbn: "978-3-548-60478-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-60478-7"
-cataloguePermalink: "https://d-nb.info/970897472"
-author: "Michel Faber"
-publishedAt: "2004"
+params:
+    author: "Michel Faber"
+    isbn: "978-3-548-60478-7"
+    publishingYear: "2004"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-60478-7"
+      - rel: permalink
+        uri: "https://d-nb.info/970897472"
+      - rel: synopsis
+        uri: "https://www.buecher.de/shop/historische-romane/das-karmesinrote-bluetenblatt/faber-michel/products_products/detail/prod_id/12800524/"
 topics:
   - "Historischer Roman"
-  - "Prostitution"
-source: "https://www.buecher.de/shop/historische-romane/das-karmesinrote-bluetenblatt/faber-michel/products_products/detail/prod_id/12800524/"
 booklists:
   - "completed"
   - "favorites"

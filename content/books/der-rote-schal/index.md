@@ -8,7 +8,6 @@ cataloguePermalink: "https://d-nb.info/944374913"
 author: "Wilkie Collins"
 publishedAt: "1995"
 topics:
-  - "Gesellschaft"
   - "Mystery"
 source: "https://www.fischerverlage.de/buch/wilkie-collins-der-rote-schal-9783596125333"
 booklists:

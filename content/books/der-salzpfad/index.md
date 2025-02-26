@@ -8,7 +8,6 @@ cataloguePermalink: "https://d-nb.info/1256115983"
 author: "Raynor Winn"
 publishedAt: "2022"
 topics:
-  - "Küstenwanderung"
   - "Reisebericht"
   - "Autobiografie"
 source: "https://www.mairdumont.com/presse/2019/03/29/raynor-winn-der-salzpfad/"

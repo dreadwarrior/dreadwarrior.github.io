@@ -9,7 +9,6 @@ author: "Jane Harper"
 publishedAt: "2021"
 topics:
   - "Krimi"
-  - "Australien"
 source: "https://www.rowohlt.de/buch/jane-harper-zu-staub-9783499001437"
 booklists:
   - unread

@@ -8,7 +8,6 @@ author: "Marion Zimmer Bradley"
 publishedAt: "1994"
 topics:
   - "Fantasy"
-  - "Artussage"
 source: "https://www.isbn.de/buch/9783596282227/die-nebel-von-avalon"
 booklists:
   - "wishlist"

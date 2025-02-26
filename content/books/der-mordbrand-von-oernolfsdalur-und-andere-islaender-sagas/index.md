@@ -14,7 +14,6 @@ params:
     - rel: synopsis
       uri: "https://www.galiani.de/buch/tilman-spreckelsen-kat-menschik-der-mordbrand-von-oernolfsdalur-und-andere-islaender-sagas-9783869710464"
 topics:
-  - "Island"
   - "Sagen"
 booklists:
   - unread

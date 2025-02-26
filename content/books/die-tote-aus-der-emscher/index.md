@@ -9,7 +9,6 @@ author: "Peter Kersken"
 publishedAt: "2023"
 topics:
   - "Krimi"
-  - "Ruhrgebiet"
 source: "https://emons-verlag.de/p/die-tote-aus-der-emscher-6983"
 booklists:
   - wishlist

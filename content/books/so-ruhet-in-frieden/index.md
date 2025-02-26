@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/98636729X"
 author: "John Ajvide Lindqvist"
 publishedAt: "2008"
 topics:
-  - "Untote"
-  - "Schweden"
+  - "Thriller"
 source: "https://www.buecher.de/shop/buecher/so-ruhet-in-frieden/lindqvist-john-ajvide/products_products/detail/prod_id/23322061/"
 booklists:
   - "wishlist"

@@ -1,15 +1,19 @@
 ---
 title: "Das Damengambit"
 slug: "das-damengambit"
-isbn: "978-3-257-07161-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-07161-0"
-cataloguePermalink: "https://d-nb.info/1223789136"
-author: "Walter S. Tevis"
-publishedAt: "2021"
+params:
+    author: "Walter S. Tevis"
+    isbn: "978-3-257-07161-0"
+    publishingYear: "2021"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-07161-0"
+      - rel: permalink
+        uri: "https://d-nb.info/1223789136"
+      - rel: synopsis
+        uri: "https://www.thalia.de/shop/home/suggestartikel/A1063539682"
 topics:
-  - "Schach"
   - "Coming of Age"
-source: "https://www.thalia.de/shop/home/suggestartikel/A1063539682"
 booklists:
   - "wishlist"
 resources:

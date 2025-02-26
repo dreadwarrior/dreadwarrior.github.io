@@ -1,15 +1,19 @@
 ---
 title: "Das Teufelsloch"
 slug: "das-teufelsloch"
-isbn: "978-3-426-42236-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-42236-6"
-cataloguePermalink: "https://d-nb.info/1059806452"
-author: "Antonia Hodgson"
-publishedAt: "2014"
+params:
+    author: "Antonia Hodgson"
+    isbn: "978-3-426-42236-6"
+    publishingYear: "2014"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-42236-6"
+      - rel: permalink
+        uri: "https://d-nb.info/1059806452"
+      - rel: synopsis
+        uri: "https://www.droemer-knaur.de/buch/antonia-hodgson-das-teufelsloch-9783426515068"
 topics:
   - "Thriller"
-  - "England"
-source: "https://www.droemer-knaur.de/buch/antonia-hodgson-das-teufelsloch-9783426515068"
 booklists:
   - "wishlist"
 resources:

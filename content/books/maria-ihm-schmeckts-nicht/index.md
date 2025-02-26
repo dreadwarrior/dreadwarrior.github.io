@@ -9,7 +9,6 @@ cataloguePermalink: "https://d-nb.info/977257614"
 author: "Jan Weiler"
 publishedAt: "2006"
 topics:
-  - "Gesellschaft"
   - "Humor"
 source: "https://www.ullstein.de/werke/maria-ihm-schmeckts-nicht/taschenbuch/9783548264264"
 booklists:

@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/956142176"
 author: "Vladimir Vladimirovič Nabokov"
 publishedAt: "1999"
 topics:
-  - "Schach"
-  - "Russland"
+  - "Drama"
 source: "https://www.rowohlt.de/buch/vladimir-nabokov-lushins-verteidigung-9783499225505"
 booklists:
   - "wishlist"

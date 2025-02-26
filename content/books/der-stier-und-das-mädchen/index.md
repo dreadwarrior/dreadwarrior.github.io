@@ -9,7 +9,6 @@ author: "Stefán Máni"
 publishedAt: "2017"
 topics:
   - "Thriller"
-  - "Island"
 source: "https://www.thalia.de/shop/home/artikeldetails/A1047688029"
 booklists:
   - completed

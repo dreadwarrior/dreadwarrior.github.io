@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/1272076350"
 author: "Maxim Leo"
 publishedAt: "2023"
 topics:
-  - "Katzen"
-  - "Humor"
+  - "Drama"
 source: "https://www.penguin.de/Buch/Frankie/Jochen-Gutsch/Penguin/e585913.rhd"
 booklists:
   - unread

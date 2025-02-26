@@ -9,7 +9,6 @@ author: "Dan Simmons"
 publishedAt: "2013"
 topics:
   - "Science Fiction"
-  - "Fantasy"
 source: "https://www.penguin.de/Paperback/Die-Hyperion-Gesaenge/Dan-Simmons/Heyne/e406505.rhd"
 booklists:
   - "completed"

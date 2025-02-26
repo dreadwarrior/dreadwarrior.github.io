@@ -1,15 +1,19 @@
 ---
 title: "Der Atem einer anderen Welt"
 slug: "der-atem-einer-anderen-welt"
-isbn: "978-3-596-29884-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-29884-6"
-cataloguePermalink: "https://d-nb.info/1156553970"
-author: "Seanan McGuire"
-publishedAt: "2019"
+params:
+    author: "Seanan McGuire"
+    isbn: "978-3-596-29884-6"
+    publishingYear: "2019"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-29884-6"
+      - rel: permalink
+        uri: "https://d-nb.info/1156553970"
+      - rel: synopsis
+        uri: "https://www.fischerverlage.de/buch/seanan-mcguire-der-atem-einer-anderen-welt-9783596298846"
 topics:
   - "Fantasy"
-  - "Novelle"
-source: "https://www.fischerverlage.de/buch/seanan-mcguire-der-atem-einer-anderen-welt-9783596298846"
 booklists:
   - "wishlist"
 resources:

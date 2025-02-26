@@ -9,7 +9,6 @@ author: "James Clavell"
 publishedAt: "2002"
 topics:
   - "Abenteuer"
-  - "Japan"
   - "Historischer Roman"
 source: "https://www.isbn.de/buch/9783442356188/shogun"
 booklists:

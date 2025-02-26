@@ -9,7 +9,6 @@ author: "Roald Dahl"
 publishedAt: "2010"
 topics:
   - "Kurzgeschichten"
-  - "Humor"
 source: "https://www.isbn.de/buch/9783499253416/kuesschen-kuesschen-und-noch-ein-kuesschen"
 booklists:
   - "completed"

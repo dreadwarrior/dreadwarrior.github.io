@@ -8,10 +8,8 @@ cataloguePermalink: "https://d-nb.info/1285430921"
 author: "Dirk Schümer"
 publishedAt: "2023"
 topics:
-  - "Historischer Roman"
-  - "Frankreich"
   - "Religion"
-  - "Korruption"
+  - "Historischer Roman"
 source: "https://www.penguin.de/Taschenbuch/Die-schwarze-Rose/Dirk-Schuemer/btb/e612817.rhd"
 booklists:
   - completed

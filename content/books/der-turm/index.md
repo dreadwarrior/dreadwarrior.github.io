@@ -9,7 +9,6 @@ author: "Stephen King"
 publishedAt: "2006"
 topics:
   - "Fantasy"
-  - "Western"
 source: "https://www.penguin.de/Taschenbuch/Der-Turm/Stephen-King/Heyne/e182927.rhd"
 booklists:
   - "completed"

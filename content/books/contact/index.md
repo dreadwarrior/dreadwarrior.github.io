@@ -1,17 +1,21 @@
 ---
 date: "2024-10-10T18:41:58+02:00"
 title: "Contact"
-subtitle: "eine Mission ins Herz des Universums"
 slug: "contact"
-isbn: "978-3-426-60765-7"
-coverUri: "https://images-eu.ssl-images-amazon.com/images/I/5120E65C23L.jpg"
-cataloguePermalink: "https://d-nb.info/953054691"
-author: "Carl Sagan"
-publishedAt: "1997"
+params:
+    author: "Carl Sagan"
+    isbn: "978-3-426-60765-7"
+    publishingYear: "1997"
+    references:
+      - rel: cover
+        uri: "https://images-eu.ssl-images-amazon.com/images/I/5120E65C23L.jpg"
+      - rel: permalink
+        uri: "https://d-nb.info/953054691"
+      - rel: synopsis
+        uri: "https://whatchareadin.de/buecher/contact-eine-mission-ins-herz-des-universums"
+    subtitle: "Eine Mission ins Herz des Universums"
 topics:
   - "Science Fiction"
-  - "Außerirdische"
-source: "https://whatchareadin.de/buecher/contact-eine-mission-ins-herz-des-universums"
 booklists:
   - wishlist
 resources:

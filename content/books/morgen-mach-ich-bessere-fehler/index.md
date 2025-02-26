@@ -7,7 +7,6 @@ cataloguePermalink: "https://d-nb.info/1283338289"
 author: "Petra Hülsmann"
 publishedAt: "2023"
 topics:
-  - "Liebe"
   - "Humor"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/liebesroman/morgen-mach-ich-bessere-fehler/id_6189530"
 booklists:

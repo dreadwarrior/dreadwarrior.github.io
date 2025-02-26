@@ -2,15 +2,19 @@
 date: "2024-02-11T16:42:14+01:00"
 title: "Baikonur"
 slug: "baikonur"
-isbn: "978-3-932170-39-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-932170-39-3"
-cataloguePermalink: "https://d-nb.info/96098027X"
-author: "Holger Geyer"
-publishedAt: "2000"
+params:
+    author: "Holger Geyer"
+    isbn: "978-3-932170-39-3"
+    publishingYear: "2000"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-932170-39-3"
+      - rel: permalink
+        uri: "https://d-nb.info/96098027X"
+      - rel: synopsis
+        uri: "https://www.isbn.de/buch/9783932170393/baikonur"
 topics:
   - "Roadtrip"
-  - "Osteuropa"
-source: "https://www.isbn.de/buch/9783932170393/baikonur"
 booklists:
   - wishlist
 resources:

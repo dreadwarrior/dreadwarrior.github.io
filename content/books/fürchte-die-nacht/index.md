@@ -8,7 +8,6 @@ author: "Claudia Puhlfürst"
 publishedAt: "2017"
 topics:
   - "Thriller"
-  - "Klassenfahrt"
 source: "https://www.isbn.de/buch/9783649671275/fuerchte-die-nacht"
 booklists:
   - "wishlist"

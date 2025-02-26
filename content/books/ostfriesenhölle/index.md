@@ -16,7 +16,6 @@ params:
   subtitle: "Der vierzehnte Fall für Ann Kathrin Klaasen"
 topics:
   - "Krimi"
-  - "Ostfriesland"
 booklists:
   - unread
 resources:

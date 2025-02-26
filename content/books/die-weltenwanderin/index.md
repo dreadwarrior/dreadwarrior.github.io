@@ -7,8 +7,7 @@ cataloguePermalink: "https://d-nb.info/969646100"
 author: "Michel Faber"
 publishedAt: "2004"
 topics:
-  - "Suspense"
-  - "Schottland"
+  - "Thriller"
 source: "https://openlibrary.org/works/OL56004W/Under_the_skin?edition=underskin0000fabe_b1a8"
 booklists:
   - "wishlist"

@@ -8,9 +8,7 @@ cataloguePermalink: "https://d-nb.info/1285702832"
 author: "Thomas Willmann"
 publishedAt: "2023"
 topics:
-  - "Schauerroman"
-  - "Romantik"
-  - "Frankreich"
+  - "Historischer Roman"
 source: "https://www.liebeskind.de/buecher/backlist/der-eiserne-marquis"
 booklists:
   - wishlist

@@ -14,10 +14,7 @@ params:
     - rel: synopsis
       uri: "https://www.piper.de/buecher/1793-isbn-978-3-492-31793-1"
 topics:
-  - "Nordic Noir"
   - "Krimi"
-  - "Schweden"
-  - "Historischer Roman"
 booklists:
   - "completed"
   - "favorites"

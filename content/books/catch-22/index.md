@@ -1,15 +1,19 @@
 ---
 title: "Catch 22"
 slug: "catch-22"
-isbn: "978-3-596-12572-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-12572-2"
-cataloguePermalink: "https://d-nb.info/942340604"
-author: "Joseph Heller"
-publishedAt: "1994"
+params:
+    author: "Joseph Heller"
+    isbn: "978-3-596-12572-2"
+    publishingYear: "1994"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-12572-2"
+      - rel: permalink
+        uri: "https://d-nb.info/942340604"
+      - rel: synopsis
+        uri: "https://www.thalia.de/shop/home/artikeldetails/A1000358667"
 topics:
-  - "Satire"
   - "Zweiter Weltkrieg"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1000358667"
 booklists:
   - "wishlist"
 resources:

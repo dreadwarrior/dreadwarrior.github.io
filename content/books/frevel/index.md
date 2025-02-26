@@ -15,7 +15,6 @@ params:
       uri: "https://www.dtv.de/buch/frevel-44506"
 topics:
   - "Thriller"
-  - "Deutschland"
   - "Historischer Roman"
 booklists:
   - wishlist

@@ -15,7 +15,6 @@ params:
       uri: "https://www.galiani.de/buch/edgar-allan-poe-kat-menschik-poe-unheimliche-geschichten-9783869711676"
 topics:
   - "Kurzgeschichten"
-  - "Schauermärchen"
 booklists:
   - unread
 resources:

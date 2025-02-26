@@ -2,15 +2,19 @@
 date: "2011-02-17T14:56:46+01:00"
 title: "Der Anschlag"
 slug: "der-anschlag"
-isbn: "978-3-453-26754-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-26754-1"
-cataloguePermalink: "https://d-nb.info/1014552990"
-author: "Stephen King"
-publishedAt: "2011"
+params:
+    author: "Stephen King"
+    isbn: "978-3-453-26754-1"
+    publishingYear: "2011"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-26754-1"
+      - rel: permalink
+        uri: "https://d-nb.info/1014552990"
+      - rel: synopsis
+        uri: "https://www.penguin.de/Taschenbuch/Der-Anschlag/Stephen-King/Heyne/e600973.rhd"
 topics:
-  - "Zeitreisen"
   - "Thriller"
-source: "https://www.penguin.de/Taschenbuch/Der-Anschlag/Stephen-King/Heyne/e600973.rhd"
 booklists:
   - "completed"
 resources:

@@ -2,15 +2,20 @@
 date: "2022-12-05T20:45:03+01:00"
 title: "Das Buch der seltsamen neuen Dinge"
 slug: "das-buch-der-seltsamen-neuen-dinge"
-isbn: "978-3-0369-5779-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-0369-5779-1"
-cataloguePermalink: "https://d-nb.info/1144971713"
-author: "Michel Faber"
-publishedAt: "2018"
+params:
+    author: "Michel Faber"
+    isbn: "978-3-0369-5779-1"
+    publishingYear: "2018"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-0369-5779-1"
+      - rel: permalink
+        uri: "https://d-nb.info/1144971713"
+      - rel: synopsis
+        uri: "https://www.keinundaber.ch/buecher/das-buch-der-seltsamen-neuen-dinge?variant=264338"
 topics:
   - "Science Fiction"
   - "Religion"
-source: "https://www.keinundaber.ch/buecher/das-buch-der-seltsamen-neuen-dinge?variant=264338"
 booklists:
   - "completed"
 resources:

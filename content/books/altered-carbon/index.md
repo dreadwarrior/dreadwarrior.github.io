@@ -15,7 +15,7 @@ params:
       uri: "https://www.penguin.de/buecher/richard-morgan-altered-carbon-das-unsterblichkeitsprogramm/taschenbuch/9783453318656"
   subtitle: "Das Unsterblichkeitsprogramm"
 topics:
-  - "Science-Fiction"
+  - "Science Fiction"
   - "Krimi"
 booklists:
   - unread

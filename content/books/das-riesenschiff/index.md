@@ -12,7 +12,6 @@ params:
   subtitle: "Sagen, Märchen und Geschichten aus Mecklenburg"
 topics:
   - "Märchen"
-  - "Mecklenburg-Vorpommern"
 booklists:
   - completed
 resources:

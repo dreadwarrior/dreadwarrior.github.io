@@ -9,8 +9,6 @@ author: "Natasha Pulley"
 publishedAt: "2023"
 topics:
   - "Fantasy"
-  - "England"
-  - "Japan"
 source: "https://www.klett-cotta.de/produkt/natasha-pulley-der-uhrmacher-in-der-filigree-street-9783608987133-t-5524"
 booklists:
   - completed

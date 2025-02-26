@@ -8,7 +8,6 @@ author: "Richard Osman"
 publishedAt: "2023"
 topics:
   - "Krimi"
-  - "England"
 source: "https://www.ullstein.de/werke/der-donnerstagsmordclub/taschenbuch/9783548066530"
 booklists:
   - "wishlist"

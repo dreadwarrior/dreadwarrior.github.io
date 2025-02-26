@@ -15,7 +15,6 @@ params:
       uri: "https://www.penguin.de/buecher/paul-tremblay-das-haus-am-ende-der-welt/ebook/9783641239756"
 topics:
   - "Horror"
-  - "Apokalypse"
 booklists:
   - wishlist
 resources:

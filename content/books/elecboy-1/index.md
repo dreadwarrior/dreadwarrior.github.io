@@ -16,8 +16,6 @@ params:
   subtitle: "1 - Geburt"
 topics:
   - "Science Fiction"
-  - "Dystopie"
-  - "Graphic Novel"
 booklists:
   - completed
 resources:

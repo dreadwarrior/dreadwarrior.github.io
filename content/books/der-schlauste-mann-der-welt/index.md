@@ -8,8 +8,7 @@ cataloguePermalink: "https://d-nb.info/1271549395"
 author: "Andreas Eschbach"
 publishedAt: "2023"
 topics:
-  - "Satire"
-  - "Gesellschaft"
+  - "Gesellschaftssatire"
 source: "https://www.luebbe.de/luebbe-belletristik/buecher/literarische-unterhaltung/der-schlauste-mann-der-welt/id_9517616"
 booklists:
   - "completed"

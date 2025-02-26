@@ -8,8 +8,6 @@ cataloguePermalink: "https://d-nb.info/1284323269"
 author: "Tamsin Calidas"
 publishedAt: "2023"
 topics:
-  - "Meer"
-  - "Hebriden"
   - "Autobiografie"
 source: "https://www.harpercollins.de/products/elementarwellen-9783365004203"
 booklists:

@@ -8,7 +8,6 @@ author: "Thomas Harris"
 publishedAt: "2019"
 topics:
   - "Thriller"
-  - "Suspense"
 source: "https://shop.penguinrandomhouse.de/shop/article/38726434/thomas_harris_roter_drache.html"
 booklists:
   - "wishlist"

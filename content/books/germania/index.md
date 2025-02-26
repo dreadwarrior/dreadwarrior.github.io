@@ -8,7 +8,6 @@ author: "Harald Gilbers"
 publishedAt: "2013"
 topics:
   - "Krimi"
-  - "Berlin"
 source: "https://www.droemer-knaur.de/buch/harald-gilbers-germania-9783426513705"
 booklists:
   - "wishlist"

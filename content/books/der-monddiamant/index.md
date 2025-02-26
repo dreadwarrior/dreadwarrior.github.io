@@ -9,7 +9,6 @@ author: "Wilkie Collins"
 publishedAt: "2012"
 topics:
   - "Krimi"
-  - "England"
 source: "https://www.fischerverlage.de/buch/wilkie-collins-der-monddiamant-9783596904952"
 booklists:
   - completed

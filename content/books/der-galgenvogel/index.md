@@ -8,7 +8,6 @@ author: "Antonia Hodgson"
 publishedAt: "2017"
 topics:
   - "Thriller"
-  - "England"
 source: "https://www.droemer-knaur.de/buch/antonia-hodgson-der-galgenvogel-9783426515075"
 booklists:
   - "wishlist"

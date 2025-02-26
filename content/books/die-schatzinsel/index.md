@@ -9,10 +9,7 @@ params:
     - rel: permalink
       uri: "https://d-nb.info/780142551"
 topics:
-  - "Schatzsuche"
-  - "Piraten"
-  - "Karibik"
-  - "England"
+  - "Abenteuer"
 booklists:
   - completed
 resources:

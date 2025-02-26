@@ -16,7 +16,6 @@ params:
   subtitle: "Norwegische Märchen"
 topics:
   - "Märchen"
-  - "Norwegen"
 booklists:
   - unread
 resources:

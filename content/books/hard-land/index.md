@@ -9,8 +9,6 @@ author: "Benedict Wells"
 publishedAt: "2023"
 topics:
   - "Coming of Age"
-  - "Amerika"
-  - "80er Jahre"
 source: "https://www.diogenes.ch/leser/titel/benedict-wells/hard-land-9783257246742.html"
 booklists:
   - unread

@@ -8,7 +8,6 @@ author: "Roger Ballen"
 publishedAt: "2013"
 topics:
   - "Fotografie"
-  - "Sachbuch"
 source: "http://web.archive.org/web/20230208142008/https://prestelpublishing.penguinrandomhouse.de/book/Roger-Ballen-Die-Antwoord/Prestel-com/e441774.rhd"
 booklists:
   - "wishlist"

@@ -17,7 +17,7 @@ params:
 topics:
   - "Kunst"
   - "Design"
-  - "Russland"
+  - "Architektur"
 booklists:
   - unread
 resources:

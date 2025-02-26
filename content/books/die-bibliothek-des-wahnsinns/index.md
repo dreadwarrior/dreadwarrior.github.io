@@ -9,8 +9,7 @@ cataloguePermalink: "https://d-nb.info/1286756561"
 author: "Edward Brooke-Hitching"
 publishedAt: "2023"
 topics:
-  - "Sachbuch"
-  - "Bibliophilie"
+  - "Literatur"
 source: "https://www.knesebeck-verlag.de/die_bibliothek_des_wahnsinns/t-1/1181"
 booklists:
   - "wishlist"

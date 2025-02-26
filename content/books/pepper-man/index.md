@@ -8,7 +8,6 @@ author: "Camilla Bruce"
 publishedAt: "2020"
 topics:
   - "Fantasy"
-  - "Norwegen"
 source: "https://www.droemer-knaur.de/buch/camilla-bruce-pepper-man-9783426524329"
 booklists:
   - "wishlist"

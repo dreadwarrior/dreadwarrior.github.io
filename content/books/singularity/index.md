@@ -9,7 +9,6 @@ author: "Joshua Tree"
 publishedAt: "2021"
 topics:
   - "Science Fiction"
-  - "Künstliche Intelligenz"
 source: "https://www.fischerverlage.de/buch/joshua-tree-singularity-9783596700875"
 booklists:
   - completed

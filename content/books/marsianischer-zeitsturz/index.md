@@ -9,7 +9,6 @@ author: "Philip K. Dick"
 publishedAt: "2014"
 topics:
   - "Science Fiction"
-  - "Mars"
 source: "https://www.fischerverlage.de/buch/philip-k-dick-marsianischer-zeitsturz-9783596905638"
 booklists:
   - completed

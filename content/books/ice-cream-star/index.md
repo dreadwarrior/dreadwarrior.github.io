@@ -8,7 +8,6 @@ author: "Sandra Newman"
 publishedAt: "2019"
 topics:
   - "Dystopie"
-  - "Überlebenskampf"
 source: "https://www.matthes-seitz-berlin.de/buch/ice-cream-star.html?lid=2"
 booklists:
   - "wishlist"

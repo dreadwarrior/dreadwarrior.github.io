@@ -10,7 +10,6 @@ author: "Johanna Sinisalo"
 publishedAt: "2005"
 topics:
   - "Fantasy"
-  - "Finnland"
 source: "https://www.perlentaucher.de/buch/johanna-sinisalo/troll-eine-liebesgeschichte.html"
 booklists:
   - "completed"

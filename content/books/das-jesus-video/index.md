@@ -2,16 +2,19 @@
 date: "2023-12-17T22:30:30+01:00"
 title: "Das Jesus-Video"
 slug: "das-jesus-video"
-isbn: "978-3-404-17035-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-17035-7"
-cataloguePermalink: "https://d-nb.info/1050493060"
-author: "Andreas Eschbach"
-publishedAt: "2014"
+params:
+    author: "Andreas Eschbach"
+    isbn: "978-3-404-17035-7"
+    publishingYear: "2014"
+    references:
+      - rel: cover
+        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-17035-7"
+      - rel: permalink
+        uri: "https://d-nb.info/1050493060"
+      - rel: synopsis
+        uri: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/das-jesus-video/id_3333758"
 topics:
-  - "Zeitreisen"
-  - "Israel"
-  - "Religion"
-source: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/das-jesus-video/id_3333758"
+  - "Science Fiction"
 booklists:
   - "completed"
 resources:

@@ -8,7 +8,6 @@ cataloguePermalink: "https://d-nb.info/118542668X"
 author: "David Mitchell"
 publishedAt: "2019"
 topics:
-  - "Schauerroman"
   - "Fantasy"
 source: "https://www.rowohlt.de/buch/david-mitchell-slade-house-9783499272394"
 booklists:
