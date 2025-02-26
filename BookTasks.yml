@@ -90,7 +90,7 @@ tasks:
         vars:
           BOOKLIST: "unread"
           TARGET: '{{.BOOK}}'
-      - yq --front-matter=process -i 'del(.isReserved)' {{.BOOK}}
+      - yq --front-matter=process -i 'del(.params.isReserved)' {{.BOOK}}
       - yq --front-matter=process -i '.date = now' {{.BOOK}}
 
   _add-to-vcs:
