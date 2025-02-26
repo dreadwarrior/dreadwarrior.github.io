@@ -1,26 +1,25 @@
 ---
-date: "2023-12-10T20:45:50+01:00"
+date: 2025-02-26T12:15:05+01:00
 title: "Soviet design"
 slug: "soviet-design"
 params:
-    author: "Kristina Georgievna Krasnjanskaja, Aleksandr A. Semenov"
-    isbn: "978-3-85881-846-1"
-    subtitle: "From constructivism to modernism 1920-1980"
-    publishingYear: "2020"
-    references:
-        - rel: cover
-          uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-85881-846-1"
-        - rel: permalink
-          uri: "https://www.scheidegger-spiess.ch/produkt/soviet-design/1013"
-        - rel: synopsis
-          uri: "https://d-nb.info/1198327987"
-    isReserved: true
+  author: "Kristina Georgievna Krasnjanskaja, Aleksandr A. Semenov"
+  isbn: "978-3-85881-846-1"
+  subtitle: "From constructivism to modernism 1920-1980"
+  publishingYear: "2020"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-85881-846-1"
+    - rel: permalink
+      uri: "https://www.scheidegger-spiess.ch/produkt/soviet-design/1013"
+    - rel: synopsis
+      uri: "https://d-nb.info/1198327987"
 topics:
   - "Kunst"
   - "Design"
   - "Russland"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
