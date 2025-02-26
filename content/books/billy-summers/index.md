@@ -12,15 +12,15 @@ params:
       uri: "https://d-nb.info/1230762841"
     - rel: synopsis
       uri: "https://www.thalia.de/shop/home/suggestartikel/A1063536737"
-  isReserved: true
 topics:
   - "Thriller"
   - "Suspense"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
+date: 2025-02-26T12:15:51+01:00
 ---
 Billy ist Kriegsveteran und verdingt sich als Auftragskiller. Sein neuester 
 Job ist so lukrativ, dass es sein letzter sein soll. Danach will er ein neues 
