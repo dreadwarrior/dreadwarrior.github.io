@@ -22,16 +22,13 @@
         <div class="book-metadata__item">
             <small>Quellenangaben:</small>
             <ul class="fa-ul">
-                {{ $synopsisUris := default (slice (dict "rel" "synopsis" "uri" .Params.source)) .Params.references }}
-                {{ range (where $synopsisUris "rel" "synopsis") }}
+                {{ range (where .Params.references "rel" "synopsis") }}
                 <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ .uri }}" referrerpolicy="no-referrer">Inhaltsbeschreibung</a></li>
                 {{ end }}
-                {{ $permalinkUris := default (slice (dict "rel" "permalink" "uri" .Params.cataloguePermalink)) .Params.references }}
-                {{ range (where $permalinkUris "rel" "permalink") }}
+                {{ range (where .Params.references "rel" "permalink") }}
                 <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ .uri }}" referrerpolicy="no-referrer">Bibliografische Daten</a></li>
                 {{ end }}
-                {{ $coverUris := default (slice (dict "rel" "cover" "uri" .Params.coverUri)) .Params.references }}
-                {{ range (where $coverUris "rel" "cover") }}
+                {{ range (where .Params.references "rel" "cover") }}
                 <li><span class="fa-li"><i class="fas fa-external-link-alt fa-xs"></i></span><a href="{{ .uri }}" referrerpolicy="no-referrer">Cover-Abbildung</a></li>
                 {{ end }}
             </ul>

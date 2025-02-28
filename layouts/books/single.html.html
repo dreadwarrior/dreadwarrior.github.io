@@ -21,7 +21,7 @@
                     <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.subtitle }}<br>
                         <small><em>{{ . }}</em></small>{{ end }}</h1>
                     <p>von <em>{{ .Params.author }}</em>
-                        (<time aria-label="Jahr der Veröffentlichung">{{ default .Params.publishedAt .Params.publishingYear }}</time>)</p>
+                        (<time aria-label="Jahr der Veröffentlichung">{{ .Params.publishingYear }}</time>)</p>
                 </header>
 
                 <hr class="separator separator--decorated">

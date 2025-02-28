@@ -7,7 +7,7 @@
 
         <header class="recent-book__title pure-u-7-12 pure-u-md-1-1">
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>von <em>{{ .Params.author }}</em> <time>{{ default .Params.publishedAt .Params.publishingYear }}</time></p>
+            <p>von <em>{{ .Params.author }}</em> <time>{{ .Params.publishingYear }}</time></p>
             <ul class="recent-book__topics">
                 {{- range $i, $topic := (first 3 (.GetTerms "topics")) -}}
                 <li><a href="{{ $topic.RelPermalink }}" class="recent-book__topic button button--auxiliary pure-button">{{ $topic.LinkTitle }}</a> </li>
