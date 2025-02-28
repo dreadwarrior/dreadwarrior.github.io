@@ -1,19 +1,24 @@
 ---
 title: "Unwesen"
 slug: "unwesen"
-isbn: "978-3-423-44217-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-44217-6"
-cataloguePermalink: "https://d-nb.info/1289318042"
-author: "John Ajvide Lindqvist"
-publishedAt: "2023"
 topics:
   - "Fantasy"
-source: "https://www.dtv.de/buch/unwesen-28338"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "John Ajvide Lindqvist"
+  isbn: "978-3-423-44217-6"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-44217-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1289318042"
+    - rel: synopsis
+      uri: "https://www.dtv.de/buch/unwesen-28338"
 ---
 Norrtälje, eine verschlafene Küstenstadt in Nordschweden. Als am Hafen ein 
 Container auftaucht, von dessen Herkunft niemand etwas wissen will, geschieht 

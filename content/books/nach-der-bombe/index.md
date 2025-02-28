@@ -1,19 +1,24 @@
 ---
 title: "Nach der Bombe"
 slug: "nach-der-bombe"
-isbn: "978-3-596-90560-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-90560-7"
-cataloguePermalink: "https://d-nb.info/1078036284"
-author: "Philip K. Dick"
-publishedAt: "2016"
 topics:
   - "Science Fiction"
-source: "https://www.fischerverlage.de/buch/philip-k-dick-nach-der-bombe-9783596905607"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Philip K. Dick"
+  isbn: "978-3-596-90560-7"
+  publishingYear: "2016"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-90560-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1078036284"
+    - rel: synopsis
+      uri: "https://www.fischerverlage.de/buch/philip-k-dick-nach-der-bombe-9783596905607"
 ---
 Die Welt nach dem Atomkrieg: Auf dem Höhepunkt des Kalten Krieges entwirft 
 Philip K. Dick in seinem 1965 entstandenen Roman das Bild einer zerstörten 

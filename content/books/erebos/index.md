@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:54+01:00"
 title: "Erebos"
 slug: "erebos"
-isbn: "978-3-7432-0531-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7432-0531-4"
-cataloguePermalink: "https://d-nb.info/1183491514"
-author: "Ursula Poznanski"
-publishedAt: "2019"
 topics:
   - "Thriller"
-source: "https://www.loewe-verlag.de/titel-0-0/erebos-4322/"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Ursula Poznanski"
+  isbn: "978-3-7432-0531-4"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7432-0531-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1183491514"
+    - rel: synopsis
+      uri: "https://www.loewe-verlag.de/titel-0-0/erebos-4322/"
 ---
 
 In einer Londoner Schule wird ein Computerspiel herumgereicht – Erebos. Wer es 

@@ -2,19 +2,24 @@
 date: "2023-12-19T07:42:36+01:00"
 title: "Die letzte Versuchung"
 slug: "die-letzte-versuchung"
-isbn: "978-3-548-22199-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-22199-1"
-cataloguePermalink: "https://d-nb.info/944742327"
-author: "Nikos Kazantzakēs"
-publishedAt: "1995"
 topics:
   - "Religion"
-source: "https://de.wikipedia.org/wiki/Die_letzte_Versuchung"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Nikos Kazantzakēs"
+  isbn: "978-3-548-22199-1"
+  publishingYear: "1995"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-22199-1"
+    - rel: permalink
+      uri: "https://d-nb.info/944742327"
+    - rel: synopsis
+      uri: "https://de.wikipedia.org/wiki/Die_letzte_Versuchung"
 ---
 Jesus ist Zimmermann und stellt Kreuze her, welche von den Römern für die
 Hinrichtung jüdischer Aufständischer benutzt werden.

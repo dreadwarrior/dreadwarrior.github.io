@@ -1,19 +1,24 @@
 ---
 title: "Lautlos"
 slug: "lautlos"
-isbn: "978-3-89705-185-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-89705-185-0"
-cataloguePermalink: "https://d-nb.info/118225134X"
-author: "Frank Schätzing"
-publishedAt: "2011"
 topics:
   - "Thriller"
-source: "http://web.archive.org/web/20230601214435/https://emons-verlag.de/p/lautlos-2961"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Frank Schätzing"
+  isbn: "978-3-89705-185-0"
+  publishingYear: "2011"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-89705-185-0"
+    - rel: permalink
+      uri: "https://d-nb.info/118225134X"
+    - rel: synopsis
+      uri: "http://web.archive.org/web/20230601214435/https://emons-verlag.de/p/lautlos-2961"
 ---
 Am 3. Juni 1999 streckt der serbische Diktator Slobodan Milosevic die Waffen 
 vor den Verbänden der Nato. Der Krieg der Werte scheint gewonnen, der Frieden 

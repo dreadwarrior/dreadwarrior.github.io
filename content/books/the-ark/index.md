@@ -1,20 +1,25 @@
 ---
 title: "The ark"
 slug: "the-ark"
-isbn: "978-3-426-52048-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52048-2"
-cataloguePermalink: "https://d-nb.info/1119351650"
-author: "Patrick S. Tomlinson"
-publishedAt: "2017"
 topics:
   - "Science Fiction"
   - "Thriller"
-source: "https://www.droemer-knaur.de/buch/patrick-s-tomlinson-the-ark-die-letzte-reise-der-menschheit-9783426520482"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Patrick S. Tomlinson"
+  isbn: "978-3-426-52048-2"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52048-2"
+    - rel: permalink
+      uri: "https://d-nb.info/1119351650"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/patrick-s-tomlinson-the-ark-die-letzte-reise-der-menschheit-9783426520482"
 ---
 Nachdem die Erde zerstört wurde, sind die letzten 50.000 Menschen auf einem 
 gewaltigen Raumschiff, der „Arche", unterwegs zum nächsten bewohnbaren 

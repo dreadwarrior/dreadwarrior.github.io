@@ -2,20 +2,25 @@
 date: "2023-10-22T12:43:07+02:00"
 title: "Die andere Seite"
 slug: "die-andere-seite"
-isbn: "978-3-499-25556-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-25556-4"
-cataloguePermalink: "https://d-nb.info/100253626X"
-author: "Alfred Kubin"
-publishedAt: "2010"
 topics:
   - "Fantasy"
   - "Dystopie"
-source: "https://www.rowohlt.de/buch/alfred-kubin-die-andere-seite-9783499255564"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Alfred Kubin"
+  isbn: "978-3-499-25556-4"
+  publishingYear: "2010"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-25556-4"
+    - rel: permalink
+      uri: "https://d-nb.info/100253626X"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/alfred-kubin-die-andere-seite-9783499255564"
 ---
 Eines Tages erhält ein Mann überraschend Besuch. Der verkündet ihm:
 

@@ -2,19 +2,24 @@
 date: "2023-01-26T19:50:17+01:00"
 title: "Fremdland"
 slug: "fremdland"
-isbn: "978-3-442-48804-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-48804-9"
-cataloguePermalink: "https://d-nb.info/1156224802"
-author: "Philipp Reinartz"
-publishedAt: "2019"
 topics:
   - "Krimi"
-source: "https://www.penguin.de/ebook/Fremdland/Philipp-Reinartz/Goldmann/e507915.rhd"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Philipp Reinartz"
+  isbn: "978-3-442-48804-9"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-48804-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1156224802"
+    - rel: synopsis
+      uri: "https://www.penguin.de/ebook/Fremdland/Philipp-Reinartz/Goldmann/e507915.rhd"
 ---
 Peng Peng. Zwei nächtliche Schüsse ins Nichts. Zwei Schüsse, die trotzdem alles 
 verändern. Eine junge Familie aus dem Senegal glaubt nicht mehr an das neue 

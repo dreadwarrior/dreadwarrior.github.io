@@ -1,19 +1,24 @@
 ---
 title: "Die Nebel von Avalon"
 slug: "die-nebel-von-avalon"
-isbn: "978-3-596-28222-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-28222-7"
-cataloguePermalink: "https://d-nb.info/941821390"
-author: "Marion Zimmer Bradley"
-publishedAt: "1994"
 topics:
   - "Fantasy"
-source: "https://www.isbn.de/buch/9783596282227/die-nebel-von-avalon"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Marion Zimmer Bradley"
+  isbn: "978-3-596-28222-7"
+  publishingYear: "1994"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-28222-7"
+    - rel: permalink
+      uri: "https://d-nb.info/941821390"
+    - rel: synopsis
+      uri: "https://www.isbn.de/buch/9783596282227/die-nebel-von-avalon"
 ---
 Morgaine, die Hohepriesterin des Nebelreichs Avalon und Schwester von Artus, 
 erzählt die wahre Geschichte ihres königlichen Bruders und der Ritter der 

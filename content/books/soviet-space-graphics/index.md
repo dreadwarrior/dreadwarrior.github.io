@@ -1,24 +1,29 @@
 ---
 date: "2023-12-10T20:51:39+01:00"
 title: "Soviet Space Graphics"
-subtitle: "Cosmic Visions from the USSR"
 slug: "soviet-space-graphics"
-isbn: "978-1-83866-053-6"
-coverUri: "https://covers.openlibrary.org/b/id/13828428-L.jpg"
-cataloguePermalink: "https://openlibrary.org/books/OL29465310M"
-author: "Alexandra Sankova"
-publishedAt: "2020"
 topics:
   - "Kunst"
   - "Design"
   - "Illustration"
   - "Raumfahrt"
-source: "https://www.phaidon.com/store/design/soviet-space-graphics-cosmic-visions-from-the-ussr-9781838660536/"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.webp
+params:
+  author: "Alexandra Sankova"
+  isbn: "978-1-83866-053-6"
+  publishingYear: "2020"
+  subtitle: "Cosmic Visions from the USSR"
+  references:
+    - rel: cover
+      uri: "https://covers.openlibrary.org/b/id/13828428-L.jpg"
+    - rel: permalink
+      uri: "https://openlibrary.org/books/OL29465310M"
+    - rel: synopsis
+      uri: "https://www.phaidon.com/store/design/soviet-space-graphics-cosmic-visions-from-the-ussr-9781838660536/"
 ---
 
 **A wonderful, whimsical journey through the pioneering space-race graphics of the 

@@ -1,19 +1,24 @@
 ---
 title: "Tripods"
 slug: "tripods"
-isbn: "978-3-492-70349-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-70349-9"
-cataloguePermalink: "https://d-nb.info/1078866481"
-author: "John Christopher"
-publishedAt: "2016"
 topics:
   - "Science Fiction"
-source: "https://www.isbn.de/buch/9783492703499/tripods-die-dreibeinigen-herrscher"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "John Christopher"
+  isbn: "978-3-492-70349-9"
+  publishingYear: "2016"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-70349-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1078866481"
+    - rel: synopsis
+      uri: "https://www.isbn.de/buch/9783492703499/tripods-die-dreibeinigen-herrscher"
 ---
 Die Welt wird von den Tripods kontrolliert – riesigen, metallischen Maschinen, 
 die wie aus dem Nichts auf der Erde auftauchten und die Bevölkerung 

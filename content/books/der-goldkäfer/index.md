@@ -2,19 +2,24 @@
 date: "2022-12-29T21:56:59+01:00"
 title: "Der Goldkäfer"
 slug: "der-goldkäfer"
-isbn: "978-3-86539-356-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86539-356-2"
-cataloguePermalink: "https://d-nb.info/104523138X"
-author: "Edgar Allan Poe"
-publishedAt: "2014"
 topics:
   - "Kurzgeschichten"
-source: "http://web.archive.org/web/20231004060142/https://www.verlagshaus-roemerweg.de/Marix_Verlag/Edgar_Allan_Poe-Der_Goldkaefer-EAN:9783865393562.html"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Edgar Allan Poe"
+  isbn: "978-3-86539-356-2"
+  publishingYear: "2014"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86539-356-2"
+    - rel: permalink
+      uri: "https://d-nb.info/104523138X"
+    - rel: synopsis
+      uri: "http://web.archive.org/web/20231004060142/https://www.verlagshaus-roemerweg.de/Marix_Verlag/Edgar_Allan_Poe-Der_Goldkaefer-EAN:9783865393562.html"
 ---
 In dieser Sammlung seiner bekanntesten Erzählungen zeigt sich Poe als Meister 
 der poetischen Komposition und des genau kalkulierten Effekts, als Wegbereiter 

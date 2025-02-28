@@ -2,19 +2,24 @@
 date: "2023-06-25T12:45:39+01:00"
 title: "Sherlock Holmes und das Tal des Grauens"
 slug: "sherlock-holmes-und-das-tal-des-grauens"
-isbn: "978-3-954181-68-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-954181-68-1"
-cataloguePermalink: "https://d-nb.info/1070639230"
-author: "Arthur Conan Doyle"
-publishedAt: "2012"
 topics:
   - "Krimi"
-source: "https://null-papier.de/shop/gratis-sherlock-holmes-das-tal-des-grauens/"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Arthur Conan Doyle"
+  isbn: "978-3-954181-68-1"
+  publishingYear: "2012"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-954181-68-1"
+    - rel: permalink
+      uri: "https://d-nb.info/1070639230"
+    - rel: synopsis
+      uri: "https://null-papier.de/shop/gratis-sherlock-holmes-das-tal-des-grauens/"
 ---
 Der vierte Roman von Sir Arthur Conan Doyle in dem die Figuren Sherlock Holmes 
 und Dr. Watson auftauchen.

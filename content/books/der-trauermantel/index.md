@@ -2,19 +2,24 @@
 date: "2023-11-07T21:55:06+01:00"
 title: "Der Trauermantel"
 slug: "der-trauermantel"
-isbn: "978-3-548-25269-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-25269-8"
-cataloguePermalink: "https://d-nb.info/963147080"
-author: "Unni Lindell"
-publishedAt: "2001"
 topics:
   - "Krimi"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1039600047"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Unni Lindell"
+  isbn: "978-3-548-25269-8"
+  publishingYear: "2001"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-25269-8"
+    - rel: permalink
+      uri: "https://d-nb.info/963147080"
+    - rel: synopsis
+      uri: "https://www.thalia.de/shop/home/artikeldetails/A1039600047"
 ---
 Eine junge Frau wird in ihrer Osloer Wohnung ermordet aufgefunden. 
 Hauptverdächtiger ist ihr Exmann, von dem sie sich erst vor kurzem getrennt 

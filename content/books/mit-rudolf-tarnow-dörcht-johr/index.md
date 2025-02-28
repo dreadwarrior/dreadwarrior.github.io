@@ -2,19 +2,24 @@
 date: "2024-04-01T19:16:51+02:00"
 title: "Mit Rudolf Tarnow dörch't Johr"
 slug: "mit-rudolf-tarnow-dörcht-johr"
-isbn: "978-3-356-01066-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-356-01066-4"
-cataloguePermalink: "https://d-nb.info/971927006"
-author: "Rudolf Tarnow"
-publishedAt: "2004"
 topics:
   - "Humor"
-source: "https://www.hinstorff.de/Start/BELLETRISTIK/Niederdeutsch/Niederdeutsch/354/Mit-Rudolf-Tarnow-doerch-t-Johr"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Rudolf Tarnow"
+  isbn: "978-3-356-01066-4"
+  publishingYear: "2004"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-356-01066-4"
+    - rel: permalink
+      uri: "https://d-nb.info/971927006"
+    - rel: synopsis
+      uri: "https://www.hinstorff.de/Start/BELLETRISTIK/Niederdeutsch/Niederdeutsch/354/Mit-Rudolf-Tarnow-doerch-t-Johr"
 ---
 
 Rudolf Tarnow – einer der beliebtesten und populärsten plattdeutschen Dichter – 

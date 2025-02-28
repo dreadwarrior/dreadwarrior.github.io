@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:45+01:00"
 title: "Die Säulen der Erde"
 slug: "die-säulen-der-erde"
-isbn: "978-3-404-17812-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-17812-4"
-cataloguePermalink: "https://d-nb.info/1159521980"
-author: "Ken Follett"
-publishedAt: "2019"
 topics:
   - "Historischer Roman"
-source: "https://www.luebbe.de/luebbe-belletristik/buecher/historische-romane/die-saeulen-der-erde/id_7041488"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Ken Follett"
+  isbn: "978-3-404-17812-4"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-17812-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1159521980"
+    - rel: synopsis
+      uri: "https://www.luebbe.de/luebbe-belletristik/buecher/historische-romane/die-saeulen-der-erde/id_7041488"
 ---
 
 Schon als einfacher Steinmetz träumt Tom Builder davon, eine Kathedrale zu 

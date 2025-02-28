@@ -2,19 +2,24 @@
 date: "2024-01-19T19:58:02+01:00"
 title: "Zu Staub"
 slug: "zu-staub"
-isbn: "978-3-499-00143-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-00143-7"
-cataloguePermalink: "https://d-nb.info/1199636991"
-author: "Jane Harper"
-publishedAt: "2021"
 topics:
   - "Krimi"
-source: "https://www.rowohlt.de/buch/jane-harper-zu-staub-9783499001437"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Jane Harper"
+  isbn: "978-3-499-00143-7"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-00143-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1199636991"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/jane-harper-zu-staub-9783499001437"
 ---
 
 Zwei Brüder treffen sich am Zaun, der ihre Farmen voneinander trennt. Tief im 

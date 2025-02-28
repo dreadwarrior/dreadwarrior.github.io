@@ -2,19 +2,24 @@
 date: "2023-11-18T13:15:46+01:00"
 title: "Die dunklen Lande"
 slug: "die-dunklen-lande"
-isbn: "978-3-426-22676-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-22676-6"
-cataloguePermalink: "https://d-nb.info/1170087310"
-author: "Markus Heitz"
-publishedAt: "2019"
 topics:
   - "Fantasy"
-source: "https://www.droemer-knaur.de/buch/markus-heitz-die-dunklen-lande-9783426226766"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Markus Heitz"
+  isbn: "978-3-426-22676-6"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-22676-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1170087310"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/markus-heitz-die-dunklen-lande-9783426226766"
 ---
 
 1629 - Der Dreißigjährige Krieg mit seinen Konflikten erschüttert Europa und tobt 

@@ -2,19 +2,24 @@
 date: 2024-07-09T12:49:36+02:00
 title: "Der Kaffeedieb"
 slug: "der-kaffeedieb"
-isbn: "978-3-462-05063-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-462-05063-9"
-cataloguePermalink: "https://d-nb.info/1131180038"
-author: "Tom Hillenbrand"
-publishedAt: "2017"
 topics:
   - "Historischer Roman"
-source: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-der-kaffeedieb-9783462050639"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Tom Hillenbrand"
+  isbn: "978-3-462-05063-9"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-462-05063-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1131180038"
+    - rel: synopsis
+      uri: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-der-kaffeedieb-9783462050639"
 ---
 Wir schreiben das Jahr 1683. Europa befindet sich im Griff einer neuen Droge. 
 Ihr Name ist Kahve.

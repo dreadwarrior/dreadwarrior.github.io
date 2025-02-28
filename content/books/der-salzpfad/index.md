@@ -2,20 +2,25 @@
 date: "2024-01-19T19:58:00+01:00"
 title: "Der Salzpfad"
 slug: "der-salzpfad"
-isbn: "978-3-616-03154-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-616-03154-5"
-cataloguePermalink: "https://d-nb.info/1256115983"
-author: "Raynor Winn"
-publishedAt: "2022"
 topics:
   - "Reisebericht"
   - "Autobiografie"
-source: "https://www.mairdumont.com/presse/2019/03/29/raynor-winn-der-salzpfad/"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Raynor Winn"
+  isbn: "978-3-616-03154-5"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-616-03154-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1256115983"
+    - rel: synopsis
+      uri: "https://www.mairdumont.com/presse/2019/03/29/raynor-winn-der-salzpfad/"
 ---
 
 Raynor und Moth, seit 32 Jahren ein Paar, verlieren durch zwei Schicksalsschläge 

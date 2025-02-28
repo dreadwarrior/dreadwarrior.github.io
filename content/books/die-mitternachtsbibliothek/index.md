@@ -2,19 +2,24 @@
 date: "2023-08-25T21:05:12+01:00"
 title: "Die Mitternachtsbibliothek"
 slug: "die-mitternachtsbibliothek"
-isbn: "978-3-426-28256-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-28256-4"
-cataloguePermalink: "https://d-nb.info/1215047274"
-author: "Matt Haig"
-publishedAt: "2021"
 topics:
   - "Fantasy"
-source: "https://www.droemer-knaur.de/buch/matt-haig-die-mitternachtsbibliothek-9783426308257"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Matt Haig"
+  isbn: "978-3-426-28256-4"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-28256-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1215047274"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/matt-haig-die-mitternachtsbibliothek-9783426308257"
 ---
 Stell dir vor, auf dem Weg ins Jenseits gäbe es eine riesige Bibliothek, gefüllt 
 mit all den Leben, die du hättest führen können. Alles, was du jemals bereut 

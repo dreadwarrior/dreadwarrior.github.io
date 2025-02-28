@@ -1,19 +1,24 @@
 ---
 title: "Fairy tale"
 slug: "fairy-tale"
-isbn: "978-3-453-27399-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-27399-3"
-cataloguePermalink: "https://d-nb.info/1254684808"
-author: "Stephen King"
-publishedAt: "2022"
 topics:
   - "Fantasy"
-source: "https://shop.penguinrandomhouse.de/shop/article/46635227/stephen_king_fairy_tale.html"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-27399-3"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-27399-3"
+    - rel: permalink
+      uri: "https://d-nb.info/1254684808"
+    - rel: synopsis
+      uri: "https://shop.penguinrandomhouse.de/shop/article/46635227/stephen_king_fairy_tale.html"
 ---
 Der siebzehnjährige Charlie Reade hat kein leichtes Leben. Seine Mutter starb, 
 als er sieben war, und sein Vater ist dem Alkohol verfallen. Eines Tages 

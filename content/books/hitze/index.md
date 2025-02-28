@@ -1,19 +1,24 @@
 ---
 title: "Hitze"
 slug: "hitze"
-isbn: "978-3-499-27250-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-27250-9"
-cataloguePermalink: "https://d-nb.info/1147602158"
-author: "Jane Harper"
-publishedAt: "2018"
 topics:
   - "Thriller"
-source: "https://www.rowohlt.de/buch/jane-harper-hitze-9783499272509"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Jane Harper"
+  isbn: "978-3-499-27250-9"
+  publishingYear: "2018"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-27250-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1147602158"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/jane-harper-hitze-9783499272509"
 ---
 Die schlimmste Dürre seit Jahrzehnten lastet wie heißes Blei auf dem 
 ländlichen Städtchen Kiewarra mitten im Nirgendwo. Das Vieh der Farmer stirbt, 

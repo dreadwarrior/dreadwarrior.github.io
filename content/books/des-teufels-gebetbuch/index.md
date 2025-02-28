@@ -1,20 +1,25 @@
 ---
 title: "Des Teufels Gebetbuch"
 slug: "des-teufels-gebetbuch"
-isbn: "978-3-426-51780-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-51780-2"
-cataloguePermalink: "https://d-nb.info/1144215242"
-author: "Markus Heitz"
-publishedAt: "2018"
 topics:
   - "Fantasy"
   - "Thriller"
-source: "https://www.droemer-knaur.de/buch/markus-heitz-des-teufels-gebetbuch-9783426517802"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Markus Heitz"
+  isbn: "978-3-426-51780-2"
+  publishingYear: "2018"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-51780-2"
+    - rel: permalink
+      uri: "https://d-nb.info/1144215242"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/markus-heitz-des-teufels-gebetbuch-9783426517802"
 ---
 Der ehemalige Spieler Tadeus Boch gelangt in Baden-Baden in den Besitz einer 
 mysteriösen Spielkarte aus einem vergangenen Jahrhundert. Alsbald gerät er in 

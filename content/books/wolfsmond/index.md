@@ -2,19 +2,24 @@
 date: "2022-07-07T11:06:51+01:00"
 title: "Wolfsmond"
 slug: "wolfsmond"
-isbn: "978-3-453-53023-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-53023-2"
-cataloguePermalink: "https://d-nb.info/971476764"
-author: "Stephen King"
-publishedAt: "2004"
 topics:
   - "Fantasy"
-source: "https://www.penguin.de/Taschenbuch/Wolfsmond/Stephen-King/Heyne/e171947.rhd"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-53023-2"
+  publishingYear: "2004"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-53023-2"
+    - rel: permalink
+      uri: "https://d-nb.info/971476764"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Wolfsmond/Stephen-King/Heyne/e171947.rhd"
 ---
 Roland von Gilead, der Revolvermann, ist in Mittwelt noch immer auf der Suche 
 nach dem magischen Dunklen Turm.

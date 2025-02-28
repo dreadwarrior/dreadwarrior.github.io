@@ -1,20 +1,25 @@
 ---
+date: 2024-10-26T11:11:45+02:00
 title: "Falscher Engel"
 slug: "falscher-engel"
-isbn: "978-3-86883-026-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86883-026-2"
-cataloguePermalink: "https://d-nb.info/994208073"
-author: "Jay Dobyns"
-publishedAt: "2010"
 topics:
   - "Investigation"
-source: "https://www.m-vg.de/riva/shop/article/2214-falscher-engel/"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
-date: 2024-10-26T11:11:45+02:00
+params:
+  author: "Jay Dobyns"
+  isbn: "978-3-86883-026-2"
+  publishingYear: "2010"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86883-026-2"
+    - rel: permalink
+      uri: "https://d-nb.info/994208073"
+    - rel: synopsis
+      uri: "https://www.m-vg.de/riva/shop/article/2214-falscher-engel/"
 ---
 Schon bald nach seiner Gründung Ende der 40er-Jahre in den USA machte der 
 Hells Angels Motorcycle Club durch Gesetzesübertretungen und Gewaltdelikte von 

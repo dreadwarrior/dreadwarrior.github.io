@@ -2,19 +2,24 @@
 date: "2023-10-25T19:08:27+02:00"
 title: "Sherlock Holmes and The Twelve Thefts of Christmas"
 slug: "sherlock-holmes-and-the-twelve-thefts-of-christmas"
-isbn: "978-1-80336-191-3"
-coverUri: "https://ia601909.us.archive.org/view_archive.php?archive=/31/items/l_covers_0013/l_covers_0013_00.zip&file=0013007306-L.jpg"
-cataloguePermalink: "https://openlibrary.org/books/OL38019943M/Sherlock_Holmes_and_The_Twelve_Thefts_of_Christmas"
-author: "Tim Major"
-publishedAt: "2022"
 topics:
   - "Krimi"
-source: "http://web.archive.org/web/20240228162158/https://titanbooks.com/71135-sherlock-holmes-and-the-twelve-thefts-of-christmas/"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.webp
+params:
+  author: "Tim Major"
+  isbn: "978-1-80336-191-3"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://ia601909.us.archive.org/view_archive.php?archive=/31/items/l_covers_0013/l_covers_0013_00.zip&file=0013007306-L.jpg"
+    - rel: permalink
+      uri: "https://openlibrary.org/books/OL38019943M/Sherlock_Holmes_and_The_Twelve_Thefts_of_Christmas"
+    - rel: synopsis
+      uri: "http://web.archive.org/web/20240228162158/https://titanbooks.com/71135-sherlock-holmes-and-the-twelve-thefts-of-christmas/"
 ---
 Sherlock Holmes’s discovery of a mysterious musical score initiates a devious 
 Christmas challenge set by Irene Adler, with clues that are all variations on 

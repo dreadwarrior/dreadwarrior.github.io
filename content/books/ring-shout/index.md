@@ -1,20 +1,25 @@
 ---
 title: "Ring Shout"
 slug: "ring-shout"
-isbn: "978-3-86552-997-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86552-997-8"
-cataloguePermalink: "https://d-nb.info/126162808"
-author: "P. Djèlí Clark"
-publishedAt: "2022"
 topics:
   - "Fantasy"
   - "Rassismus"
-source: "https://www.festa-verlag.de/ring-shout.html"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "P. Djèlí Clark"
+  isbn: "978-3-86552-997-8"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86552-997-8"
+    - rel: permalink
+      uri: "https://d-nb.info/126162808"
+    - rel: synopsis
+      uri: "https://www.festa-verlag.de/ring-shout.html"
 ---
 USA, 1915: Der Ku-Klux-Klan wird neu gegründet, aber diesmal mit echter 
 Hexenkraft und dunkler Höllenkunst. Aus den Kapuzenträgern werden Monster – 

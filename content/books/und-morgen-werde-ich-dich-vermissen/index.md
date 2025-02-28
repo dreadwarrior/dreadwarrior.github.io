@@ -2,19 +2,24 @@
 date: 2024-02-10T22:42:21+01:00
 title: "... und morgen werde ich dich vermissen"
 slug: "und-morgen-werde-ich-dich-vermissen"
-isbn: "978-3-499-29055-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-29055-8"
-cataloguePermalink: "https://d-nb.info/1119919061"
-author: "Heine Bakkeid"
-publishedAt: "2017"
 topics:
   - "Thriller"
-source: "https://www.rowohlt.de/buch/heine-bakkeid-morgen-werde-ich-dich-vermissen-9783499290558"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Heine Bakkeid"
+  isbn: "978-3-499-29055-8"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-29055-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1119919061"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/heine-bakkeid-morgen-werde-ich-dich-vermissen-9783499290558"
 ---
 Wenn man am Tiefpunkt ist, gibt es nur einen Weg: Hoch, in den Norden.
 

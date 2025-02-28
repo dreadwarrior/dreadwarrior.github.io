@@ -2,20 +2,25 @@
 date: 2024-03-25T21:54:51+01:00
 title: "Der Name der Rose"
 slug: "der-name-der-rose"
-isbn: "978-3-423-10551-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-27074-9"
-cataloguePermalink: "https://d-nb.info/946460159"
-author: "Umberto Eco"
-publishedAt: "1996"
 topics:
   - "Krimi"
   - "Historischer Roman"
-source: "https://www.isbn.de/buch/9783423105514/der-name-der-rose"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Umberto Eco"
+  isbn: "978-3-423-10551-4"
+  publishingYear: "1996"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-27074-9"
+    - rel: permalink
+      uri: "https://d-nb.info/946460159"
+    - rel: synopsis
+      uri: "https://www.isbn.de/buch/9783423105514/der-name-der-rose"
 ---
 
 Daß er in den Mauern der prächtigen Benediktinerabtei an den Hängen des Apennin 

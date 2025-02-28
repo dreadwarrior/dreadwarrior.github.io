@@ -2,19 +2,24 @@
 date: "2024-06-25T17:54:26+02:00"
 title: "Die Morde von Pye Hall"
 slug: "die-morde-von-pye-hall"
-isbn: "978-3-458-17738-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-458-17738-8"
-cataloguePermalink: "https://d-nb.info/1141700484"
-author: "Anthony Horowitz"
-publishedAt: "2018"
 topics:
   - "Krimi"
-source: "https://www.suhrkamp.de/buch/anthony-horowitz-die-morde-von-pye-hall-t-9783458177388"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Anthony Horowitz"
+  isbn: "978-3-458-17738-8"
+  publishingYear: "2018"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-458-17738-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1141700484"
+    - rel: synopsis
+      uri: "https://www.suhrkamp.de/buch/anthony-horowitz-die-morde-von-pye-hall-t-9783458177388"
 ---
 
 Susan Ryeland, Lektorin bei Cloverleaf Books, arbeitet schon seit Jahren mit 

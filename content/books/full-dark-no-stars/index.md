@@ -2,22 +2,27 @@
 date: "2011-02-17T14:40:46+01:00"
 title: "Full Dark, No Stars"
 slug: "full-dark-no-stars"
-isbn: "978-1-4447-1255-1"
-coverUri: "https://covers.openlibrary.org/b/id/10706103-L.jpg"
-cataloguePermalink: "https://openlibrary.org/books/OL32039744M/Full_Dark_No_Stars"
-author: "Stephen King"
-publishedAt: "2010"
 topics:
   - "Krimi"
   - "Horror"
   - "Kurzgeschichten"
-source: "https://www.hodder.co.uk/titles/stephen-king-3/full-dark-no-stars/9781444712568/"
 booklists:
   - "completed"
   - "favorites"
 resources:
   - name: cover
     src: cover.webp
+params:
+  author: "Stephen King"
+  isbn: "978-1-4447-1255-1"
+  publishingYear: "2010"
+  references:
+    - rel: cover
+      uri: "https://covers.openlibrary.org/b/id/10706103-L.jpg"
+    - rel: permalink
+      uri: "https://openlibrary.org/books/OL32039744M/Full_Dark_No_Stars"
+    - rel: synopsis
+      uri: "https://www.hodder.co.uk/titles/stephen-king-3/full-dark-no-stars/9781444712568/"
 ---
 Is it possible to fully know anyone? Even those we love the most? What tips 
 someone over the edge to commit a crime?

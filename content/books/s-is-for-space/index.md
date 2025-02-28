@@ -1,21 +1,26 @@
 ---
+date: 2024-12-15T12:20:47+01:00
 title: "S is for space"
 slug: "s-is-for-space"
-isbn: "978-3-426-52073-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52073-4"
-cataloguePermalink: "https://d-nb.info/1119348005"
-author: "Ray Bradbury"
-publishedAt: "2017"
 topics:
   - "Science Fiction"
   - "Kurzgeschichten"
-source: "https://www.droemer-knaur.de/buch/ray-bradbury-s-is-for-space-9783426520734"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
-date: 2024-12-15T12:20:47+01:00
+params:
+  author: "Ray Bradbury"
+  isbn: "978-3-426-52073-4"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52073-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1119348005"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/ray-bradbury-s-is-for-space-9783426520734"
 ---
 Steven Spielberg nennt ihn seine Inspiration, die Washington Post einen 
 Mythenschöpfer, der Guardian vergleicht ihn mit Edgar Allan Poe: Kaum ein 

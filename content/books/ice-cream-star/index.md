@@ -1,19 +1,24 @@
 ---
 title: "Ice cream star"
 slug: "ice-cream-star"
-isbn: "978-3-95757-766-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95757-766-5"
-cataloguePermalink: "https://d-nb.info/1185294228"
-author: "Sandra Newman"
-publishedAt: "2019"
 topics:
   - "Dystopie"
-source: "https://www.matthes-seitz-berlin.de/buch/ice-cream-star.html?lid=2"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Sandra Newman"
+  isbn: "978-3-95757-766-5"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95757-766-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1185294228"
+    - rel: synopsis
+      uri: "https://www.matthes-seitz-berlin.de/buch/ice-cream-star.html?lid=2"
 ---
 Auf der Suche nach einem Gegenmittel für eine Grippeepidemie, die sie durch 
 die Reste einer vergangenen Zivilisation führt, erlebt eine unerschrockene 

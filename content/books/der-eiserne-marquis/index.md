@@ -2,19 +2,24 @@
 date: "2024-01-30T21:45:43+01:00"
 title: "Der eiserne Marquis"
 slug: "der-eiserne-marquis"
-isbn: "978-3-95438-165-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95438-165-4"
-cataloguePermalink: "https://d-nb.info/1285702832"
-author: "Thomas Willmann"
-publishedAt: "2023"
 topics:
   - "Historischer Roman"
-source: "https://www.liebeskind.de/buecher/backlist/der-eiserne-marquis"
 booklists:
   - wishlist
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Thomas Willmann"
+  isbn: "978-3-95438-165-4"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95438-165-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1285702832"
+    - rel: synopsis
+      uri: "https://www.liebeskind.de/buecher/backlist/der-eiserne-marquis"
 ---
 
 Wien, im Jahr des Herrn 1753. Ein junger Bursche aus der Provinz tritt als 

@@ -1,21 +1,26 @@
 ---
 date: "2024-01-19T19:58:06+01:00"
 title: "Die Legende von den Strippenziehern"
-subtitle: "Verschwörungsdenken im Zeitalter des Wassermanns : ein idelologiekritisches Heft"
 slug: "die-legende-von-den-strippenziehern"
-isbn: "978-3-87512-619-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-87512-619-8"
-cataloguePermalink: "https://d-nb.info/1223472817"
-author: "Peter Bierl"
-publishedAt: "2021"
 topics:
   - "Essay"
-source: "https://www.maroverlag.de/marohefte/243-die-legende-von-den-strippenziehern-9783875126198.html"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Peter Bierl"
+  isbn: "978-3-87512-619-8"
+  publishingYear: "2021"
+  subtitle: "Verschwörungsdenken im Zeitalter des Wassermanns : ein idelologiekritisches Heft"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-87512-619-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1223472817"
+    - rel: synopsis
+      uri: "https://www.maroverlag.de/marohefte/243-die-legende-von-den-strippenziehern-9783875126198.html"
 ---
 
 Die Erde – von Echsen regiert? Eine gierige Finanzelite haut die Menschen mit 

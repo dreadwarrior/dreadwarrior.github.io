@@ -2,20 +2,25 @@
 date: 2024-06-28T17:33:06+02:00
 title: "Wie man einen Bären kocht"
 slug: "wie-man-einen-bären-kocht"
-isbn: "978-3-442-77140-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-77140-0"
-cataloguePermalink: "https://d-nb.info/1230765735"
-author: "Mikael Niemi"
-publishedAt: "2021"
 topics:
   - "Krimi"
-source: "https://www.penguin.de/Taschenbuch/Wie-man-einen-Baeren-kocht/Mikael-Niemi/btb/e592604.rhd"
 booklists:
   - completed
   - favorites
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Mikael Niemi"
+  isbn: "978-3-442-77140-0"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-77140-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1230765735"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Wie-man-einen-Baeren-kocht/Mikael-Niemi/btb/e592604.rhd"
 ---
 
 Ein Dorf in Nordschweden 1852. Der vielseitig gebildete protestantische 

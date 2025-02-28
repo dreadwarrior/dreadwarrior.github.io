@@ -2,19 +2,24 @@
 date: 2024-02-28T21:30:09+01:00
 title: "Klein-Sibirien"
 slug: "klein-sibirien"
-isbn: "978-3-498-00126-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-498-00126-1"
-cataloguePermalink: "https://d-nb.info/1185426035"
-author: "Antti Tuomainen"
-publishedAt: "2020"
 topics:
   - "Krimi"
-source: "https://www.rowohlt.de/buch/antti-tuomainen-klein-sibirien-9783499001468"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Antti Tuomainen"
+  isbn: "978-3-498-00126-1"
+  publishingYear: "2020"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-498-00126-1"
+    - rel: permalink
+      uri: "https://d-nb.info/1185426035"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/antti-tuomainen-klein-sibirien-9783499001468"
 ---
 Rallyefahrer Tarvainen rast mit zu viel Promille und Selbstmordgedanken durch 
 die schneebedeckten finnischen Wälder, als es am Himmel aufblitzt und etwas in 

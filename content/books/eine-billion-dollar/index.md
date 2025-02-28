@@ -1,19 +1,24 @@
 ---
 title: "Eine Billion Dollar"
 slug: "eine-billion-dollar"
-isbn: "978-3-431-04128-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-19289-2"
-cataloguePermalink: "https://d-nb.info/1185900411"
-author: "Andreas Eschbach"
-publishedAt: "2020"
 topics:
   - "Thriller"
-source: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/eine-billion-dollar/id_10217806"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Andreas Eschbach"
+  isbn: "978-3-431-04128-6"
+  publishingYear: "2020"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-19289-2"
+    - rel: permalink
+      uri: "https://d-nb.info/1185900411"
+    - rel: synopsis
+      uri: "https://www.luebbe.de/luebbe-belletristik/buecher/thriller/eine-billion-dollar/id_10217806"
 ---
 John Fontanelli ist ein armer Schlucker, bis er eine unglaubliche Erbschaft 
 macht: ein Vermögen, das ein Vorfahre hinterlassen hat und das in fast 500 

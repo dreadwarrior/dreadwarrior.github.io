@@ -2,19 +2,24 @@
 date: "2023-11-26T15:37:24+01:00"
 title: "Junger Mann"
 slug: "junger-mann"
-isbn: "978-3-455-00858-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-455-00858-6"
-cataloguePermalink: "https://d-nb.info/1189167417"
-author: "Wolf Haas"
-publishedAt: "2019"
 topics:
   - "Coming of Age"
-source: "https://hoffmann-und-campe.de/products/45103-junger-mann?variant=44570021855500"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Wolf Haas"
+  isbn: "978-3-455-00858-6"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-455-00858-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1189167417"
+    - rel: synopsis
+      uri: "https://hoffmann-und-campe.de/products/45103-junger-mann?variant=44570021855500"
 ---
 
 Der Dreizehnjährige, der auf die Waage stieg und sich um den Verstand verliebte.

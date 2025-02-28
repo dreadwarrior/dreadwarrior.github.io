@@ -2,19 +2,24 @@
 date: "2024-03-13T18:06:04+01:00"
 title: "Der Tod reist mit"
 slug: "der-tod-reist-mit"
-isbn: "978-3-453-44164-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44164-4"
-cataloguePermalink: "https://d-nb.info/1272077810"
-author: "Tom Hindle"
-publishedAt: "2023"
 topics:
   - "Krimi"
-source: "https://www.penguin.de/Paperback/Der-Tod-reist-mit/Tom-Hindle/Heyne/e596332.rhd"
 booklists:
   - wishlist
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Tom Hindle"
+  isbn: "978-3-453-44164-4"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44164-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1272077810"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Paperback/Der-Tod-reist-mit/Tom-Hindle/Heyne/e596332.rhd"
 ---
 
 November 1924: An Bord des Ozeandampfers Endeavor wird ein älterer Gentleman 

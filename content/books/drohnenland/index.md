@@ -1,19 +1,24 @@
 ---
 title: "Drohnenland"
 slug: "drohnenland"
-isbn: "978-3-462-04662-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-462-04662-5"
-cataloguePermalink: "https://d-nb.info/1044553073"
-author: "Tom Hillenbrand"
-publishedAt: "2014"
 topics:
   - "Krimi"
-source: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-drohnenland-9783462046625"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Tom Hillenbrand"
+  isbn: "978-3-462-04662-5"
+  publishingYear: "2014"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-462-04662-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1044553073"
+    - rel: synopsis
+      uri: "https://www.kiwi-verlag.de/buch/tom-hillenbrand-drohnenland-9783462046625"
 ---
 **Alles wird überwacht. Alles ist sicher. Doch dann geschieht ein Mord, der 
 alles infrage stellt.**

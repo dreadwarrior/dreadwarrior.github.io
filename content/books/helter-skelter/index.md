@@ -1,21 +1,26 @@
 ---
 date: "2023-12-04T21:14:06+01:00"
 title: "Helter Skelter"
-subtitle: "Die wahre Geschichte des Serienmörders Charles Manson"
 slug: "helter-skelter"
-isbn: "978-3-7423-0249-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7423-0249-6"
-cataloguePermalink: "https://d-nb.info/1131094255"
-author: "Vincent Bugliosi, Curt Gentry"
-publishedAt: "2017"
 topics:
   - "Investigation"
-source: "https://www.m-vg.de/riva/shop/article/13008-helter-skelter/"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Vincent Bugliosi, Curt Gentry"
+  isbn: "978-3-7423-0249-6"
+  publishingYear: "2017"
+  subtitle: "Die wahre Geschichte des Serienmörders Charles Manson"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7423-0249-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1131094255"
+    - rel: synopsis
+      uri: "https://www.m-vg.de/riva/shop/article/13008-helter-skelter/"
 ---
 
 Im Sommer 1969 erschüttert eine Reihe bestialischer Morde Los Angeles und die 

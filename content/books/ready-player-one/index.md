@@ -2,20 +2,25 @@
 date: "2023-03-15T12:53:18+01:00"
 title: "Ready Player One"
 slug: "ready-player-one"
-isbn: "978-3-596-70664-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-70664-8"
-cataloguePermalink: "https://d-nb.info/1222192098"
-author: "Ernest Cline"
-publishedAt: "2021"
 topics:
   - "Science Fiction"
-source: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-one-9783596706648"
 booklists:
   - "completed"
   - "favorites"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Ernest Cline"
+  isbn: "978-3-596-70664-8"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-70664-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1222192098"
+    - rel: synopsis
+      uri: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-one-9783596706648"
 ---
 Im Jahr 2045 ist die Welt ein hässlicher Ort: Die Erdölvorräte sind 
 aufgebraucht, ein Großteil der Bevölkerung lebt in Armut. Einziger Lichtblick 

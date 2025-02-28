@@ -1,19 +1,24 @@
 ---
 title: "Morgen mach ich bessere Fehler"
 slug: "morgen-mach-ich-bessere-fehler"
-isbn: "978-3-404-19206-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-19206-9"
-cataloguePermalink: "https://d-nb.info/1283338289"
-author: "Petra Hülsmann"
-publishedAt: "2023"
 topics:
   - "Humor"
-source: "https://www.luebbe.de/luebbe-belletristik/buecher/liebesroman/morgen-mach-ich-bessere-fehler/id_6189530"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Petra Hülsmann"
+  isbn: "978-3-404-19206-9"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-19206-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1283338289"
+    - rel: synopsis
+      uri: "https://www.luebbe.de/luebbe-belletristik/buecher/liebesroman/morgen-mach-ich-bessere-fehler/id_6189530"
 ---
 Eigentlich ist Elli auf dem Weg zu einer Familienfeier ins Allgäu, zusammen 
 mit ihrer sechsjährigen Tochter Paula und dem chronisch schlecht gelaunten 

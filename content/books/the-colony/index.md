@@ -1,20 +1,25 @@
 ---
 title: "The colony"
 slug: "the-colony"
-isbn: "978-3-426-52260-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52260-8"
-cataloguePermalink: "https://d-nb.info/1155492714"
-author: "Patrick S. Tomlinson"
-publishedAt: "2019"
 topics:
   - "Science Fiction"
   - "Krimi"
-source: "https://www.droemer-knaur.de/buch/patrick-s-tomlinson-the-colony-ein-neuer-anfang-9783426522608"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Patrick S. Tomlinson"
+  isbn: "978-3-426-52260-8"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52260-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1155492714"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/patrick-s-tomlinson-the-colony-ein-neuer-anfang-9783426522608"
 ---
 Zwei Welten, zwei Völker, ein drohender Krieg: Die Zukunft der Menschheit 
 hängt in Patrick Tomlinsons neuem Science Fiction-Thriller an zwei ungleichen 

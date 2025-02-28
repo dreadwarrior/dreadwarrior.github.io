@@ -2,19 +2,24 @@
 date: "2022-06-07T11:25:58+01:00"
 title: "Wind"
 slug: "wind"
-isbn: "978-3-453-26794-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-26794-7"
-cataloguePermalink: "https://d-nb.info/1021807311"
-author: "Stephen King"
-publishedAt: "2012"
 topics:
   - "Fantasy"
-source: "https://www.penguin.de/Taschenbuch/Wind/Stephen-King/Heyne/e407226.rhd"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-26794-7"
+  publishingYear: "2012"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-26794-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1021807311"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Wind/Stephen-King/Heyne/e407226.rhd"
 ---
 Roland Deschain, der letzte Revolvermann, und seine Gefährten haben den Grünen 
 Palast hinter sich gelassen.

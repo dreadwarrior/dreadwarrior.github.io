@@ -1,19 +1,24 @@
 ---
 title: "Roter Drache"
 slug: "roter-drache"
-isbn: "978-3-453-44086-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44086-9"
-cataloguePermalink: "https://d-nb.info/1173519327"
-author: "Thomas Harris"
-publishedAt: "2019"
 topics:
   - "Thriller"
-source: "https://shop.penguinrandomhouse.de/shop/article/38726434/thomas_harris_roter_drache.html"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Thomas Harris"
+  isbn: "978-3-453-44086-9"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44086-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1173519327"
+    - rel: synopsis
+      uri: "https://shop.penguinrandomhouse.de/shop/article/38726434/thomas_harris_roter_drache.html"
 ---
 Ein Killer verbreitet Angst und Schrecken in Florida. Er hat schon zehn 
 Menschen umgebracht, und die Mordserie reißt nicht ab. Wer wäre besser 

@@ -2,19 +2,24 @@
 date: 2024-09-11T22:18:28+02:00
 title: "Der freundliche Mr Crippen"
 slug: "der-freundliche-mr-crippen"
-isbn: "978-3-492-30556-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-30556-3"
-cataloguePermalink: "https://d-nb.info/1062568354"
-author: "John Boyne"
-publishedAt: "2015"
 topics:
   - "Krimi"
-source: "https://www.thalia.de/shop/home/artikeldetails/A1034941693"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "John Boyne"
+  isbn: "978-3-492-30556-3"
+  publishingYear: "2015"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-30556-3"
+    - rel: permalink
+      uri: "https://d-nb.info/1062568354"
+    - rel: synopsis
+      uri: "https://www.thalia.de/shop/home/artikeldetails/A1034941693"
 ---
 Im Sommer 1910 steht Scotland Yard vor einem unlösbaren Fall: Im Haus des 
 allseits beliebten Mr Hawley Crippen wird die grausam zerstückelte Leiche 

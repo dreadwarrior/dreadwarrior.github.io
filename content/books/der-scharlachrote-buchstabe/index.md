@@ -1,20 +1,25 @@
 ---
 title: "Der scharlachrote Buchstabe"
 slug: "der-scharlachrote-buchstabe"
-isbn: "978-3-446-24541-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-24541-9"
-cataloguePermalink: "https://d-nb.info/1056855266"
-author: "Nathaniel Hawthorne"
-publishedAt: "2014"
 topics:
   - "Religion"
   - "Historischer Roman"
-source: "https://www.hanser-literaturverlage.de/buch/der-scharlachrote-buchstabe/978-3-446-24490-0/"
 booklists:
   - "unread"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Nathaniel Hawthorne"
+  isbn: "978-3-446-24541-9"
+  publishingYear: "2014"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-24541-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1056855266"
+    - rel: synopsis
+      uri: "https://www.hanser-literaturverlage.de/buch/der-scharlachrote-buchstabe/978-3-446-24490-0/"
 ---
 Amerika im 17. Jahrhundert: Eine Frau, des Ehebruchs schuldig, steht am 
 Schandpfahl und verrät nicht, wer der Vater ihrer Tochter ist. Die gestrenge 

@@ -1,19 +1,24 @@
 ---
 title: "Gevatter Tod"
 slug: "gevatter-tod"
-isbn: "978-3-492-28198-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-28198-0"
-cataloguePermalink: "https://d-nb.info/1169591035"
-author: "Terry Pratchett"
-publishedAt: "2019"
 topics:
   - "Fantasy"
-source: "https://www.piper.de/buecher/gevatter-tod-isbn-978-3-492-28064-8"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Terry Pratchett"
+  isbn: "978-3-492-28198-0"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-492-28198-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1169591035"
+    - rel: synopsis
+      uri: "https://www.piper.de/buecher/gevatter-tod-isbn-978-3-492-28064-8"
 ---
 Bevor der Tod in seinen wohlverdienten Urlaub aufbricht, stellt er den jungen 
 Lehrling Mort als Vertreter ein. Mort hat alle Hände voll zu tun: Überall auf 

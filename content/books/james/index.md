@@ -2,19 +2,24 @@
 date: "2024-05-27T07:50:00+02:00"
 title: "James"
 slug: "james"
-isbn: "978-3-446-27948-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-27948-3"
-cataloguePermalink: "https://d-nb.info/1306107237"
-author: "Percival Everett"
-publishedAt: "2024"
 topics:
   - "Abenteuer"
-source: "https://www.hanser-literaturverlage.de/buch/percival-everett-james-9783446279483-t-5217"
 booklists:
   - wishlist
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Percival Everett"
+  isbn: "978-3-446-27948-3"
+  publishingYear: "2024"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-27948-3"
+    - rel: permalink
+      uri: "https://d-nb.info/1306107237"
+    - rel: synopsis
+      uri: "https://www.hanser-literaturverlage.de/buch/percival-everett-james-9783446279483-t-5217"
 ---
 
 Jim spielt den Dummen. Es wäre zu gefährlich, wenn die Weißen wüssten, wie 

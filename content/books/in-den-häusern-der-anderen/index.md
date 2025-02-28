@@ -1,20 +1,25 @@
 ---
+date: 2024-10-26T11:12:47+02:00
 title: "In den Häusern der Anderen"
 slug: "in-den-häusern-der-anderen"
-isbn: "978-3-96289-146-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-96289-146-6"
-cataloguePermalink: "https://d-nb.info/1255134712"
-author: "Karolina Kuszyk"
-publishedAt: "2022"
 topics:
   - "Investigation"
-source: "https://www.aufbau-verlage.de/ch-links-verlag/den-hausern-der-anderen/978-3-96289-146-6"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
-date: 2024-10-26T11:12:47+02:00
+params:
+  author: "Karolina Kuszyk"
+  isbn: "978-3-96289-146-6"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-96289-146-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1255134712"
+    - rel: synopsis
+      uri: "https://www.aufbau-verlage.de/ch-links-verlag/den-hausern-der-anderen/978-3-96289-146-6"
 ---
 Poniemieckie heißt in Polen das ehemals Deutsche: Orte, Gebäude, Gegenstände, 
 die von Millionen Deutschen zurückgelassen wurden, als sie am Ende des Zweiten 

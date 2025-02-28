@@ -1,21 +1,26 @@
 ---
 date: "2024-01-19T19:57:40+01:00"
 title: "Mythos"
-subtitle: "Was uns die Götter heute sagen"
 slug: "mythos"
-isbn: "978-3-7466-3732-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7466-3732-7"
-cataloguePermalink: "https://d-nb.info/1221737686"
-author: "Stephen Fry"
-publishedAt: "2021"
 topics:
   - "Fantasy"
-source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/mythos/978-3-7466-3732-7"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen Fry"
+  isbn: "978-3-7466-3732-7"
+  publishingYear: "2021"
+  subtitle: "Was uns die Götter heute sagen"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7466-3732-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1221737686"
+    - rel: synopsis
+      uri: "https://www.aufbau-verlage.de/aufbau-taschenbuch/mythos/978-3-7466-3732-7"
 ---
 
 Stephen Fry hat sich die griechischen Göttersagen vorgeknöpft: Grandios und 

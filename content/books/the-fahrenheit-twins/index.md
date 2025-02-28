@@ -2,19 +2,24 @@
 date: 2024-06-16T17:18:15+02:00
 title: "The Fahrenheit Twins"
 slug: "the-fahrenheit-twins"
-isbn: "978-1-84195-777-7"
-coverUri: "https://covers.openlibrary.org/b/id/10381033-L.jpg"
-cataloguePermalink: "https://openlibrary.org/books/OL8923803M"
-author: "Michel Faber"
-publishedAt: "2006"
 topics:
   - "Kurzgeschichten"
-source: "https://canongate.co.uk/books/573-the-fahrenheit-twins-and-other-stories/"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Michel Faber"
+  isbn: "978-1-84195-777-7"
+  publishingYear: "2006"
+  references:
+    - rel: cover
+      uri: "https://covers.openlibrary.org/b/id/10381033-L.jpg"
+    - rel: permalink
+      uri: "https://openlibrary.org/books/OL8923803M"
+    - rel: synopsis
+      uri: "https://canongate.co.uk/books/573-the-fahrenheit-twins-and-other-stories/"
 ---
 
 Deft and lyrical, Michel Faber's new collection of stories is his first since 

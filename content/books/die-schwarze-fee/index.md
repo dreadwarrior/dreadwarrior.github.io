@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:52+01:00"
 title: "Die schwarze Fee"
 slug: "die-schwarze-fee"
-isbn: "978-3-86532-656-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86532-656-0"
-cataloguePermalink: "https://d-nb.info/1184687331"
-author: "Kerstin Ehmer"
-publishedAt: "2019"
 topics:
   - "Krimi"
-source: "https://www.pendragon.de/kerstin-ehmer/die-schwarze-fee"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Kerstin Ehmer"
+  isbn: "978-3-86532-656-0"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-86532-656-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1184687331"
+    - rel: synopsis
+      uri: "https://www.pendragon.de/kerstin-ehmer/die-schwarze-fee"
 ---
 
 Berlin tanzt auf dem Vulkan. Glitzernde Tanzpaläste, wilde Partys, Drogen, 

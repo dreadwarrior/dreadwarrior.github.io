@@ -2,19 +2,24 @@
 date: 2024-10-27T16:31:42+01:00
 title: "Slade House"
 slug: "slade-house"
-isbn: "978-3-499-27239-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-27239-4"
-cataloguePermalink: "https://d-nb.info/118542668X"
-author: "David Mitchell"
-publishedAt: "2019"
 topics:
   - "Fantasy"
-source: "https://www.rowohlt.de/buch/david-mitchell-slade-house-9783499272394"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "David Mitchell"
+  isbn: "978-3-499-27239-4"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-27239-4"
+    - rel: permalink
+      uri: "https://d-nb.info/118542668X"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/david-mitchell-slade-house-9783499272394"
 ---
 
 Geh die Slade Alley hinunter– schmal, feucht und leicht zu verfehlen, selbst 

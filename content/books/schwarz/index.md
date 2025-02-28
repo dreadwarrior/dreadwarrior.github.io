@@ -2,19 +2,24 @@
 date: "2022-03-15T11:53:32+01:00"
 title: "Schwarz"
 slug: "schwarz"
-isbn: "978-3-453-87556-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-87556-2"
-cataloguePermalink: "https://d-nb.info/967715229"
-author: "Stephen King"
-publishedAt: "2003"
 topics:
   - "Fantasy"
-source: "https://www.penguin.de/Taschenbuch/Schwarz/Stephen-King/Heyne/e168759.rhd"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-87556-2"
+  publishingYear: "2003"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-87556-2"
+    - rel: permalink
+      uri: "https://d-nb.info/967715229"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Schwarz/Stephen-King/Heyne/e168759.rhd"
 ---
 Ein Heer von Feinden und tödliche Gefahren markieren Rolands Suche nach dem 
 Dunklen Turm.

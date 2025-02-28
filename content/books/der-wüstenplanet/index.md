@@ -2,19 +2,24 @@
 date: 2024-07-14T16:52:14+02:00
 title: "Der Wüstenplanet"
 slug: "der-wüstenplanet"
-isbn: "978-3-641-13957-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-641-13957-5"
-cataloguePermalink: "https://d-nb.info/1052013155"
-author: "Frank Herbert"
-publishedAt: "2014"
 topics:
   - "Science Fiction"
-source: "https://www.penguin.de/Taschenbuch/Der-Wuestenplanet/Frank-Herbert/Heyne/e162204.rhd"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Frank Herbert"
+  isbn: "978-3-641-13957-5"
+  publishingYear: "2014"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-641-13957-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1052013155"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Der-Wuestenplanet/Frank-Herbert/Heyne/e162204.rhd"
 ---
 
 Herzog Leto, Oberhaupt des Hauses Atreides, erhält Arrakis zum Lehen, den 

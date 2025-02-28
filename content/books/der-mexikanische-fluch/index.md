@@ -2,19 +2,24 @@
 date: "2024-01-19T19:58:09+01:00"
 title: "Der mexikanische Fluch"
 slug: "der-mexikanische-fluch"
-isbn: "978-3-7341-1285-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7341-1285-0"
-cataloguePermalink: "https://d-nb.info/1285426088"
-author: "Silvia Moreno-Garcia"
-publishedAt: "2023"
 topics:
   - "Krimi"
-source: "https://www.penguin.de/Taschenbuch/Der-mexikanische-Fluch/Silvia-Moreno-Garcia/Blanvalet/e617399.rhd"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Silvia Moreno-Garcia"
+  isbn: "978-3-7341-1285-0"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7341-1285-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1285426088"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Der-mexikanische-Fluch/Silvia-Moreno-Garcia/Blanvalet/e617399.rhd"
 ---
 
 Mexiko, 1950: Ein verstörender Brief führt Noemí in ein gespenstisches 

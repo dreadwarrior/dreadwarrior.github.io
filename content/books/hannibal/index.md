@@ -1,19 +1,24 @@
 ---
 title: "Hannibal"
 slug: "hannibal"
-isbn: "978-3-453-44032-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44032-6"
-cataloguePermalink: "https://d-nb.info/1173519769"
-author: "Thomas Harris"
-publishedAt: "2019"
 topics:
   - "Thriller"
-source: "https://shop.penguinrandomhouse.de/shop/article/38726435/thomas_harris_hannibal.html"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Thomas Harris"
+  isbn: "978-3-453-44032-6"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44032-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1173519769"
+    - rel: synopsis
+      uri: "https://shop.penguinrandomhouse.de/shop/article/38726435/thomas_harris_hannibal.html"
 ---
 Clarice Starling steckt in einer Krise, seit sie eine Drogendealerin 
 erschossen hat. Doch dann wird sie wieder auf Hannibal Lecter angesetzt, der 

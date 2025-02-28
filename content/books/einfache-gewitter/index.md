@@ -1,19 +1,24 @@
 ---
 title: "Einfache Gewitter"
 slug: "einfache-gewitter"
-isbn: "978-3-311-15035-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-311-15035-0"
-cataloguePermalink: "https://d-nb.info/1231296712"
-author: "William Boyd"
-publishedAt: "2021"
 topics:
   - "Thriller"
-source: "https://kampaverlag.ch/produkt/einfache-gewitter/"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "William Boyd"
+  isbn: "978-3-311-15035-0"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-311-15035-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1231296712"
+    - rel: synopsis
+      uri: "https://kampaverlag.ch/produkt/einfache-gewitter/"
 ---
 Ein Mann. Eine Zufallsbekanntschaft. Ein Aktenordner. Ein Toter. Von einer 
 Sekunde auf die andere muss Adam Kindred, angesehener Klimatologe, in London 

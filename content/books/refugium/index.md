@@ -2,19 +2,24 @@
 date: "2023-10-26T22:00:00+02:00"
 title: "Refugium"
 slug: "refugium"
-isbn: "978-3-423-22064-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-44304-3"
-cataloguePermalink: "https://d-nb.info/1306932289"
-author: "John Ajvide Lindqvist"
-publishedAt: "2024"
 topics:
   - "Thriller"
-source: "https://www.dtv.de/buch/refugium-28364"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "John Ajvide Lindqvist"
+  isbn: "978-3-423-22064-4"
+  publishingYear: "2024"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-44304-3"
+    - rel: permalink
+      uri: "https://d-nb.info/1306932289"
+    - rel: synopsis
+      uri: "https://www.dtv.de/buch/refugium-28364"
 ---
 Ein explosives Ermittler-Duo. Sie: Expolizistin und Krimiautorin im
 Karrieretief. Er: ein Hacker mit gequälter Seele. Sie ziehen einander an. Sie

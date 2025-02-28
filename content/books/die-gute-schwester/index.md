@@ -2,20 +2,25 @@
 date: "2023-11-26T15:34:01+01:00"
 title: "Die gute Schwester"
 slug: "die-gute-schwester"
-isbn: "978-3-442-49329-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-49329-6"
-cataloguePermalink: "https://d-nb.info/1272081656"
-author: "Sarah Bonner"
-publishedAt: "2023"
 topics:
   - "Thriller"
   - "Krimi"
-source: "https://www.penguin.de/Taschenbuch/Die-gute-Schwester/Sarah-Bonner/Goldmann/e596310.rhd"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Sarah Bonner"
+  isbn: "978-3-442-49329-6"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-49329-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1272081656"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Die-gute-Schwester/Sarah-Bonner/Goldmann/e596310.rhd"
 ---
 
 Als Megan auf dem Handy ihres Mannes Chris ein Foto ihrer Zwillingsschwester 

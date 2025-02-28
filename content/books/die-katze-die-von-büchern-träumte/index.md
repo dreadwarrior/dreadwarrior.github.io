@@ -1,19 +1,24 @@
 ---
 title: "Die Katze, die von Büchern träumte"
 slug: "die-katze-die-von-büchern-träumte"
-isbn: "978-3-570-10436-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-570-10436-1"
-cataloguePermalink: "https://d-nb.info/1254681922"
-author: "Sōsuke Natsukawa"
-publishedAt: "2022"
 topics:
   - "Fantasy"
-source: "https://www.thalia.de/shop/home/suggestartikel/A1063536927"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Sōsuke Natsukawa"
+  isbn: "978-3-570-10436-1"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-570-10436-1"
+    - rel: permalink
+      uri: "https://d-nb.info/1254681922"
+    - rel: synopsis
+      uri: "https://www.thalia.de/shop/home/suggestartikel/A1063536927"
 ---
 **Großvater sagte immer: »Bücher besitzen eine besondere Macht. Wenn du sie 
 liest, wirst du immer einen Freund zur Seite haben.«**

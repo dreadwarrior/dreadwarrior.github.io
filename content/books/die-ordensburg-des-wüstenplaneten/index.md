@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:51+01:00"
 title: "Die Ordensburg des Wüstenplaneten"
 slug: "die-ordensburg-des-wüstenplaneten"
-isbn: "978-3-453-18688-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-18688-0"
-cataloguePermalink: "https://d-nb.info/961720646"
-author: "Frank Herbert"
-publishedAt: "2001"
 topics:
   - "Science Fiction"
-source: "https://www.penguin.de/Taschenbuch/Die-Ordensburg-des-Wuestenplaneten/Frank-Herbert/Heyne/e165028.rhd"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Frank Herbert"
+  isbn: "978-3-453-18688-0"
+  publishingYear: "2001"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-18688-0"
+    - rel: permalink
+      uri: "https://d-nb.info/961720646"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Die-Ordensburg-des-Wuestenplaneten/Frank-Herbert/Heyne/e165028.rhd"
 ---
 
 Seit Tausenden von Jahren herrscht die Schwesternschaft der Bene Gesserit 

@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:42+01:00"
 title: "Tom Sawyers Abenteuer und Streiche"
 slug: "tom-sawyers-abenteuer-und-streiche"
-isbn: "978-3-8496-2483-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8496-2483-5"
-cataloguePermalink: "https://d-nb.info/1026763673"
-author: "Mark Twain"
-publishedAt: "2012"
 topics:
   - "Abenteuer"
-source: "https://www.isbn.de/ebook/9783849624835/tom-sawyers-abenteuer-und-streiche"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Mark Twain"
+  isbn: "978-3-8496-2483-5"
+  publishingYear: "2012"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8496-2483-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1026763673"
+    - rel: synopsis
+      uri: "https://www.isbn.de/ebook/9783849624835/tom-sawyers-abenteuer-und-streiche"
 ---
 
 Die Abenteuer des Tom Sawyer ist eine typische Lausbubengeschichte und spielt 

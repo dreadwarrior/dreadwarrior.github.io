@@ -1,20 +1,25 @@
 ---
+date: 2024-10-26T16:13:49+02:00
 title: "Gomorrha"
 slug: "gomorrha"
-isbn: "978-3-423-34529-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-20949-7"
-cataloguePermalink: "https://d-nb.info/98875942X"
-author: "Roberto Saviano"
-publishedAt: "2009"
 topics:
   - "Investigation"
-source: "https://www.dtv.de/buch/gomorrha-34529"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
-date: 2024-10-26T16:13:49+02:00
+params:
+  author: "Roberto Saviano"
+  isbn: "978-3-423-34529-3"
+  publishingYear: "2009"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-20949-7"
+    - rel: permalink
+      uri: "https://d-nb.info/98875942X"
+    - rel: synopsis
+      uri: "https://www.dtv.de/buch/gomorrha-34529"
 ---
 Die süditalienische Camorra mischt mit im internationalen Drogenhandel, 
 verschiebt riesige Mengen Giftmülls in Italien, macht gewaltige Geschäfte mit 

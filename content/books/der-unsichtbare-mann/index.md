@@ -1,19 +1,24 @@
 ---
 title: "Der unsichtbare Mann"
 slug: "der-unsichtbare-mann"
-isbn: "978-3-351-03780-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-351-03780-2"
-cataloguePermalink: "https://d-nb.info/1171920962"
-author: "Ralph Ellison"
-publishedAt: "2019"
 topics:
   - "Rassismus"
-source: "https://www.aufbau-verlage.de/aufbau-taschenbuch/der-unsichtbare-mann/978-3-7466-3822-5"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Ralph Ellison"
+  isbn: "978-3-351-03780-2"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-351-03780-2"
+    - rel: permalink
+      uri: "https://d-nb.info/1171920962"
+    - rel: synopsis
+      uri: "https://www.aufbau-verlage.de/aufbau-taschenbuch/der-unsichtbare-mann/978-3-7466-3822-5"
 ---
 Die Geschichte von der Odyssee eines namenlosen Schwarzen, die ihn von ganz 
 oben bis ganz unten durch alle Schichten der amerikanischen Gesellschaft 

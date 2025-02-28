@@ -1,19 +1,24 @@
 ---
 title: "Der Galgenvogel"
 slug: "der-galgenvogel"
-isbn: "978-3-426-51507-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-51507-5"
-cataloguePermalink: "https://d-nb.info/1140645323"
-author: "Antonia Hodgson"
-publishedAt: "2017"
 topics:
   - "Thriller"
-source: "https://www.droemer-knaur.de/buch/antonia-hodgson-der-galgenvogel-9783426515075"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Antonia Hodgson"
+  isbn: "978-3-426-51507-5"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-51507-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1140645323"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/antonia-hodgson-der-galgenvogel-9783426515075"
 ---
 London, Frühjahr 1728: Der schwefelgelb flackernde Schein rußiger Öllampen, 
 Übelkeit erregender Gestank frisch geleerter Nachttöpfe im Rinnstein, und in 

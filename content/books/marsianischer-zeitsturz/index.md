@@ -2,19 +2,24 @@
 date: "2024-01-16T22:22:02+01:00"
 title: "Marsianischer Zeitsturz"
 slug: "marsianischer-zeitsturz"
-isbn: "978-3-596-90563-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-90563-8"
-cataloguePermalink: "https://d-nb.info/1044422025"
-author: "Philip K. Dick"
-publishedAt: "2014"
 topics:
   - "Science Fiction"
-source: "https://www.fischerverlage.de/buch/philip-k-dick-marsianischer-zeitsturz-9783596905638"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Philip K. Dick"
+  isbn: "978-3-596-90563-8"
+  publishingYear: "2014"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-90563-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1044422025"
+    - rel: synopsis
+      uri: "https://www.fischerverlage.de/buch/philip-k-dick-marsianischer-zeitsturz-9783596905638"
 ---
 
 Eine Siedlung auf dem Mars, ein hochbegabtes Kind, das Zeitbrüche aufspürt, 

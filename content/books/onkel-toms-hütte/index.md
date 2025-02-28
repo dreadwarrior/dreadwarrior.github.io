@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:44+01:00"
 title: "Onkel Toms Hütte"
 slug: "onkel-toms-hütte"
-isbn: "978-3-423-14060-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-20913-7"
-cataloguePermalink: "https://d-nb.info/1011635895"
-author: "Harriet Beecher Stowe"
-publishedAt: "2011"
 topics:
   - "Drama"
-source: "https://www.dtv.de/buch/onkel-toms-huette-14060"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Harriet Beecher Stowe"
+  isbn: "978-3-423-14060-7"
+  publishingYear: "2011"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-20913-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1011635895"
+    - rel: synopsis
+      uri: "https://www.dtv.de/buch/onkel-toms-huette-14060"
 ---
 
 Harriet Beecher Stowe, die Tochter und Gattin eines presbyterianischen Gelehrten, 

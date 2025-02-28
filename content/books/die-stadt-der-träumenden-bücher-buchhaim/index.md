@@ -1,21 +1,26 @@
 ---
 date: "2022-12-20T20:23:09+01:00"
 title: "Die Stadt der Träumenden Bücher"
-subtitle: "Teil 1: Buchhaim"
 slug: "die-stadt-der-träumenden-bücher-buchhaim"
-isbn: "978-3-328-60133-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-328-60133-3"
-cataloguePermalink: "https://d-nb.info/1199448133"
-author: "Walter Moers"
-publishedAt: "2019"
 topics:
   - "Fantasy"
-source: "https://www.penguin.de/Buch/Die-Stadt-der-Traeumenden-Buecher-Comic-/Walter-Moers/Penguin/e568049.rhd"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Walter Moers"
+  isbn: "978-3-328-60133-3"
+  publishingYear: "2019"
+  subtitle: "Teil 1: Buchhaim"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-328-60133-3"
+    - rel: permalink
+      uri: "https://d-nb.info/1199448133"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Buch/Die-Stadt-der-Traeumenden-Buecher-Comic-/Walter-Moers/Penguin/e568049.rhd"
 ---
 Buchhaim ist die „Stadt der Träumenden Bücher“, wo Bücher nicht nur spannend 
 oder komisch sind, sondern auch in den Wahnsinn treiben oder sogar töten können. 

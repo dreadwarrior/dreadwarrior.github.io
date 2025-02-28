@@ -1,21 +1,26 @@
 ---
 date: "2023-12-23T19:58:05+01:00"
 title: "Eine Frau geht einen trinken - alleine"
-subtitle: "Ein verdächtiges Heft"
 slug: "eine-frau-geht-einen-trinken---alleine"
-isbn: "978-3-87512-626-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-87512-626-6"
-cataloguePermalink: "https://d-nb.info/1275634435"
-author: "Lou Zucker"
-publishedAt: "2023"
 topics:
   - "Essay"
-source: "https://www.maroverlag.de/marohefte/269-eine-frau-geht-einen-trinken-alleine-9783875126266.html"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Lou Zucker"
+  isbn: "978-3-87512-626-6"
+  publishingYear: "2023"
+  subtitle: "Ein verdächtiges Heft"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-87512-626-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1275634435"
+    - rel: synopsis
+      uri: "https://www.maroverlag.de/marohefte/269-eine-frau-geht-einen-trinken-alleine-9783875126266.html"
 ---
 
 Das Alleine-Ausgehen ist für Frauen ein vertracktes, teils auch gefährliches 

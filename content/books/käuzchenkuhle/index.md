@@ -2,20 +2,25 @@
 date: "2022-11-23T20:50:34+01:00"
 title: "Käuzchenkuhle"
 slug: "käuzchenkuhle"
-isbn: "978-3-359-01472-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-359-01472-0"
-cataloguePermalink: "https://d-nb.info/1000916413"
-author: "Horst Beseler"
-publishedAt: "2010"
 topics:
   - "Krimi"
   - "Abenteuer"
-source: "https://www.eulenspiegel.com/verlage/eulenspiegel-kinderbuchverlag/titel/257-kaeuzchenkuhle.html"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Horst Beseler"
+  isbn: "978-3-359-01472-0"
+  publishingYear: "2010"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-359-01472-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1000916413"
+    - rel: synopsis
+      uri: "https://www.eulenspiegel.com/verlage/eulenspiegel-kinderbuchverlag/titel/257-kaeuzchenkuhle.html"
 ---
 Nur widerwillig macht sich Jampoll – der eigentlich Jean-Paul heißt, aber dessen 
 Namen keiner richtig aussprechen kann – von Berlin aus auf den Weg in das 

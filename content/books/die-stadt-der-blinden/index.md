@@ -1,19 +1,24 @@
 ---
 title: "Die Stadt der Blinden"
 slug: "die-stadt-der-blinden"
-isbn: "978-3-442-74529-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-74529-6"
-cataloguePermalink: "https://d-nb.info/1070341061"
-author: "José Saramago"
-publishedAt: "2015"
 topics:
   - "Dystopie"
-source: "https://www.isbn.de/buch/9783442745296/die-stadt-der-blinden"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "José Saramago"
+  isbn: "978-3-442-74529-6"
+  publishingYear: "2015"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-74529-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1070341061"
+    - rel: synopsis
+      uri: "https://www.isbn.de/buch/9783442745296/die-stadt-der-blinden"
 ---
 Ein Mann steht an einer Ampel. Von einer Sekunde auf die nächste, ohne 
 erklärbaren Grund, erblindet er. Wie ihm ergeht es immer mehr Menschen in 

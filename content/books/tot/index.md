@@ -2,19 +2,24 @@
 date: "2022-04-21T11:36:59+01:00"
 title: "Tot"
 slug: "tot"
-isbn: "978-3-453-87558-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-87558-6"
-cataloguePermalink: "https://d-nb.info/967710421"
-author: "Stephen King"
-publishedAt: "2003"
 topics:
   - "Fantasy"
-source: "https://www.penguin.de/Taschenbuch/tot-/Stephen-King/Heyne/e168761.rhd"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-87558-6"
+  publishingYear: "2003"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-87558-6"
+    - rel: permalink
+      uri: "https://d-nb.info/967710421"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/tot-/Stephen-King/Heyne/e168761.rhd"
 ---
 Rolands wüstes Land nimmt immer groteskere Formen und erschreckendere Gestalten 
 an.

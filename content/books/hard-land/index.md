@@ -2,19 +2,24 @@
 date: "2024-02-11T17:05:22+01:00"
 title: "Hard Land"
 slug: "hard-land"
-isbn: "978-3-257-24674-2"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-24674-2"
-cataloguePermalink: "https://d-nb.info/1271455382"
-author: "Benedict Wells"
-publishedAt: "2023"
 topics:
   - "Coming of Age"
-source: "https://www.diogenes.ch/leser/titel/benedict-wells/hard-land-9783257246742.html"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Benedict Wells"
+  isbn: "978-3-257-24674-2"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-24674-2"
+    - rel: permalink
+      uri: "https://d-nb.info/1271455382"
+    - rel: synopsis
+      uri: "https://www.diogenes.ch/leser/titel/benedict-wells/hard-land-9783257246742.html"
 ---
 
 Missouri, 1985: Um vor den Problemen zu Hause zu fliehen, nimmt der 

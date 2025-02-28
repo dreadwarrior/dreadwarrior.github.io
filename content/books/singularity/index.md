@@ -2,19 +2,24 @@
 date: 2024-06-24T22:42:18+02:00
 title: "Singularity"
 slug: "singularity"
-isbn: "978-3-596-70087-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-70087-5"
-cataloguePermalink: "https://d-nb.info/1219975265"
-author: "Joshua Tree"
-publishedAt: "2021"
 topics:
   - "Science Fiction"
-source: "https://www.fischerverlage.de/buch/joshua-tree-singularity-9783596700875"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Joshua Tree"
+  isbn: "978-3-596-70087-5"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-70087-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1219975265"
+    - rel: synopsis
+      uri: "https://www.fischerverlage.de/buch/joshua-tree-singularity-9783596700875"
 ---
 
 Ende des 21. Jahrhunderts ist die Menschheit tief gespalten: Während die eine 

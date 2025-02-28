@@ -1,19 +1,24 @@
 ---
 title: "Die Antwoord"
 slug: "die-antwoord"
-isbn: "978-3-7913-4860-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7913-4860-5"
-cataloguePermalink: "https://d-nb.info/1034164279"
-author: "Roger Ballen"
-publishedAt: "2013"
 topics:
   - "Fotografie"
-source: "http://web.archive.org/web/20230208142008/https://prestelpublishing.penguinrandomhouse.de/book/Roger-Ballen-Die-Antwoord/Prestel-com/e441774.rhd"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Roger Ballen"
+  isbn: "978-3-7913-4860-5"
+  publishingYear: "2013"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-7913-4860-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1034164279"
+    - rel: synopsis
+      uri: "http://web.archive.org/web/20230208142008/https://prestelpublishing.penguinrandomhouse.de/book/Roger-Ballen-Die-Antwoord/Prestel-com/e441774.rhd"
 ---
 Art photography meets popular culture in this behind-the-scenes look at the 
 making of a hugely successful music video by musicians Die Antwoord and 

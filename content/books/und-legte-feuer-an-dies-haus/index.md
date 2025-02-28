@@ -1,19 +1,24 @@
 ---
 title: "Und legte Feuer an dies Haus"
 slug: "und-legte-feuer-an-dies-haus"
-isbn: "978-3-596-31148-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-31148-4"
-cataloguePermalink: "https://d-nb.info/1103690086"
-author: "William Styron"
-publishedAt: "2016"
 topics:
   - "Drama"
-source: "https://www.isbn.de/buch/9783596311484/und-legte-feuer-an-dies-haus"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "William Styron"
+  isbn: "978-3-596-31148-4"
+  publishingYear: "2016"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-31148-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1103690086"
+    - rel: synopsis
+      uri: "https://www.isbn.de/buch/9783596311484/und-legte-feuer-an-dies-haus"
 ---
 Jene Frühsommernacht in dem kleinen, von Touristen und Filmschauspielern 
 bevölkerten italienischen Küstenort Sambuco lastet auf Peter Leverett, dem 

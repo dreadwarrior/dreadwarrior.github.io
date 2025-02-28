@@ -1,19 +1,24 @@
 ---
 title: "Der Donnerstagsmordclub"
 slug: "der-donnerstagsmordclub"
-isbn: "978-3-548-06653-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-06653-0"
-cataloguePermalink: "https://d-nb.info/1265200017"
-author: "Richard Osman"
-publishedAt: "2023"
 topics:
   - "Krimi"
-source: "https://www.ullstein.de/werke/der-donnerstagsmordclub/taschenbuch/9783548066530"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Richard Osman"
+  isbn: "978-3-548-06653-0"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-548-06653-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1265200017"
+    - rel: synopsis
+      uri: "https://www.ullstein.de/werke/der-donnerstagsmordclub/taschenbuch/9783548066530"
 ---
 Man möchte meinen, so eine luxuriöse Seniorenresidenz in der idyllischen 
 Grafschaft Kent sei ein friedlicher Ort. Das dachte auch die fast 

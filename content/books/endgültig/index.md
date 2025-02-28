@@ -2,20 +2,25 @@
 date: "2024-01-20T00:11:02+01:00"
 title: "Endgültig"
 slug: "endgültig"
-isbn: "978-3-518-42521-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-518-42521-3"
-cataloguePermalink: "https://d-nb.info/1079015647"
-author: "Andreas Pflüger"
-publishedAt: "2016"
 topics:
   - "Krimi"
   - "Thriller"
-source: "https://www.suhrkamp.de/buch/andreas-pflueger-endgueltig-t-9783518467701"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Andreas Pflüger"
+  isbn: "978-3-518-42521-3"
+  publishingYear: "2016"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-518-42521-3"
+    - rel: permalink
+      uri: "https://d-nb.info/1079015647"
+    - rel: synopsis
+      uri: "https://www.suhrkamp.de/buch/andreas-pflueger-endgueltig-t-9783518467701"
 ---
 
 Jenny Aaron war Mitglied einer international operierenden Eliteeinheit der 

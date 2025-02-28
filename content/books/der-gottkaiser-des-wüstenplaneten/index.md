@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:49+01:00"
 title: "Der Gottkaiser des Wüstenplaneten"
 slug: "der-gottkaiser-des-wüstenplaneten"
-isbn: "978-3-453-18686-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-18686-6"
-cataloguePermalink: "https://d-nb.info/961720557"
-author: "Frank Herbert"
-publishedAt: "2001"
 topics:
   - "Science Fiction"
-source: "https://www.penguin.de/Taschenbuch/Der-Gottkaiser-des-Wuestenplaneten/Frank-Herbert/Heyne/e165026.rhd"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Frank Herbert"
+  isbn: "978-3-453-18686-6"
+  publishingYear: "2001"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-18686-6"
+    - rel: permalink
+      uri: "https://d-nb.info/961720557"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Der-Gottkaiser-des-Wuestenplaneten/Frank-Herbert/Heyne/e165026.rhd"
 ---
 
 Dreieinhalb Jahrtausende sind auf Arrakis vergangen, und die Welt hat sich 

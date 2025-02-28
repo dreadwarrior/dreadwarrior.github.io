@@ -1,19 +1,24 @@
 ---
 title: "Pepper-Man"
 slug: "pepper-man"
-isbn: "978-3-426-52432-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52432-9"
-cataloguePermalink: "https://d-nb.info/1182453155"
-author: "Camilla Bruce"
-publishedAt: "2020"
 topics:
   - "Fantasy"
-source: "https://www.droemer-knaur.de/buch/camilla-bruce-pepper-man-9783426524329"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Camilla Bruce"
+  isbn: "978-3-426-52432-9"
+  publishingYear: "2020"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-426-52432-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1182453155"
+    - rel: synopsis
+      uri: "https://www.droemer-knaur.de/buch/camilla-bruce-pepper-man-9783426524329"
 ---
 Dies ist die Geschichte der verstorbenen Cassandra Tipp. Cassandra war 
 erfolgreiche Autorin, exzentrische Tante – und angeklagte Mörderin. Sie 

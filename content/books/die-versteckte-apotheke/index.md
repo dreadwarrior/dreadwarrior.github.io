@@ -2,20 +2,25 @@
 date: "2023-10-20T22:26:56+01:00"
 title: "Die versteckte Apotheke"
 slug: "die-versteckte-apotheke"
-isbn: "978-3-365-00150-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-365-00451-7"
-cataloguePermalink: "https://d-nb.info/1253476543"
-author: "Sarah Penner"
-publishedAt: "2022"
 topics:
   - "Feminismus"
   - "Historischer Roman"
-source: "https://www.harpercollins.de/products/die-versteckte-apotheke-9783365001509"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Sarah Penner"
+  isbn: "978-3-365-00150-9"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-365-00451-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1253476543"
+    - rel: synopsis
+      uri: "https://www.harpercollins.de/products/die-versteckte-apotheke-9783365001509"
 ---
 **Gift, Rache und ein geheimer Frauenbund**
 

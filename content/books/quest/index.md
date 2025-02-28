@@ -2,20 +2,25 @@
 date: "2024-01-19T19:57:39+01:00"
 title: "Quest"
 slug: "quest"
-isbn: "978-3-404-20980-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-20980-4"
-cataloguePermalink: "https://d-nb.info/1231649607"
-author: "Andreas Eschbach"
-publishedAt: "2021"
 topics:
   - "Science Fiction"
   - "Fantasy"
-source: "https://www.luebbe.de/luebbe-belletristik/buecher/science-fiction-romane/quest/id_8790694"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Andreas Eschbach"
+  isbn: "978-3-404-20980-4"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-20980-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1231649607"
+    - rel: synopsis
+      uri: "https://www.luebbe.de/luebbe-belletristik/buecher/science-fiction-romane/quest/id_8790694"
 ---
 
 Das Reich Gheera steht vor dem Untergang. Die Verteidigungskräfte haben keine 

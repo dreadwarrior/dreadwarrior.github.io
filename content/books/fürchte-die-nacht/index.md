@@ -1,19 +1,24 @@
 ---
 title: "Fürchte die Nacht"
 slug: "fürchte-die-nacht"
-isbn: "978-3-649-67127-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-649-67127-5"
-cataloguePermalink: "https://d-nb.info/1100707190"
-author: "Claudia Puhlfürst"
-publishedAt: "2017"
 topics:
   - "Thriller"
-source: "https://www.isbn.de/buch/9783649671275/fuerchte-die-nacht"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Claudia Puhlfürst"
+  isbn: "978-3-649-67127-5"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-649-67127-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1100707190"
+    - rel: synopsis
+      uri: "https://www.isbn.de/buch/9783649671275/fuerchte-die-nacht"
 ---
 Eine Woche Exkursion ins Nirgendwo – auf so eine Idee können auch nur 
 verschrobene Biolehrer kommen, finden Lena und ihre beste Freundin Anne. Rund 

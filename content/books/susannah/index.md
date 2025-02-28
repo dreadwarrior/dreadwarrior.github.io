@@ -2,19 +2,24 @@
 date: "2022-07-21T11:02:16+01:00"
 title: "Susannah"
 slug: "susannah"
-isbn: "978-3-453-43103-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-43103-4"
-cataloguePermalink: "https://d-nb.info/973124385"
-author: "Stephen King"
-publishedAt: "2005"
 topics:
   - "Fantasy"
-source: "https://www.penguin.de/Taschenbuch/Susannah/Stephen-King/Heyne/e174209.rhd"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-43103-4"
+  publishingYear: "2005"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-43103-4"
+    - rel: permalink
+      uri: "https://d-nb.info/973124385"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Susannah/Stephen-King/Heyne/e174209.rhd"
 ---
 Mia hat im Körper der hochschwangeren Susannah die Flucht in das New York von 
 1977 ergriffen, und mithilfe der Manni gelingt es Roland und seinen Gefährten 

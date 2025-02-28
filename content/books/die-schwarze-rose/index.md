@@ -2,20 +2,25 @@
 date: 2024-04-18T22:38:18+02:00
 title: "Die schwarze Rose"
 slug: "die-schwarze-rose"
-isbn: "978-3-442-77354-1"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-77354-1"
-cataloguePermalink: "https://d-nb.info/1285430921"
-author: "Dirk Schümer"
-publishedAt: "2023"
 topics:
   - "Religion"
   - "Historischer Roman"
-source: "https://www.penguin.de/Taschenbuch/Die-schwarze-Rose/Dirk-Schuemer/btb/e612817.rhd"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Dirk Schümer"
+  isbn: "978-3-442-77354-1"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-77354-1"
+    - rel: permalink
+      uri: "https://d-nb.info/1285430921"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Die-schwarze-Rose/Dirk-Schuemer/btb/e612817.rhd"
 ---
 
 Als Ketzer denunziert, muss sich der deutsche Prediger Eckhart von Hochheim im

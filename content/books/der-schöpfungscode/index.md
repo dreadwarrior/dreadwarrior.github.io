@@ -1,19 +1,24 @@
 ---
 title: "Der Schöpfungscode"
 slug: "der-schöpfungscode"
-isbn: "978-3-641-23130-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-641-23130-9"
-cataloguePermalink: "https://d-nb.info/1153327554"
-author: "James P. Hogan"
-publishedAt: "2018"
 topics:
   - "Science Fiction"
-source: "https://shop.penguinrandomhouse.de/shop/article/35323790/james_p_hogan_der_schoepfungscode.html"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "James P. Hogan"
+  isbn: "978-3-641-23130-9"
+  publishingYear: "2018"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-641-23130-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1153327554"
+    - rel: synopsis
+      uri: "https://shop.penguinrandomhouse.de/shop/article/35323790/james_p_hogan_der_schoepfungscode.html"
 ---
 Etwa eine Million Jahre vor unserer Zeit fliegt ein automatisches 
 Roboterschiff einer fremden Zivilisation zu nahe an einer Sonne vorbei, die 

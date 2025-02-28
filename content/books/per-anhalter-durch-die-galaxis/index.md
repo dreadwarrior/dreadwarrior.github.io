@@ -2,19 +2,24 @@
 date: "2006-02-17T14:50:20+01:00"
 title: "Per Anhalter durch die Galaxis"
 slug: "per-anhalter-durch-die-galaxis"
-isbn: "978-3-453-50016-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-50016-7"
-cataloguePermalink: "https://d-nb.info/972874127"
-author: "Douglas Adams"
-publishedAt: "2005"
 topics:
   - "Science Fiction"
-source: "https://www.thalia.de/shop/home/suggestartikel/A1042835568"
 booklists:
   - "completed"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Douglas Adams"
+  isbn: "978-3-453-50016-7"
+  publishingYear: "2005"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-50016-7"
+    - rel: permalink
+      uri: "https://d-nb.info/972874127"
+    - rel: synopsis
+      uri: "https://www.thalia.de/shop/home/suggestartikel/A1042835568"
 ---
 Eines normalen Tages erfährt Arthur Dent zufällig, dass die Zerstörung der Erde 
 unmittelbar bevorsteht: Sie soll einer Hyperraumumgehungsstraße weichen. Zum 

@@ -2,21 +2,26 @@
 date: "2023-11-24T22:54:30+01:00"
 title: "Hidden Pictures"
 slug: "hidden-pictures"
-isbn: "978-1-250-81934-5"
-coverUri: "https://covers.openlibrary.org/b/id/12775985-L.jpg"
-cataloguePermalink: "https://openlibrary.org/books/OL35034974M"
-author: "Jason Rekulak"
-publishedAt: "2022"
 topics:
   - "Thriller"
   - "Mystery"
-source: "https://us.macmillan.com/books/9781250819345/hidden-pictures"
 booklists:
   - "completed"
   - "favorites"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Jason Rekulak"
+  isbn: "978-1-250-81934-5"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://covers.openlibrary.org/b/id/12775985-L.jpg"
+    - rel: permalink
+      uri: "https://openlibrary.org/books/OL35034974M"
+    - rel: synopsis
+      uri: "https://us.macmillan.com/books/9781250819345/hidden-pictures"
 ---
 
 Mallory Quinn is fresh out of rehab when she takes a job as a babysitter for Ted 

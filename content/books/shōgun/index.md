@@ -2,20 +2,25 @@
 date: "2024-05-27T07:51:29+02:00"
 title: "Shōgun"
 slug: "shōgun"
-isbn: "978-3-442-35618-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-35618-8"
-cataloguePermalink: "https://d-nb.info/965548562"
-author: "James Clavell"
-publishedAt: "2002"
 topics:
   - "Abenteuer"
   - "Historischer Roman"
-source: "https://www.isbn.de/buch/9783442356188/shogun"
 booklists:
   - wishlist
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "James Clavell"
+  isbn: "978-3-442-35618-8"
+  publishingYear: "2002"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-35618-8"
+    - rel: permalink
+      uri: "https://d-nb.info/965548562"
+    - rel: synopsis
+      uri: "https://www.isbn.de/buch/9783442356188/shogun"
 ---
 
 In der turbulenten, politisch chaotischen Zeit, in der einzig die Jesuiten und 

@@ -2,19 +2,24 @@
 date: "2023-11-24T23:18:40+01:00"
 title: "The Impossible Fortress"
 slug: "the-impossible-fortress"
-isbn: "978-0-571-33063-8"
-coverUri: "https://covers.openlibrary.org/b/id/14547712-L.jpg"
-cataloguePermalink: "https://openlibrary.org/books/OL28636520M"
-author: "Jason Rekulak"
-publishedAt: "2018"
 topics:
   - "Coming of Age"
-source: "http://jasonrekulak.com/impossiblefortress/"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.png
+params:
+  author: "Jason Rekulak"
+  isbn: "978-0-571-33063-8"
+  publishingYear: "2018"
+  references:
+    - rel: cover
+      uri: "https://covers.openlibrary.org/b/id/14547712-L.jpg"
+    - rel: permalink
+      uri: "https://openlibrary.org/books/OL28636520M"
+    - rel: synopsis
+      uri: "http://jasonrekulak.com/impossiblefortress/"
 ---
 A trio of awkward teen boys... and one brilliant geek girl with a shattering 
 secret.

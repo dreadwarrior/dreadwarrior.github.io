@@ -2,20 +2,25 @@
 date: "2024-06-25T17:43:59+02:00"
 title: "Woman in Cabin 10"
 slug: "woman-in-cabin-10"
-isbn: "978-3-423-21777-4"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-26178-4"
-cataloguePermalink: "https://d-nb.info/1171739230"
-author: "Ruth Ware"
-publishedAt: "2019"
 topics:
   - "Thriller"
   - "Krimi"
-source: "https://www.dtv.de/buch/woman-in-cabin-10-21777"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Ruth Ware"
+  isbn: "978-3-423-21777-4"
+  publishingYear: "2019"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-26178-4"
+    - rel: permalink
+      uri: "https://d-nb.info/1171739230"
+    - rel: synopsis
+      uri: "https://www.dtv.de/buch/woman-in-cabin-10-21777"
 ---
 
 Was tust du, wenn du Zeugin eines Mordes wirst – und niemand glaubt dir?

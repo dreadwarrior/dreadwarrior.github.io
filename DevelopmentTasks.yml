@@ -8,3 +8,55 @@ tasks:
     cmds:
       - pagefind --site "public" --output-subdir ../static/pagefind
       - hugo server -D
+
+  migrate-book-front-matter:
+    desc: Migrate front-matter of a book content.
+    summary: |
+      Migrate the front-matter of a book content by performing the following:
+      
+      - moves all custom parameters to '.params'
+      - moves cover, catalogue permalink and source (synopsis) URIs to '.params.references'
+    cmds:
+      - "rg coverUri -l -g 'index.md' | xargs -n1 yq --front-matter=\"process\" --inplace '
+          . as $item | 
+          $item | 
+          pick([
+            \"date\", 
+            \"title\", 
+            \"slug\", 
+            \"topics\", 
+            \"booklists\", 
+            \"resources\"
+          ]) * 
+          (
+            $item | 
+            pick([
+              \"author\", 
+              \"isbn\", 
+              \"publishedAt\" 
+            ]) | 
+            { \"params\": { \"author\": .author, \"isbn\": .isbn, \"publishingYear\": .publishedAt } }
+          ) *
+          (
+            $item |
+            pick([
+              \"subtitle\"
+            ]) |
+            { \"params\": . }
+          ) *
+          (
+            $item |
+            pick([\"coverUri\"]) |
+            { \"params\": { \"references\": [{ \"rel\": \"cover\", \"uri\": .coverUri }] } }
+          ) *+
+          (
+            $item |
+            pick([\"cataloguePermalink\"]) |
+            { \"params\": { \"references\": [{ \"rel\": \"permalink\", \"uri\": .cataloguePermalink }] } }
+          ) *+
+          (
+            $item |
+            pick([\"source\"]) |
+            { \"params\": { \"references\": [{ \"rel\": \"synopsis\", \"uri\": .source }] } }
+          )
+        '"

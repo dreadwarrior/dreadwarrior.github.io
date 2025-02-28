@@ -1,19 +1,24 @@
 ---
 title: "Mensch, Rüdiger!"
 slug: "mensch-rüdiger"
-isbn: "978-3-499-29078-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-29078-7"
-cataloguePermalink: "https://d-nb.info/1119918960"
-author: "Sven Stricker"
-publishedAt: "2017"
 topics:
   - "Humor"
-source: "https://www.rowohlt.de/buch/sven-stricker-mensch-ruediger-9783499290787"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Sven Stricker"
+  isbn: "978-3-499-29078-7"
+  publishingYear: "2017"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-29078-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1119918960"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/sven-stricker-mensch-ruediger-9783499290787"
 ---
 Man muss auch mal loslassen können.
 

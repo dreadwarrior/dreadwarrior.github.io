@@ -2,19 +2,24 @@
 date: 2024-10-26T16:14:39+02:00
 title: "Shantaram"
 slug: "shantaram"
-isbn: "978-3-442-47308-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-47308-3"
-cataloguePermalink: "https://d-nb.info/998864595"
-author: "Gregory David Roberts"
-publishedAt: "2010"
 topics:
   - "Abenteuer"
-source: "https://www.penguin.de/Taschenbuch/Shantaram/Gregory-David-Roberts/Goldmann/e276685.rhd"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Gregory David Roberts"
+  isbn: "978-3-442-47308-3"
+  publishingYear: "2010"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-442-47308-3"
+    - rel: permalink
+      uri: "https://d-nb.info/998864595"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Shantaram/Gregory-David-Roberts/Goldmann/e276685.rhd"
 ---
 
 Als der Australier Lindsay in Bombay strandet, hat er zwei Jahre Gefängnis 

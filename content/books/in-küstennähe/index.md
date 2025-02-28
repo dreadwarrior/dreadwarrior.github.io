@@ -2,19 +2,24 @@
 date: "2024-01-19T19:58:07+01:00"
 title: "In Küstennähe"
 slug: "in-küstennähe"
-isbn: "978-3-257-24666-7"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-24666-7"
-cataloguePermalink: "https://d-nb.info/1255110287"
-author: "Joachim B. Schmidt"
-publishedAt: "2022"
 topics:
   - "Erzählung"
-source: "https://www.diogenes.ch/leser/titel/joachim-b-schmidt/in-kuestennaehe-9783257246667.html"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Joachim B. Schmidt"
+  isbn: "978-3-257-24666-7"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-24666-7"
+    - rel: permalink
+      uri: "https://d-nb.info/1255110287"
+    - rel: synopsis
+      uri: "https://www.diogenes.ch/leser/titel/joachim-b-schmidt/in-kuestennaehe-9783257246667.html"
 ---
 
 Lárus, Aushilfe im Altenheim und Taugenichts, trifft auf Grímur, einen 

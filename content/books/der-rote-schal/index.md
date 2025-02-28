@@ -2,19 +2,24 @@
 date: "2023-11-19T13:41:11+01:00"
 title: "Der rote Schal"
 slug: "der-rote-schal"
-isbn: "978-3-596-12533-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-12533-3"
-cataloguePermalink: "https://d-nb.info/944374913"
-author: "Wilkie Collins"
-publishedAt: "1995"
 topics:
   - "Mystery"
-source: "https://www.fischerverlage.de/buch/wilkie-collins-der-rote-schal-9783596125333"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Wilkie Collins"
+  isbn: "978-3-596-12533-3"
+  publishingYear: "1995"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-12533-3"
+    - rel: permalink
+      uri: "https://d-nb.info/944374913"
+    - rel: synopsis
+      uri: "https://www.fischerverlage.de/buch/wilkie-collins-der-rote-schal-9783596125333"
 ---
 
 Zwei Freunde, die beide den verhängnisvollen Namen Allan Armadale tragen, stehen 

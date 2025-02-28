@@ -2,20 +2,25 @@
 date: 2024-08-13T23:59:35+02:00
 title: "Fräulein Smillas Gespür für Schnee"
 slug: "fräulein-smillas-gespür-für-schnee"
-isbn: "978-3-499-13599-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-13599-6"
-cataloguePermalink: "https://d-nb.info/948193271"
-author: "Peter Høeg"
-publishedAt: "1996"
 topics:
   - "Thriller"
   - "Krimi"
-source: "https://www.rowohlt.de/buch/peter-hoeeg-fraeulein-smillas-gespuer-fuer-schnee-9783499237010"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Peter Høeg"
+  isbn: "978-3-499-13599-6"
+  publishingYear: "1996"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-13599-6"
+    - rel: permalink
+      uri: "https://d-nb.info/948193271"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/peter-hoeeg-fraeulein-smillas-gespuer-fuer-schnee-9783499237010"
 ---
 
 Im Kopenhagener Hafenviertel stürzt ein Junge vom Dach eines Lagerhauses. 

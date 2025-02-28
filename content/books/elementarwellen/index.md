@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:59+01:00"
 title: "Elementarwellen"
 slug: "elementarwellen"
-isbn: "978-3-365-00420-3"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-365-00420-3"
-cataloguePermalink: "https://d-nb.info/1284323269"
-author: "Tamsin Calidas"
-publishedAt: "2023"
 topics:
   - "Autobiografie"
-source: "https://www.harpercollins.de/products/elementarwellen-9783365004203"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Tamsin Calidas"
+  isbn: "978-3-365-00420-3"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-365-00420-3"
+    - rel: permalink
+      uri: "https://d-nb.info/1284323269"
+    - rel: synopsis
+      uri: "https://www.harpercollins.de/products/elementarwellen-9783365004203"
 ---
 
 Zusammen mit ihrem Freund zieht Tamsin auf eine Insel der Äußeren Hebriden. Sie 

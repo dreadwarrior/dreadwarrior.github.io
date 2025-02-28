@@ -2,20 +2,25 @@
 date: 2024-05-05T23:11:54+02:00
 title: "Shunas Reise"
 slug: "shunas-reise"
-isbn: "978-3-95640-395-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95640-395-8"
-cataloguePermalink: "https://d-nb.info/1286767911"
-author: "Hayao Miyazaki"
-publishedAt: "2023"
 topics:
   - "Graphic Novel"
   - "Fantasy"
-source: "https://reprodukt.com/products/shunas-reise"
 booklists:
   - completed
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Hayao Miyazaki"
+  isbn: "978-3-95640-395-8"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95640-395-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1286767911"
+    - rel: synopsis
+      uri: "https://reprodukt.com/products/shunas-reise"
 ---
 
 Shuna, der Prinz eines armen Reichs, sieht verzweifelt zu, wie sich sein Volk 

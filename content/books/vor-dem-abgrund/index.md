@@ -2,19 +2,24 @@
 date: "2024-01-18T21:38:46+01:00"
 title: "Vor dem Abgrund"
 slug: "vor-dem-abgrund"
-isbn: "978-3-8387-4485-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8387-4485-8"
-cataloguePermalink: "https://d-nb.info/104519932X"
-author: "Tom Finnek"
-publishedAt: "2013"
 topics:
   - "Historischer Roman"
-source: "https://www.luebbe.de/bastei-luebbe/ebooks/historische-romane/vor-dem-abgrund/id_3241583"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Tom Finnek"
+  isbn: "978-3-8387-4485-8"
+  publishingYear: "2013"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8387-4485-8"
+    - rel: permalink
+      uri: "https://d-nb.info/104519932X"
+    - rel: synopsis
+      uri: "https://www.luebbe.de/bastei-luebbe/ebooks/historische-romane/vor-dem-abgrund/id_3241583"
 ---
 
 Mit diesem historischen Roman ist dem Schriftsteller Tom Finnek in seiner 

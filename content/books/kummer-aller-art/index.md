@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:53+01:00"
 title: "Kummer aller Art"
 slug: "kummer-aller-art"
-isbn: "978-3-8321-8216-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8321-8216-8"
-cataloguePermalink: "https://d-nb.info/1256046590"
-author: "Mariana Leky"
-publishedAt: "2022"
 topics:
   - "Drama"
-source: "https://www.dumont-buchverlag.de/buch/mariana-leky-kummer-aller-art-9783832167233-t-5900"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Mariana Leky"
+  isbn: "978-3-8321-8216-8"
+  publishingYear: "2022"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-8321-8216-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1256046590"
+    - rel: synopsis
+      uri: "https://www.dumont-buchverlag.de/buch/mariana-leky-kummer-aller-art-9783832167233-t-5900"
 ---
 
 „Alle wirken innerlich blitzblank, nur in unserem Inneren sieht es aus wie bei 

@@ -2,20 +2,25 @@
 date: "2022-10-21T21:07:39+01:00"
 title: "Rendezvous mit Rama"
 slug: "rendezvous-mit-rama"
-isbn: "978-3-404-24371-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-24371-6"
-cataloguePermalink: "https://d-nb.info/986405140"
-author: "Arthur C. Clarke"
-publishedAt: "2008"
 topics:
   - "Science Fiction"
-source: "https://www.lovelybooks.de/autor/Arthur-C.-Clarke/Rendezvous-mit-Rama-144489480-w/"
 booklists:
   - "completed"
   - "favorites"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Arthur C. Clarke"
+  isbn: "978-3-404-24371-6"
+  publishingYear: "2008"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-24371-6"
+    - rel: permalink
+      uri: "https://d-nb.info/986405140"
+    - rel: synopsis
+      uri: "https://www.lovelybooks.de/autor/Arthur-C.-Clarke/Rendezvous-mit-Rama-144489480-w/"
 ---
 Aus den Tiefen des Alls taucht ein rätselhaftes Objekt auf, das die 
 Wissenschaftler zunächst für einen Asteroiden halten. Allein seine Größe – es 

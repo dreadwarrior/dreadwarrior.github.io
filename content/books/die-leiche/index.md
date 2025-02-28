@@ -2,20 +2,25 @@
 date: "2023-02-19T13:04:16+01:00"
 title: "Die Leiche"
 slug: "die-leiche"
-isbn: "978-3-453-44031-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44031-9"
-cataloguePermalink: "https://d-nb.info/1198619031"
-author: "Stephen King"
-publishedAt: "2020"
 topics:
   - "Coming of Age"
-source: "https://www.penguin.de/Taschenbuch/Die-Leiche/Stephen-King/Heyne/e560934.rhd"
 booklists:
   - "completed"
   - "favorites"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Stephen King"
+  isbn: "978-3-453-44031-9"
+  publishingYear: "2020"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-44031-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1198619031"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Die-Leiche/Stephen-King/Heyne/e560934.rhd"
 ---
 Die vier besten Freunde Gordon, Chris, Teddy und Vern aus Castle Rock hören von 
 der Leiche eines gleichaltrigen Jungen, die in der Gegend an den Bahngleisen 

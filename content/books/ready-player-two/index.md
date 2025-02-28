@@ -2,19 +2,24 @@
 date: "2024-07-21T17:00:16+02:00"
 title: "Ready player two"
 slug: "ready-player-two"
-isbn: "978-3-596-70654-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-70654-9"
-cataloguePermalink: "https://d-nb.info/1221873229"
-author: "Ernest Cline"
-publishedAt: "2021"
 topics:
   - "Science Fiction"
-source: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-two-9783596706549"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Ernest Cline"
+  isbn: "978-3-596-70654-9"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-596-70654-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1221873229"
+    - rel: synopsis
+      uri: "https://www.fischerverlage.de/buch/ernest-cline-ready-player-two-9783596706549"
 ---
 
 Einige Tage nachdem er das Easter Egg von James Halliday gefunden und den 

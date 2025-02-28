@@ -1,21 +1,26 @@
 ---
 date: "2023-11-07T21:50:35+01:00"
 title: "Die Bibliothek des Wahnsinns"
-subtitle: "Seltsame Bücher, skurrile Manuskripte und andere literarische Kuriositäten"
 slug: "die-bibliothek-des-wahnsinns"
-isbn: "978-3-95728-735-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95728-735-9"
-cataloguePermalink: "https://d-nb.info/1286756561"
-author: "Edward Brooke-Hitching"
-publishedAt: "2023"
 topics:
   - "Literatur"
-source: "https://www.knesebeck-verlag.de/die_bibliothek_des_wahnsinns/t-1/1181"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Edward Brooke-Hitching"
+  isbn: "978-3-95728-735-9"
+  publishingYear: "2023"
+  subtitle: "Seltsame Bücher, skurrile Manuskripte und andere literarische Kuriositäten"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-95728-735-9"
+    - rel: permalink
+      uri: "https://d-nb.info/1286756561"
+    - rel: synopsis
+      uri: "https://www.knesebeck-verlag.de/die_bibliothek_des_wahnsinns/t-1/1181"
 ---
 **Die ungewöhnlichsten Bücher und bizarrsten Schriftzeugnisse aus den Weiten der 
 menschlichen Vorstellungskraft**

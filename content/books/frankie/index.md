@@ -2,19 +2,24 @@
 date: 2025-02-15T10:41:34+01:00
 title: "Frankie"
 slug: "frankie"
-isbn: "978-3-328-60183-8"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-328-60183-8"
-cataloguePermalink: "https://d-nb.info/1272076350"
-author: "Maxim Leo"
-publishedAt: "2023"
 topics:
   - "Drama"
-source: "https://www.penguin.de/Buch/Frankie/Jochen-Gutsch/Penguin/e585913.rhd"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Maxim Leo"
+  isbn: "978-3-328-60183-8"
+  publishingYear: "2023"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-328-60183-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1272076350"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Buch/Frankie/Jochen-Gutsch/Penguin/e585913.rhd"
 ---
 
 Richard Gold hat alles vorbereitet. Heute ist der Tag, an dem er sich das Leben 

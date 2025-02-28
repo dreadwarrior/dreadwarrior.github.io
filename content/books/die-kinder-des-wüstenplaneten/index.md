@@ -2,19 +2,24 @@
 date: "2024-01-19T19:57:48+01:00"
 title: "Die Kinder des Wüstenplaneten"
 slug: "die-kinder-des-wüstenplaneten"
-isbn: "978-3-453-18685-9"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-18685-9"
-cataloguePermalink: "https://d-nb.info/961720484"
-author: "Frank Herbert"
-publishedAt: "2001"
 topics:
   - "Science Fiction"
-source: "https://www.penguin.de/Taschenbuch/Die-Kinder-des-Wuestenplaneten/Frank-Herbert/Heyne/e162202.rhd"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Frank Herbert"
+  isbn: "978-3-453-18685-9"
+  publishingYear: "2001"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-18685-9"
+    - rel: permalink
+      uri: "https://d-nb.info/961720484"
+    - rel: synopsis
+      uri: "https://www.penguin.de/Taschenbuch/Die-Kinder-des-Wuestenplaneten/Frank-Herbert/Heyne/e162202.rhd"
 ---
 
 Der Djihad, der Heilige Krieg der Fremen, ist vorüber. Das Imperium trägt den 

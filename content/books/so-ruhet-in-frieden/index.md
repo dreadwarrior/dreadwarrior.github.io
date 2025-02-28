@@ -2,19 +2,24 @@
 date: "2023-11-07T21:44:00+01:00"
 title: "So ruhet in Frieden"
 slug: "so-ruhet-in-frieden"
-isbn: "978-3-404-15913-0"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-15913-0"
-cataloguePermalink: "https://d-nb.info/98636729X"
-author: "John Ajvide Lindqvist"
-publishedAt: "2008"
 topics:
   - "Thriller"
-source: "https://www.buecher.de/shop/buecher/so-ruhet-in-frieden/lindqvist-john-ajvide/products_products/detail/prod_id/23322061/"
 booklists:
   - "wishlist"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "John Ajvide Lindqvist"
+  isbn: "978-3-404-15913-0"
+  publishingYear: "2008"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-404-15913-0"
+    - rel: permalink
+      uri: "https://d-nb.info/98636729X"
+    - rel: synopsis
+      uri: "https://www.buecher.de/shop/buecher/so-ruhet-in-frieden/lindqvist-john-ajvide/products_products/detail/prod_id/23322061/"
 ---
 Stockholm, 13. August 2002: Nach einer extremen Hitzewelle legt sich ein 
 elektrisches Feld über die Stadt. Lampen können nicht mehr gelöscht, Maschinen 

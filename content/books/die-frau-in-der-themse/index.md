@@ -2,19 +2,24 @@
 date: "2024-01-19T19:58:03+01:00"
 title: "Die Frau in der Themse"
 slug: "die-frau-in-der-themse"
-isbn: "978-3-257-24587-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-24587-5"
-cataloguePermalink: "https://d-nb.info/1220370908"
-author: "Steven Price"
-publishedAt: "2021"
 topics:
   - "Krimi"
-source: "https://www.diogenes.ch/leser/titel/steven-price/die-frau-in-der-themse-9783257245875.html"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Steven Price"
+  isbn: "978-3-257-24587-5"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-24587-5"
+    - rel: permalink
+      uri: "https://d-nb.info/1220370908"
+    - rel: synopsis
+      uri: "https://www.diogenes.ch/leser/titel/steven-price/die-frau-in-der-themse-9783257245875.html"
 ---
 
 Charlotte Reckitt ist schön, stolz und gesetzlos. Ihre Coups sind phänomenal, 

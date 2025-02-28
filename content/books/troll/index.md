@@ -1,22 +1,27 @@
 ---
 date: "2006-02-17T15:45:03+01:00"
 title: "Troll"
-subtitle: "Eine Liebesgeschichte"
 slug: "troll"
-isbn: "978-3-608-50074-5"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-608-50074-5"
-cataloguePermalink: "https://d-nb.info/974897280"
-author: "Johanna Sinisalo"
-publishedAt: "2005"
 topics:
   - "Fantasy"
-source: "https://www.perlentaucher.de/buch/johanna-sinisalo/troll-eine-liebesgeschichte.html"
 booklists:
   - "completed"
   - "favorites"
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Johanna Sinisalo"
+  isbn: "978-3-608-50074-5"
+  publishingYear: "2005"
+  subtitle: "Eine Liebesgeschichte"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-608-50074-5"
+    - rel: permalink
+      uri: "https://d-nb.info/974897280"
+    - rel: synopsis
+      uri: "https://www.perlentaucher.de/buch/johanna-sinisalo/troll-eine-liebesgeschichte.html"
 ---
 Nach einer durchzechten Nacht trifft der junge Fotograf Angel im Innenhof seines 
 Apartmenthauses auf eine Gruppe Halbwüchsiger, die einen kleinen Troll bedrohen. 

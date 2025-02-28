@@ -2,18 +2,23 @@
 date: "2024-07-14T17:09:00+02:00"
 title: "Volksmärchen aus dem historischen Vorpommern"
 slug: "volksmärchen-aus-dem-historischen-vorpommern"
-isbn: "391/240/17/83"
-coverUri: "https://i.etsystatic.com/18229946/r/il/347692/1594022038/il_1588xN.1594022038_ioxl.jpg"
-cataloguePermalink: "https://d-nb.info/840264887"
-author: "Siegfried Neumann, Werner Schinko"
-publishedAt: "1983"
 topics:
   - "Märchen"
-source: "https://www.hinstorff.de/"
 booklists: ["unread"]
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Siegfried Neumann, Werner Schinko"
+  isbn: "391/240/17/83"
+  publishingYear: "1983"
+  references:
+    - rel: cover
+      uri: "https://i.etsystatic.com/18229946/r/il/347692/1594022038/il_1588xN.1594022038_ioxl.jpg"
+    - rel: permalink
+      uri: "https://d-nb.info/840264887"
+    - rel: synopsis
+      uri: "https://www.hinstorff.de/"
 ---
 
 Das historische Vorpommern, jenes Gebiet zwischen Kap Arkona im Norden und dem

@@ -2,19 +2,24 @@
 date: "2024-06-25T17:58:12+02:00"
 title: "Die Pest"
 slug: "die-pest"
-isbn: "978-3-499-00616-6"
-coverUri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-00616-6"
-cataloguePermalink: "https://d-nb.info/1221489240"
-author: "Albert Camus"
-publishedAt: "2021"
 topics:
   - "Drama"
-source: "https://www.rowohlt.de/buch/albert-camus-die-pest-9783499006166"
 booklists:
   - unread
 resources:
   - name: cover
     src: cover.jpg
+params:
+  author: "Albert Camus"
+  isbn: "978-3-499-00616-6"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-00616-6"
+    - rel: permalink
+      uri: "https://d-nb.info/1221489240"
+    - rel: synopsis
+      uri: "https://www.rowohlt.de/buch/albert-camus-die-pest-9783499006166"
 ---
 
 Die Stadt Oran wird von rätselhaften Ereignissen heimgesucht. Die Ratten kommen 
