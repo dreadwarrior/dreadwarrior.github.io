@@ -6,7 +6,7 @@ params:
   author: "Christoph Wortberg"
   isbn: "978-3-423-43761-5"
   publishingYear: "2021"
-  reference:
+  references:
     - rel: cover
       uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-423-43761-5"
     - rel: permalink
