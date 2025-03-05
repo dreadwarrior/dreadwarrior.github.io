@@ -1,5 +1,5 @@
 ---
-date: 2025-02-26T00:32:12+01:00
+date: 2025-03-03T07:46:00+01:00
 slug: "die-puppe-im-grase"
 title: "Die Puppe im Grase"
 params:
@@ -17,7 +17,8 @@ params:
 topics:
   - "Märchen"
 booklists:
-  - unread
+  - completed
+  - favorites
 resources:
   - name: cover
     src: cover.jpg
