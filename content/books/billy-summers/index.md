@@ -15,11 +15,11 @@ params:
 topics:
   - "Thriller"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
-date: 2025-02-26T12:15:51+01:00
+date: 2025-03-03T22:53:57+01:00
 ---
 Billy ist Kriegsveteran und verdingt sich als Auftragskiller. Sein neuester 
 Job ist so lukrativ, dass es sein letzter sein soll. Danach will er ein neues 
