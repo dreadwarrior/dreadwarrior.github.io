@@ -1,5 +1,5 @@
 ---
-date: "2025-01-05T23:30:56+01:00"
+date: 2025-03-17T14:48:54+01:00
 slug: "starve-acre"
 title: "Starve Acre"
 params:
@@ -17,7 +17,7 @@ topics:
   - "Folklore"
   - "Horror"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg

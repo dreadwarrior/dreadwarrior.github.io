@@ -2,23 +2,24 @@
 title: "Blumen für Algernon"
 slug: "blumen-für-algernon"
 params:
-    author: "Daniel Keyes"
-    isbn: "978-3-608-10077-8"
-    publishingYear: "2016"
-    references:
-      - rel: cover
-        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-608-10077-8"
-      - rel: permalink
-        uri: "https://d-nb.info/1118427106"
-      - rel: synopsis
-        uri: "https://www.thalia.de/shop/home/suggestartikel/A1035273926"
+  author: "Daniel Keyes"
+  isbn: "978-3-608-10077-8"
+  publishingYear: "2016"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-608-10077-8"
+    - rel: permalink
+      uri: "https://d-nb.info/1118427106"
+    - rel: synopsis
+      uri: "https://www.thalia.de/shop/home/suggestartikel/A1035273926"
 topics:
   - "Science Fiction"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
+date: 2025-03-17T14:49:11+01:00
 ---
 Charlie Gordon, ursprünglich kaum des Lesens mächtig, ist zu Forschungszwecken 
 operiert worden und entwickelt eine überragende Intelligenz; schließlich 
