@@ -3,13 +3,13 @@ title: "Blumen für Algernon"
 slug: "blumen-für-algernon"
 params:
   author: "Daniel Keyes"
-  isbn: "978-3-608-10077-8"
+  isbn: "978-3-608-96029-7"
   publishingYear: "2016"
   references:
     - rel: cover
-      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-608-10077-8"
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-608-96029-7"
     - rel: permalink
-      uri: "https://d-nb.info/1118427106"
+      uri: "https://d-nb.info/1068027975"
     - rel: synopsis
       uri: "https://www.thalia.de/shop/home/suggestartikel/A1035273926"
 topics:
