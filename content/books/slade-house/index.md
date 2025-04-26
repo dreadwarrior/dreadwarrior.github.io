@@ -1,11 +1,11 @@
 ---
-date: 2024-10-27T16:31:42+01:00
+date: 2025-03-23T12:15:28+01:00
 title: "Slade House"
 slug: "slade-house"
 topics:
   - "Fantasy"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
