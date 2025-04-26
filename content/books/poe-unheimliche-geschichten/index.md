@@ -1,5 +1,5 @@
 ---
-date: 2025-03-19T22:38:26+01:00
+date: 2025-03-22T01:13:17+01:00
 slug: "poe-unheimliche-geschichten"
 title: "Poe: Unheimliche Geschichten"
 params:
@@ -16,7 +16,7 @@ params:
 topics:
   - "Kurzgeschichten"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
