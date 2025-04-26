@@ -20,7 +20,7 @@
 {{- if in $validFormats $format }}
   {{- if gt $page.Paginator.TotalPages 1 }}
     <ul class="pagination pagination--{{ $format }}">
-      {{- partial (printf "partials/inline/pagination/%s" $format) $page }}
+      {{- partial (printf "inline/books-pagination/%s" $format) $page }}
     </ul>
   {{- end }}
 {{- else }}
@@ -29,7 +29,7 @@
 
 {{/* Format: default
 {{/* --------------------------------------------------------------------- */}}
-{{- define "partials/inline/pagination/default" }}
+{{- define "partials/inline/books-pagination/default" }}
   {{- with .Paginator }}
     {{- $currentPageNumber := .PageNumber }}
 
@@ -105,7 +105,7 @@
 
 {{/* Format: terse
 {{/* --------------------------------------------------------------------- */}}
-{{- define "partials/inline/pagination/terse" }}
+{{- define "partials/inline/books-pagination/terse" }}
   {{- with .Paginator }}
     {{- $currentPageNumber := .PageNumber }}
 
