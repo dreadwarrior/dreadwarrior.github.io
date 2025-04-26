@@ -1,5 +1,5 @@
 ---
-date: "2024-11-13T12:21:39+01:00"
+date: 2025-04-25T22:39:12+02:00
 slug: "der-traumladen"
 title: "Der Traumladen"
 params:
@@ -13,7 +13,7 @@ topics:
   - "Science Fiction"
   - "Kurzgeschichten"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: Der-Traumladen-von-Ilja-Warschawski.jpeg
