@@ -1,11 +1,12 @@
 ---
-date: 2025-03-28T23:26:53+01:00
+date: 2025-04-20T12:09:57+02:00
 title: "Der Kaffeedieb"
 slug: "der-kaffeedieb"
 topics:
   - "Historischer Roman"
+  - "Krimi"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
