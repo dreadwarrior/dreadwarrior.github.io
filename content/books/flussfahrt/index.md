@@ -1,23 +1,23 @@
 ---
-date: "2025-03-14T22:54:15+01:00"
+date: "2025-04-27T12:10:15+01:00"
 slug: "flussfahrt"
 title: "Flussfahrt"
 params:
   author: "James Dickey"
-  isbn: "978-3-938973-13-4"
+  isbn: "978-3-499-12722-9"
   publishingYear: "2011"
   references:
     - rel: cover
-      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-938973-13-4"
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-499-12722-9"
     - rel: permalink
-      uri: "https://d-nb.info/1009372742"
+      uri: "https://d-nb.info/901291021"
     - rel: synopsis
       uri: "https://www.isbn.de/buch/9783938973134/flussfahrt"
 topics:
   - "Drama"
   - "Thriller"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
