@@ -15,7 +15,7 @@ topics:
   - "Kurzgeschichten"
   - "Science Fiction"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
