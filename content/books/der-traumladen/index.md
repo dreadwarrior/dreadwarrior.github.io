@@ -1,5 +1,5 @@
 ---
-date: 2025-04-25T22:39:12+02:00
+date: 2025-04-27T21:19:34+02:00
 slug: "der-traumladen"
 title: "Der Traumladen"
 params:
@@ -13,7 +13,7 @@ topics:
   - "Science Fiction"
   - "Kurzgeschichten"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: Der-Traumladen-von-Ilja-Warschawski.jpeg
@@ -26,13 +26,13 @@ sich die Hypothese von der Überlegenheit des künstlichen Gehirnes auf.
 
 MENSCHEN stehen im Blickpunkt der in utopische Dimensionen gerückten 
 Wissenschaft. Die Welt der Antimaterie, Persönlichkeitskopien durch 
-Geneübertragung, Gehirntransplantation als Möglichkeit der Lebensrettung 
+Genübertragung, Gehirntransplantation als Möglichkeit der Lebensrettung 
 verkörpern das Wohl des Fortschritts sowie das Wehe seiner implizierten 
 Komplikationen.
 
 TRÄUME sind Fragmente aus dem Seelenleben ihrer Produzenten. Warschawskis 
-Träumereien - Flucht vor den Segnungen der Technik, verspätete Liebeslust, 
-Deutung von Mythen durch rational erfaßbare Phänomene - spiegeln ein Stück
+Träumereien – Flucht vor den Segnungen der Technik, verspätete Liebeslust, 
+Deutung von Mythen durch rational erfassbare Phänomene – spiegeln ein Stück
 gesellschaftlichen Denkens und individuellen Fühlens seiner Zeitgenossen.
 
 Warschawskis Stärke liegt in der heiteren Handhabung kleiner Gegenstände. Die
