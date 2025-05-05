@@ -15,11 +15,11 @@ params:
 topics:
   - "Drama"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
-date: 2025-04-27T21:20:36+02:00
+date: 2025-04-30T22:21:35+02:00
 ---
 Auf einer Schiffsreise von New York nach Buenos Aires werden die Passagiere 
 Zeugen eines unglaublichen Ereignisses: Der unbekannte und zurückhaltende 
