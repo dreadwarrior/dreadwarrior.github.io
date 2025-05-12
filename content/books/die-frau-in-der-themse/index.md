@@ -1,11 +1,11 @@
 ---
-date: "2024-01-19T19:58:03+01:00"
+date: 2025-05-11T20:27:50+02:00
 title: "Die Frau in der Themse"
 slug: "die-frau-in-der-themse"
 topics:
   - "Krimi"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
