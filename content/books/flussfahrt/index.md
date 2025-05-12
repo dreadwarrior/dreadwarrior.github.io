@@ -1,5 +1,5 @@
 ---
-date: 2025-05-02T19:59:12+02:00
+date: 2025-05-11T20:24:48+02:00
 slug: "flussfahrt"
 title: "Flussfahrt"
 params:
@@ -17,7 +17,7 @@ topics:
   - "Drama"
   - "Thriller"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
