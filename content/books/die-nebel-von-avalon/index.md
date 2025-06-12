@@ -4,7 +4,7 @@ slug: "die-nebel-von-avalon"
 topics:
   - "Fantasy"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
@@ -19,6 +19,7 @@ params:
       uri: "https://d-nb.info/941821390"
     - rel: synopsis
       uri: "https://www.isbn.de/buch/9783596282227/die-nebel-von-avalon"
+date: 2025-05-26T20:36:09+02:00
 ---
 Morgaine, die Hohepriesterin des Nebelreichs Avalon und Schwester von Artus, 
 erzählt die wahre Geschichte ihres königlichen Bruders und der Ritter der 
