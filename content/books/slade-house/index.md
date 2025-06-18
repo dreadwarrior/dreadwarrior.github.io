@@ -6,6 +6,7 @@ topics:
   - "Fantasy"
 booklists:
   - completed
+  - favorites
 resources:
   - name: cover
     src: cover.jpg
