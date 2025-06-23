@@ -8,7 +8,7 @@ params:
   publishingYear: "2011"
   references:
     - rel: cover
-      uri: "https://covers.openlibrary.org/b/id/6906483-L.jpg"
+      uri: "https://media.titanbooks.com/catalog/products/5234/strawdogs.jpg"
     - rel: permalink
       uri: "https://openlibrary.org/books/OL24983210M"
     - rel: synopsis
