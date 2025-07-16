@@ -13,7 +13,6 @@ params:
       uri: "https://d-nb.info/950721425"
     - rel: synopsis
       uri: "https://www.hamburger-lesehefte.de/produkt/stephenson-carl-leiningens-kampf-mit-den-ameisen/"
-  subtitle: "Novelle"
 topics:
   - "Novelle"
   - "Kurzgeschichte"
