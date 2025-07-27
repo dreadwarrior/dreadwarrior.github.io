@@ -1,5 +1,5 @@
 ---
-date: "2025-02-27T13:12:40+01:00"
+date: 2025-06-29T13:44:42+02:00
 slug: "der-lange-nachmittag-der-erde"
 title: "Der lange Nachmittag der Erde"
 params:
@@ -13,10 +13,12 @@ params:
       uri: "https://d-nb.info/1198619422"
     - rel: synopsis
       uri: "https://www.penguin.de/buecher/brian-w-aldiss-der-lange-nachmittag-der-erde/taschenbuch/9783453320437"
+    - rel: to-be-lend-from
+      uri: "urn:ahoi:person#Frank"
 topics:
   - "Science Fiction"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg

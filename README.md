@@ -101,3 +101,34 @@ local machine. The binary is located in a directory made available to `PATH`.
 
 The task `dev:run` assumes `pagefind` is made available that way, or an alias 
 `pagefind` of `npx pagefind` exists.
+
+### Decision: Denote lending resources
+
+In order to keep track of lending resources, a content resource can contain a
+URN-based reference to the resource in its `params.resources` section.
+
+As of now, this only serves internal, informational usage.
+
+The following relations are currently defined:
+
+* `to-be-lend-from`
+
+The URN syntax should be as follows: `urn:<appname>:<resource-description>#<resource-name>`,
+where:
+
+* `<appname>` must be set to *ahoi*
+* `<resource-description>` must be one of `person`, `library`
+* `<resource-name>` must be set to a uniquely identifiable name, e.g., the name 
+  of the Person or Library where the content can be lent from.
+
+Complete example:
+
+```yaml
+params:
+  references:
+    - rel: to-be-lend-from
+      url: "urn:ahoi:library:Voebb"
+```
+
+This marks a content item of type book to be lend from VÖBB, the Verbund der 
+Öffentlichen Bibliotheken Berlins.
