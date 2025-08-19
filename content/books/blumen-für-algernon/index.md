@@ -15,11 +15,11 @@ params:
 topics:
   - "Science Fiction"
 booklists:
-  - unread
+  - completed
 resources:
   - name: cover
     src: cover.jpg
-date: 2025-03-17T14:49:11+01:00
+date: 2025-08-11T21:24:09+02:00
 ---
 Charlie Gordon, ursprünglich kaum des Lesens mächtig, ist zu Forschungszwecken 
 operiert worden und entwickelt eine überragende Intelligenz; schließlich 
