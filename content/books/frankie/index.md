@@ -1,11 +1,11 @@
 ---
-date: 2025-02-15T10:41:34+01:00
+date: 2025-09-07T22:04:24+02:00
 title: "Frankie"
 slug: "frankie"
 topics:
   - "Drama"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
