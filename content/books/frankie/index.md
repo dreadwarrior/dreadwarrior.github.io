@@ -1,16 +1,17 @@
 ---
-date: 2025-09-07T22:04:24+02:00
+date: 2025-09-10T15:59:49+02:00
 title: "Frankie"
 slug: "frankie"
 topics:
   - "Drama"
 booklists:
-  - currently-reading
+  - completed
+  - favorites
 resources:
   - name: cover
     src: cover.jpg
 params:
-  author: "Maxim Leo"
+  author: "Jochen Gutsch, Maxim Leo"
   isbn: "978-3-328-60183-8"
   publishingYear: "2023"
   references:
