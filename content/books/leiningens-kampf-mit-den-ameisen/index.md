@@ -1,5 +1,5 @@
 ---
-date: "2025-07-16T15:24:23+02:00"
+date: 2025-09-07T15:59:10+02:00
 slug: "leiningens-kampf-mit-den-ameisen"
 title: "Leiningens Kampf mit den Ameisen"
 params:
@@ -17,7 +17,7 @@ topics:
   - "Novelle"
   - "Kurzgeschichte"
 booklists:
-  - unread
+  - completed
 resources:
   - name: cover
     src: cover.jpg
