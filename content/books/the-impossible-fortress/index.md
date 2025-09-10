@@ -1,11 +1,11 @@
 ---
-date: 2025-08-11T21:28:39+02:00
+date: 2025-09-07T14:56:39+02:00
 title: "The Impossible Fortress"
 slug: "the-impossible-fortress"
 topics:
   - "Coming of Age"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.png
