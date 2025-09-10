@@ -5,10 +5,12 @@
             <aside class="cover--single cover pure-u-1 pure-u-lg-8-24" aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}">
                 {{ $inBooklistCompleted := in .Params.booklists "completed" }}
                 {{ $inBooklistWishlistAndReserved := and (in .Params.booklists "wishlist") (.Params.isReserved) }}
+                {{ $isCancelled := in .Params.booklists "cancelled" }}
                 {{- with partial "book/cover" (dict "factor" 1.5 "page" . ) -}}
                 <figure
                     {{ if $inBooklistCompleted }} class="ribbon" data-ribbon="bereits gelesen"{{ end }}
                     {{ if $inBooklistWishlistAndReserved }} class="ribbon" data-ribbon="reserviert"{{ end }}
+                    {{ if $isCancelled }} class="ribbon" data-ribbon="abgebrochen"{{ end }}
                     aria-label="Darstellung der Titelseite des Buchs „{{ .Title }}“ von {{ .Params.author }}"
                     >
                     <img data-pagefind-meta="image[src]" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
