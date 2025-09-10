@@ -4,7 +4,7 @@ slug: "die-nebel-von-avalon"
 topics:
   - "Fantasy"
 booklists:
-  - currently-reading
+  - cancelled
 resources:
   - name: cover
     src: cover.jpg
