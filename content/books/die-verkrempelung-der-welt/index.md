@@ -1,5 +1,5 @@
 ---
-date: "2025-09-10T16:38:27+02:00"
+date: 2025-09-17T22:27:10+02:00
 slug: "die-verkrempelung-der-welt"
 title: "Die Verkrempelung der Welt"
 params:
@@ -17,7 +17,7 @@ params:
 topics:
   - "Essay"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
