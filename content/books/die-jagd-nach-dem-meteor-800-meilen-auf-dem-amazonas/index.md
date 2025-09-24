@@ -1,26 +1,23 @@
 ---
-date: "2024-10-26T16:15:39+02:00"
+date: 2025-09-21T22:00:35+02:00
 title: "Die Jagd nach dem Meteor / 800 Meilen auf dem Amazonas"
 slug: "die-jagd-nach-dem-meteor-800-meilen-auf-dem-amazonas"
 topics:
   - "Science Fiction"
   - "Abenteuer"
 booklists:
-  - "unread"
+  - completed
 resources:
   - name: cover
     src: cover.jpg
 params:
   author: "Jules Vernes"
-  isbn: null
   publishingYear: "1967"
   references:
     - rel: cover
       uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-453-52978-6"
     - rel: permalink
       uri: "https://d-nb.info/458522554"
-    - rel: synopsis
-      uri: null
 ---
 Ein Meteor, aus reinem Gold, nährt sich der Erde. Ein Wettrennen aller Staaten 
 und Mächte nach diesem Wertobjekt setzt ein. Privatgenie Zephyrin Xirdal aber 
