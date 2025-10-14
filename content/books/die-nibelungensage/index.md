@@ -1,5 +1,5 @@
 ---
-date: 2025-09-25T22:32:10+02:00
+date: 2025-10-13T09:18:07+02:00
 slug: "die-nibelungensage"
 title: "Die Nibelungensage"
 params:
@@ -16,7 +16,7 @@ params:
 topics:
   - "Sage"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
