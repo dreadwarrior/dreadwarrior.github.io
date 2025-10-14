@@ -5,7 +5,7 @@ topics:
   - "Religion"
   - "Historischer Roman"
 booklists:
-  - "unread"
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
@@ -20,6 +20,7 @@ params:
       uri: "https://d-nb.info/1056855266"
     - rel: synopsis
       uri: "https://www.hanser-literaturverlage.de/buch/der-scharlachrote-buchstabe/978-3-446-24490-0/"
+date: 2025-10-13T11:34:24+02:00
 ---
 Amerika im 17. Jahrhundert: Eine Frau, des Ehebruchs schuldig, steht am 
 Schandpfahl und verrät nicht, wer der Vater ihrer Tochter ist. Die gestrenge 
