@@ -5,7 +5,7 @@ slug: "hard-land"
 topics:
   - "Coming of Age"
 booklists:
-  - unread
+  - wishlist
 resources:
   - name: cover
     src: cover.jpg
