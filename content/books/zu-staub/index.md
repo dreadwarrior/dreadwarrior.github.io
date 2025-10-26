@@ -5,7 +5,7 @@ slug: "zu-staub"
 topics:
   - "Krimi"
 booklists:
-  - unread
+  - wishlist
 resources:
   - name: cover
     src: cover.jpg
