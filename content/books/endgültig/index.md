@@ -1,12 +1,12 @@
 ---
-date: "2024-01-20T00:11:02+01:00"
+date: 2025-10-26T12:28:12+01:00
 title: "Endgültig"
 slug: "endgültig"
 topics:
   - "Krimi"
   - "Thriller"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
