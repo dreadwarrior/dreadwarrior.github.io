@@ -5,7 +5,7 @@ slug: "die-morde-von-pye-hall"
 topics:
   - "Krimi"
 booklists:
-  - unread
+  - wishlist
 resources:
   - name: cover
     src: cover.jpg
