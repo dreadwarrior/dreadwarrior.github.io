@@ -5,7 +5,7 @@ slug: "der-mexikanische-fluch"
 topics:
   - "Krimi"
 booklists:
-  - unread
+  - wishlist
 resources:
   - name: cover
     src: cover.jpg
