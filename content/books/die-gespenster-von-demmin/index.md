@@ -5,7 +5,7 @@ slug: "die-gespenster-von-demmin"
 topics:
   - "Coming of Age"
 booklists:
-  - unread
+  - wishlist
 resources:
   - name: cover
     src: cover.jpg
