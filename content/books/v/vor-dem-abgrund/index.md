@@ -1,11 +1,11 @@
 ---
-date: "2024-01-18T21:38:46+01:00"
+date: 2025-11-02T12:34:26+01:00
 title: "Vor dem Abgrund"
 slug: "vor-dem-abgrund"
 topics:
   - "Historischer Roman"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
