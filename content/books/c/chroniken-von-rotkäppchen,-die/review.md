@@ -6,7 +6,7 @@ title: "Zeig’s ihnen, Red!"
 Christina Henry hat zwar inzwischen weitere Adaptionen von Märchen veröffentlicht, 
 dieser Band wird jedoch für mich vorerst der letzte der Autorin gewesen sein.
 
-Nach den „[Chroniken der Meerjungfrau]({{< ref "die-chroniken-der-meerjungfrau" >}})“, die mich 
+Nach den „[Chroniken der Meerjungfrau]({{< ref "chroniken-der-meerjungfrau,-die" >}})“, die mich 
 etwas enttäuscht zurückgelassen haben, habe ich nach den ersten Seiten von
 „Rotkäppchen“ wieder neue Hoffnung geschöpft.
 

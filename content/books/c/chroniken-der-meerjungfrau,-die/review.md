@@ -2,7 +2,7 @@
 rating: 3.5
 title: "Fantasy-Roman mit einem starken Anfang, interessantem Mittelteil und einem schwachen Ende."
 ---
-Nach den „[Chroniken von Peter Pan]({{< ref "die-chroniken-von-peter-pan" >}})“ und „[Chroniken von Alice]({{< ref "die-chroniken-von-alice-1" >}})“, wollte ich auch
+Nach den „[Chroniken von Peter Pan]({{< ref "chroniken-von-peter-pan,-die" >}})“ und „[Chroniken von Alice]({{< ref "chroniken-von-alice-1,-die" >}})“, wollte ich auch
 diese Adaption der Geschichte um eine berühmte Märchengestalt nicht verpassen.
 
 „Die Chroniken der Meerjungfrau“ startet mit einer überzeugend aufgebauten

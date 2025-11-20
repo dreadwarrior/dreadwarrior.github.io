@@ -3,7 +3,7 @@ rating: 5
 title: "Schöne norwegische Märchensammlung."
 ---
 
-Nachdem mich [Die schönsten norwegischen Märchen]({{<ref "die-schönsten-norwegischen-märchen" >}})
+Nachdem mich [Die schönsten norwegischen Märchen]({{<ref "schönsten-norwegischen-märchen,-die" >}})
 wegen zu wenig Abwechslung enttäuscht zurückgelassen haben, musste ich einfach
 eine andere Variante mit den wundervollen Illustrationen von Kat Menschik 
 ausprobieren.

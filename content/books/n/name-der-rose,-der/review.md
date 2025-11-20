@@ -17,5 +17,5 @@ führten diese Gegebenheiten zur Unterbrechung meines Leseflusses.
 Nichtsdestotrotz, bereitete mir dieser kriminologische und theologisch 
 interessante Historienroman viele schönen Lesestunden.
 
-Der Roman „[Die schwarze Rose]({{< ref "die-schwarze-rose" >}})“, von Dirk 
+Der Roman „[Die schwarze Rose]({{< ref "schwarze-rose,-die" >}})“, von Dirk 
 Schümer, knüpft zeitlich an die Geschehnisse aus „Der Name der Rose“ an.

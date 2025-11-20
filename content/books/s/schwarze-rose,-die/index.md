@@ -32,5 +32,5 @@ sie in einen Finanzbetrug von europäischem Ausmaß hineingezogen werden.
 
 Im Schatten des Papstpalasts ist auch der geheimnisvolle Franziskaner William 
 von Baskerville den Tätern auf der Spur. Dort, wo Umberto Ecos „[Der Name der
-Rose]({{< ref "der-name-der-rose" >}})“ aufhört, setzt Dirk Schümers packender 
+Rose]({{< ref "name-der-rose,-der" >}})“ aufhört, setzt Dirk Schümers packender 
 historischer Roman an. Wir erleben eine finstere Metropole der Religion, in der nur ein Credo gilt: Gold.
