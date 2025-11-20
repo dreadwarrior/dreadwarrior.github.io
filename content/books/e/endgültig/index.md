@@ -1,12 +1,12 @@
 ---
-date: 2025-10-26T12:28:12+01:00
+date: 2025-11-02T12:32:49+01:00
 title: "Endgültig"
 slug: "endgültig"
 topics:
   - "Krimi"
   - "Thriller"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
