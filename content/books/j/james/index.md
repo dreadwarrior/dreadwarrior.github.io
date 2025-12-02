@@ -1,23 +1,23 @@
 ---
-date: "2024-05-27T07:50:00+02:00"
+date: "2025-12-02T19:01:00+01:00"
 title: "James"
 slug: "james"
 topics:
   - "Abenteuer"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
 params:
   author: "Percival Everett"
-  isbn: "978-3-446-27948-3"
+  isbn: "978-3-89667-773-0"
   publishingYear: "2024"
   references:
     - rel: cover
-      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-446-27948-3"
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-89667-773-0"
     - rel: permalink
-      uri: "https://d-nb.info/1306107237"
+      uri: "https://d-nb.info/1347138099"
     - rel: synopsis
       uri: "https://www.hanser-literaturverlage.de/buch/percival-everett-james-9783446279483-t-5217"
 ---
