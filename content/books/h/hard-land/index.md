@@ -1,11 +1,11 @@
 ---
-date: "2024-02-11T17:05:22+01:00"
+date: 2025-12-02T19:02:02+01:00
 title: "Hard Land"
 slug: "hard-land"
 topics:
   - "Coming of Age"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
