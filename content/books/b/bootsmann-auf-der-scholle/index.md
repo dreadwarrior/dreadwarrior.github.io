@@ -1,5 +1,5 @@
 ---
-date: "2025-11-19T22:00:56+01:00"
+date: 2025-11-21T19:20:09+01:00
 slug: "bootsmann-auf-der-scholle"
 title: "Bootsmann auf der Scholle"
 params:
@@ -16,7 +16,7 @@ params:
 topics:
   - "Abenteuer"
 booklists:
-  - unread
+  - completed
 resources:
   - name: cover
     src: cover.jpg
