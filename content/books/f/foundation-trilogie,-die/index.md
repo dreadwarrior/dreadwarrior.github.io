@@ -1,5 +1,5 @@
 ---
-date: "2025-07-22T19:35:45+02:00"
+date: 2025-12-02T19:02:03+01:00
 slug: "die-foundation-trilogie"
 title: "Die Foundation-Trilogie"
 params:
@@ -16,7 +16,7 @@ params:
 topics:
   - "Science Fiction"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
