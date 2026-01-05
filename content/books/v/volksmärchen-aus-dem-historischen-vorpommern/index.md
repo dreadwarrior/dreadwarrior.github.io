@@ -1,10 +1,10 @@
 ---
-date: "2024-07-14T17:09:00+02:00"
+date: 2026-01-01T15:05:51+01:00
 title: "Volksmärchen aus dem historischen Vorpommern"
 slug: "volksmärchen-aus-dem-historischen-vorpommern"
 topics:
   - "Märchen"
-booklists: ["unread"]
+booklists: [currently-reading]
 resources:
   - name: cover
     src: cover.jpg
