@@ -1,5 +1,5 @@
 ---
-date: 2025-12-09T20:45:06+01:00
+date: 2025-12-30T16:47:30+01:00
 slug: "childhoods-end"
 title: "Childhood's End"
 params:
@@ -16,7 +16,8 @@ params:
 topics:
   - "Science Fiction"
 booklists:
-  - unread
+  - completed
+  - favorites
 resources:
   - name: cover
     src: cover.jpg
