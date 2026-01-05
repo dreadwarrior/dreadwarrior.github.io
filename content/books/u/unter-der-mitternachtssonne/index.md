@@ -1,12 +1,12 @@
 ---
-date: 2025-11-28T23:25:19+01:00
+date: 2025-12-17T23:12:38+01:00
 title: "Unter der Mitternachtssonne"
 slug: "unter-der-mitternachtssonne"
 topics:
   - "Krimi"
   - "Thriller"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
