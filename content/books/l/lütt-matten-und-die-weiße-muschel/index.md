@@ -1,5 +1,5 @@
 ---
-date: "2025-11-19T22:04:22+01:00"
+date: 2025-12-31T14:06:18+01:00
 slug: "lütt-matten-und-die-weiße-muschel"
 title: "Lütt Matten und die weiße Muschel"
 params:
@@ -14,7 +14,7 @@ params:
 topics:
   - "Abenteuer"
 booklists:
-  - unread
+  - completed
 resources:
   - name: cover
     src: cover.jpg
