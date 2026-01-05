@@ -8,7 +8,7 @@ params:
   publishingYear: "2020"
   references:
     - rel: cover
-      uri: "https://cdn.shopify.com/s/files/1/0625/1069/4538/files/38971-dpow-Rectangle_3000x.jpg?v=1706147460"
+      uri: "https://cdn.shopify.com/s/files/1/0625/1069/4538/files/dpow-cover_3000x.jpg?v=1761160003"
     - rel: permalink
       uri: "https://openlibrary.org/books/OL28097694M"
     - rel: synopsis
