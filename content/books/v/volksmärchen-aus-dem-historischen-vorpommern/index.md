@@ -1,10 +1,10 @@
 ---
-date: 2026-01-01T15:05:51+01:00
+date: 2026-01-10T08:41:34+01:00
 title: "Volksmärchen aus dem historischen Vorpommern"
 slug: "volksmärchen-aus-dem-historischen-vorpommern"
 topics:
   - "Märchen"
-booklists: [currently-reading]
+booklists: [completed]
 resources:
   - name: cover
     src: cover.jpg
