@@ -1,5 +1,5 @@
 ---
-date: "2025-04-04T01:37:57+02:00"
+date: 2026-01-10T08:47:02+01:00
 slug: "das-wahre-wesen-der-dinge"
 title: "Das wahre Wesen der Dinge"
 params:
@@ -15,7 +15,7 @@ topics:
   - "Kurzgeschichten"
   - "Science Fiction"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
