@@ -1,11 +1,11 @@
 ---
-date: "2024-01-19T19:58:07+01:00"
+date: 2026-02-07T04:44:12+01:00
 title: "In Küstennähe"
 slug: "in-küstennähe"
 topics:
   - "Erzählung"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg

@@ -1,11 +1,11 @@
 ---
-date: 2026-01-23T10:27:15+01:00
+date: 2026-02-05T22:19:48+01:00
 title: "Die Bibliothek des Wahnsinns"
 slug: "die-bibliothek-des-wahnsinns"
 topics:
   - "Literatur"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
