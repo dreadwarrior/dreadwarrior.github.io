@@ -1,11 +1,12 @@
 ---
-date: 2026-02-07T04:44:12+01:00
+date: 2026-02-10T23:08:39+01:00
 title: "In Küstennähe"
 slug: "in-küstennähe"
 topics:
-  - "Erzählung"
+  - "Drama"
 booklists:
-  - currently-reading
+  - completed
+  - favorites
 resources:
   - name: cover
     src: cover.jpg
