@@ -13,9 +13,8 @@ params:
       uri: "https://d-nb.info/1244532983"
     - rel: synopsis
       uri: "https://www.diogenes.ch/leser/titel/joachim-b-schmidt/kalmann-9783257246445.html"
-  subtitle: "Roman"
 topics:
-  - "Add topics here. Repeat as much as you like."
+  - "Krimi"
 booklists:
   - wishlist
 resources:
