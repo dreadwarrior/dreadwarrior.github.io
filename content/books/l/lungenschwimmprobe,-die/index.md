@@ -1,5 +1,5 @@
 ---
-date: "2025-02-19T20:30:10+01:00"
+date: 2026-02-25T14:05:34+01:00
 slug: "die-lungenschwimmprobe"
 title: "Die Lungenschwimmprobe"
 params:
@@ -17,7 +17,7 @@ params:
 topics:
   - "Historischer Roman"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
