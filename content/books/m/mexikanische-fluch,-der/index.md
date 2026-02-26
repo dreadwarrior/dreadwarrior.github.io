@@ -1,11 +1,11 @@
 ---
-date: "2024-01-19T19:58:09+01:00"
+date: 2026-02-25T14:05:50+01:00
 title: "Der mexikanische Fluch"
 slug: "der-mexikanische-fluch"
 topics:
   - "Krimi"
 booklists:
-  - wishlist
+  - unread
 resources:
   - name: cover
     src: cover.jpg
