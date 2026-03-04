@@ -1,5 +1,5 @@
 ---
-date: 2026-02-10T23:10:49+01:00
+date: 2026-02-28T21:49:27+01:00
 slug: "starve-acre"
 title: "Starve Acre"
 params:
@@ -17,15 +17,15 @@ topics:
   - "Folklore"
   - "Horror"
 booklists:
-  - currently-reading
+  - completed
 resources:
   - name: cover
     src: cover.jpg
 ---
 The worst thing possible has happened. Richard and Juliette Willoughby’s son, 
 Ewan, has died suddenly at the age of five. Convinced that the boy still lives 
-on in some form, and desparate to make contact, Juliette seeks the help of the 
-Beacons, a seemingly benevolent group of occultists. Whereas Ricahrd, an art 
+on in some form, and desperate to make contact, Juliette seeks the help of the 
+Beacons, a seemingly benevolent group of occultists. Whereas Richard, an art 
 historian, tries to blot out the pain of his grief by turning his attention to 
 the field opposite their house, Starve Acre. Patiently he digs in the barren 
 soil looking for the roots of a legendary oak tree but unearths something which 
