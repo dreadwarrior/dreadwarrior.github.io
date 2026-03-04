@@ -1,0 +1,27 @@
+name: Add unread book
+description: If you've got a new book, use this issue template to track it.
+title: 'Add unread book'
+labels: ["book"]
+assignees:
+  - dreadwarrior
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Identifier
+      description: Identifier, e.g., ISBN, of the book.
+      placeholder: ex. 978-3-86971-046-4
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Language of the book.
+      multiple: false
+      options:
+        - de (german)
+        - en (english)
+      default: 0
+    validations:
+      required: false
