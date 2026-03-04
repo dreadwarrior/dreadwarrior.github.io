@@ -2,23 +2,24 @@
 title: "Das Damengambit"
 slug: "das-damengambit"
 params:
-    author: "Walter S. Tevis"
-    isbn: "978-3-257-07161-0"
-    publishingYear: "2021"
-    references:
-      - rel: cover
-        uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-07161-0"
-      - rel: permalink
-        uri: "https://d-nb.info/1223789136"
-      - rel: synopsis
-        uri: "https://www.thalia.de/shop/home/suggestartikel/A1063539682"
+  author: "Walter S. Tevis"
+  isbn: "978-3-257-07161-0"
+  publishingYear: "2021"
+  references:
+    - rel: cover
+      uri: "https://portal.dnb.de/opac/mvb/cover?isbn=978-3-257-07161-0"
+    - rel: permalink
+      uri: "https://d-nb.info/1223789136"
+    - rel: synopsis
+      uri: "https://www.thalia.de/shop/home/suggestartikel/A1063539682"
 topics:
   - "Coming of Age"
 booklists:
-  - "wishlist"
+  - unread
 resources:
   - name: cover
     src: cover.jpg
+date: 2026-02-27T18:55:12+01:00
 ---
 Mit acht entdeckt Beth Harmon im Waisenhaus zwei Möglichkeiten, der harten
 Realität zu entfliehen: die grünen Beruhigungspillen, die den Kindern täglich
