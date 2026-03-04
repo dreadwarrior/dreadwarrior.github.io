@@ -1,6 +1,6 @@
 name: Book completed
 description: If a book was completed, use this issue template to track it.
-title: "Book completed:"
+title: "Book completed: "
 labels: ["book"]
 assignees:
   - dreadwarrior

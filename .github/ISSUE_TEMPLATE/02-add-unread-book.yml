@@ -1,6 +1,6 @@
 name: Add unread book
 description: If you've got a new book, use this issue template to track it.
-title: "Add unread book"
+title: "Add unread book: "
 labels: ["book"]
 assignees:
   - dreadwarrior

@@ -1,6 +1,6 @@
-name: Current book
+name: Set current book
 description: If you start reading a book, use this issue template to track it.
-title: "Set the book currently being read"
+title: "Set current book: "
 labels: ["book"]
 assignees: 
   - dreadwarrior
