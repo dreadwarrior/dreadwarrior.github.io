@@ -1,0 +1,15 @@
+name: Current book
+about: If you start reading a book, use this issue template to track it.
+title: "Set the book currently being read"
+labels: ["book"]
+assignees: 
+  - dreadwarrior
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Identifier
+      description: Identifier, e.g., ISBN, of the book.
+      placeholder: ex. 978-3-86971-046-4
+    validations:
+      required: true
