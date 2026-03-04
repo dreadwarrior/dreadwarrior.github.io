@@ -16,7 +16,7 @@ params:
 topics:
   - "Sagen"
 booklists:
-  - unread
+  - current-book
 resources:
   - name: cover
     src: cover.jpg
