@@ -1,5 +1,5 @@
 name: Current book
-about: If you start reading a book, use this issue template to track it.
+#about: If you start reading a book, use this issue template to track it.
 title: "Set the book currently being read"
 labels: ["book"]
 assignees: 
