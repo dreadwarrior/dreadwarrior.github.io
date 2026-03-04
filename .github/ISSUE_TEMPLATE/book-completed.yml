@@ -1,0 +1,43 @@
+name: Book completed
+description: If a book was completed, use this issue template to track it.
+title: "Book completed:"
+labels: ["book"]
+assignees:
+  - dreadwarrior
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Identifier
+      description: Identifier, e.g., ISBN, of the book.
+      placeholder: ex. 978-3-86971-046-4
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Rating
+      description: Rating of the book.
+      multiple: false
+      options:
+        - 0
+        - 0.5
+        - 1
+        - 1.5
+        - 2
+        - 2.5
+        - 3
+        - 3.5
+        - 4
+        - 4.5
+        - 5
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: A few key points or thoughts for the detailed review.
+    validations:
+      required: false
