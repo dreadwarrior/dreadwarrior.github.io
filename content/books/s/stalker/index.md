@@ -1,5 +1,5 @@
 ---
-date: "2026-02-21T20:43:31+01:00"
+date: 2026-03-10T23:32:08+01:00
 slug: "stalker"
 title: "Stalker"
 params:
@@ -13,12 +13,11 @@ params:
       uri: "https://d-nb.info/1207866385"
     - rel: synopsis
       uri: "https://www.penguin.de/buecher/arkadi-strugatzki-stalker/paperback/9783453321014"
-  subtitle: "Roman"
 topics:
   - "Dystopie"
   - "Science Fiction"
 booklists:
-  - unread
+  - currently-reading
 resources:
   - name: cover
     src: cover.jpg
