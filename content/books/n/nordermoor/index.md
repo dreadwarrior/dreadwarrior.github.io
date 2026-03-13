@@ -1,5 +1,5 @@
 ---
-date: "2026-03-10T23:26∑:47+01:00"
+date: "2026-03-10T23:26:47+01:00"
 slug: "nordermoor"
 title: "Nordermoor"
 params:
