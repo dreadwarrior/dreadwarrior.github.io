@@ -7,7 +7,7 @@
         <meta name="description" content="{{ .Description }}">
     {{- end }}
 
-    {{ .Render "opengraph" }}
+    {{ partial "opengraph.html" . }}
 
     <title>
         {{- if .IsHome }}
